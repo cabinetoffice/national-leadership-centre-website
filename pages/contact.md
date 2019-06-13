@@ -1,15 +1,17 @@
 ---
 layout: layouts/contact.njk
-title: Get in touch
+title: Contact us
 tags:
   - nav
 navtitle: Contact
 section: contact
-date: 2018-01-01
-permalink: /contact/index.html
+date: 2018-03-01
+permalink: /contact/
 ---
-The contact form on this page uses
-[Netlify Forms](https://www.netlify.com/docs/form-handling/) to process
-submissions, and saves them in your Netlify account where you can optionally
-set up notifications. Each submission is passed through a spam filter and if
-flagged, will display a CAPTCHA challenge to the user.
+
+You can contact the National Leadership Centre by email on [nlc@cabinetoffice.gov.uk](mailto:nlc@cabinetoffice.gov.uk)
+
+Something about joining / starting a conversation on…
+
+Twitter: @NatLeadership (tbc)
+LinkedIn: tbc

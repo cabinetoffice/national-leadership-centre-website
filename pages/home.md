@@ -1,20 +1,25 @@
 ---
 layout: layouts/home.njk
 title: Home
-date: 2016-01-01T00:00:00.000Z
+subtitle: The National Leadership Centre helps leaders work together to improve public services.
+date: 2018-01-01
 permalink: /
 navtitle: Home
 tags:
   - nav
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+We were created by the government in 2018 to deliver [the recommendations of the Public Services Leadership Taskforce.](https://www.gov.uk/government/publications/national-leadership-centre)
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+Public sector leaders have a direct, lasting and profound impact on citizens’ lives. Public service can be immensely fulfilling, but it is not always easy. Leaders tell us that despite their best efforts, they sometimes find themselves frustrated by the level of impact they have.
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
+At the National Leadership Centre, we want to help leaders overcome these constraints to create transformational change across the system.
 
-Or click the button below to deploy your own copy of this project to Netlify.
+## Leadership development programme
+Our flagship leadership programme is bringing together 100 of the most senior public sector leaders each year.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+## Network of peers
+Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region. 
+
+## Research 
+The National Leadership Centre is a global hub of leadership data, high quality research and lessons learned.
