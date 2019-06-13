@@ -1,6 +1,9 @@
 :root {
-	--turkey: #FFF0EB;
 	--white: white;
+	--grey: #323E48;
+	--orange: #ED6B1C;
+	--yellow: #FFDB03;
+	--red: #CE132D;
 	--blue: blue;
 }
 
@@ -12,7 +15,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -20,10 +23,11 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: white;
+	color: var(--grey)
 }
 
 main {
-	max-width: 37.5em;
+	max-width: 45em;
 }
 
 p,
@@ -32,9 +36,13 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
-a[href]:visited {
-	color: var(--blue);
+a,
+a:visited {
+	color: var(--red);
+}
+
+img {
+	max-width: 100%;
 }
 
 a[href]:not(:hover) {
@@ -80,6 +88,10 @@ header > em {
 	margin: .67em 0;
 	font-weight: bold;
 	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Header Nav */
@@ -130,15 +142,15 @@ a[rel="tag"]:visited {
 	height: 2em;
   border: 1px solid var(--white);
 	background-color: var(--white);
-	color: var(--blue);
+	color: var(--orange);
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--orange);
+	background-color: var(--orange);
 	color: var(--white);
 }
 
@@ -163,7 +175,7 @@ button {
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 input,
@@ -172,8 +184,8 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--orange);
+	background-color: var(--orange);
 	color: var(--white);
 	cursor: pointer;
 }
@@ -182,4 +194,26 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+.site-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 45em;
+}
+.site-header__logo {
+	max-width: 15em;
+}
+.site-header__logo a {
+	display: block;
+}
+.site-header__nav {
+	padding-left: 1em;
+}
+
+.main-nav a {
+	color: var(--grey);
 }
