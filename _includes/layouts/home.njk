@@ -3,6 +3,10 @@ layout: layouts/base.njk
 section: home
 ---
 
-<h2 class="subtitle">{{ subtitle }}</h2>
+{% if subtitle %}
+<div class="gradient">
+  <h2 class="subtitle">{{ subtitle }}</h2>
+</div>
+{% endif %}
 
 {{ layoutContent | safe }}

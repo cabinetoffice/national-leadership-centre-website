@@ -28,6 +28,7 @@ body {
 
 main {
 	max-width: 45em;
+	margin: 0 auto;
 }
 
 p,
@@ -47,16 +48,6 @@ img {
 
 a[href]:not(:hover) {
 	text-decoration: none;
-}
-
-header,
-main,
-footer {
-	padding: 1em;
-}
-
-main {
-	padding-bottom: 2em;
 }
 
 main :first-child,
@@ -202,7 +193,9 @@ button {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 	max-width: 45em;
+	margin: 0 auto;
 }
 .site-header__logo {
 	max-width: 15em;
@@ -216,4 +209,15 @@ button {
 
 .main-nav a {
 	color: var(--grey);
+}
+
+.gradient {
+	background: var(--red);
+	background: linear-gradient(90deg, var(--red) 0%, var(--orange) 70%, var(--yellow) 140%);
+	color: var(--white);
+}
+
+.subtitle {
+	padding: 50px 30% 50px 50px;
+	font-weight: 300;
 }
