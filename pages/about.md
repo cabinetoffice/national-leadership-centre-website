@@ -1,8 +1,9 @@
 ---
 title: About the NLC
 date: 2018-02-01
-permalink: /about/
+permalink: /about/index.html
 navtitle: About
+layout: layouts/about.njk
 tags:
   - nav
 ---

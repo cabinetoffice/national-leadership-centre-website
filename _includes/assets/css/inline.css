@@ -83,23 +83,23 @@ header > em {
 }
 
 /* Header Nav */
-header nav ul {
+nav ul {
 	padding: 0;
 }
-header nav ul :first-child {
+nav ul :first-child {
 	margin-left: 0;
 }
 
-header nav li {
+nav li {
 	display: inline-block;
 	margin: 0 .5em;
 }
 
-header nav li a[href]:not(:hover) {
+nav li a[href]:not(:hover) {
 	text-decoration: none;
 }
 
-header nav li a[data-current="current item"] {
+nav li a[data-current="current item"] {
 	font-weight: 700;
 	text-decoration: underline;
 }

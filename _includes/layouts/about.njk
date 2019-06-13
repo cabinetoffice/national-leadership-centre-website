@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+section: page
+---
+<nav>
+  <ul>
+  {%- for nav in collections.aboutsubpages | sort(attribute="date") -%}
+    <li>
+      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+    </li>
+  {%- endfor -%}
+  </ul>
+</nav>
+			
+<h1>{{ title }}</h1>
+<h2 class="subtitle">{{ subtitle }}</h2>
+{{ layoutContent | safe }}

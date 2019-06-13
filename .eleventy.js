@@ -51,6 +51,11 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("aboutsubpages", function(collection) {
+    let aboutSubPages = collection.getFilteredByGlob('pages/about/*.md');
+    return aboutSubPages;
+  });
+
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");

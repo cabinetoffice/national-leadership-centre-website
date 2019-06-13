@@ -2,7 +2,7 @@
 title: Network of peers
 subtitle: The National Leadership Centre is connecting the most senior public sector leaders across the country and making international links to widen our network.
 date: 2018-02-03
-permalink: /network/
+permalink: /network/index.html
 navtitle: Network
 tags:
   - nav
