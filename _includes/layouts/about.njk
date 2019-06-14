@@ -13,5 +13,9 @@ section: page
 </nav>
 			
 <h1>{{ title }}</h1>
-<h2 class="subtitle">{{ subtitle }}</h2>
+{% if subtitle %}
+<div class="gradient">
+  <h2 class="subtitle">{{ subtitle }}</h2>
+</div>
+{% endif %}
 {{ layoutContent | safe }}
