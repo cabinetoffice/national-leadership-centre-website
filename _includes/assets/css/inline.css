@@ -6,6 +6,11 @@
 	--red: #CE132D;
 	--blue: blue;
 }
+@media screen and (min-width:768px) {
+	:root {
+		font-size: 1.125rem;
+	}
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -85,6 +90,10 @@ header > em {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+	font-size: 1.5rem;
 }
 
 /* Header Nav */
@@ -183,11 +192,6 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
-}
 
 .site-header {
 	display: flex;
@@ -226,17 +230,23 @@ button {
 
 .taskforce-report {
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 1.5em;
-	padding: 70px 30% 70px 50px;
+	font-size: 1.2rem;
+	padding: 20px 30% 20px 30px;
 	font-weight: 300;
 	position: relative;
 	margin-bottom: 60px;
+}
+@media (min-width: 620px) {
+	.taskforce-report {
+		font-size: 1.5rem;
+		padding: 70px 30% 70px 50px;
+	}
 }
 .taskforce-report__image {
 	line-height: 0;
 	position: absolute;
 	top: 20px;
-	right: 40px;
+	right: 5%;
 	width: 22%;
 	max-width: 300px;
 	border: 1px solid #DDD;
@@ -248,4 +258,12 @@ button {
 }
 .taskforce-report__image:hover {
 	transform: rotate(-5deg);
+}
+.gradient-text {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	background:  linear-gradient(90deg, var(--red) 0%, var(--orange) 70%, var(--yellow) 140%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
