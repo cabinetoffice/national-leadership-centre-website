@@ -2,8 +2,9 @@
 layout: layouts/base.njk
 section: contact
 ---
-<h1>{{ title }}</h1>
+<h1 class="max-width">{{ title }}</h1>
 
+<div class="text-formatted max-width">
 {{ layoutContent | safe }}
-
+</div>
 {#% include "components/form.njk" %#}

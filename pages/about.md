@@ -25,4 +25,4 @@ The Public Services Leadership Taskforce was commissioned in October 2017 to exp
 </p>
 
 <p class="taskforce-report">
-<a href="https://www.gov.uk/government/publications/national-leadership-centre">The Taskforce made a number of recommendations in their report</a> and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.</p>
+<a href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank">The Taskforce made a number of recommendations in their report</a> and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.</p>

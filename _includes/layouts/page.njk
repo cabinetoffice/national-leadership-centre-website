@@ -2,11 +2,13 @@
 layout: layouts/base.njk
 section: page
 ---
-<h1>{{ title }}</h1>
+<h1 class="max-width">{{ title }}</h1>
 
 {% if subtitle %}
 <div class="gradient">
-  <h2 class="subtitle">{{ subtitle }}</h2>
+  <h2 class="subtitle max-width">{{ subtitle }}</h2>
 </div>
 {% endif %}
+<div class="text-formatted max-width">
 {{ layoutContent | safe }}
+</div>
