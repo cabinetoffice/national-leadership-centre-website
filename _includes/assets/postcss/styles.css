@@ -162,7 +162,8 @@ button {
 }
 @media (min-width: 620px) {
 	.subtitle {
-		padding: 70px 25% 70px 50px;
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 }
 
@@ -173,24 +174,31 @@ button {
 	font-weight: 300;
 	position: relative;
 	margin: 0;
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
 }
 @media (min-width: 620px) {
 	.taskforce-report {
 		font-size: 1.5rem;
 		padding: 70px 50px 70px 50px;
 	}
-	.taskforce-report--with-image {
-		padding-right: 30%;
-	}
+}
+.taskforce-report__column-one {
+	display: block;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	align-self: center;
+}
+.taskforce-report__column-two {
+	grid-column-start: 4;
+	grid-column-end: 5;
 }
 .taskforce-report__image {
+	display: block;
 	line-height: 0;
-	position: absolute;
-	top: 20px;
-	right: 5%;
-	width: 22%;
-	max-width: 300px;
 	border: 1px solid #DDD;
 	border-radius: 1px;
 	transform: rotate(-10deg);
@@ -230,4 +238,7 @@ button {
 }
 .big-numbered-list li {
 	margin-bottom: 1rem;
+}
+.text-formatted {
+	padding: 0 10px;
 }
