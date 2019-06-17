@@ -12,15 +12,20 @@ We have identified five leadership qualities that are most relevant to our netwo
 
 By helping leaders to enhance these qualities, we can help them to deepen their impact on the organisations they run, the services they lead, and – ultimately – the lives of citizens.
 
-**Adaptive:** Adaptive leaders are able to change proactively and constantly learn in a complex, uncertain and volatile world.
+## Adaptive 
+Adaptive leaders are able to change proactively and constantly learn in a complex, uncertain and volatile world.
 
-**Connected:** Connected leaders are empathic, collaborative thinkers who consistently work across organisational boundaries to build strategic relationships across the public service.
+## Connected
+Connected leaders are empathic, collaborative thinkers who consistently work across organisational boundaries to build strategic relationships across the public service.
 
-**Questioning:** Questioning leaders are open minded and seek to understand the views and experiences of others. 
+## Questioning
+Questioning leaders are open minded and seek to understand the views and experiences of others. 
 
-**Purposeful:** Purposeful leaders display absolute clarity about their mission and purpose, and they are able to see beyond the problems and pressures of the present.
+## Purposeful
+Purposeful leaders display absolute clarity about their mission and purpose, and they are able to see beyond the problems and pressures of the present.
 
-**Ethical:** Ethical leaders consistently behave in ways that engender trust, and they take a long-term, sustainable approach to fulfilling the organisation’s public service mission.
+## Ethical
+Ethical leaders consistently behave in ways that engender trust, and they take a long-term, sustainable approach to fulfilling the organisation’s public service mission.
 
 It is important to note that these qualities do not constitute another leadership model, and they are not set in stone. They are an initial set of qualities that the Centre will seek to develop and enhance through its leadership interventions, and we will work closely with senior leaders to refine them over time.
 
