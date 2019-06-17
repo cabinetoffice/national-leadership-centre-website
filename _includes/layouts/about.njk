@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 section: page
 ---
-<nav>
+<nav class="sub-navigation">
   <ul>
   {%- for nav in collections.aboutsubpages | sort(attribute="date") -%}
     <li>

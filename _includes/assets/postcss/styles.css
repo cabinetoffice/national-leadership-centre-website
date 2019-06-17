@@ -1,11 +1,6 @@
-:root {
-	--white: white;
-	--grey: #323E48;
-	--orange: #ED6B1C;
-	--yellow: #FFDB03;
-	--red: #CE132D;
-	--blue: blue;
-}
+@import '_variables.css';
+@import '_normalise.css';
+
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.125rem;

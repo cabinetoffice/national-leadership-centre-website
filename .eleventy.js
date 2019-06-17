@@ -59,7 +59,6 @@ module.exports = function(eleventyConfig) {
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("_includes/assets/");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -78,7 +77,7 @@ module.exports = function(eleventyConfig) {
   );
 
   return {
-    templateFormats: ["md", "njk", "html", "liquid"],
+    templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
