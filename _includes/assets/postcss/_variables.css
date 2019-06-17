@@ -1,8 +1,6 @@
-:root {
-	--white: white;
-	--grey: #323E48;
-	--orange: #ED6B1C;
-	--yellow: #FFDB03;
-	--red: #CE132D;
-	--blue: blue;
-}
+$white: white;
+$grey: #323E48;
+$orange: #ED6B1C;
+$yellow: #FFDB03;
+$red: #CE132D;
+$blue: blue;

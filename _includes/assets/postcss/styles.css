@@ -23,7 +23,7 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: white;
-	color: var(--grey)
+	color: $grey;
 }
 
 main {
@@ -40,7 +40,7 @@ code {
 
 a,
 a:visited {
-	color: var(--red);
+	color: $red;
 }
 
 img {
@@ -118,7 +118,7 @@ article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--white);
+	border-bottom: 1px solid $white;
 }
 
 main > section > article > * {
@@ -137,18 +137,18 @@ a[rel="tag"]:visited {
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--white);
-	background-color: var(--white);
-	color: var(--orange);
+  border: 1px solid $white;
+	background-color: $white;
+	color: $orange;
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--orange);
-	background-color: var(--orange);
-	color: var(--white);
+	border: 1px solid $orange;
+	background-color: $orange;
+	color: $white;
 }
 
 a[rel="tag"]:last-child {
@@ -181,9 +181,9 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--orange);
-	background-color: var(--orange);
-	color: var(--white);
+	border: 1px solid $orange;
+	background-color: $orange;
+	color: $white;
 	cursor: pointer;
 }
 
@@ -209,13 +209,13 @@ button {
 }
 
 .main-nav a {
-	color: var(--grey);
+	color: $grey;
 }
 
 .gradient {
-	background: var(--red);
-	background: linear-gradient(90deg, var(--red) 0%, var(--orange) 70%, var(--yellow) 140%);
-	color: var(--white);
+	background: $red;
+	background: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+	color: $white;
 }
 
 .subtitle {
@@ -258,7 +258,7 @@ button {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 300;
-	background:  linear-gradient(90deg, var(--red) 0%, var(--orange) 70%, var(--yellow) 140%);
+	background:  linear-gradient(90deg, $red 0%, $orange) 70%, $yellow 140%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
