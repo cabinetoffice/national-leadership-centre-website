@@ -25,8 +25,10 @@ At the National Leadership Centre, we want to help leaders overcome these constr
 ## Leadership development programme
 Our flagship leadership programme is bringing together 100 of the most senior public sector leaders each year.
 
-## Network of peers
-Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region. 
+<div class="alternate-text">
+<h2>Network of peers</h2>
+<p>Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region.</p>
+</div>
 
 ## Research 
 The National Leadership Centre is a global hub of leadership data, high quality research and lessons learned.
