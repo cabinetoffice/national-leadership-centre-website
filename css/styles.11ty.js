@@ -21,7 +21,8 @@ module.exports = class {
       // require('postcss-comment'),
       // require('precss'),
       require('postcss-import'),
-      require('postcss-simple-vars')
+      require('postcss-simple-vars'),
+      require('autoprefixer')
       // require('postcss-mixins'),
       // require('postcss-color-mix'),
       // require('cssnano')
