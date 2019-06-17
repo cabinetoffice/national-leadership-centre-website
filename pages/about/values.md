@@ -1,5 +1,6 @@
 ---
 title: Our values
+subtitle: We are excited about the work we are doing in the National Leadership Centre. We have six values that talk about how we want to deliver our work and who we want to be as a team.
 date: 2018-02-01
 permalink: /about/values/index.html
 layout: layouts/about.njk
