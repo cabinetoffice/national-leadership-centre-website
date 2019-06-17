@@ -2,6 +2,14 @@
 layout: layouts/base.njk
 section: page
 ---
+			
+<h1>{{ title }}</h1>
+{% if subtitle %}
+<div class="gradient">
+  <h2 class="subtitle">{{ subtitle }}</h2>
+</div>
+{% endif %}
+
 <nav class="sub-navigation">
   <ul>
   {%- for nav in collections.aboutsubpages | sort(attribute="date") -%}
@@ -11,11 +19,5 @@ section: page
   {%- endfor -%}
   </ul>
 </nav>
-			
-<h1>{{ title }}</h1>
-{% if subtitle %}
-<div class="gradient">
-  <h2 class="subtitle">{{ subtitle }}</h2>
-</div>
-{% endif %}
+
 {{ layoutContent | safe }}

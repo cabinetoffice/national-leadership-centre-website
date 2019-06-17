@@ -10,12 +10,19 @@ tags:
 
 The National Leadership Centre (NLC) has three key objectives:
 
-1. Deliver a flagship leadership programme for around 100 senior public service leaders each year
+<ol class="big-numbered-list">
+<li>Deliver a flagship leadership programme for around 100 senior public service leaders each year</li>
 
-2. Create a digital platform to enable a thriving network of peer-learning and support for over 1,500 public sector leaders
+<li>Create a digital platform to enable a thriving network of peer-learning and support for over 1,500 public sector leaders</li>
 
-3. Lead high quality research to develop a better understanding of the relationships between leadership, well-being and productivity
+<li>Lead high quality research to develop a better understanding of the relationships between leadership, well-being and productivity</li>
+</ol>
+<p class="taskforce-report taskforce-report--with-image">
+The Public Services Leadership Taskforce was commissioned in October 2017 to explore the challenges faced by the leaders of our public services.
+  <a href="https://www.gov.uk/government/publications/national-leadership-centre" class="taskforce-report__image" target="_blank">
+    <img src="/static/img/taskforce-report.jpg" alt="Taskforce report" />
+  </a>
+</p>
 
-The Public Services Leadership Taskforce was commissioned in October 2017 to explore the challenges faced by the leaders of our public services. 
-
-[The Taskforce made a number of recommendations in their report](https://www.gov.uk/government/publications/national-leadership-centre) and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.
+<p class="taskforce-report">
+<a href="https://www.gov.uk/government/publications/national-leadership-centre">The Taskforce made a number of recommendations in their report</a> and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.</p>

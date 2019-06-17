@@ -42,19 +42,14 @@ a,
 a:visited {
 	color: $red;
 }
+a:hover,
+a:focus {
+	text-decoration: none;
+}
 
 img {
 	max-width: 100%;
 	line-height: 0;
-}
-
-a[href]:not(:hover) {
-	text-decoration: none;
-}
-
-main :first-child,
-main > article :first-child {
-	margin-top: 0;
 }
 
 pre {
@@ -64,11 +59,7 @@ pre {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	-moz-tab-size: 2;
 	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
 	hyphens: none;
 	padding: 1em;
 	margin: .5em 0;
@@ -94,6 +85,7 @@ h2 {
 /* Header Nav */
 nav ul {
 	padding: 0;
+	margin: 0;
 }
 nav ul :first-child {
 	margin-left: 0;
@@ -104,55 +96,8 @@ nav li {
 	margin: 0 .5em;
 }
 
-nav li a[href]:not(:hover) {
-	text-decoration: none;
-}
-
 nav li a[data-current="current item"] {
 	font-weight: 700;
-	text-decoration: underline;
-}
-
-/* Posts List */
-article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid $white;
-}
-
-main > section > article > * {
-	margin-top: 0;
-	margin-bottom: .5em;
-}
-
-/* Post Tags */
-a[rel="tag"],
-a[rel="tag"]:visited {
-	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid $white;
-	background-color: $white;
-	color: $orange;
-  border-radius: .25em;
-  text-decoration: none;
-	margin: 0 .5em .5em 0;
-}
-
-a[rel="tag"]:hover {
-	border: 1px solid $orange;
-	background-color: $orange;
-	color: $white;
-}
-
-a[rel="tag"]:last-child {
-	margin-right: 0;
 }
 
 /* Contact Form */
@@ -200,6 +145,7 @@ button {
 }
 .site-header__logo {
 	max-width: 15em;
+	width: 50%;
 }
 .site-header__logo a {
 	display: block;
@@ -211,6 +157,13 @@ button {
 .main-nav a {
 	color: $grey;
 }
+.main-nav a {
+	text-decoration: none;
+}
+.main-nav a:hover,
+.main-nav a:focus {
+	text-decoration: underline;
+}
 
 .gradient {
 	background: $red;
@@ -221,12 +174,14 @@ button {
 .subtitle {
 	padding: 50px 30% 50px 50px;
 	font-weight: 300;
+	font-size: 1.5rem;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .taskforce-report {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
-	padding: 20px 30% 20px 30px;
+	padding: 20px 20px 20px 30px;
 	font-weight: 300;
 	position: relative;
 	margin-bottom: 60px;
@@ -234,7 +189,10 @@ button {
 @media (min-width: 620px) {
 	.taskforce-report {
 		font-size: 1.5rem;
-		padding: 70px 30% 70px 50px;
+		padding: 70px 50px 70px 50px;
+	}
+	.taskforce-report--with-image {
+		padding-right: 30%;
 	}
 }
 .taskforce-report__image {
@@ -265,4 +223,24 @@ button {
 }
 .alternate-text {
 	text-align: right;
+}
+.sub-navigation {
+	border-width: 0 0 1px;
+	border-color: $light-grey;
+	border-style: solid;
+}
+.sub-navigation a {
+	padding: 10px 0;
+	display: block;
+	color: $grey;
+}
+.big-numbered-list {
+	padding: 20px 50px;
+	font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 1.4em;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.big-numbered-list li {
+	margin-bottom: 1rem;
 }

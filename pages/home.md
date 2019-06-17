@@ -9,7 +9,7 @@ tags:
   - nav
 ---
 
-<p class="taskforce-report">
+<p class="taskforce-report taskforce-report--with-image">
 We were created by the government in 2018 to deliver <a href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank"> the recommendations of the Public Services Leadership Taskforce.</a>
   <a href="https://www.gov.uk/government/publications/national-leadership-centre" class="taskforce-report__image" target="_blank">
     <img src="/static/img/taskforce-report.jpg" alt="Taskforce report" />
