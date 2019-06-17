@@ -175,7 +175,7 @@ button {
 }
 
 .subtitle {
-	padding: 50px 30% 50px 50px;
+	padding: 50px 25% 50px 50px;
 	font-weight: 300;
 	font-size: 1.5rem;
 	font-family: 'Nunito Sans', sans-serif;
@@ -223,9 +223,6 @@ button {
   background-clip: text;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
-}
-.alternate-text {
-	text-align: right;
 }
 .sub-navigation {
 	border-width: 0 0 1px;
