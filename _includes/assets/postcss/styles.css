@@ -3,7 +3,7 @@
 
 @media screen and (min-width:768px) {
 	:root {
-		font-size: 1.125rem;
+		font-size: 1.25rem;
 	}
 }
 
@@ -53,28 +53,6 @@ a:focus {
 img {
 	max-width: 100%;
 	line-height: 0;
-}
-
-pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	tab-size: 2;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
-}
-
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -175,10 +153,17 @@ button {
 }
 
 .subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
 	padding: 50px 25% 50px 50px;
 	font-weight: 300;
 	font-size: 1.5rem;
 	font-family: 'Nunito Sans', sans-serif;
+}
+@media (min-width: 620px) {
+	.subtitle {
+		padding: 70px 25% 70px 50px;
+	}
 }
 
 .taskforce-report {
@@ -187,6 +172,7 @@ button {
 	padding: 20px 20px 20px 30px;
 	font-weight: 300;
 	position: relative;
+	margin: 0;
 	margin-bottom: 60px;
 }
 @media (min-width: 620px) {
@@ -236,6 +222,7 @@ button {
 }
 .big-numbered-list {
 	padding: 20px 50px;
+	margin: 0;
 	font-weight: 300;
 	font-size: 1.3rem;
 	line-height: 1.4em;
