@@ -63,24 +63,6 @@ h2 {
 	font-size: 1.5rem;
 }
 
-/* Header Nav */
-nav ul {
-	padding: 0;
-	margin: 0;
-}
-nav ul :first-child {
-	margin-left: 0;
-}
-
-nav li {
-	display: inline-block;
-	margin: 0 .5em;
-}
-
-nav li a[data-current="current item"] {
-	font-weight: 700;
-}
-
 /* Contact Form */
 form {
   display: grid;
@@ -132,13 +114,21 @@ button {
 .site-header__logo a {
 	display: block;
 }
-.site-header__nav {
-	padding-left: 1em;
-}
 .site-header h1 {
 	margin: 0;
 }
 
+.main-nav ul {
+	padding: 0;
+	margin: 0;
+}
+.main-nav ul li:first-child {
+	margin-left: 0;
+}
+.main-nav li {
+	display: inline-block;
+	margin: 0 .5em;
+}
 .main-nav a {
 	color: $grey;
 }
@@ -148,6 +138,19 @@ button {
 .main-nav a:hover,
 .main-nav a:focus {
 	text-decoration: underline;
+}
+.main-nav a[data-current="current item"] {
+	font-weight: 700;
+}
+
+/* Mobile navigation */
+@media (max-width: 660px) {
+	.main-nav {
+		margin-bottom: 10px;
+	}
+	.main-nav ul li:first-child {
+		margin-left: .5em;
+	}
 }
 
 .gradient {
@@ -238,6 +241,17 @@ button {
 	border-style: solid;
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
+}
+.sub-navigation ul {
+	padding: 0;
+	margin: 0;
+}
+.sub-navigation ul :first-child {
+	margin-left: 0;
+}
+.sub-navigation li {
+	display: inline-block;
+	margin: 0 .5em;
 }
 .sub-navigation a {
 	padding: 10px 20px;
