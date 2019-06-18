@@ -235,6 +235,12 @@ button {
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.gradient-text {
+		background: none;
+	}
+}
 .sub-navigation {
 	border-width: 0 0 1px;
 	border-color: $light-grey;
