@@ -22,8 +22,7 @@ We are also monitoring and evaluating the National Leadership Centre’s (NLC) p
 
 We do not want to create a new leadership model to ‘export’ to other organisations. We also do not want to create new boxes for leaders to tick. We are developing an approach to leadership that will underpin the work of the NLC, which aims to encourage a more collaborative way of working across the whole public service system.
 
-To do this, we will take a highly iterative approach and seek out the best evidence about
-what works, listening carefully to the senior leaders we work with. We will learn
+To do this, we will take a highly iterative approach and seek out the best evidence about what works, listening carefully to the senior leaders we work with. We will learn
 from others, developing and collecting new evidence to further this field of knowledge.
 
 We have identified five leadership qualities that appear most relevant to the NLC’s aims and audience. These initial qualities are: adaptive, connected, questioning, purposeful and ethical.
