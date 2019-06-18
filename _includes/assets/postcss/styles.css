@@ -173,7 +173,7 @@ button {
 .taskforce-report {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
-	padding: 20px 20px 20px 30px;
+	padding: 20px;
 	font-weight: 300;
 	position: relative;
 	margin: 0;
@@ -191,26 +191,36 @@ button {
 .taskforce-report__column-one {
 	display: block;
 	grid-column-start: 1;
-	grid-column-end: 4;
+	grid-column-end: span 3;
 	align-self: center;
+	grid-row: 1;
 }
 .taskforce-report__column-two {
 	grid-column-start: 4;
-	grid-column-end: 5;
+	grid-column-end: span 1;
+	grid-row: 1;
+}
+@media (max-width: 530px) {
+	.taskforce-report__column-two{
+		grid-column-start: 3;
+		grid-column-end: span 2;
+		position: relative;
+		left: 50%;
+	}	
 }
 .taskforce-report__image {
 	display: block;
 	line-height: 0;
 	border: 1px solid #DDD;
 	border-radius: 1px;
-	transform: rotate(-10deg);
+	transform: rotate(-10deg) scale(1);
 	box-shadow: 0 2px 2px rgba(11,12,12,0.4);
 	transition-property: transform box-shadow;
 	transition-duration: 0.07s;
 	transition-timing-function: ease-in-out;
 }
 .taskforce-report__image:hover {
-	transform: rotate(-5deg);
+	transform: rotate(-5deg) scale(1);
 	box-shadow: 1px 2px 2px  rgba(11,12,12,0.4);
 }
 .gradient-text {
@@ -266,6 +276,7 @@ button {
 }
 .text-formatted {
 	padding: 0 10px;
+	overflow: hidden;
 }
 .skip-link {
 	color: $grey;
