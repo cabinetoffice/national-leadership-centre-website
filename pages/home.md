@@ -11,7 +11,7 @@ tags:
 
 <p class="taskforce-report">
 <span class="taskforce-report__column-one">
-We were created by the government in 2018 to deliver <a href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank"> the recommendations of the Public Services Leadership Taskforce.</a>
+The National Leadership Centre is a groundbreaking new initiative, created by the government in 2018 to deliver <a href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank"> the recommendations of the Public Services Leadership Taskforce.</a>
 </span>
 <span class="taskforce-report__column-two">
   <a class="taskforce-report__image" href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank">
@@ -20,17 +20,17 @@ We were created by the government in 2018 to deliver <a href="https://www.gov.uk
   </span>
 </p>
 
-Public sector leaders have a direct, lasting and profound impact on citizens’ lives. Public service can be immensely fulfilling, but it is not always easy. Leaders tell us that despite their best efforts, they sometimes find themselves frustrated by the level of impact they have.
+Public sector leaders make a direct, lasting and profound impact on citizens’ lives. Public service can be immensely fulfilling, but it is not always easy. Leaders tell us that despite their best efforts, they sometimes find themselves frustrated by the level of impact they can achieve.
 
 <p class="gradient-text">
-At the National Leadership Centre, we want to help leaders overcome these constraints to create transformational change across the system.
+At the National Leadership Centre, we want to help people overcome these constraints to create transformational change across the system.
 </p>
 
-## Leadership development programme
-Our flagship leadership programme is bringing together 100 of the most senior public sector leaders each year.
+## Leadership programme
+Our flagship leadership programme brings together 100 of the most senior people across the public sector each year.
 
 ## Network of peers
-Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region.
+Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally. 
 
-## Research 
-The National Leadership Centre is a global hub of leadership data, high quality research and lessons learned.
+## Research and evaluation
+The National Leadership Centre is becoming a global hub of leadership data, high quality research and lessons learned.
