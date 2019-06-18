@@ -127,12 +127,16 @@ button {
 .site-header__logo {
 	max-width: 15em;
 	width: 50%;
+	line-height: 0;
 }
 .site-header__logo a {
 	display: block;
 }
 .site-header__nav {
 	padding-left: 1em;
+}
+.site-header h1 {
+	margin: 0;
 }
 
 .main-nav a {
