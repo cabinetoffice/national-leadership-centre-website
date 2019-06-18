@@ -155,15 +155,14 @@ button {
 .subtitle {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 50px 25% 50px 50px;
+	padding: 50px 30px;
 	font-weight: 300;
 	font-size: 1.5rem;
 	font-family: 'Nunito Sans', sans-serif;
 }
-@media (min-width: 620px) {
+@media (min-width: 540px) {
 	.subtitle {
-		padding-top: 70px;
-		padding-bottom: 70px;
+		padding: 70px 25% 70px 50px;
 	}
 }
 
@@ -174,7 +173,6 @@ button {
 	font-weight: 300;
 	position: relative;
 	margin: 0;
-	/* margin-bottom: 60px; */
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -183,7 +181,7 @@ button {
 @media (min-width: 620px) {
 	.taskforce-report {
 		font-size: 1.5rem;
-		padding: 70px 50px 70px 50px;
+		padding: 70px 40px 70px 40px;
 	}
 }
 .taskforce-report__column-one {
@@ -203,11 +201,13 @@ button {
 	border-radius: 1px;
 	transform: rotate(-10deg);
 	box-shadow: 0 2px 2px rgba(11,12,12,0.4);
-	transition-property: transform;
+	transition-property: transform box-shadow;
 	transition-duration: 0.07s;
+	transition-timing-function: ease-in-out;
 }
 .taskforce-report__image:hover {
 	transform: rotate(-5deg);
+	box-shadow: 1px 2px 2px  rgba(11,12,12,0.4);
 }
 .gradient-text {
 	font-family: 'Nunito Sans', sans-serif;
@@ -229,12 +229,17 @@ button {
 	color: $grey;
 }
 .big-numbered-list {
-	padding: 20px 50px;
+	padding: 20px;
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.3rem;
 	line-height: 1.4em;
 	font-family: 'Nunito Sans', sans-serif;
+}
+@media (min-width: 620px) {
+	.big-numbered-list {
+		padding: 20px 50px;
+	}
 }
 .big-numbered-list li {
 	margin-bottom: 1rem;

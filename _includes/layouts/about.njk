@@ -3,14 +3,14 @@ layout: layouts/base.njk
 section: page
 ---
 			
-<h1 class="max-width">{{ title }}</h1>
+<h1 class="max-width text-formatted">{{ title }}</h1>
 {% if subtitle %}
 <div class="gradient">
   <h2 class="subtitle max-width">{{ subtitle }}</h2>
 </div>
 {% endif %}
 
-<nav class="sub-navigation max-width">
+<nav class="sub-navigation max-width text-formatted">
   <ul>
   {%- for nav in collections.aboutsubpages | sort(attribute="date") -%}
     <li>
