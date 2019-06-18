@@ -4,11 +4,6 @@ section: page
 ---
 			
 <h1 class="max-width text-formatted">{{ title }}</h1>
-{% if subtitle %}
-<div class="gradient">
-  <h2 class="subtitle max-width">{{ subtitle }}</h2>
-</div>
-{% endif %}
 
 <nav class="sub-navigation max-width text-formatted">
   <ul>
@@ -19,6 +14,13 @@ section: page
   {%- endfor -%}
   </ul>
 </nav>
+
+{% if subtitle %}
+<div class="gradient">
+  <h2 class="subtitle max-width">{{ subtitle }}</h2>
+</div>
+{% endif %}
+
 
 <div class="text-formatted max-width">
   {{ layoutContent | safe }}

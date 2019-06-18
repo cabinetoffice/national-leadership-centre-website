@@ -222,11 +222,27 @@ button {
 	border-width: 0 0 1px;
 	border-color: $light-grey;
 	border-style: solid;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 .sub-navigation a {
-	padding: 10px 0;
+	padding: 10px 20px;
 	display: block;
 	color: $grey;
+	text-decoration: none;
+	border: 1px solid $light-grey;
+	border-radius: 3px 3px 0 0;
+	background: $very-light-grey;
+	position: relative;
+	top: 1px;
+}
+.sub-navigation a:hover,
+.sub-navigation a:focus {
+	text-decoration: underline;
+}
+.sub-navigation a[data-current="current item"] {
+	background: $white;
+	border-bottom-color: $white;
 }
 .big-numbered-list {
 	padding: 20px;
