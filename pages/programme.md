@@ -18,7 +18,7 @@ The programme will take place over a year and consist of:
 
 * a pre-programme diagnostic of each delegate’s leadership style, strengths, and weaknesses
 * residential modules covering 'systems leadership', 'putting it into practice', and 'looking to the future of systems leadership'
-* exploring the qualities of adaptive, connected, questioning, purposeful and ethical leadership
+* exploring the qualities of [adaptive, connected, questioning, purposeful and ethical leadership](/research)
 * experiential and on-the-job learning
 * peer-to-peer visits to gain a better understanding and unique insight into how different organisations are run
 access to a coach, whether the focus is on personal development or the development of a top team
