@@ -180,10 +180,7 @@ button {
 	font-weight: 300;
 	position: relative;
 	margin: 0;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap: 20px;
+	overflow: hidden;
 }
 @media (min-width: 620px) {
 	.taskforce-report {
@@ -192,24 +189,44 @@ button {
 	}
 }
 .taskforce-report__column-one {
-	display: block;
-	grid-column-start: 1;
-	grid-column-end: span 3;
-	align-self: center;
-	grid-row: 1;
+	float: left;
+	width: 65%;
 }
 .taskforce-report__column-two {
-	grid-column-start: 4;
-	grid-column-end: span 1;
-	grid-row: 1;
+	float: right;
+	width: 25%;
 }
-@media (max-width: 530px) {
-	.taskforce-report__column-two{
-		grid-column-start: 3;
-		grid-column-end: span 2;
-		position: relative;
-		left: 50%;
-	}	
+@supports( grid-area: auto ) {
+	.taskforce-report {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-column-gap: 20px;
+	}
+	.taskforce-report__column-one {
+		float: none;
+		width: auto;
+		display: block;
+		grid-column-start: 1;
+		grid-column-end: span 3;
+		align-self: center;
+		grid-row: 1;
+	}
+	.taskforce-report__column-two {
+		float: none;
+		width: auto;
+		grid-column-start: 4;
+		grid-column-end: span 1;
+		grid-row: 1;
+	}
+	@media (max-width: 530px) {
+		.taskforce-report__column-two{
+			grid-column-start: 3;
+			grid-column-end: span 2;
+			position: relative;
+			left: 50%;
+		}	
+	}
 }
 .taskforce-report__image {
 	display: block;
@@ -231,8 +248,7 @@ button {
 	font-size: 1.5rem;
 	font-weight: 300;
 	background:  linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
-  background-clip: text;
-  text-fill-color: transparent;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* IE 10+ */
