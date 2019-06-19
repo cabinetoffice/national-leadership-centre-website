@@ -32,6 +32,10 @@ body {
 	margin-right: auto;
 	width: 100%;
 }
+.horizontal-padding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 p,
 pre,
@@ -267,7 +271,7 @@ button {
 	border-color: $light-grey;
 	border-style: solid;
 	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0;
 }
 .sub-navigation ul {
 	padding: 0;
@@ -281,7 +285,7 @@ button {
 	margin: 0 .5em;
 }
 .sub-navigation a {
-	padding: 10px 20px;
+	padding: 0.5rem 1rem;
 	display: block;
 	color: $grey;
 	text-decoration: none;

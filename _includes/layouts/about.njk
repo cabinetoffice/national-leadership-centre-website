@@ -3,9 +3,9 @@ layout: layouts/base.njk
 section: page
 ---
 			
-<h1 class="max-width text-formatted">{{ title }}</h1>
+<h1 class="max-width horizontal-padding ">{{ title }}</h1>
 
-<nav class="sub-navigation max-width text-formatted">
+<nav class="sub-navigation max-width horizontal-padding ">
   <ul>
   {%- for nav in collections.aboutsubpages | sort(attribute="date") -%}
     <li>

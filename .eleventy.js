@@ -52,7 +52,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("aboutsubpages", function(collection) {
-    let aboutSubPages = collection.getFilteredByGlob('pages/about/*.md');
+    let aboutSubPages = collection.getFilteredByGlob(['pages/about/*.md', 'pages/about.md']);
     return aboutSubPages;
   });
 
