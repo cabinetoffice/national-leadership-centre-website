@@ -32,6 +32,11 @@ body {
 	margin-right: auto;
 	width: 100%;
 }
+@media(max-width: 45rem) {
+	.max-width--overflow-hidden {
+		overflow: hidden;
+	}
+}
 .horizontal-padding {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -337,7 +342,6 @@ $gradient-bg-size: auto auto;
 }
 .text-formatted {
 	padding: 0 10px;
-	overflow: hidden;
 }
 .skip-link {
 	color: $grey;
