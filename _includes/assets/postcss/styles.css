@@ -149,7 +149,8 @@ button {
 
 /* Mobile navigation */
 @media (max-width: 660px) {
-	.site-header__logo {
+	.site-header__logo,
+	.site-header__nav {
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -161,12 +162,19 @@ button {
 	}
 }
 
+$gradient: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+$gradient-bg-size: auto auto;
 .gradient {
-	background: $red;
-	background: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+	background-color: $red;
+	background-image: $gradient;
 	color: $white;
 }
-
+.gradient--coil {
+	background-image: url('/static/img/NLC_lead the way-TRANSPARENT.png'), $gradient;
+	background-size: 35% auto, $gradient-bg-size;
+	background-repeat: no-repeat, repeat;
+	background-position: right -10% center, 0 0;
+}
 .subtitle {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -177,8 +185,11 @@ button {
 }
 @media (min-width: 540px) {
 	.subtitle {
-		padding: 70px 25% 70px 50px;
+		padding: 70px 50px;
 	}
+}
+.subtitle--with-image {
+	padding-right: 25%;
 }
 
 .taskforce-report {
