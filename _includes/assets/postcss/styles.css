@@ -175,6 +175,11 @@ $gradient-bg-size: auto auto;
 	background-repeat: no-repeat, repeat;
 	background-position: right -10% center, 0 0;
 }
+.coil {
+	float: right;
+	width: 30%;
+	margin-right: -10%;
+}
 .subtitle {
 	margin-top: 0;
 	margin-bottom: 0;

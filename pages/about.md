@@ -12,6 +12,7 @@ The National Leadership Centre’s core mission is ultimately to improve efficie
 
 To make this happen, we have three strategic objectives:
 
+<img alt="" class="coil" src="/static/img/NLC_lead the way-TRANSPARENT.png" />
 <ol class="big-numbered-list">
 <li>Deliver a <a href="/programme">flagship leadership programme</a> for around 100 senior public service leaders each year</li>
 
