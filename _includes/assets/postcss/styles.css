@@ -225,7 +225,7 @@ button {
 			grid-column-start: 3;
 			grid-column-end: span 2;
 			position: relative;
-			left: 50%;
+			left: 55%;
 		}	
 	}
 }
