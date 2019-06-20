@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Research and evaluation
 subtitle: The National Leadership Centre will become a global hub for data-driven research on leadership in the public sector. 
 date: 2018-02-04
 permalink: /research/
