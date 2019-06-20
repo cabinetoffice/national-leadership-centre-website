@@ -13,5 +13,5 @@ You can contact the National Leadership Centre by email on [nlc@cabinetoffice.go
 
 You can follow us on social media and join the conversation on:
 
-Twitter: [@NatLeadership](https://twitter.com/natleadership)
+Twitter: [@NLC_HQ](https://twitter.com/NLC_HQ)
 LinkedIn: [https://www.linkedin.com/company/national-leadership-centre](https://www.linkedin.com/company/national-leadership-centre/)
