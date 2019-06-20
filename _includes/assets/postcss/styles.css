@@ -180,6 +180,12 @@ $gradient-bg-size: auto auto;
 	background-repeat: no-repeat, repeat;
 	background-position: right -10% center, 0 0;
 }
+.gradient--links {
+	background-image: url('/static/img/NLC_full colour-TRANSPARENT.png'), $gradient;
+	background-size: 35% auto, $gradient-bg-size;
+	background-repeat: no-repeat, repeat;
+	background-position: right -15% center, 0 0;
+}
 .coil {
 	float: right;
 	width: 30%;
@@ -277,7 +283,7 @@ $gradient-bg-size: auto auto;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 300;
-	background:  linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+	background:  linear-gradient(135deg, $red 0%, $orange 70%, $yellow 140%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -5,8 +5,8 @@ section: page
 <h1 class="max-width horizontal-padding ">{{ title }}</h1>
 
 {% if subtitle %}
-<div class="gradient">
-  <h2 class="subtitle max-width">{{ subtitle }}</h2>
+<div class="gradient{{ " gradient--" + subtitle_imagery if subtitle_imagery }}">
+  <h2 class="subtitle {{ " subtitle--with-image" if subtitle_imagery }} max-width">{{ subtitle }}</h2>
 </div>
 {% endif %}
 <div class="text-formatted max-width">
