@@ -18,7 +18,8 @@ We believe that the best way we can support these leaders is to increase their a
 
 We are also monitoring and evaluating the National Leadership Centre’s (NLC) portfolio of work in partnership with an independent supplier. It is so important that we test, learn and adapt what we do. 
 
-## Public service leadership for the 21st Century
+
+<h2 class="gradient-text">Public service leadership for the 21st Century</h2>
 
 We do not want to create a new leadership model to ‘export’ to other organisations. We also do not want to create new boxes for leaders to tick. We are developing an approach to leadership that will underpin the work of the NLC, which aims to encourage a more collaborative way of working across the whole public service system.
 
