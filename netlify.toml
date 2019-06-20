@@ -2,6 +2,13 @@
   publish = "_site"
   command = "eleventy"
 
+[build.environment]
+  NLC_GA_UA = "UA-69921843-12"
+
+[context.production.environment]
+  NLC_GA_UA = "UA-69921843-11"
+
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
