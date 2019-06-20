@@ -2,7 +2,7 @@
   publish = "_site"
   command = "eleventy"
 
-[context.production..environment]
+[context.production.environment]
   NLC_GA_UA = "UA-69921843-11"
 
 [context.staging.environment]
