@@ -37,4 +37,4 @@ We will create a private area of our website for the network. In this section, t
 
 The challenges we are facing in this country are mirrored in countries throughout the world. Our priorities may have been successfully addressed abroad, and we will have experience to share internationally as well. 
 
-This is why the National Leadership Centre, in partnership with [the British Council,](https://www.britishcouncil.org/) will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
+This is why the National Leadership Centre will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
