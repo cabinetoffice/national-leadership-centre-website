@@ -15,7 +15,7 @@ The National Leadership Centre is a groundbreaking new initiative, created by th
 </span>
 <span class="taskforce-report__column-two">
   <a class="taskforce-report__image" href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank">
-    <img src="/static/img/taskforce-report.jpg" alt="Taskforce report" />
+    <img src="/static/img/taskforce-reportX400.jpg" alt="Taskforce report" />
   </a>
   </span>
 </p>
