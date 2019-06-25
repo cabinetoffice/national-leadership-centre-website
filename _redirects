@@ -1,7 +1,7 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect domain aliases to primary domain
-https://nationalleadership.gov.uk/* https://www.nationalleadership.gov.uk/:splat 301!
+https://nationalleadershipcentre.co.uk/* https://www.nationalleadership.gov.uk/:splat 301!
 https://www.nationalleadershipcentre.co.uk/* https://www.nationalleadership.gov.uk/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
