@@ -5,3 +5,11 @@
 ## Deployment instructions
 
 This Github repo is connected to Netlify, which builds production off commits to the master branch.
+
+## Local Build
+
+You can build the site using docker-compose:
+
+    docker-compose up
+
+The website can be found in the ```_site``` directory.
