@@ -1,9 +1,9 @@
 <nav class="main-nav">
   <ul>
-  {%- for nav in collections.nav | sort(attribute="date") -%}
+    {%- for nav in collections.nav | sort(attribute="date") -%}
     <li>
-      <a href="{{ nav.url | url }}"{% if page.url.includes(nav.url) and nav.url !== '/' %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+    <a href="{{ nav.url | url }}" {% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
     </li>
-  {%- endfor -%}
+    {%- endfor -%}
   </ul>
 </nav>
