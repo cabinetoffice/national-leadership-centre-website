@@ -6,3 +6,9 @@ services:
     command: eleventy
     volumes:
       - .:/usr/src
+  serve:
+    image: mikebell/eleventy:0.8.3
+    command: npm install
+    command: eleventy --serve
+    volumes:
+      - .:/usr/src

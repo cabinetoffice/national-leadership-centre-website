@@ -13,3 +13,7 @@ You can build the site using docker-compose:
     docker-compose up
 
 The website can be found in the ```_site``` directory.
+
+To actively develop run:
+
+    docker-compose up serve
