@@ -26,11 +26,17 @@ Public sector leaders make a direct, lasting and profound impact on citizens’ 
 At the National Leadership Centre, we want to help people overcome these constraints to create transformational change across the system.
 </p>
 
-## [Leadership programme](/programme)
+## Leadership programme
 Our flagship leadership programme brings together 100 of the most senior people across the public sector each year.
 
-## [Network of peers](/network)
-Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally. 
+[Read more about our programme](/programme)
 
-## [Research and evaluation](/research)
+## Network of peers
+Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally.
+
+[Read more about the network](/network)
+
+## Research and evaluation
 The National Leadership Centre is becoming a global hub of leadership data, high quality research and lessons learned.
+
+[Read more about our research](/research)
