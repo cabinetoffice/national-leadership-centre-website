@@ -104,7 +104,18 @@ button {
 	color: $white;
 	cursor: pointer;
 }
-
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table td,
+table th {
+	font-size: 16px;
+	line-height: 1.25;
+	padding: 1em;
+	border-bottom: 1px solid $light-grey;
+	margin: 0;
+}
 
 .site-header {
 	display: flex;
