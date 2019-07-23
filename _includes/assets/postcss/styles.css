@@ -115,6 +115,7 @@ table th {
 	padding: 1em;
 	border-bottom: 1px solid $light-grey;
 	margin: 0;
+	text-align: left;
 }
 
 .site-header {
