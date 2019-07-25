@@ -3,7 +3,9 @@ title: Cookies
 permalink: /cookies/index.html
 ---
 
-Small files (known as ’cookies’) are put onto your computer to collect information about how you browse the site.
+Cookies are files saved on your phone, tablet or computer when you visit a website.
+
+We use cookies to store information about how you use the National Leadership Centre website, such as the pages you visit.
 
 Cookies are used to:
 
