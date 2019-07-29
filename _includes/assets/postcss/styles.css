@@ -281,6 +281,13 @@ $gradient-bg-size: auto auto;
 	transform: rotate(-5deg) scale(1);
 	box-shadow: 1px 2px 2px  rgba(11,12,12,0.4);
 }
+/* Remove movement if the users has set a reduced motion option. */
+@media (prefers-reduced-motion: reduce) {
+	.taskforce-report__image:hover {
+		transform: rotate(-10deg) scale(1);
+		box-shadow: 0 2px 2px rgba(11,12,12,0.4);
+	}
+}
 .gradient-text {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.5rem;
