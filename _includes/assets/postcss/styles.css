@@ -177,13 +177,13 @@ $gradient-bg-size: auto auto;
 	color: $white;
 }
 .gradient--coil {
-	background-image: url('/static/img/NLC_lead the way-TRANSPARENTX500.png'), $gradient;
+	background-image: url('/static/img/NLC_lead_the_way-TRANSPARENTX500.png'), $gradient;
 	background-size: 35% auto, $gradient-bg-size;
 	background-repeat: no-repeat, repeat;
 	background-position: right -10% center, 0 0;
 }
 .gradient--links {
-	background-image: url('/static/img/NLC_full colour-TRANSPARENTX500.png'), $gradient;
+	background-image: url('/static/img/NLC_full_colour-TRANSPARENTX500.png'), $gradient;
 	background-size: 35% auto, $gradient-bg-size;
 	background-repeat: no-repeat, repeat;
 	background-position: right -15% center, 0 0;
