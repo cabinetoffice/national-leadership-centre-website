@@ -168,11 +168,12 @@ button {
 	}
 }
 
-$gradient: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+$gradient: linear-gradient(90deg, $red 0%, $orange-against-large-white-text 100%);
 $gradient-bg-size: auto auto;
 .gradient {
 	background-color: $red;
 	background-image: $gradient;
+	background-size: $gradient-bg-size;
 	color: $white;
 }
 .gradient--coil {
@@ -284,7 +285,7 @@ $gradient-bg-size: auto auto;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 300;
-	background:  linear-gradient(135deg, $red 0%, $orange 70%, $yellow 140%);
+	background:  linear-gradient(135deg, $red 0%, $orange-against-large-white-text 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

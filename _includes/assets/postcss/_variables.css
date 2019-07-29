@@ -3,6 +3,8 @@ $grey: #323E48;
 $light-grey: #8F959B;
 $very-light-grey: #EAEDF0;
 $orange: #ED6B1C;
+/* This organe has sufficient color contrast against white. Large text only. https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=EE701C */
+$orange-against-large-white-text: #EE701C;
 $yellow: #FFDB03;
 $red: #CE132D;
 $blue: blue;
