@@ -27,6 +27,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.6",
     "autoprefixer": "^9.6.0",
     "clean-css": "^4.2.1",
+    "govuk-frontend": "^3.0.0",
     "html-minifier": "^4.0.0",
     "postcss": "^7.0.17",
     "postcss-import": "^12.0.1",

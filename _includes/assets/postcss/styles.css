@@ -21,7 +21,8 @@ body {
 body {
 	display: grid;
 	height: 100vh;
-	grid-template-rows: auto 1fr auto;
+	grid-template-rows: auto auto 1fr;
+	grid-row-gap: 0;
 	background-color: white;
 	color: $grey;
 }
@@ -73,19 +74,21 @@ h2 {
 	font-size: 1.5rem;
 }
 
-/* Contact Form */
+/* Contact Forms */
 form {
   display: grid;
-	padding: 2em 0;
 }
 
-form label {
-  display: none;
+label {
+	font-size: 1rem;
+	line-height: 1.25;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
 }
 
 input,
-textarea,
-button {
+textarea {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
@@ -93,16 +96,38 @@ button {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+input:focus,
+textarea:focus {
+	outline: 4px solid $orange;
+}
+
+.govuk-hint {
+	font-size: 1rem;
+	line-height: 1.25;
+	display: block;
+	margin-bottom: 15px;
+	color: $grey;
+}
+
 input,
 textarea {
-	border: 1px solid black;
+	border: 2px solid $grey;
 }
 
 button {
-	border: 1px solid $orange;
-	background-color: $orange;
+	padding: 1em;
+	margin: 1em 0;
+	border: 2px solid $red;
+	background-color: $red;
 	color: $white;
 	cursor: pointer;
+	width: auto;
+}
+button:hover {
+	background-image: $gradient;
+}
+button:focus {
+	outline: 4px solid $grey;
 }
 table {
 	border-collapse: collapse;
@@ -182,8 +207,6 @@ table th {
 	}
 }
 
-$gradient: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
-$gradient-bg-size: auto auto;
 .gradient {
 	background-color: $red;
 	background-image: $gradient;
