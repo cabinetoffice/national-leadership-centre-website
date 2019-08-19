@@ -11,7 +11,8 @@ permalink: /contact/
 
 You can contact the National Leadership Centre by email on [nlc@cabinetoffice.gov.uk](mailto:nlc@cabinetoffice.gov.uk)
 
-You can follow us on social media and join the conversation on:
+We are happy to help you get better connected with other leaders, or help you find supporting information around a problem or subject-matter.
 
-Twitter: [@NLC_HQ](https://twitter.com/NLC_HQ)
-LinkedIn: [https://www.linkedin.com/company/national-leadership-centre](https://www.linkedin.com/company/national-leadership-centre/)
+* [Request information](/contact/information)
+* [Request contact details of another senior leader within the public sector](/contact/person)
+

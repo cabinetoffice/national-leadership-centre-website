@@ -1,0 +1,43 @@
+{% from "textarea/macro.njk" import govukTextarea %}
+{% from "fieldset/macro.njk" import govukFieldset %}
+{% from "select/macro.njk" import govukSelect %}
+{% from "checkboxes/macro.njk" import govukCheckboxes %}
+{% from "radios/macro.njk" import govukRadios %}
+{% from "input/macro.njk" import govukInput %}
+{% from "button/macro.njk" import govukButton %}
+
+
+<form name="information-form" method="POST" netlify>
+  {{ govukInput({
+    label: {
+      text: "Your email address"
+    },
+    id: "email",
+    name: "email",
+    type: "email",
+    hint: {
+      text: "We'll send our response to this email address"
+    },
+    autocomplete: "email",
+    attributes: {
+      spellcheck: "false",
+      required: "required"
+    }
+  }) }}
+
+  {{ govukTextarea({
+    name: "information",
+    id: "information",
+    label: {
+      text: "What information are you looking for?"
+    },
+    attributes: {
+      required: "required"
+    }
+  }) }}
+
+  {{ govukButton({
+    text: "Send request"
+}) }}
+</form>
+

@@ -1,3 +1,4 @@
+const path = require('path')
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
@@ -80,6 +81,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
+
+
+  // Our own nunjucks instance with imported govuk-frontend macros
+  let nunjucks = require("nunjucks");
+
+  let nunjucksEnvironment = new nunjucks.Environment([
+    new nunjucks.FileSystemLoader(path.join(__dirname, '/node_modules/govuk-frontend/govuk/components')),
+    new nunjucks.FileSystemLoader('_includes')
+  ]);
+
+  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
