@@ -2,13 +2,15 @@ version: '3'
 services:
   builder:
     image: mikebell/eleventy:0.8.3
-    command: npm install
-    command: eleventy
+    command: > 
+      ash -c "npm install &&
+      eleventy"
     volumes:
       - .:/usr/src
   serve:
     image: mikebell/eleventy:0.8.3
-    command: npm install
-    command: eleventy --serve
+    command: > 
+      ash -c "npm install &&
+      eleventy --serve"
     volumes:
       - .:/usr/src
