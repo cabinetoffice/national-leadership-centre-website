@@ -1,7 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if section == "home" %}
+  <title>National Leadership Centre</title>
+  {% else %}
   <title>{{ title or renderData.title or metadata.title }} | National Leadership Centre</title>
+  {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,700|Source+Sans+Pros:300,400&display=swap" rel="stylesheet">
   {% if ga.ua %}
   <!-- Google Analytics -->
