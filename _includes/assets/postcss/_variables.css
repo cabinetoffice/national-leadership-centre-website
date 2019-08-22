@@ -6,3 +6,6 @@ $orange: #ED6B1C;
 $yellow: #FFDB03;
 $red: #CE132D;
 $blue: blue;
+
+$gradient: linear-gradient(90deg, $red 0%, $orange 70%, $yellow 140%);
+$gradient-bg-size: auto auto;

@@ -25,13 +25,15 @@ Our research tells us that leaders tend to make links within their own sectors, 
 
 Leading is a difficult job. At the top of organisations, you're more exposed and isolated. Helping leaders build connections will help them share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
 
+## Test our network directory
+
+We're testing ways to help senior leaders find each other and get in contact with each other.
+
+[Test the directory service](/contact/person)
+
 ## Events across the country
 
 We will bring leaders together through national, regional and small group events. This will allow peers to make time, outside formal governance or partnership structures, to work together to address the problems that are most pressing.
-
-## Connecting on a digital service
-
-We will create a private area of our website for the network. In this section, they’ll be able to find contact details for each other, start a conversation, and access cutting edge research, resources, and event information.
 
 ## International peers
 

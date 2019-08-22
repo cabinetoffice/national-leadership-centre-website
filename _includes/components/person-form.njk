@@ -1,0 +1,77 @@
+{% from "textarea/macro.njk" import govukTextarea %}
+{% from "fieldset/macro.njk" import govukFieldset %}
+{% from "select/macro.njk" import govukSelect %}
+{% from "checkboxes/macro.njk" import govukCheckboxes %}
+{% from "radios/macro.njk" import govukRadios %}
+{% from "input/macro.njk" import govukInput %}
+{% from "button/macro.njk" import govukButton %}
+
+
+<form name="person-form" method="POST" netlify>
+  
+  {{ govukInput({
+    label: {
+      text: "Your email address"
+    },
+    id: "email",
+    name: "email",
+    type: "email",
+    hint: {
+      text: "We'll send our response to this email address"
+    },
+    autocomplete: "email",
+    attributes: {
+      spellcheck: "false",
+      required: "required"
+    }
+  }) }}
+ 
+  {{ govukInput({
+    label: {
+      text: "Search by name"
+    },
+    id: "search-name",
+    name: "search-name",
+    hint: {
+      text: "Request contact details of a senior leader whose name you know"
+    }
+  }) }}
+
+  {{ govukInput({
+    label: {
+      text: "Search by sector"
+    },
+    id: "search-sector",
+    name: "search-sector",
+    hint: {
+      text: "Request contact details of senior leaders in a specific sector"
+    }
+  }) }}
+
+  {{ govukInput({
+    label: {
+      text: "Search by region"
+    },
+    id: "search-region",
+    name: "search-region",
+    hint: {
+      text: "Request contact details of senior leaders in a specific region"
+    }
+  }) }}
+
+  {{ govukTextarea({
+    name: "information",
+    id: "information",
+    label: {
+      text: "Additional information"
+    },
+    hint: {
+      text: "Any additional information you think might help us find the right senior leader"
+    }
+  }) }}
+
+  {{ govukButton({
+    text: "Send request"
+}) }}
+</form>
+
