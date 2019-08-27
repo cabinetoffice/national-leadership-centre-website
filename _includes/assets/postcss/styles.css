@@ -210,16 +210,17 @@ table th {
 .gradient {
 	background-color: $red;
 	background-image: $gradient;
+	background-size: $gradient-bg-size;
 	color: $white;
 }
 .gradient--coil {
-	background-image: url('/static/img/NLC_lead the way-TRANSPARENTX500.png'), $gradient;
+	background-image: url('/static/img/NLC_lead_the_way-TRANSPARENTX500.png'), $gradient;
 	background-size: 35% auto, $gradient-bg-size;
 	background-repeat: no-repeat, repeat;
 	background-position: right -10% center, 0 0;
 }
 .gradient--links {
-	background-image: url('/static/img/NLC_full colour-TRANSPARENTX500.png'), $gradient;
+	background-image: url('/static/img/NLC_full_colour-TRANSPARENTX500.png'), $gradient;
 	background-size: 35% auto, $gradient-bg-size;
 	background-repeat: no-repeat, repeat;
 	background-position: right -15% center, 0 0;
@@ -317,11 +318,18 @@ table th {
 	transform: rotate(-5deg) scale(1);
 	box-shadow: 1px 2px 2px  rgba(11,12,12,0.4);
 }
+/* Remove movement if the users has set a reduced motion option. */
+@media (prefers-reduced-motion: reduce) {
+	.taskforce-report__image:hover {
+		transform: rotate(-10deg) scale(1);
+		box-shadow: 0 2px 2px rgba(11,12,12,0.4);
+	}
+}
 .gradient-text {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 300;
-	background:  linear-gradient(135deg, $red 0%, $orange 70%, $yellow 140%);
+	background:  linear-gradient(135deg, $red 0%, $orange-against-large-white-text 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
