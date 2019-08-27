@@ -1,5 +1,9 @@
 ---
 title: Accessibility statement for The National Leadership Centre
+tags:
+  - footer
+navtitle: Accessibility
+date: 2018-04-01
 permalink: /accessibility/index.html
 ---
 
