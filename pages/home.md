@@ -9,21 +9,12 @@ tags:
   - nav
 ---
 
-<p class="taskforce-report">
-<span class="taskforce-report__column-one">
-The National Leadership Centre is a groundbreaking new initiative, created by the government in 2018 to deliver <a href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank"> the recommendations of the Public Services Leadership Taskforce.</a>
-</span>
-<span class="taskforce-report__column-two">
-  <a class="taskforce-report__image" href="https://www.gov.uk/government/publications/national-leadership-centre" target="_blank">
-    <img src="/static/img/taskforce-reportX400.jpg" alt="Taskforce report" />
-  </a>
-  </span>
-</p>
+The National Leadership Centre was created by the Government in 2018 to support cross sector leadership, facilitating and supporting people to collaborate on the toughest challenges the country faces.
 
-Public sector leaders make a direct, lasting and profound impact on citizens’ lives. Public service can be immensely fulfilling, but it is not always easy. Leaders tell us that despite their best efforts, they sometimes find themselves frustrated by the level of impact they can achieve.
+The scale and complexity of demands on our public services continue to grow. Investing in leadership is an important part of increasing productivity and supporting people to overcome a sense of isolation that often comes with becoming the most senior person of a public sector organisation.
 
 <p class="gradient-text">
-At the National Leadership Centre, we want to help people overcome these constraints to create transformational change across the system.
+The National Leadership Centre is a three year pilot with three strategic aims.
 </p>
 
 ## Leadership programme
@@ -32,7 +23,7 @@ Our flagship leadership programme brings together 100 of the most senior people 
 [Read more about our programme](/programme)
 
 ## Network of peers
-Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally.
+Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally. 
 
 [Read more about the network](/network)
 
