@@ -1,0 +1,33 @@
+<div id="global-footer">
+  <footer class="site-footer">
+    <nav class="main-nav footer-nav">
+    <ul>
+      {%- for nav in collections.footer | sort(attribute="date") -%}
+      <li>
+      <a href="{{ nav.url | url }}" {% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+
+  <div class="site-footer__social">
+    <a href="{{ '/' | url }}">
+      <img src="/static/img/Twitter_Social_Icon_Rounded_Square_Color.png" alt="Twitter logo" />
+    </a>
+    <a href="{{ '/' | url }}">
+      <img src="/static/img/LI-In-Bug.png" alt="Linkedin logo" />
+    </a>
+  </div>
+
+  <div class="site-footer__logo">
+    <a href="{{ '/' | url }}">
+      <img src="/static/img/star_USE-ON-COLOUR.png" alt="{{ metadata.title }}" />
+    </a>
+  </div>
+
+  <div class="copyright">
+    <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+  </div>
+    
+  </footer>
+</div>

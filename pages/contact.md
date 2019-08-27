@@ -3,6 +3,7 @@ layout: layouts/contact.njk
 title: Contact us
 tags:
   - nav
+  - footer
 navtitle: Contact
 section: contact
 date: 2018-03-01
