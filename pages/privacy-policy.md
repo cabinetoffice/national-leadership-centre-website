@@ -1,5 +1,5 @@
 ---
-title: Privacy Notice for National Leadership Centre
+title: Privacy Notice
 tags:
   - footer
 navtitle: Privacy
@@ -7,123 +7,150 @@ date: 2018-05-01
 permalink: /privacy/index.html
 ---
 
-The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. [The Taskforce terms of reference are set out here.](https://www.gov.uk/government/publications/national-leadership-centre/november-2017-public-services-leadership-taskforce-terms-of-reference)
+NationalLeadership.gov.uk is provided by the National Leadership Centre (NLC), part of the Cabinet Office.
 
-This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and/or 14 of the General Data Protection Regulation (GDPR). 
+Cabinet Office is the data controller the pages starting with www.NationalLeadership.gov.uk. Where these pages link out to services provided by other departments, agencies and local authorities (like www.gov.uk), their own privacy policies will apply. These are managed separately by each service provider.
 
-## Your data 
+A data controller determines how and why personal data is processed. For more information, read the Cabinet Office’s entry in the [Data Protection Public Register.](https://ico.org.uk/ESDWebPages/Entry/Z7414053)
 
-### Purpose
+## What data we collect
 
-The purposes for which we are processing your personal data are to manage all aspects of our relationship with our audience of senior public service leaders. 
+The personal data we collect from you includes:
 
-The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating a digitally enabled network of senior public service leaders. Specifically, we will: 
+* questions, queries or feedback you leave, including your email address if you contact the NLC
+* your Internet Protocol (IP) address, and details of which version of web browser you used
+* information on how you use the site, using cookies and page tagging techniques
 
-* collect via online survey and from public sources contact details of senior public service leaders
-* upload these into a directory on a log-in controlled online platform 
-* inform and invite senior public service leaders to join the platform
-* share those contact details with senior public service leaders who use the platform (and our own staff), and;
-* use data to understand and map the connections/relationships between senior public sector individuals and organisations 
+We use Google Analytics software to collect information about how you use NationalLeadership.gov.uk.
 
-We will also use personal data to: 
+Google Analytics stores information about:
 
-* organise and hold events for senior public service leaders 
-* carry out research and experimental pilots aiming to build the evidence base around leadership and its impact on public services
+* the pages you visit on NationalLeadership.gov.uk
+* how long you spend on each NationalLeadership.gov.uk page
+* how you got to the site
+* what you click on while you’re visiting the site
 
-We will also use diversity data to: 
+We do not collect or store your personal information through Google Analytics (for example your name or address) so this information cannot be used to identify who you are.
 
-* assess our own diversity and inclusion statistics for our network and programme audience of senior public service leaders, and
-* for reasonable adjustments at senior leadership events. 
+## Why we need your data
 
+We collect information through Google Analytics to monitor how you use the site. We do this to help:
 
-### The data
+* make sure the site is meeting the needs of its users
+* make improvements, for example improving site search
 
-We will process the following personal data: 
+We also collect data in order to:
 
-* First Name
-* Last Name
-* Email
-* Phone number
-* Work Address
-* Business-facing social media account handles 
-* Job Title
-* Department/Sector/Government Service e.g. Civil Service, Police, Fire etc.
+* gather feedback to improve our services
+* respond to any feedback you send us, if you’ve asked us to
+* allow you to access NLC services and make transactions, where relevant
+* monitor use of the site to identify security threats
 
-We will also collect the following diversity data: 
+The legal basis for processing personal data in relation to site security is our legitimate interests, and the legitimate interests of our users, in ensuring the security and integrity of NationalLeadership.gov.uk.
 
-* Age
-* Gender
-* Ethnicity
-* Sexuality
-* Religion
-* Disability
+The legal basis for processing all other personal data is that it’s necessary to perform a task in the public interest.
 
-### Legal basis of processing 
+## What we do with your data
 
-The legal basis for processing your personal data is it is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the data controller. In this case that is to carry out our functions of establishing and operating the National Leadership Centre. 
+The data we collect may be shared with other government departments, agencies and public bodies. It may also be shared with our technology suppliers, for example our hosting provider.
 
-Sensitive personal data is personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. Our lawful basis for processing your sensitive personal data is:
+We will not:
+* sell or rent your data to third parties
+* share your data with third parties for marketing purposes
 
-In relation to diversity monitoring
-- processing is necessary for reasons of substantial public interest for the exercise of a function of the Crown, a Minister of the Crown, or a government department. 
+We will share your data if we are required to do so by law – for example, by court order, or to prevent fraud or other crime.
 
-In relation to using disability data for reasonable adjustments at events we organise:
-- It is necessary for the purposes of performing or exercising our obligations or rights as the controller, or your obligations or rights as the data subject, under employment law, social security law or the law relating to social protection 
+## How long we keep your data
 
-### Recipients
+We will only retain your personal data for as long as:
 
-All data other than diversity data will be shared securely between senior public service leaders on our online platform. 
+* it is needed for the purposes set out in this document
+* the law requires us to
 
-Your personal data will be shared by us with our IT suppliers and researchers. In particular it will be shared with Identity Group, Korn Ferry Hay Group, and Convivio. 
+## Children’s privacy protection
 
-As your personal data will be stored on our IT infrastructure it will also be shared with our data processors who provide email, and document management and storage services. 
+Our services are not designed for, or intentionally targeted at, children 13 years of age or younger. We do not intentionally collect or maintain data about anyone under the age of 13.
 
-### Retention 
+## Where your data is processed and stored
 
-Your personal data will be retained by us for as long as you meet the following criteria:
+We design, build and run our systems to make sure that your data is as safe as possible at all stages, both while it’s processed and when it’s stored.
 
-* you occupy a role in the public sector at the level of seniority required to belong to the National Leadership Centre’s network e.g. Chief Executive or equivalent
-* you have not informed us that you no longer want us to process your personal data for the purposes of our work at the National Leadership Centre
- 
-All personal data will be reviewed every 12 months to ensure that it is relevant and up to date. The National Leadership Centre will delete any stored personal data that we hold on individuals who no longer meet the above criteria.
+All personal data is stored in the European Economic Area (EEA). Google Analytics data may be transferred outside the EEA, but this cannot be used to personally identify you.
 
-### Where personal data have not been obtained from you
+## How we protect your data and keep it secure
 
-Your personal data were obtained by us from public sources, including the internet. 
+We are committed to doing all that we can to keep your data secure. We have set up systems and processes to prevent unauthorised access or disclosure of your data – for example, we protect your data using varying levels of encryption.
 
+We also make sure that any third parties that we deal with keep all personal data they process on our behalf secure.
 
 ## Your rights
 
-You have the right to object to the processing of your personal data.
+You have the right to request:
 
-You have the right to request information about how your personal data are processed, and to request a copy of that personal data. 
+* information about how your personal data is processed
+* a copy of that personal data
+* that anything inaccurate in your personal data is corrected immediately
 
-You have the right to request that any inaccuracies in your personal data are rectified without delay. 
+You can also:
 
-You have the right to request that any incomplete personal data are completed, including by means of a supplementary statement. 
+* raise an objection about how your personal data is processed
+* request that your personal data is erased if there is no longer a justification for it
+* ask that the processing of your personal data is restricted in certain circumstances
 
-You have the right to request that your personal data are erased if there is no longer a justification for them to be processed. 
+If you have any of these requests, get in contact with the NLC.
 
-You have the right in certain circumstances (for example, where accuracy is contested) to request that the processing of your personal data is restricted. 
+## Links to other websites
 
-You have the right to object to the processing of your personal data where it is processed for direct marketing purposes. 
+NationalLeadership.gov.uk contains links to other websites.
 
-## International transfers
+This privacy policy only applies to NationalLeadership.gov.uk, and does not cover other government services and transactions that we link to. 
 
-As your personal data is stored on our IT infrastructure, and shared with our data processors, it may be transferred and stored securely outside the European Union. Where that is the case it will be subject to equivalent legal protection through the use of Model Contract Clauses.
+### Following a link to another website
 
-As your personal data is shared with our IT suppliers, it may be transferred and stored securely in the United States of America. Where that is the case it will be subject to equivalent legal protection through the supplier’s membership of the Privacy Shield scheme. 
+If you go to another website from this one, read the privacy policy on that website to find out what it does with your information.
 
-## Contact details 
+### Following a link to NationalLeadership.gov.uk from another website
 
-The data controller for your personal data is the Cabinet Office. The contact details for the data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234, or [publiccorrespondence@cabinetoffice.gov.uk.](mailto:publiccorrespondence@cabinetoffice.gov.uk)
+If you come to NationalLeadership.gov.uk from another website, we may receive information from the other website. We do not use this data. You should read the privacy policy of the website you came from to find out more about this.
 
-The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, 70 Whitehall, London, SW1A 2AS, or [dpo@cabinetoffice.gov.uk.](mailto:dpo@cabinetoffice.gov.uk)
+## Changes to this policy
 
-The Data Protection Officer provides independent advice and monitoring of Cabinet Office’s use of personal information.
+We may change this privacy policy. In that case, the ‘last updated’ date at the bottom of this page will also change. Any changes to this privacy policy will apply to you and your data immediately.
 
-## Complaints
+If these changes affect how your personal data is processed, the NLC will take reasonable steps to let you know.
 
-If you consider that your personal data has been misused or mishandled, you may make a complaint to the Information Commissioner, who is an independent regulator.  The Information Commissioner can be contacted at:  Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, or 0303 123 1113, or [casework@ico.org.uk.](mailto:casework@ico.org.uk)  Any complaint to the Information Commissioner is without prejudice to your right to seek redress through the courts. 
+## Contact us or make a complaint
 
-This statement was prepared on 28 August, 2019.
+Contact the NLC if you:
+
+* have a question about anything in this privacy notice
+* think that your personal data has been misused or mishandled
+
+You can contact the NLC on:
+[NLC@CabinetOffice.gov.uk](mailto:NLC@CabinetOffice.gov.uk)
+
+You can also contact our Data Protection Officer (DPO):
+Data Protection Officer
+[DPO@cabinetoffice.gov.uk](mailto:DPO@cabinetoffice.gov.uk)
+Cabinet Office
+70 Whitehall
+London 
+SW1A 2AS
+
+The DPO provides independent advice and monitoring of our use of personal information.
+
+You can also make a complaint to the Information Commissioner, who is an independent regulator.
+
+[casework@ico.org.uk](casework@ico.org.uk)
+Telephone: 0303 123 1113
+Textphone: 01625 545860
+Monday to Friday, 9am to 4:30pm
+[Find out about call charges](https://www.gov.uk/call-charges)
+
+Information Commissioner's Office 
+Wycliffe House 
+Water Lane 
+Wilmslow 
+Cheshire SK9 5AF 
+
+Last updated 28 August 2019
