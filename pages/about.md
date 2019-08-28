@@ -6,6 +6,7 @@ navtitle: About
 layout: layouts/about.njk
 tags:
   - nav
+  - footer
 ---
 
 The National Leadership Centre’s core mission is ultimately to improve efficiency and productivity in the public sector and see more effective service models delivered.

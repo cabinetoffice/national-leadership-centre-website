@@ -1,0 +1,35 @@
+<div class="site-footer">
+  <footer class="site-footer__inner max-width horizontal-padding">
+    <nav class="site-footer__nav">
+    <ul class="footer-nav">
+      {%- for nav in collections.footer | sort(attribute="date") -%}
+      <li>
+      <a href="{{ nav.url | url }}" {% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+
+  <div class="site-footer__social">
+    <ul class="social-nav">
+    <li><a target="_blank" href="https://twitter.com/NLC_HQ">
+      <img class="social-nav__image" src="/static/img/twitter.svg" alt="" /><span class="social-nav__text">Follow the NLC on Twitter</span>
+    </a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/company/national-leadership-centre/">
+      <img class="social-nav__image" src="/static/img/linkedin.svg" alt="" /><span class="social-nav__text">Follow the NLC on Linkedin</span>
+    </a></li>
+    </ul>
+  </div>
+
+  <div class="site-footer__logo">
+    <a href="{{ '/' | url }}">
+      <img src="/static/img/star_USE-ON-COLOUR.png" alt="Go to the National Leadership Centre Homepage" />
+    </a>
+  </div>
+
+  <div class="site-footer__copyright">
+    <a class="copyright" target="_blank" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+  </div>
+    
+  </footer>
+</div>
