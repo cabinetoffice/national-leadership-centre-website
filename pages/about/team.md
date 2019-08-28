@@ -32,7 +32,8 @@ Billy leads our digital work. He is delivering our work to design and create the
 Beth works in our strategy team. She is leading our operational delivery, stakeholder engagement, and international strategy. 
 
 ## Annabel Mahgerefteh
-Annabel also works in the strategy team. She supports the Centre as a whole in achieving our strategic objectives, and she also is part of our team which will deliver international events.
+
+Annabel also works in the strategy team. She supports the Centre as a whole in achieving our strategic objectives, and she is also part of our team which will deliver international events.
 
 ## Prateek Buch
 Prateek delivers our work on data in the research team. He curates data about public service leadership and productivity. He also looks after the independent evaluation of our work.
@@ -54,3 +55,6 @@ Yiannis works in our programme team. He’s advising on the design of the progra
 
 ## Alex Semproni
 Alex delivers work to shape our programme. She focuses on designing and delivering the offering from a learning and development perspective. 
+
+## Hannah Datema
+Hannah heads up our learning and development work. She leads on design and development of the programme content.

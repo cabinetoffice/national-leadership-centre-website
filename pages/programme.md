@@ -8,17 +8,15 @@ tags:
   - nav
 ---
 
-The most difficult challenges faced by our public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. And being accountable for the whole organisation means overseeing a wider range of expertise. 
+The most difficult challenges faced by public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. Being accountable for the whole organisation means overseeing a wider range of expertise. 
 
-To help people make the move into these roles, we are delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country’s entire public sector system.
+To help people make the best of a move into these roles, the National Leadership Centre is delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country.
 
-The programme is designed for newly appointed or aspiring Chief Executive Officer level leaders, as they take on the most senior and challenging roles across public service. 
+Senior leaders from across all public services will come together for a challenging, supportive and stretching 12 month development programme. It will include three residential modules, during which delegates will be inspired by world leaders in systems and collective leadership, offered unique opportunities to put this thinking into practice, and given in-depth psychometric analysis and coaching support to help delegates realise their potential as a public service leader.
 
-The programme will take place over a year and consist of:
+The programme will seek to transform the leadership of public services by: 
 
-* a pre-programme diagnostic of each delegate’s leadership style, strengths, and weaknesses
-* residential modules covering 'systems leadership', 'putting it into practice', and 'looking to the future of systems leadership'
-* exploring the qualities of [adaptive, connected, questioning, purposeful and ethical leadership](/research)
-* experiential and on-the-job learning
-* peer-to-peer visits to gain a better understanding and unique insight into how different organisations are run
-* access to a coach, whether the focus is on personal development or the development of a top team
+* providing leaders with insights and experience from some of the world’s foremost academics, practitioners and leaders
+* delivering opportunities to learn from real-time simulations
+* facilitating internationally acclaimed analysis, insight and guidance into participants’ leadership styles and how they can develop and progress
+* building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
