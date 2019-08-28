@@ -500,6 +500,12 @@ table th {
 }
 .social-nav__text {
 	vertical-align: middle;
+	display: inline-block;
+	text-decoration: underline;
+}
+.social-nav a:hover .social-nav__text,
+.social-nav a:focus .social-nav__text {
+	text-decoration: none;
 }
 .copyright {
 	display: block;
