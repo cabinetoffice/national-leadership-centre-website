@@ -57,4 +57,4 @@ Yiannis works in our programme team. He’s advising on the design of the progra
 Alex delivers work to shape our programme. She focuses on designing and delivering the offering from a learning and development perspective. 
 
 ## Hannah Datema
-Hannah heads up our L&D….
+Hannah heads up our learning and development work. She leads on design and development of the programme content.
