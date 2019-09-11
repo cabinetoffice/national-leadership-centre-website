@@ -7,8 +7,8 @@ section: About
 navtitle: Team
 ---
 
-## Kris Murrin
-Kris is the Chief Executive of the National Leadership Centre with a background in innovation and social change. She has worked at board level in private, public, academic and voluntary sectors.
+## Kristina Murrin
+Kristina is the Chief Executive of the National Leadership Centre with a background in innovation and social change. She has worked at board level in private, public, academic and voluntary sectors.
 
 ## Becky Wyse
 Becky leads our programme team. She’s responsible for designing and delivering the NLC programme for the most senior public sector leaders.
