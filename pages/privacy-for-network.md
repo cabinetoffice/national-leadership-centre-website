@@ -48,8 +48,6 @@ We will also collect the following diversity data:
 * Age
 * Gender
 * Ethnicity
-* Sexuality
-* Religion
 * Disability
 
 ## Legal basis of processing 
