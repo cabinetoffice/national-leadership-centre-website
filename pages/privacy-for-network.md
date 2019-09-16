@@ -7,19 +7,19 @@ permalink: /privacy-network/index.html
 
 The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. 
 
-This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and/or 14 of the General Data Protection Regulation (GDPR). 
+This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and 14 of the General Data Protection Regulation (GDPR). 
 
 ## Purpose of processing your data
 
 The purposes for which we are processing your personal data are to manage all aspects of our relationship with our audience of senior public service leaders. 
 
-The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating a digitally enabled network of senior public service leaders. Specifically, we will: 
+The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating cross country network of senior public service leaders. Specifically, we will: 
 
 * collect via online survey and from public sources contact details of senior public service leaders
-* upload these into a directory on a log-in controlled online platform 
+* upload these into a directory on a secure online platform 
 * inform and invite senior public service leaders to join the platform
 * share those contact details with senior public service leaders who use the platform (and our own staff)
-* use data to understand and map the connections/relationships between senior public sector individuals and organisations 
+* use data to understand and map the connections and relationships between senior public sector individuals and organisations 
 
 We will also use personal data to: 
 
@@ -28,7 +28,7 @@ We will also use personal data to:
 
 We will also use diversity data to: 
 * assess our own diversity and inclusion statistics for our network and programme audience of senior public service leaders
-* for reasonable adjustments at senior leadership events. 
+* for reasonable adjustments at senior leadership events
 
 ## What data we will process
 
@@ -56,7 +56,7 @@ We will also collect the following diversity data:
 
 The legal basis for processing your personal data is it is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the data controller. In this case that is to carry out our functions of establishing and operating the National Leadership Centre. 
 
-Sensitive personal data is personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. \
+Sensitive personal data is personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation.
 
 Our lawful basis for processing your sensitive personal data is as below.
 
