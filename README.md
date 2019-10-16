@@ -10,14 +10,11 @@ This Github repo is connected to Netlify, which builds production off commits to
 
 ### With Docker
 
-You can build the site using docker-compose:
-
-    docker-compose up
-
 The website can be found in the ```_site``` directory.
 
 To actively develop run:
 
+    docker-compose up install
     docker-compose up serve
 
 ### Without Docker
