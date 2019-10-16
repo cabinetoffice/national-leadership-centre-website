@@ -14,8 +14,11 @@ The website can be found in the ```_site``` directory.
 
 To actively develop run:
 
-    docker-compose up install
     docker-compose up serve
+
+If you make any changes to ```package.json``` then you can run the following to update your local image:
+
+    docker-compose build serve
 
 ### Without Docker
 

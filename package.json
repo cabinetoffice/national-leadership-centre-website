@@ -18,18 +18,18 @@
   },
   "homepage": "https://www.nationalleadership.gov.uk",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.2",
-    "luxon": "^1.12.1",
+    "@11ty/eleventy": "^0.9.0",
+    "luxon": "^1.19.3",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-rss": "^1.0.6",
-    "autoprefixer": "^9.6.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "autoprefixer": "^9.6.5",
     "clean-css": "^4.2.1",
-    "govuk-frontend": "^3.0.0",
+    "govuk-frontend": "^3.3.0",
     "html-minifier": "^4.0.0",
-    "postcss": "^7.0.17",
+    "postcss": "^7.0.18",
     "postcss-import": "^12.0.1",
     "postcss-simple-vars": "^5.0.2",
     "uglify-es": "^3.3.9"

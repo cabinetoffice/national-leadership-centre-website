@@ -1,21 +1,7 @@
 version: '3'
 services:
-  builder:
-    image: mikebell/eleventy:0.8.3
-    command: > 
-      ash -c "npm install &&
-      eleventy"
-    volumes:
-      - .:/usr/src
   serve:
-    image: mikebell/eleventy:0.9.0
-    command: "eleventy --serve"
+    build: .
+    command: "npx eleventy --serve"
     volumes:
       - .:/usr/src
-  install:
-    image: node:alpine
-    user: "node"
-    working_dir: /usr/src
-    volumes:
-      - .:/usr/src
-    command: "npm install"
