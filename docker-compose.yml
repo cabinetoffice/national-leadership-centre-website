@@ -4,4 +4,5 @@ services:
     build: .
     command: "npx eleventy --serve"
     volumes:
+      - /usr/src/node_modules
       - .:/usr/src
