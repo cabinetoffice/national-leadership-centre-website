@@ -36,6 +36,8 @@ The National Leadership Centre is testing ways to help senior leaders find each 
 
 The NLC will bring leaders together through national, regional and small group events. This will allow peers to make time, outside formal governance or partnership structures, to work together to address the problems that are most pressing.
 
+At our event in January, we will be presenting [the first NLC Award for Public Service](/awards).
+
 ## Connecting on a digital service
 
 The NLC will create a private area of our website for the network. In this section, they’ll be able to find contact details for each other, start a conversation, and access cutting edge research, resources, and event information.
