@@ -28,7 +28,7 @@ You may like to include a short video (maximum 3 minutes) of a member of the pub
  
 Your nomination should be supported by a senior member of staff from within one of the organisations represented in the nominated project.
 
-Nominations should be sent to NLC@CabinetOffice.gov.uk
+Nominations should be sent to NLC@CabinetOffice.gov.uk with the email subject line: NLC Award for Public Service - Nomination.
 
 The deadline for nomination is Friday 3 January 2020. 
 
@@ -36,6 +36,6 @@ Nominations will be shortlisted and a winner will be decided by [the NLC Advisor
 
 The winner will be announced at the National Leadership Forum in central London on Wednesday 29 January, to which shortlisted nominees will be invited. 
 
-If you have any questions, please contact the Networks and Communitites team on NLC@CabinetOffice.gov.uk
+If you have any questions, please contact the Networks and Communitites team on NLC@CabinetOffice.gov.uk.
 
 
