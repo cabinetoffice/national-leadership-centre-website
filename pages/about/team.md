@@ -16,8 +16,8 @@ Becky leads our programme team. She’s responsible for designing and delivering
 ## Stephen Crookbain
 Stephen leads our network, community and international work. He leads much of our externally-focused work, connecting top-level public leaders though a digital service and our events.
 
-## Emma de Closset
-Emma leads the strategy and insight function. She has strategic oversight for our research and evaluation, while also leading on our corporate governance and Ministerial relationships.
+## Margot Shatz
+Margot leads the strategy and insight function. She has strategic oversight for our research and evaluation, while also leading on our corporate governance and Ministerial relationships.
 
 ## Jenny Vass
 Jenny is responsible for our work to build a strong network of leaders. She is bringing people together across sectors and building a community across the country.
@@ -29,7 +29,7 @@ Morgan runs our research and evaluation portfolio. She works with leaders, resea
 Billy leads our digital work. He is delivering our work to design and create the digital service that supports all users.
 
 ## Beth Lambert
-Beth works in our strategy team. She is leading our operational delivery, stakeholder engagement, and international strategy. 
+Beth leads our strategy team. She is works on our operational delivery, stakeholder engagement, and international strategy. 
 
 ## Annabel Mahgerefteh
 
