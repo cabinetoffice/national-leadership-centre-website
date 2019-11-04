@@ -16,7 +16,7 @@ The Centre’s initial research suggests that the best way to support public sec
 * running place-based pilots across the country
 * commissioning original, rigorous research
 
-The portfolio of work that the NLC is delivering will also be monitored and evaluated in partnership with an independent suppl
+The portfolio of work that the NLC is delivering will also be monitored and evaluated in partnership with an independent supplier.
 
 <h2 class="gradient-text">Public service leadership for the 21st Century</h2>
 
