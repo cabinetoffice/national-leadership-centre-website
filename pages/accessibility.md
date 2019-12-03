@@ -13,7 +13,7 @@ This website is run by The National Leadership Centre. We want as many people as
 * zoom in up to 300% without the text spilling off the screen
 * navigate most of the website using just a keyboard
 * navigate most of the website using speech recognition software
-* listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
+* read most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 * We’ve also made the website text as simple as possible to understand.
 
 <a href="https://mcmw.abilitynet.org.uk/" target="_blank">AbilityNet</a> has advice on making your device easier to use if you have a disability.
@@ -49,4 +49,4 @@ We tested:
 * our main website platform, available at [https://www.nationalleadership.gov.uk/](https://www.nationalleadership.gov.uk/)
 * the gov.uk page available about the National Leadership Centre at [https://www.gov.uk/government/publications/national-leadership-centre](https://www.gov.uk/government/publications/national-leadership-centre)
 
-This statement was prepared on 28 August, 2019.
+This statement was updated on 3 December, 2019.
