@@ -7,7 +7,7 @@ section: About
 navtitle: Values
 ---
 
-We are excited about the work we are doing in the National Leadership Centre. We have five values that talk about how we want to deliver exceptional work and who we want to be as a team.
+We are excited about the work we are doing in the National Leadership Centre. We have four values that talk about how we want to deliver exceptional work and who we want to be as a team.
 
 ## Human
 We enhance and develop relationships, being sensitive and considerate to the whole person who is coming to work and their external commitments. 
