@@ -5,7 +5,7 @@ date: 2018-05-01
 permalink: /privacy-network/index.html
 ---
 
-The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. 
+The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. [Read the terms of reference for the Taskforce here.](https://www.gov.uk/government/publications/national-leadership-centre/november-2017-public-services-leadership-taskforce-terms-of-reference)
 
 This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and 14 of the General Data Protection Regulation (GDPR). 
 
@@ -13,9 +13,9 @@ This notice sets out how we will use your personal data, and your rights. It is 
 
 The purposes for which we are processing your personal data are to manage all aspects of our relationship with our audience of senior public service leaders. 
 
-The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating cross country network of senior public service leaders. Specifically, we will: 
+The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating cross country network of senior public service leaders and delivering a leadership programme. Specifically, we will: 
 
-* collect via online survey and from public sources contact details of senior public service leaders
+* collect via online survey, official records, and from public sources contact details of senior public service leaders
 * upload these into a directory on a secure online platform 
 * inform and invite senior public service leaders to join the platform
 * share those contact details with senior public service leaders who use the platform (and our own staff)
@@ -25,10 +25,14 @@ We will also use personal data to:
 
 * organise and hold events for senior public service leaders 
 * carry out research and experimental pilots aiming to build the evidence base around leadership and its impact on public services
+* conduct surveys of the network
+* deliver the National Leadership Centre Award for Public Services, including hosting an awards ceremony
+* gather your opinions on your role as a public sector leader
+* deliver residential courses as a part of the leadership programme
 
 We will also use diversity data to: 
 * assess our own diversity and inclusion statistics for our network and programme audience of senior public service leaders
-* for reasonable adjustments at senior leadership events
+* for reasonable adjustments for disabilities: for example, at senior leadership events and at programme residential courses
 
 ## What data we will process
 
@@ -42,6 +46,7 @@ We will process the following personal data:
 * Business-facing social media account handles 
 * Job Title
 * Sector (for example: Local Government, Police, Fire)
+* Opinions
 
 We will also collect the following diversity data: 
 
@@ -49,6 +54,22 @@ We will also collect the following diversity data:
 * Gender
 * Ethnicity
 * Disability
+
+If you submit a nomination for the National Leadership Centre Award for Public Services, then we will collect the following personal data about you:
+* First Name
+* Last Name
+* Email
+* Job Title
+* Sector (for example: Local Government, Police, Fire)
+* Opinions
+
+If you submit a nomination for the National Leadership Centre Award for Public Services on behalf of someone else, then we will collect the following personal data about you and the individual that you have nominated:
+* First Name
+* Last Name
+* Email
+* Job Title
+* Sector (for example: Local Government, Police, Fire)
+* Opinions
 
 ## Legal basis of processing 
 
@@ -60,15 +81,19 @@ Our lawful basis for processing your sensitive personal data is as below.
 
 In relation to diversity monitoring, processing is necessary for reasons of substantial public interest for the exercise of a function of the Crown, a Minister of the Crown, or a government department. 
 
-In relation to using disability data for reasonable adjustments at events we organise, it is necessary for the purposes of performing or exercising our obligations or rights as the controller, or your obligations or rights as the data subject, under employment law, social security law or the law relating to social protection 
+In relation to using disability data for reasonable adjustments, it is necessary for the purposes of performing or exercising our obligations or rights as the controller, or your obligations or rights as the data subject, under employment law, social security law or the law relating to social protection.
 
 ## Recipients of your data
 
-All data other than diversity data will be shared securely between senior public service leaders on our online platform. 
+Senior public service leader contact details will be shared securely between senior public service leaders on our online platform.
 
-Your personal data will be shared by us on an as needed basis with our key suppliers and researchers. In particular it will be shared with Identity Group, Korn Ferry Hay Group, and Convivio Team Ltd. 
+Personal data relating to the National Leadership Centre Award for Public Services will be shared with our Advisory Board. [Read more about the Advisory Board here.](/about/board)
+
+Personal data collected in relation to events, surveys, research, and leadership programmes will be shared by us with our IT suppliers and researchers. In particular it will be shared with Identity Group, our supplier of Customer Relationship Management software, our mailing list management supplier, CrowdCompass Cvent, Korn Ferry Hay Group, and Convivio Team Ltd. 
 
 As your personal data will be stored on our IT infrastructure it will also be shared with our data processors who provide email, and document management and storage services. 
+
+Your diversity data will not be shared, except if we need to share it with a venue or supplier in order that reasonable adjustments for disability can be made.
 
 ## Retention 
 
@@ -119,4 +144,4 @@ Any complaint to the Information Commissioner is without prejudice to your right
 
 
 
-Last updated 16 September 2019
+Last updated: 3 December, 2019

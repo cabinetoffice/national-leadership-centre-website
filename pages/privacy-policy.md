@@ -141,7 +141,7 @@ The DPO provides independent advice and monitoring of our use of personal inform
 
 You can also make a complaint to the Information Commissioner, who is an independent regulator.
 
-[casework@ico.org.uk](casework@ico.org.uk)
+[casework@ico.org.uk](mailto:casework@ico.org.uk)
 Telephone: 0303 123 1113
 Textphone: 01625 545860
 Monday to Friday, 9am to 4:30pm
