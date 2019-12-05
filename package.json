@@ -5,7 +5,8 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   "dependencies": {
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
+    "node-sass": "^4.13.0",
     "uglify-es": "^3.3.9"
   }
 }
