@@ -4,8 +4,8 @@
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
     "build": "npx eleventy",
-	"watch": "npx eleventy --watch",
-	"serve": "npx eleventy --serve",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css"
   },
@@ -33,6 +33,7 @@
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
     "node-sass": "^4.13.0",
+    "govuk-frontend": "^3.3.0",
     "uglify-es": "^3.3.9"
   }
 }
