@@ -1,6 +1,17 @@
+/* ==========================================================================
+VARIABLES
+========================================================================== */
+
 // Colors
 $black: #000;
 $white: #ffffff;
+$yellow: #FFDB03;
+$pale-yellow: rgba(252, 247, 215, 0.63);
+$red: #CE132D;
+$grey-background: #E5E5E5;
+$grey-support: #B3BABF;
+
+$body-text: #323E48;
 
 // Custom media queries
 $xs-mobile-down: 340px;
@@ -13,9 +24,9 @@ $lg-desktop: 1200px;
 $xl-desktop: 1440px;
 
 // Fonts
-$primary-font: 'Lato';
-$secondary-font: 'Lato';
-$headings-font: 'Lato';
+$primary-font: 'Nunito Sans', sans-serif;
+$secondary-font: 'Source Sans Pro', sans-serif;
+$headings-font: 'Nunito Sans', sans-serif;
 
 // Font weight
 $base-font-weight-bold: 700;
