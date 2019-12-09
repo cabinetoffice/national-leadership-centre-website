@@ -5,9 +5,15 @@ date: 2018-05-01
 permalink: /privacy-for-connect/index.html
 ---
 
-## This is the privacy notice for the use of the National Leadership Centre's websites and online services. [If you are looking for our privacy statement for handling network members' personal data, please click here.] (/privacy-network)
+*******
 
-Connect.NationalLeadership.gov.uk is provided by the National Leadership Centre (NLC), part of the Cabinet Office.
+This is the privacy notice for the use of the National Leadership Centre's websites and online services. [If you are looking for our privacy statement for handling network members' personal data, please click here.] (/privacy-network)
+
+*******
+
+
+
+Connect.NationalLeadership.gov.uk and www.NationalLeadership.gov.uk are provided by the National Leadership Centre (NLC), part of the Cabinet Office.
 
 Cabinet Office is the data controller the pages starting with www.NationalLeadership.gov.uk or Connect.NationalLeadership.gov.uk. Where these pages link out to services provided by other departments, agencies and local authorities (like www.gov.uk), their own privacy policies will apply. These are managed separately by each service provider.
 
@@ -103,7 +109,7 @@ If you have any of these requests, get in contact with the NLC.
 
 NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk contain links to other websites.
 
-This privacy policy only applies to NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk, and does not cover other government services and transactions that we link to. 
+This privacy policy only applies to NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk, and it does not cover other government services and transactions that we link to. 
 
 ### Following a link to another website
 
