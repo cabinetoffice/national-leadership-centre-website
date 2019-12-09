@@ -7,7 +7,7 @@ permalink: /privacy-for-connect/index.html
 
 *******
 
-This is the privacy notice for the use of the National Leadership Centre's websites and online services. [If you are looking for our privacy statement for handling network members' personal data, please click here.] (/privacy-network)
+This is the privacy notice for the use of the National Leadership Centre's websites and online services. [If you are looking for our privacy statement for handling network members' personal data, please click here.] (/privacy-for-network)
 
 *******
 
