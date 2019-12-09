@@ -50,7 +50,7 @@ As part of our network and communities team, Peter manages our engagement with s
 Jess is also in the network and communities team. She is delivering our national events, and she supports networks in the North of England from her base in Manchester.
 
 ## Yiannis Nikias
-Yiannis works in our programme team. He’s advising on the design of the programme, and he brings entrepreneurial spirit to the timely delivery of the innovative and first-of-its-kind programme.
+Yiannis heads up our programme delivery. He’s responsible for the delivery of the NLC's leadership programme, leads the design of Module 2, and brings entrepreneurial spirit to the innovative and first-of-its-kind programme.
 
 ## Alex Semproni
 Alex delivers work to shape our programme. She focuses on designing and delivering the offering from a learning and development perspective. 
