@@ -1,28 +1,28 @@
 {
-  "name": "eleventy-netlify-boilerplate",
-  "version": "1.0.2",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "name": "nlc-website",
+  "version": "2.0.0",
+  "description": "The National Leadership Centre website",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve",
+    "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css",
     "debug": "DEBUG=* npx eleventy",
     "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
+    "url": "https://github.com/cabinetoffice/national-leadership-centre-website"
   },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
+    "name": "Convivio",
+    "email": "hello@weareconvivio.com",
+    "url": "https://weareconvivio.com/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate/issues"
+    "url": "https://github.com/cabinetoffice/national-leadership-centre-website/issues"
   },
-  "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
+  "homepage": "https://www.nationalleadership.gov.uk",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "luxon": "^1.21.1",
