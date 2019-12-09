@@ -10,6 +10,7 @@ Description: Stylesheet
 # Variables
 # Normalize
 # Elements
+# Components
 # Typography
 # Layout
 # Accessibility
@@ -348,7 +349,7 @@ html {
   color: #000;
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 16px;
   box-sizing: border-box;
   min-height: 100%;
@@ -364,6 +365,21 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 /*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+/* ==========================================================================
+COMPONENTS
+========================================================================== */
+.title-bar {
+  background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
+  padding: 2.25rem 0rem;
+  width: 100%; }
+  .title-bar.title-bar--centered {
+    text-align: center; }
+  .title-bar h1 {
+    color: #ffffff; }
+
+/*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
 /* ==========================================================================
@@ -372,7 +388,7 @@ TYPOGRAPHY
 p {
   width: 100%;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 16px;
   color: #000; }
 
@@ -383,11 +399,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: normal; }
+  letter-spacing: normal;
+  margin: 0;
+  mix-blend-mode: normal; }
 
 h1 {
-  font-size: 28px;
-  line-height: 16px; }
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 29px;
+      line-height: 40px; } }
 
 /*--------------------------------------------------------------
 # Layout
@@ -399,9 +422,9 @@ LAYOUT
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  max-width: 75rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  max-width: 78.13rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   width: 100%; }
 
 .container__narrow {

@@ -10,6 +10,7 @@ Description: Stylesheet
 # Variables
 # Normalize
 # Elements
+# Components
 # Typography
 # Layout
 # Accessibility
@@ -33,6 +34,11 @@ Description: Stylesheet
 # Elements
 --------------------------------------------------------------*/
 @import "elements";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components";
 
 /*--------------------------------------------------------------
 # Typography

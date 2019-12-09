@@ -1,0 +1,18 @@
+/* ==========================================================================
+COMPONENTS
+========================================================================== */
+
+// Title bar
+.title-bar {
+	background: $gradient;
+	padding: 2.25rem 0rem;
+	width: 100%;
+
+	&.title-bar--centered {
+		text-align: center;
+	}
+
+	h1 {
+		color: $white;
+	}
+}
