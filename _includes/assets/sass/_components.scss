@@ -5,14 +5,19 @@ COMPONENTS
 // Title bar
 .title-bar {
 	background: $gradient;
-	padding: 2.25rem 0rem;
+	padding: 2.379rem 0rem;
 	width: 100%;
-
-	&.title-bar--centered {
-		text-align: center;
-	}
 
 	h1 {
 		color: $white;
+	}
+
+	&.title-bar--centered {
+		text-align: center;
+
+		h1 {
+			margin: auto;
+			max-width: 31.79rem;
+		}
 	}
 }

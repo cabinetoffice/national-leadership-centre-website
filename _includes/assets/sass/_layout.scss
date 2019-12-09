@@ -7,17 +7,21 @@ LAYOUT
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 78.13rem;
-	padding-left: 0.9375rem;
-	padding-right: 0.9375rem;
+	max-width: 59.63rem;
+	padding-left: 0.7895rem;
+	padding-right: 0.7895rem;
 	width: 100%;
 }
 
-.container__narrow {
+.container--wide {
+	max-width: 65.79rem;
+}
+
+.container--narrow {
 	max-width: 50rem;
 }
 
-.container__negative {
+.container--negative {
 	left: 50%;
 	margin-left: -50vw;
 	margin-right: -50vw;
