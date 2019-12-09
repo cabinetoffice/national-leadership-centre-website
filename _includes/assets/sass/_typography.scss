@@ -1,0 +1,26 @@
+/* ==========================================================================
+TYPOGRAPHY
+========================================================================== */
+
+p {
+	width: 100%;
+	font-size: $base-font-size;;
+	font-weight: $base-font-weight-regular;
+	line-height: $base-line-height;
+	color: $black;
+}
+
+/* Shared styles */
+h1, h2, h3, h4, h5, h6 {
+	color: $black;
+	font-family: $headings-font;
+	font-weight: $headings-font-weight;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+}
+
+h1 {
+	font-size: $h1-font-size;
+	line-height: $h1-line-height;
+}
