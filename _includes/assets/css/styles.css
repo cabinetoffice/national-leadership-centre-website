@@ -371,6 +371,7 @@ body {
 COMPONENTS
 ========================================================================== */
 .title-bar {
+  background-color: #CE132D;
   background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
   padding: 2.379rem 0rem;
   width: 100%; }
