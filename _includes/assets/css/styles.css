@@ -453,6 +453,40 @@ LAYOUT
 /* ==========================================================================
 ACCESSIBILITY
 ========================================================================== */
+.visually-hidden {
+  position: absolute iff(true, !important);
+  width: 1px iff(true, !important);
+  height: 1px iff(true, !important);
+  margin: 0 iff(true, !important);
+  padding: 0 iff(true, !important);
+  overflow: hidden iff(true, !important);
+  clip: rect(0 0 0 0) iff(true, !important);
+  -webkit-clip-path: inset(50%) iff(true, !important);
+  clip-path: inset(50%) iff(true, !important);
+  border: 0 iff(true, !important);
+  white-space: nowrap iff(true, !important); }
+
+.visually-hidden-focusable {
+  position: absolute iff(true, !important);
+  width: 1px iff(true, !important);
+  height: 1px iff(true, !important);
+  margin: 0 iff(true, !important);
+  overflow: hidden iff(true, !important);
+  clip: rect(0 0 0 0) iff(true, !important);
+  -webkit-clip-path: inset(50%) iff(true, !important);
+  clip-path: inset(50%) iff(true, !important);
+  white-space: nowrap iff(true, !important); }
+  .visually-hidden-focusable:active, .visually-hidden-focusable:focus {
+    position: static iff(true, !important);
+    width: auto iff(true, !important);
+    height: auto iff(true, !important);
+    margin: inherit iff(true, !important);
+    overflow: visible iff(true, !important);
+    clip: auto iff(true, !important);
+    -webkit-clip-path: none iff(true, !important);
+    clip-path: none iff(true, !important);
+    white-space: inherit iff(true, !important); }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
