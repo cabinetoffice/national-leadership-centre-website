@@ -30,7 +30,7 @@ h1 {
 	@media only screen and (min-width : $tablet) {
 		font-size: $h1-font-size;
 		line-height: $h1-line-height;
-    }
+	}
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 	@media only screen and (min-width : $tablet) {
 		font-size: $h2-font-size;
 		line-height: $h2-line-height;
-    }
+	}
 }
 
 h3 {
@@ -52,7 +52,7 @@ h3 {
 	@media only screen and (min-width : $tablet) {
 		font-size: $h3-font-size;
 		line-height: $h3-line-height;
-    }
+	}
 }
 
 .centered {
@@ -61,6 +61,6 @@ h3 {
 
 .gradient {
 	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
