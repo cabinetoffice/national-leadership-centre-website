@@ -10,6 +10,7 @@ Description: Stylesheet
 # Variables
 # Normalize
 # Elements
+# Components
 # Typography
 # Layout
 # Accessibility
@@ -341,15 +342,15 @@ ELEMENTS
  * 2. Ensure the page always fills at least the entire height of the viewport.
  */
 :root {
-  font-size: 16px; }
+  font-size: 19px; }
 
 html {
   background-color: #ffffff;
   color: #000;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 1rem;
   box-sizing: border-box;
   min-height: 100%;
   /* [2] */
@@ -364,6 +365,25 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 /*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+/* ==========================================================================
+COMPONENTS
+========================================================================== */
+.title-bar {
+  background-color: #CE132D;
+  background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
+  padding: 2.379rem 0rem;
+  width: 100%; }
+  .title-bar h1 {
+    color: #ffffff; }
+  .title-bar.title-bar--centered {
+    text-align: center; }
+    .title-bar.title-bar--centered h1 {
+      margin: auto;
+      max-width: 31.79rem; }
+
+/*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
 /* ==========================================================================
@@ -371,9 +391,9 @@ TYPOGRAPHY
 ========================================================================== */
 p {
   width: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 1rem;
   color: #000; }
 
 /* Shared styles */
@@ -383,11 +403,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: normal; }
+  letter-spacing: normal;
+  margin: 0;
+  mix-blend-mode: normal; }
 
 h1 {
-  font-size: 28px;
-  line-height: 16px; }
+  font-size: 1.158rem;
+  line-height: 1.579rem;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 1.526rem;
+      line-height: 2.105rem; } }
 
 /*--------------------------------------------------------------
 # Layout
@@ -399,15 +426,18 @@ LAYOUT
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  max-width: 75rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  max-width: 59.63rem;
+  padding-left: 0.7895rem;
+  padding-right: 0.7895rem;
   width: 100%; }
 
-.container__narrow {
+.container--wide {
+  max-width: 65.79rem; }
+
+.container--narrow {
   max-width: 50rem; }
 
-.container__negative {
+.container--negative {
   left: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
@@ -424,6 +454,40 @@ LAYOUT
 /* ==========================================================================
 ACCESSIBILITY
 ========================================================================== */
+.visually-hidden {
+  position: absolute iff(true, !important);
+  width: 1px iff(true, !important);
+  height: 1px iff(true, !important);
+  margin: 0 iff(true, !important);
+  padding: 0 iff(true, !important);
+  overflow: hidden iff(true, !important);
+  clip: rect(0 0 0 0) iff(true, !important);
+  -webkit-clip-path: inset(50%) iff(true, !important);
+  clip-path: inset(50%) iff(true, !important);
+  border: 0 iff(true, !important);
+  white-space: nowrap iff(true, !important); }
+
+.visually-hidden-focusable {
+  position: absolute iff(true, !important);
+  width: 1px iff(true, !important);
+  height: 1px iff(true, !important);
+  margin: 0 iff(true, !important);
+  overflow: hidden iff(true, !important);
+  clip: rect(0 0 0 0) iff(true, !important);
+  -webkit-clip-path: inset(50%) iff(true, !important);
+  clip-path: inset(50%) iff(true, !important);
+  white-space: nowrap iff(true, !important); }
+  .visually-hidden-focusable:active, .visually-hidden-focusable:focus {
+    position: static iff(true, !important);
+    width: auto iff(true, !important);
+    height: auto iff(true, !important);
+    margin: inherit iff(true, !important);
+    overflow: visible iff(true, !important);
+    clip: auto iff(true, !important);
+    -webkit-clip-path: none iff(true, !important);
+    clip-path: none iff(true, !important);
+    white-space: inherit iff(true, !important); }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/

@@ -1,3 +1,14 @@
 /* ==========================================================================
 ACCESSIBILITY
 ========================================================================== */
+
+// Import GovUK visually hidden mixins
+@import "node_modules/govuk-frontend/govuk/helpers/visually-hidden";
+
+.visually-hidden {
+	@include govuk-visually-hidden;
+}
+
+.visually-hidden-focusable {
+	@include govuk-visually-hidden-focusable;
+}

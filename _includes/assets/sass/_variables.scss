@@ -10,6 +10,7 @@ $pale-yellow: rgba(252, 247, 215, 0.63);
 $red: #CE132D;
 $grey-background: #E5E5E5;
 $grey-support: #B3BABF;
+$gradient: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
 
 $body-text: #323E48;
 
@@ -30,19 +31,35 @@ $headings-font: 'Nunito Sans', sans-serif;
 
 // Font weight
 $base-font-weight-bold: 700;
-$base-font-weight-regular: 400;
+$base-font-weight-regular: normal;
 $headings-font-weight: 700;
 
 // Font sizes
-$base-font-size: 16px;
-$h1-font-size: 28px;
-$h2-font-size: 26px;
-$h3-font-size: 24px;
-$h4-font-size: 22px;
+$base-font-size: 19px;
+
+$h1-font-size-mobile: 1.158rem;
+$h1-font-size: 1.526rem;
+
+$h2-font-size-mobile: 0rem;
+$h2-font-size: 0rem;
+
+$h3-font-size-mobile: 0rem;
+$h3-font-size: 0rem;
+
+$h4-font-size-mobile: 0rem;
+$h4-font-size: 0rem;
 
 // Font line heights
-$base-line-height: 16px;
-$h1-line-height: 16px;
-$h2-line-height: 16px;
-$h3-line-height: 16px;
-$h4-line-height: 16px;
+$base-line-height: 1rem;
+
+$h1-line-height-mobile: 1.579rem;
+$h1-line-height: 2.105rem;
+
+$h2-line-height-mobile: 0rem;
+$h2-line-height: 0rem;
+
+$h3-line-height-mobile: 0rem;
+$h3-line-height: 0rem;
+
+$h4-line-height-mobile: 0rem;
+$h4-line-height: 0rem;
