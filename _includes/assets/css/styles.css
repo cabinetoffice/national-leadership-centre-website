@@ -464,26 +464,26 @@ LAYOUT
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  max-width: 59.63rem;
-  padding-left: 0.7895rem;
-  padding-right: 0.7895rem;
+  max-width: 60.95rem;
+  padding-left: 1.053rem;
+  padding-right: 1.053rem;
   width: 100%; }
 
 .container--xxs {
-  max-width: 28rem; }
+  max-width: 28.53rem; }
 
 .container--xs {
-  max-width: 33.42rem; }
+  max-width: 33.95rem; }
 
 .container--sm {
-  max-width: 36.11rem; }
+  max-width: 36.63rem; }
 
 .container--wide {
-  max-width: 65.79rem; }
+  max-width: 66.32rem; }
 
 @media only screen and (min-width: 768px) {
   .align-left {
-    left: -10px;
+    left: -5px;
     padding: 0; } }
 
 .container--negative {
