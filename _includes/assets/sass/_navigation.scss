@@ -16,6 +16,29 @@ NAVIGATION
 		right: 0;
 		position: absolute;
 	}
+
+	.header-main__menu {
+		cursor: pointer;
+		display: none;
+		text-align: right;
+		right: 0;
+		position: absolute;
+
+		.header-main__menu__burger {
+			width: 30px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 8px;
+
+			div {
+				width: 100%;
+				height: 3px;
+				border-radius: 2px;
+				background-color: $red;
+				margin-bottom: 7px;
+			}
+		}
+	}
 }
 
 .main-nav, .secondary-nav {
@@ -53,6 +76,19 @@ NAVIGATION
 				font-size: $h1-font-size;
 				line-height: $h1-line-height;
 			}
+		}
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.header-main {
+		.header-main__nav {
+			display: none;
+		}
+
+		.header-main__menu {
+			display: inline-block;
+			padding-right: 20px;
 		}
 	}
 }

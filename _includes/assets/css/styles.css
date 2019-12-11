@@ -574,6 +574,23 @@ NAVIGATION
     text-align: right;
     right: 0;
     position: absolute; }
+  .header-main .header-main__menu {
+    cursor: pointer;
+    display: none;
+    text-align: right;
+    right: 0;
+    position: absolute; }
+    .header-main .header-main__menu .header-main__menu__burger {
+      width: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 8px; }
+      .header-main .header-main__menu .header-main__menu__burger div {
+        width: 100%;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #CE132D;
+        margin-bottom: 7px; }
 
 .main-nav ul, .secondary-nav ul {
   margin: 0;
@@ -596,3 +613,10 @@ NAVIGATION
     .secondary-nav ul li a {
       font-size: 1.526rem;
       line-height: 2.105rem; }
+
+@media only screen and (max-width: 768px) {
+  .header-main .header-main__nav {
+    display: none; }
+  .header-main .header-main__menu {
+    display: inline-block;
+    padding-right: 20px; } }
