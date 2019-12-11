@@ -5,11 +5,17 @@
 
 	<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
+		<header class="header-main">
+			<div class="container container--wide container--flex">
+				<div class="header-main__logo">
+					<a href="{{ '/' | url }}">
+						<img src="/static/img/nlc-full-logoX600.png" alt="{{ metadata.title }}" />
+					</a>
+				</div>
+				<div class="header-main__nav">
+					{% include "components/nav.njk" %}
+				</div>
+			</div>
 		</header>
 		
 		{% include "components/title-bar.njk" %}

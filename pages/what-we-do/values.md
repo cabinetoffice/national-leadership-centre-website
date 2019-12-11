@@ -5,7 +5,6 @@ date: 2017-01-01T00:00:00.000Z
 permalink: /what-we-do/values.html
 navtitle: What we do / Values
 tags:
-  - nav
 ---
 
 <div class="header-block">

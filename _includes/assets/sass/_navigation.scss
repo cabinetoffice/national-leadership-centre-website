@@ -1,3 +1,58 @@
 /* ==========================================================================
 NAVIGATION
 ========================================================================== */
+
+.header-main {
+	padding: 25px 0;
+
+	.header-main__logo {
+		display: inline-block;
+		max-width: 160px;
+	}
+
+	.header-main__nav {
+		display: inline-block;
+		text-align: right;
+		right: 0;
+		position: absolute;
+	}
+}
+
+.main-nav, .secondary-nav {
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 28px;
+
+				
+			a {
+				color: $black;
+				font-family: $primary-font;
+				font-style: normal;
+				font-size: 0.9474rem;
+				line-height: 1.316rem;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.secondary-nav {
+	margin-top: 26px;
+
+	ul {
+
+		li {
+			margin-right: 29px;
+
+			a {
+				font-size: $h1-font-size;
+				line-height: $h1-line-height;
+			}
+		}
+	}
+}

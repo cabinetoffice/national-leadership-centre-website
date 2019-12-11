@@ -481,10 +481,9 @@ LAYOUT
 .container--wide {
   max-width: 66.32rem; }
 
-@media only screen and (min-width: 768px) {
-  .align-left {
-    left: -5px;
-    padding: 0; } }
+.container--flex {
+  display: flex;
+  align-items: center; }
 
 .container--negative {
   left: 50%;
@@ -496,6 +495,11 @@ LAYOUT
   position: relative;
   right: 50%;
   width: 100vw; }
+
+@media only screen and (min-width: 768px) {
+  .align-left {
+    left: -5px;
+    padding: 0; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -549,9 +553,46 @@ FORMS
 /* ==========================================================================
 MEDIA
 ========================================================================== */
+img {
+  width: 100%;
+  max-width: 100%;
+  border-style: none; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 /* ==========================================================================
 NAVIGATION
 ========================================================================== */
+.header-main {
+  padding: 25px 0; }
+  .header-main .header-main__logo {
+    display: inline-block;
+    max-width: 160px; }
+  .header-main .header-main__nav {
+    display: inline-block;
+    text-align: right;
+    right: 0;
+    position: absolute; }
+
+.main-nav ul, .secondary-nav ul {
+  margin: 0;
+  padding: 0; }
+  .main-nav ul li, .secondary-nav ul li {
+    display: inline-block;
+    margin-right: 28px; }
+    .main-nav ul li a, .secondary-nav ul li a {
+      color: #000;
+      font-family: "Nunito Sans", sans-serif;
+      font-style: normal;
+      font-size: 0.9474rem;
+      line-height: 1.316rem;
+      text-decoration: none; }
+
+.secondary-nav {
+  margin-top: 26px; }
+  .secondary-nav ul li {
+    margin-right: 29px; }
+    .secondary-nav ul li a {
+      font-size: 1.526rem;
+      line-height: 2.105rem; }
