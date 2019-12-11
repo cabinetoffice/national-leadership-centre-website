@@ -53,18 +53,3 @@ LAYOUT
 	right: 50%;
 	width: 100vw;
 }
-
-// Content area definitions
-.header-block {
-	padding: 2.895rem 0;
-		
-	&.header-block--home {
-		padding: 4.053rem 0;
-	}
-}
-
-.content-block {
-	h1, h3 {
-		margin-bottom: 1.105rem;
-	}
-}

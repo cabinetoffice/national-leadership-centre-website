@@ -14,3 +14,17 @@ This for compiling reference - https://stackoverflow.com/questions/31448114/how-
 
 ## govuk-frontend
 There are some instances where helpers are imported from the govuk-frontend framework. For example, in the accessibility scss file, we import the visually-hidden mixin styles.
+
+## Technical Approach
+The site uses a re-useable block based HTML structure, for easy separation of styling and to ensure blocks can be recycled easily. Also, this methodology is used as a way of future-proofing; if the site is moved to another platform, the blocks can be used independently of any third party syntax conventions:
+
+	<div class=“content-area”>
+		<div class=“header-block”> <!-- block parent -->
+			<div class=“container”> <!— internal container to set content widths -->  
+				[child elements eg h1, h2, p, ul, ol} <!-- elements parent -->
+			</div>
+		</div>
+		<div class=“content-block”>[ as above ]</div>
+		<div class=“content-block”>[ as above ]</div>
+		<div class=“content-block”>[ as above ]</div>
+	</div>

@@ -7,7 +7,7 @@ p {
 	font-size: $base-font-size;
 	font-weight: $base-font-weight-regular;
 	line-height: $base-line-height;
-	color: $black;
+	color: $body;
 }
 
 /* Shared styles */
@@ -60,6 +60,7 @@ h3 {
 }
 
 .gradient {
+	background-color: $red;
 	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
