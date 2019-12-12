@@ -82,8 +82,19 @@ NAVIGATION
 
 @media only screen and (max-width : $tablet) {
 	.header-main {
+
+		&.open-mobile {
+			padding: 0;
+		}
+
 		.header-main__nav {
-			display: none;
+			// display: none;
+			position: absolute;
+			height: 100vh;
+			top: 0;
+			left: 0;
+			background: red;
+			z-index: 2;
 		}
 
 		.header-main__menu {

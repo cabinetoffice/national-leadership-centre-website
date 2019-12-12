@@ -615,8 +615,15 @@ NAVIGATION
       line-height: 2.105rem; }
 
 @media only screen and (max-width: 768px) {
+  .header-main.open-mobile {
+    padding: 0; }
   .header-main .header-main__nav {
-    display: none; }
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: red;
+    z-index: 2; }
   .header-main .header-main__menu {
     display: inline-block;
     padding-right: 20px; } }
