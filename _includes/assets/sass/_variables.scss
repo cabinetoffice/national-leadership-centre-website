@@ -12,7 +12,7 @@ $grey-background: #E5E5E5;
 $grey-support: #B3BABF;
 $gradient: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
 
-$body-text: #323E48;
+$body: #323E48;
 
 // Custom media queries
 $xs-mobile-down: 340px;
@@ -40,14 +40,11 @@ $base-font-size: 19px;
 $h1-font-size-mobile: 1.158rem;
 $h1-font-size: 1.526rem;
 
-$h2-font-size-mobile: 0rem;
-$h2-font-size: 0rem;
+$h2-font-size-mobile: 1rem;
+$h2-font-size: 1.211rem;
 
-$h3-font-size-mobile: 0rem;
-$h3-font-size: 0rem;
-
-$h4-font-size-mobile: 0rem;
-$h4-font-size: 0rem;
+$h3-font-size-mobile: 0.8947rem;
+$h3-font-size: 1rem;
 
 // Font line heights
 $base-line-height: 1rem;
@@ -55,11 +52,8 @@ $base-line-height: 1rem;
 $h1-line-height-mobile: 1.579rem;
 $h1-line-height: 2.105rem;
 
-$h2-line-height-mobile: 0rem;
-$h2-line-height: 0rem;
+$h2-line-height-mobile: 1.368rem;
+$h2-line-height: 1.737rem;
 
-$h3-line-height-mobile: 0rem;
-$h3-line-height: 0rem;
-
-$h4-line-height-mobile: 0rem;
-$h4-line-height: 0rem;
+$h3-line-height-mobile: 1.316rem;
+$h3-line-height: 1.474rem;

@@ -7,12 +7,12 @@ p {
 	font-size: $base-font-size;
 	font-weight: $base-font-weight-regular;
 	line-height: $base-line-height;
-	color: $black;
+	color: $body;
 }
 
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
-	color: $black;
+	color: $body;
 	font-family: $headings-font;
 	font-weight: $headings-font-weight;
 	font-style: normal;
@@ -30,5 +30,38 @@ h1 {
 	@media only screen and (min-width : $tablet) {
 		font-size: $h1-font-size;
 		line-height: $h1-line-height;
-    }
+	}
+}
+
+h2 {
+	font-size: $h2-font-size-mobile;
+	line-height: $h2-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h2-font-size;
+		line-height: $h2-line-height;
+	}
+}
+
+h3 {
+	font-size: $h3-font-size-mobile;
+	line-height: $h3-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h3-font-size;
+		line-height: $h3-line-height;
+	}
+}
+
+.centered {
+	text-align: center;
+}
+
+.gradient {
+	background-color: $red;
+	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

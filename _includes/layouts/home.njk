@@ -2,13 +2,10 @@
 layout: layouts/base.njk
 section: home
 ---
-<div class="container container--wide">
-[container wide]
-</div>
-<div class="container">
-[container regular]
-</div>
 
-{% include "components/title-bar.njk" %}
-
-{{ layoutContent | safe }}
+<div class="header-block header-block--home">
+	<div class="container container--xxs">
+		<h2 class="centered gradient">The National Leadership Centre is a three year pilot with three strategic aims.</h2>
+	</div>
+	{{ layoutContent | safe }}
+</div>

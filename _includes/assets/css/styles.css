@@ -383,6 +383,14 @@ COMPONENTS
       margin: auto;
       max-width: 31.79rem; }
 
+.header-block {
+  padding: 2.895rem 0; }
+  .header-block.header-block--home {
+    padding: 4.053rem 0; }
+
+.content-block h1, .content-block h3 {
+  margin-bottom: 1.105rem; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -394,11 +402,11 @@ p {
   font-size: 19px;
   font-weight: normal;
   line-height: 1rem;
-  color: #000; }
+  color: #323E48; }
 
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #323E48;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -416,26 +424,67 @@ h1 {
       font-size: 1.526rem;
       line-height: 2.105rem; } }
 
+h2 {
+  font-size: 1rem;
+  line-height: 1.368rem;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 1.211rem;
+      line-height: 1.737rem; } }
+
+h3 {
+  font-size: 0.8947rem;
+  line-height: 1.316rem;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    h3 {
+      font-size: 1rem;
+      line-height: 1.474rem; } }
+
+.centered {
+  text-align: center; }
+
+.gradient {
+  background-color: #CE132D;
+  background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.highlight {
+  background-color: rgba(252, 247, 215, 0.63); }
+
 .container {
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  max-width: 59.63rem;
-  padding-left: 0.7895rem;
-  padding-right: 0.7895rem;
+  max-width: 60.95rem;
+  padding-left: 1.053rem;
+  padding-right: 1.053rem;
   width: 100%; }
 
-.container--wide {
-  max-width: 65.79rem; }
+.container--xxs {
+  max-width: 28.53rem; }
 
-.container--narrow {
-  max-width: 50rem; }
+.container--xs {
+  max-width: 33.95rem; }
+
+.container--sm {
+  max-width: 36.63rem; }
+
+.container--wide {
+  max-width: 66.32rem; }
+
+@media only screen and (min-width: 768px) {
+  .align-left {
+    left: -5px;
+    padding: 0; } }
 
 .container--negative {
   left: 50%;

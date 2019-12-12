@@ -2,23 +2,44 @@
 LAYOUT
 ========================================================================== */
 
+// Highlight section
+.highlight {
+	background-color: $pale-yellow;
+}
+
 // Grid containers. Variations on base container style can be added as necessary.
 .container {
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 59.63rem;
-	padding-left: 0.7895rem;
-	padding-right: 0.7895rem;
+	max-width: 60.95rem; // 1118px + 40px l+r padding = 1158px
+	padding-left: 1.053rem;
+	padding-right: 1.053rem;
 	width: 100%;
 }
 
-.container--wide {
-	max-width: 65.79rem;
+.container--xxs {
+	max-width: 28.53rem; // 502px + 40px l+r padding = 542px
 }
 
-.container--narrow {
-	max-width: 50rem;
+.container--xs {
+	max-width: 33.95rem; // 605px + 40px l+r padding = 645px
+}
+
+.container--sm {
+	max-width: 36.63rem; // 656px + 40px l+r padding = 696px
+}
+
+.container--wide {
+	max-width: 66.32rem; // 1220px + 40px l+r padding = 1260px
+}
+
+// Where different size containers are used on the same page, and all of them need to align left regardless of max-width, attach .align-left to your container wrapper.
+.align-left {
+	@media only screen and (min-width : $tablet) {
+		left: -5px;
+		padding: 0;
+	}
 }
 
 .container--negative {
