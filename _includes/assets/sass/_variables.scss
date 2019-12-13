@@ -2,6 +2,11 @@
 VARIABLES
 ========================================================================== */
 
+@import "node_modules/govuk-frontend/govuk/tools/px-to-rem";
+
+$base-font-size: 19px;
+$govuk-root-font-size: $base-font-size !default;
+
 // Colors
 $black: #000;
 $white: #ffffff;
@@ -35,25 +40,23 @@ $base-font-weight-regular: normal;
 $headings-font-weight: 700;
 
 // Font sizes
-$base-font-size: 19px;
+$h1-font-size-mobile: govuk-px-to-rem(22px);
+$h1-font-size: govuk-px-to-rem(29px);
 
-$h1-font-size-mobile: 1.158rem;
-$h1-font-size: 1.526rem;
+$h2-font-size-mobile: govuk-px-to-rem(19px);
+$h2-font-size: govuk-px-to-rem(23px);
 
-$h2-font-size-mobile: 1rem;
-$h2-font-size: 1.211rem;
-
-$h3-font-size-mobile: 0.8947rem;
-$h3-font-size: 1rem;
+$h3-font-size-mobile: govuk-px-to-rem(17px);
+$h3-font-size: govuk-px-to-rem(19px);
 
 // Font line heights
-$base-line-height: 1rem;
+$base-line-height: govuk-px-to-rem(19px);
 
-$h1-line-height-mobile: 1.579rem;
-$h1-line-height: 2.105rem;
+$h1-line-height-mobile: govuk-px-to-rem(30px);
+$h1-line-height: govuk-px-to-rem(40px);
 
-$h2-line-height-mobile: 1.368rem;
-$h2-line-height: 1.737rem;
+$h2-line-height-mobile: govuk-px-to-rem(26px);
+$h2-line-height: govuk-px-to-rem(33px);
 
-$h3-line-height-mobile: 1.316rem;
-$h3-line-height: 1.474rem;
+$h3-line-height-mobile: govuk-px-to-rem(25px);
+$h3-line-height: govuk-px-to-rem(28px);
