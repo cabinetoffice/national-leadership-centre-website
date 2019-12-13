@@ -1,6 +1,31 @@
-<footer>
-  <small>
-    This project is maintained by <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a>.
-    Check out the <a href="{{ pkg.repository.url }}">Github repo</a>.
-  </small>
+<footer class="footer-main">
+	<div class="container container--wide">
+		<nav class="footer-main__nav">
+			<ul>
+				{%- for footer in collections.footer | sort(attribute="date") -%}
+				<li>
+					<a href="{{ footer.url | url }}"{% if footer.url == page.url %} data-current="current item" class="current"{% endif %}>{{ footer.data.navtitle }}</a>
+				</li>
+				{%- endfor -%}
+			</ul>
+		</nav>
+		<div class="footer-main__social">
+			<ul>
+				<li>Follow the NLC:</li>
+				<li>
+					<a target="_blank" href="###">
+						<img src="/static/img/logo-twitter.png" alt="Twitter logo" />
+					</a>	
+				</li>
+				<li>
+					<a target="_blank" href="###">
+						<img src="/static/img/logo-linkedin.png" alt="Linked in logo" />
+					</a>
+				</li>
+			<ul>
+		</div>
+		<div class="footer-main__crest">
+			<img src="/static/img/govuk-crest-2x.png" alt="Government crest" />
+		</div>
+	</div>
 </footer>

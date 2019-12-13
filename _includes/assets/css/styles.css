@@ -399,6 +399,71 @@ COMPONENTS
 .content-block h1, .content-block h3 {
   margin-bottom: 1.10526rem; }
 
+.footer-main {
+  background-color: #F3F6F9;
+  padding: 3.21053rem 0; }
+  .footer-main .footer-main__nav {
+    display: inline-block; }
+    .footer-main .footer-main__nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .footer-main .footer-main__nav ul li {
+        display: inline-block;
+        padding-right: 0.78947rem; }
+        .footer-main .footer-main__nav ul li a {
+          color: #000;
+          font-size: 0.89474rem;
+          line-height: 1.31579rem;
+          text-decoration: none; }
+      .footer-main .footer-main__nav ul li:last-child {
+        padding-right: 0; }
+      .footer-main .footer-main__nav ul .current {
+        text-decoration: underline; }
+  .footer-main .footer-main__social {
+    display: inline-block; }
+    .footer-main .footer-main__social ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 6.05263rem; }
+      .footer-main .footer-main__social ul li {
+        display: inline-block;
+        padding-right: 0.78947rem;
+        font-size: 0.89474rem;
+        line-height: 1.31579rem; }
+        .footer-main .footer-main__social ul li img {
+          width: 1.36842rem;
+          vertical-align: bottom; }
+  .footer-main .footer-main__crest {
+    float: right;
+    display: inline-block;
+    width: 4.73684rem;
+    vertical-align: middle; }
+
+@media only screen and (max-width: 768px) {
+  .footer-main {
+    text-align: center;
+    padding: 1.89474rem 0 2.10526rem 0; }
+    .footer-main .footer-main__nav {
+      display: block;
+      margin-bottom: 1.21053rem; }
+      .footer-main .footer-main__nav ul li a {
+        font-size: 0.78947rem;
+        line-height: 1.15789rem; }
+    .footer-main .footer-main__social {
+      display: block;
+      margin-bottom: 1.15789rem; }
+      .footer-main .footer-main__social ul {
+        margin: 0; }
+        .footer-main .footer-main__social ul li a {
+          font-size: 0.78947rem;
+          line-height: 1.15789rem; }
+        .footer-main .footer-main__social ul img {
+          width: 1.05263rem; }
+    .footer-main .footer-main__crest {
+      float: unset;
+      width: 3.36842rem; } }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
