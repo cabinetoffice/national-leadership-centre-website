@@ -54,7 +54,7 @@ LAYOUT
 // Where different size containers are used on the same page, and all of them need to align left regardless of max-width, attach .align-left to your container wrapper.
 .align-left {
 	@media only screen and (min-width : $tablet) {
-		left: -5px;
+		left: govuk-px-to-rem(-5px);
 		padding: 0;
 	}
 }
