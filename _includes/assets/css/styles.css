@@ -596,7 +596,7 @@ NAVIGATION
       display: none;
       color: #ffffff; }
     .header-main .header-main__menu .header-main__menu__burger {
-      width: 30px;
+      width: 18px;
       display: inline-block;
       vertical-align: middle;
       margin-left: 8px; }
@@ -605,7 +605,7 @@ NAVIGATION
         height: 3px;
         border-radius: 2px;
         background-color: #CE132D;
-        margin-bottom: 7px; }
+        margin-bottom: 4px; }
 
 .main-nav ul, .secondary-nav ul {
   margin: 0;
@@ -637,6 +637,8 @@ NAVIGATION
 @media only screen and (max-width: 768px) {
   .header-main {
     padding: 22px 0 28px 0; }
+    .header-main .header-main__logo {
+      max-width: 125px; }
     .header-main.open-mobile {
       background-color: #CE132D; }
       .header-main.open-mobile .header-main__nav {

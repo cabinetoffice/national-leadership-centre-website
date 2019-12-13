@@ -36,7 +36,7 @@ NAVIGATION
 		}
 
 		.header-main__menu__burger {
-			width: 30px;
+			width: 18px;
 			display: inline-block;
 			vertical-align: middle;
 			margin-left: 8px;
@@ -46,7 +46,7 @@ NAVIGATION
 				height: 3px;
 				border-radius: 2px;
 				background-color: $red;
-				margin-bottom: 7px;
+				margin-bottom: 4px;
 			}
 		}
 	}
@@ -103,6 +103,10 @@ NAVIGATION
 @media only screen and (max-width : $tablet) {
 	.header-main {
 		padding: 22px 0 28px 0;
+
+		.header-main__logo {
+			max-width: 125px;
+		}
 
 		&.open-mobile {
 			background-color: $red;
