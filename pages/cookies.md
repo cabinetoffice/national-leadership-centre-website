@@ -9,9 +9,19 @@ We use cookies to store information about how you use the National Leadership Ce
 
 Cookies are used to:
 
+* deliver services that require authentication
+* track cookie acceptance
 * measure how you use the website so it can be updated and improved based on your needs
 
 ## How our cookies are used
+
+### Strictly necessary cookies
+
+Name | Purpose | Expires
+---- | ------- | -------
+session | This cookie (e.g. SSESS9251567d569f0d51b48fd13e32cde009) keeps track of the currently logged in user	 | 23 days
+cookie-agreed | This helps us track if you've accepted cookies, so the cookie banner isn't shown again | 100 days
+
 ### Measuring website usage (Google Analytics)
 
 Google Analytics software collects information about how you use the site. This is done to help make sure the site is meeting the needs of its users and to help make improvements.
@@ -33,3 +43,4 @@ Name | Purpose | Expires
 _ga | This helps us identify how you use this site so we can make it better	 | 2 years
 _gid | This helps us identify how you use this site so we can make it better | 24 hours
 _gat | This prevents too many requests being made to the Google Analytics service | 10 minutes
+
