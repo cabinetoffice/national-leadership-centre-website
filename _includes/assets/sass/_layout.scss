@@ -12,26 +12,26 @@ LAYOUT
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 60.95rem; // 1118px + 40px l+r padding = 1158px
-	padding-left: 1.053rem;
-	padding-right: 1.053rem;
+	max-width: govuk-px-to-rem(1158px); // 1118px + 40px l+r padding = 1158px
+	padding-left: govuk-px-to-rem(20px);
+	padding-right: govuk-px-to-rem(20px);
 	width: 100%;
 }
 
 .container--xxs {
-	max-width: 28.53rem; // 502px + 40px l+r padding = 542px
+	max-width: govuk-px-to-rem(542px); // 502px + 40px l+r padding = 542px
 }
 
 .container--xs {
-	max-width: 33.95rem; // 605px + 40px l+r padding = 645px
+	max-width: govuk-px-to-rem(645px); // 605px + 40px l+r padding = 645px
 }
 
 .container--sm {
-	max-width: 36.63rem; // 656px + 40px l+r padding = 696px
+	max-width: govuk-px-to-rem(696px); // 656px + 40px l+r padding = 696px
 }
 
 .container--wide {
-	max-width: 66.32rem; // 1220px + 40px l+r padding = 1260px
+	max-width: govuk-px-to-rem(1260px); // 1220px + 40px l+r padding = 1260px
 }
 
 .container--flex {
