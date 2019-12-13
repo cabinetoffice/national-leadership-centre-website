@@ -6,7 +6,7 @@ COMPONENTS
 .title-bar {
 	background-color: $red;
 	background: $gradient;
-	padding: 2.379rem 0rem;
+	padding: govuk-px-to-rem(52px) govuk-px-to-rem(0px);
 	width: 100%;
 
 	h1 {
@@ -18,22 +18,22 @@ COMPONENTS
 
 		h1 {
 			margin: auto;
-			max-width: 31.79rem;
+			max-width: govuk-px-to-rem(604px);
 		}
 	}
 }
 
 // Content area definitions
 .header-block {
-	padding: 2.895rem 0;
+	padding: govuk-px-to-rem(55px) 0;
 		
 	&.header-block--home {
-		padding: 4.053rem 0;
+		padding: govuk-px-to-rem(77px) 0;
 	}
 }
 
 .content-block {
 	h1, h3 {
-		margin-bottom: 1.105rem;
+		margin-bottom: govuk-px-to-rem(21px);
 	}
 }

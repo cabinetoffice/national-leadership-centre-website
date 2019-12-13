@@ -373,7 +373,7 @@ COMPONENTS
 .title-bar {
   background-color: #CE132D;
   background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
-  padding: 2.379rem 0rem;
+  padding: 2.73684rem 0rem;
   width: 100%; }
   .title-bar h1 {
     color: #ffffff; }
@@ -381,15 +381,15 @@ COMPONENTS
     text-align: center; }
     .title-bar.title-bar--centered h1 {
       margin: auto;
-      max-width: 31.79rem; }
+      max-width: 31.78947rem; }
 
 .header-block {
-  padding: 2.895rem 0; }
+  padding: 2.89474rem 0; }
   .header-block.header-block--home {
-    padding: 4.053rem 0; }
+    padding: 4.05263rem 0; }
 
 .content-block h1, .content-block h3 {
-  margin-bottom: 1.105rem; }
+  margin-bottom: 1.10526rem; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -416,31 +416,31 @@ h1, h2, h3, h4, h5, h6 {
   mix-blend-mode: normal; }
 
 h1 {
-  font-size: 1.158rem;
-  line-height: 1.579rem;
+  font-size: 1.15789rem;
+  line-height: 1.57895rem;
   font-weight: normal; }
   @media only screen and (min-width: 768px) {
     h1 {
-      font-size: 1.526rem;
-      line-height: 2.105rem; } }
+      font-size: 1.52632rem;
+      line-height: 2.10526rem; } }
 
 h2 {
   font-size: 1rem;
-  line-height: 1.368rem;
+  line-height: 1.36842rem;
   font-weight: normal; }
   @media only screen and (min-width: 768px) {
     h2 {
-      font-size: 1.211rem;
-      line-height: 1.737rem; } }
+      font-size: 1.21053rem;
+      line-height: 1.73684rem; } }
 
 h3 {
-  font-size: 0.8947rem;
-  line-height: 1.316rem;
+  font-size: 0.89474rem;
+  line-height: 1.31579rem;
   font-weight: normal; }
   @media only screen and (min-width: 768px) {
     h3 {
       font-size: 1rem;
-      line-height: 1.474rem; } }
+      line-height: 1.47368rem; } }
 
 .centered {
   text-align: center; }
@@ -464,22 +464,22 @@ LAYOUT
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  max-width: 60.95rem;
-  padding-left: 1.053rem;
-  padding-right: 1.053rem;
+  max-width: 60.94737rem;
+  padding-left: 1.05263rem;
+  padding-right: 1.05263rem;
   width: 100%; }
 
 .container--xxs {
-  max-width: 28.53rem; }
+  max-width: 28.52632rem; }
 
 .container--xs {
-  max-width: 33.95rem; }
+  max-width: 33.94737rem; }
 
 .container--sm {
-  max-width: 36.63rem; }
+  max-width: 36.63158rem; }
 
 .container--wide {
-  max-width: 66.32rem; }
+  max-width: 66.31579rem; }
 
 @media only screen and (min-width: 768px) {
   .align-left {
