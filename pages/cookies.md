@@ -19,7 +19,7 @@ Cookies are used to:
 
 Name | Purpose | Expires
 ---- | ------- | -------
-session | This cookie (e.g. SSESS9251567d569f0d51b48fd13e32cde009) keeps track of the currently logged in user	 | 23 days
+session | This cookie (e.g. SSESS9251567d569f0d51b48fd13e32cde009) keeps track of the currently logged in user	 | 23 days 3 hours 33 minutes 20 seconds
 cookie-agreed | This helps us track if you've accepted cookies, so the cookie banner isn't shown again | 100 days
 
 ### Measuring website usage (Google Analytics)
