@@ -3,7 +3,7 @@ NAVIGATION
 ========================================================================== */
 
 .header-main {
-	padding: 25px 0;
+	padding: 56px 0 42px 0;
 
 	.header-main__logo {
 		display: inline-block;
@@ -23,6 +23,17 @@ NAVIGATION
 		text-align: right;
 		right: 0;
 		position: absolute;
+		z-index: 2;
+
+		.header-main__menu__text {
+			display: inline-block;
+			font-size: 15px;
+		}
+
+		.js-open-text {
+			display: none;
+			color: $white;
+		}
 
 		.header-main__menu__burger {
 			width: 30px;
@@ -59,6 +70,15 @@ NAVIGATION
 				font-size: 0.9474rem;
 				line-height: 1.316rem;
 				text-decoration: none;
+
+				&:hover,:visited {
+					color: $red;
+				}
+			}
+
+			.current {
+				border-bottom: 1px solid $black;
+				padding-bottom: 4.5px;
 			}
 		}
 	}
@@ -82,19 +102,86 @@ NAVIGATION
 
 @media only screen and (max-width : $tablet) {
 	.header-main {
+		padding: 22px 0 28px 0;
 
 		&.open-mobile {
-			padding: 0;
+			background-color: $red;
+			
+			.header-main__nav {
+				display: flex;
+				flex-flow: column;
+			}
+
+			.header-main__menu {
+				&.js-closed {
+					.header-main__menu__burger {
+						div {
+							background-color: $white;
+						}
+						div:nth-child(1) {
+							transition: 0.3s ease-in-out;
+							display: none;
+						}
+						div:nth-child(2) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(45deg);
+							margin-bottom: -3px;
+						}
+						div:nth-child(3) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(-45deg);
+						}
+					}
+				}
+			}
 		}
 
 		.header-main__nav {
-			// display: none;
+			display: none;
 			position: absolute;
 			height: 100vh;
 			top: 0;
 			left: 0;
-			background: red;
+			background-color: $red;
 			z-index: 2;
+			text-align: left;
+			padding: 75px 25px 25px 25px;
+		}
+
+		.main-nav, .secondary-nav {
+			ul {
+				li {
+					display: block;
+					margin-bottom: 9px;
+
+					a {
+						color: $white;
+					}
+
+					.current {
+						border-bottom: 1px solid $white;
+					}
+				}
+			}
+		}
+
+		.main-nav {
+			order: 2;
+		}
+
+		.secondary-nav {
+			order: 1;
+			margin-top: 0;
+			margin-bottom: 23px;
+
+			ul {
+				li {
+					margin-bottom: 14px;
+					a {
+						font-size: 25px;
+					}
+				}
+			}
 		}
 
 		.header-main__menu {
