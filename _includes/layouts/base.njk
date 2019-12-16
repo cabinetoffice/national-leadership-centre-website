@@ -5,7 +5,7 @@
 
 	<body>
 
-		<header class="header-main">
+		<header role="banner" class="header-main">
 			<div class="container container--wide container--flex">
 				<div class="header-main__logo">
 					<a href="{{ '/' | url }}">
@@ -15,15 +15,15 @@
 				<div class="header-main__nav">
 					{% include "components/nav.njk" %}
 				</div>
-				<div class="header-main__menu js-closed">
-					<div class="header-main__menu__text js-closed-text">Menu</div>
-					<div class="header-main__menu__text js-open-text">Close</div>
+				<button class="header-main__menu js-closed" aria-expanded="false">
+					<div class="header-main__menu__text closed-text">Open menu</div>
+					<div class="header-main__menu__text open-text">Close menu</div>
 					<div class="header-main__menu__burger">
 						<div></div>
 						<div></div>
 						<div></div>
 					</div>
-				</div>
+				</button>
 			</div>
 		</header>
 		

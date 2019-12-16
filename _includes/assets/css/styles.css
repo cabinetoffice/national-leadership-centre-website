@@ -372,6 +372,10 @@ a:hover,
 a:focus {
   text-decoration: none; }
 
+button {
+  background: none;
+  border: none; }
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -583,6 +587,7 @@ NAVIGATION
     right: 0;
     position: absolute; }
   .header-main .header-main__menu {
+    height: 100%;
     cursor: pointer;
     display: none;
     text-align: right;
@@ -592,7 +597,7 @@ NAVIGATION
     .header-main .header-main__menu .header-main__menu__text {
       display: inline-block;
       font-size: 0.78947rem; }
-    .header-main .header-main__menu .js-open-text {
+    .header-main .header-main__menu .open-text {
       display: none;
       color: #ffffff; }
     .header-main .header-main__menu .header-main__menu__burger {
@@ -656,6 +661,10 @@ NAVIGATION
       .header-main.open-mobile .header-main__menu.js-closed .header-main__menu__burger div:nth-child(3) {
         transition: 0.3s ease-in-out;
         transform: rotate(-45deg); }
+      .header-main.open-mobile .open-text {
+        display: inline-block; }
+      .header-main.open-mobile .closed-text {
+        display: none; }
     .header-main .header-main__nav {
       display: none;
       position: absolute;

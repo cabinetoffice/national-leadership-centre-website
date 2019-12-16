@@ -18,6 +18,7 @@ NAVIGATION
 	}
 
 	.header-main__menu {
+		height: 100%;
 		cursor: pointer;
 		display: none;
 		text-align: right;
@@ -30,7 +31,7 @@ NAVIGATION
 			font-size: govuk-px-to-rem(15px);
 		}
 
-		.js-open-text {
+		.open-text {
 			display: none;
 			color: $white;
 		}
@@ -136,6 +137,14 @@ NAVIGATION
 						}
 					}
 				}
+			}
+
+			.open-text {
+				display: inline-block;
+			}
+
+			.closed-text {
+				display: none;
 			}
 		}
 
