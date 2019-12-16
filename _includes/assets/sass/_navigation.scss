@@ -148,6 +148,7 @@ NAVIGATION
 			display: inline-block;
 		}
 
+		// Redefine styles for css-only nav
 		&#main-navigation:target {
 			background-color: $red;
 			
@@ -195,6 +196,7 @@ NAVIGATION
 				color: $white;
 			}
 		}
+		// End css-only nav definitions
 
 		.header-main__nav {
 			display: none;
