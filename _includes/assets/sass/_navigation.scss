@@ -27,7 +27,7 @@ NAVIGATION
 		z-index: 2;
 
 		.header-main__menu__text {
-			display: inline-block;
+			display: none;
 			font-size: govuk-px-to-rem(15px);
 		}
 
@@ -101,7 +101,7 @@ NAVIGATION
 }
 
 @media only screen and (max-width : $tablet) {
-	.header-main {
+	.header-main,  {
 		padding: govuk-px-to-rem(22px) 0 govuk-px-to-rem(28px) 0;
 
 		.header-main__logo {
@@ -138,13 +138,61 @@ NAVIGATION
 					}
 				}
 			}
+		}
 
-			.open-text {
+		.css-nav {
+			display: none;
+		}
+
+		.css-nav--open {
+			display: inline-block;
+		}
+
+		&#main-navigation:target {
+			background-color: $red;
+			
+			.header-main__nav {
+				display: flex;
+				flex-flow: column;
+			}
+
+			.css-nav--open {
 				display: inline-block;
 			}
 
+			.header-main__menu {
+				&.js-closed {
+					.header-main__menu__burger {
+						div {
+							background-color: $white;
+						}
+						div:nth-child(1) {
+							transition: 0.3s ease-in-out;
+							display: none;
+						}
+						div:nth-child(2) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(45deg);
+							margin-bottom: govuk-px-to-rem(-3px);
+						}
+						div:nth-child(3) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(-45deg);
+						}
+					}
+				}
+			}
+
+			.open-text {
+				display: none;
+			}
 			.closed-text {
 				display: none;
+			}
+
+			.css-nav--close {
+				display: inline-block;
+				color: $white;
 			}
 		}
 
@@ -199,6 +247,45 @@ NAVIGATION
 		.header-main__menu {
 			display: inline-block;
 			padding-right: govuk-px-to-rem(20px);
+		}
+	}
+}
+
+.css-nav--close {
+	display: none;
+	color: $white;
+}
+
+// .js class added to html to show if js is enabled or not.
+.js {
+
+	.css-nav {
+		display: none!important;
+	}
+
+	.header-main {
+		.header-main__menu {
+			.header-main__menu__text {
+				display: inline-block;
+
+				&.open-text {
+					display: none;
+				}
+			}
+		}
+		&.open-mobile {
+			.header-main__menu {
+				.header-main__menu__text {
+					display: inline-block;
+	
+					&.open-text {
+						display: inline-block;
+					}
+					&.closed-text {
+						display: none;
+					}
+				}
+			}
 		}
 	}
 }

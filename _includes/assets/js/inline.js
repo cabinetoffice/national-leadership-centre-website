@@ -9,6 +9,7 @@ if (window.netlifyIdentity) {
 }
 
 $(document).ready(function(){
+	$("html").addClass('js');
 
 	// Open and close loop for main navigation on mobile.
 	$("button.header-main__menu").click(function(){ // when user clicks on nav btn..
