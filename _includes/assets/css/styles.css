@@ -727,7 +727,7 @@ NAVIGATION
   color: #ffffff; }
 
 .js .css-nav {
-  display: none !important; }
+  display: none; }
 
 .js .header-main .header-main__menu .header-main__menu__text {
   display: inline-block; }
