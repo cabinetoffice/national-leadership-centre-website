@@ -23,7 +23,7 @@ COMPONENTS
 	}
 }
 
-// Content area definitions
+// Header block
 .header-block {
 	padding: govuk-px-to-rem(55px) 0;
 		
@@ -35,6 +35,51 @@ COMPONENTS
 .content-block {
 	h1, h3 {
 		margin-bottom: govuk-px-to-rem(21px);
+	}
+}
+
+// Tiles Block
+.tiles-block {
+
+	.tiles-block__tile {
+		margin-bottom: govuk-px-to-rem(39px);
+
+		hr {
+			display: inline-block;
+			background-color: $grey-footer;
+			height: govuk-px-to-rem(4px);
+			width: govuk-px-to-rem(60px);
+			border: none;
+			transition: 0.2s ease-in-out;
+			margin-top: 0;
+			margin-bottom: govuk-px-to-rem(28px);
+		}
+
+		&:hover {
+
+			hr {
+				transition: 0.2s ease-in-out;
+				width: 100%;
+				background-color: $red;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : $tablet) {
+	.tiles-block {
+
+		.tiles-block__tile {
+			min-height: govuk-px-to-rem(320px);
+			max-width: govuk-px-to-rem(336px);
+			-ms-flex-preferred-size: 0;
+			flex-basis: 0;
+			-webkit-box-flex: 1;
+			-ms-flex-positive: 1;
+			flex-grow: 1;
+			padding: govuk-px-to-rem(20px);
+    		margin: auto;
+		}
 	}
 }
 

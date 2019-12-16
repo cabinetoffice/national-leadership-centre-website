@@ -399,6 +399,34 @@ COMPONENTS
 .content-block h1, .content-block h3 {
   margin-bottom: 1.10526rem; }
 
+.tiles-block .tiles-block__tile {
+  margin-bottom: 2.05263rem; }
+  .tiles-block .tiles-block__tile hr {
+    display: inline-block;
+    background-color: #F3F6F9;
+    height: 0.21053rem;
+    width: 3.15789rem;
+    border: none;
+    transition: 0.2s ease-in-out;
+    margin-top: 0;
+    margin-bottom: 1.47368rem; }
+  .tiles-block .tiles-block__tile:hover hr {
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    background-color: #CE132D; }
+
+@media only screen and (min-width: 768px) {
+  .tiles-block .tiles-block__tile {
+    min-height: 16.84211rem;
+    max-width: 17.68421rem;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 1.05263rem;
+    margin: auto; } }
+
 .footer-main {
   background-color: #F3F6F9;
   padding: 3.21053rem 0; }
@@ -472,10 +500,14 @@ TYPOGRAPHY
 ========================================================================== */
 p {
   width: 100%;
-  font-size: 19px;
+  font-size: 0.84211rem;
   font-weight: normal;
-  line-height: 1rem;
+  line-height: 1.31579rem;
   color: #323E48; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 0.89474rem;
+      line-height: 1.31579rem; } }
 
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
@@ -512,6 +544,15 @@ h3 {
   font-weight: normal; }
   @media only screen and (min-width: 768px) {
     h3 {
+      font-size: 1rem;
+      line-height: 1.47368rem; } }
+
+h4 {
+  font-size: 0.89474rem;
+  line-height: 1.31579rem;
+  font-weight: 700; }
+  @media only screen and (min-width: 768px) {
+    h4 {
       font-size: 1rem;
       line-height: 1.47368rem; } }
 
@@ -556,7 +597,8 @@ LAYOUT
 
 .container--flex {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .container--negative {
   left: 50%;

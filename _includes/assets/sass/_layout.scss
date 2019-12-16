@@ -36,7 +36,8 @@ LAYOUT
 
 .container--flex {
 	display: flex;
-    align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .container--negative {
