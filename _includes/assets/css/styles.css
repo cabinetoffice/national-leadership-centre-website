@@ -7,6 +7,7 @@ Description: Stylesheet
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
+# Autoprefixer
 # Variables
 # Normalize
 # Elements
@@ -19,6 +20,19 @@ Description: Stylesheet
 # Navigation
 
 */
+/*--------------------------------------------------------------
+# Autoprefixer
+--------------------------------------------------------------*/
+/*
+ * Mixin printing a linear-gradient
+ * as well as a plain color fallback
+ * and the `-webkit-` prefixed declaration
+ * @access public
+ * @param {Keyword | Angle} $direction - Linear gradient direction
+ * @param {Arglist} $color-stops - List of color-stops composing the gradient
+ *
+ * @see https://www.sitepoint.com/building-linear-gradient-mixin-sass/
+ */
 /*--------------------------------------------------------------
 # Variables
 --------------------------------------------------------------*/
@@ -420,16 +434,18 @@ COMPONENTS
     background-color: #CE132D; }
 
 @media only screen and (min-width: 768px) {
-  .tiles-block .tiles-block__tile {
-    min-height: 16.84211rem;
-    max-width: 17.68421rem;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    padding: 1.05263rem;
-    margin: auto; } }
+  .tiles-block {
+    display: flex; }
+    .tiles-block .tiles-block__tile {
+      min-height: 16.84211rem;
+      max-width: 17.68421rem;
+      padding: 1.05263rem;
+      margin: auto;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1; } }
 
 .footer-main {
   background-color: #F3F6F9;

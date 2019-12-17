@@ -68,17 +68,18 @@ COMPONENTS
 
 @media only screen and (min-width : $tablet) {
 	.tiles-block {
+		display: flex;
 
 		.tiles-block__tile {
 			min-height: govuk-px-to-rem(320px);
 			max-width: govuk-px-to-rem(336px);
+			padding: govuk-px-to-rem(20px);
+			margin: auto;
 			-ms-flex-preferred-size: 0;
 			flex-basis: 0;
 			-webkit-box-flex: 1;
 			-ms-flex-positive: 1;
 			flex-grow: 1;
-			padding: govuk-px-to-rem(20px);
-			margin: auto;
 		}
 	}
 }
