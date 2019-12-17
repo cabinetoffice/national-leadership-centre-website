@@ -1,9 +1,19 @@
-<nav>
+<nav class="main-nav">
   <ul>
   {%- for nav in collections.nav | sort(attribute="date") -%}
     <li>
-      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item" class="current"{% endif %}>{{ nav.data.navtitle }}</a>
     </li>
   {%- endfor -%}
   </ul>
+</nav>
+
+<nav class="secondary-nav">
+	<ul>
+		{%- for primary in collections.primary | sort(attribute="date") -%}
+		<li>
+			<a href="{{ primary.url | url }}"{% if primary.url == page.url %} data-current="current item" class="current"{% endif %}>{{ primary.data.navtitle }}</a>
+		</li>
+		{%- endfor -%}
+	</ul>
 </nav>
