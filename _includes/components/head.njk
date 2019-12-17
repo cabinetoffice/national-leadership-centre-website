@@ -5,11 +5,11 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,700%7CSource+Sans+Pros:300,400&display=swap" rel="stylesheet">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
-    {% include "assets/css/styles.css" %}
+    {% include "assets/css/build/styles.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
-    {# {% include "assets/js/jquery-3.4.1.min.js" %} #}
+    {% include "assets/js/jquery-3.4.1.min.js" %}
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
