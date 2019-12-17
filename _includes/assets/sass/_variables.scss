@@ -15,6 +15,7 @@ $pale-yellow: rgba(252, 247, 215, 0.63);
 $red: #CE132D;
 $grey-background: #E5E5E5;
 $grey-support: #B3BABF;
+$grey-footer: #F3F6F9;
 $gradient: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
 
 $body: #323E48;
@@ -40,6 +41,9 @@ $base-font-weight-regular: normal;
 $headings-font-weight: 700;
 
 // Font sizes
+$body-font-size-mobile: govuk-px-to-rem(16px);
+$body-font-size: govuk-px-to-rem(17px);
+
 $h1-font-size-mobile: govuk-px-to-rem(22px);
 $h1-font-size: govuk-px-to-rem(29px);
 
@@ -49,8 +53,14 @@ $h2-font-size: govuk-px-to-rem(23px);
 $h3-font-size-mobile: govuk-px-to-rem(17px);
 $h3-font-size: govuk-px-to-rem(19px);
 
+$h4-font-size-mobile: govuk-px-to-rem(17px);
+$h4-font-size: govuk-px-to-rem(19px);
+
 // Font line heights
 $base-line-height: govuk-px-to-rem(19px);
+
+$body-line-height-mobile: govuk-px-to-rem(23px);
+$body-line-height: govuk-px-to-rem(25px);
 
 $h1-line-height-mobile: govuk-px-to-rem(30px);
 $h1-line-height: govuk-px-to-rem(40px);
@@ -60,3 +70,6 @@ $h2-line-height: govuk-px-to-rem(33px);
 
 $h3-line-height-mobile: govuk-px-to-rem(25px);
 $h3-line-height: govuk-px-to-rem(28px);
+
+$h4-line-height-mobile: govuk-px-to-rem(25px);
+$h4-line-height: govuk-px-to-rem(28px);

@@ -4,10 +4,15 @@ TYPOGRAPHY
 
 p {
 	width: 100%;
-	font-size: $base-font-size;
+	font-size: $body-font-size-mobile;
 	font-weight: $base-font-weight-regular;
-	line-height: $base-line-height;
+	line-height: $body-line-height;
 	color: $body;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $body-font-size;
+		line-height: $body-line-height;
+	}
 }
 
 /* Shared styles */
@@ -52,6 +57,18 @@ h3 {
 	@media only screen and (min-width : $tablet) {
 		font-size: $h3-font-size;
 		line-height: $h3-line-height;
+	}
+}
+
+// Subheading, slightly different styling.
+h4 {
+	font-size: $h4-font-size-mobile;
+	line-height: $h4-line-height-mobile;
+	font-weight: $base-font-weight-bold;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h4-font-size;
+		line-height: $h4-line-height;
 	}
 }
 
