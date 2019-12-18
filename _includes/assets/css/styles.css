@@ -566,11 +566,11 @@ COMPONENTS
 
 .carousel-block .slick-prev {
   left: 20px;
-  z-index: 10; }
+  z-index: 1; }
 
 .carousel-block .slick-next {
   right: 20px;
-  z-index: 10; }
+  z-index: 1; }
 
 /*--------------------------------------------------------------
 # Typography
