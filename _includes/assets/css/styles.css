@@ -444,7 +444,8 @@ COMPONENTS
     max-width: 70%;
     overflow: hidden;
     order: 2;
-    margin-left: auto; }
+    margin-left: auto;
+    line-height: 0; }
   .image-l-text-r-block .image-l-text-r-block__text {
     max-width: 31.05263rem;
     margin: auto;
