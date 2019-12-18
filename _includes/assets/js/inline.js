@@ -22,5 +22,14 @@ $(document).ready(function(){
 			$('button.header-main__menu').attr("aria-expanded","true");
 		}
 	});
+
+	// Slick carousel
+	$('.carousel-block__home').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	  });
 });
   
