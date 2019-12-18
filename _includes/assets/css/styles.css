@@ -423,7 +423,7 @@ COMPONENTS
   .tiles-block {
     display: flex; }
     .tiles-block .tiles-block__tile {
-      min-height: 16.84211rem;
+      min-height: 19.84211rem;
       max-width: 17.68421rem;
       padding: 1.05263rem;
       margin: auto;
@@ -433,14 +433,18 @@ COMPONENTS
       -ms-flex-positive: 1;
       flex-grow: 1; } }
 
+@media only screen and (min-width: 992px) {
+  .tiles-block .tiles-block__tile {
+    min-height: 16rem; } }
+
 .image-l-text-r-block {
   padding-top: 1.05263rem; }
   .image-l-text-r-block .image-l-text-r-block__image {
     width: 100%;
+    max-width: 70%;
     overflow: hidden;
-    max-height: 12.10526rem;
     order: 2;
-    margin: auto; }
+    margin-left: auto; }
   .image-l-text-r-block .image-l-text-r-block__text {
     max-width: 31.05263rem;
     margin: auto;
@@ -451,29 +455,19 @@ COMPONENTS
       font-size: 1rem;
       line-height: 1.36842rem; }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
   .image-l-text-r-block .image-l-text-r-block__image {
-    max-height: 14.73684rem;
-    max-width: 23.68421rem; } }
-
-@media only screen and (min-width: 480px) {
-  .image-l-text-r-block .image-l-text-r-block__image {
-    max-height: 16.84211rem; } }
-
-@media only screen and (min-width: 576px) {
-  .image-l-text-r-block .image-l-text-r-block__image {
-    max-height: 18.94737rem; } }
+    max-width: 55%; } }
 
 @media only screen and (min-width: 992px) {
   .image-l-text-r-block .image-l-text-r-block__image {
+    max-width: 100%;
     flex-basis: 0;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     align-self: flex-end;
-    order: 1;
-    max-width: 24.26316rem;
-    max-height: 385px; }
+    order: 1; }
   .image-l-text-r-block .image-l-text-r-block__text {
     flex-basis: 0;
     -webkit-box-flex: 1;
@@ -487,14 +481,11 @@ COMPONENTS
     .image-l-text-r-block .image-l-text-r-block__text h3 {
       margin: 0;
       font-size: 1rem;
-      line-height: 1.47368rem; }
+      line-height: 1.47368rem;
+      max-width: 26.36842rem; }
     .image-l-text-r-block .image-l-text-r-block__text p {
       margin-top: 2.26316rem;
       margin-bottom: 2.89474rem; } }
-
-@media only screen and (min-width: 1200px) {
-  .image-l-text-r-block .image-l-text-r-block__image {
-    max-height: 16.73684rem; } }
 
 .footer-main {
   background-color: #F3F6F9;

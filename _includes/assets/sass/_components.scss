@@ -71,7 +71,7 @@ COMPONENTS
 		display: flex;
 
 		.tiles-block__tile {
-			min-height: govuk-px-to-rem(320px);
+			min-height: govuk-px-to-rem(377px);
 			max-width: govuk-px-to-rem(336px);
 			padding: govuk-px-to-rem(20px);
 			margin: auto;
@@ -84,16 +84,24 @@ COMPONENTS
 	}
 }
 
+@media only screen and (min-width : $desktop) {
+	.tiles-block {
+		.tiles-block__tile {
+			min-height: govuk-px-to-rem(304px);
+		}
+	}
+}
+
 // Image left text right
 .image-l-text-r-block {
 	padding-top: govuk-px-to-rem(20px);
 
 	.image-l-text-r-block__image {
 		width: 100%;
+		max-width: 70%;
 		overflow: hidden;
-		max-height: govuk-px-to-rem(230px);
 		order: 2;
-		margin: auto;
+		margin-left: auto;
 	}
 
 	.image-l-text-r-block__text {
@@ -110,27 +118,10 @@ COMPONENTS
 	}
 }
 
-@media only screen and (min-width : $sm-mobile) {
+@media only screen and (min-width : $tablet) {
 	.image-l-text-r-block {
 		.image-l-text-r-block__image {
-			max-height: govuk-px-to-rem(280px);
-			max-width: govuk-px-to-rem(450px);
-		}
-	}
-}
-
-@media only screen and (min-width : $md-mobile) {
-	.image-l-text-r-block {
-		.image-l-text-r-block__image {
-			max-height: govuk-px-to-rem(320px);
-		}
-	}
-}
-
-@media only screen and (min-width : $mobile) {
-	.image-l-text-r-block {
-		.image-l-text-r-block__image {
-			max-height: govuk-px-to-rem(360px);
+			max-width: 55%;
 		}
 	}
 }
@@ -138,14 +129,13 @@ COMPONENTS
 @media only screen and (min-width : $desktop) {
 	.image-l-text-r-block {
 		.image-l-text-r-block__image {
+			max-width: 100%;
 			flex-basis: 0;
 			-webkit-box-flex: 1;
 			-ms-flex-positive: 1;
 			flex-grow: 1;
 			align-self: flex-end;
 			order: 1;
-			max-width: govuk-px-to-rem(461px);
-			max-height: 385px;
 		}
 		
 		.image-l-text-r-block__text {
@@ -163,20 +153,13 @@ COMPONENTS
 				margin: 0;
 				font-size: $h3-font-size;
 				line-height: $h3-line-height;
+				max-width: govuk-px-to-rem(501px);
 			}
 
 			p {
 				margin-top: govuk-px-to-rem(43px);
 				margin-bottom: govuk-px-to-rem(55px);
 			}
-		}
-	}
-}
-
-@media only screen and (min-width : $lg-desktop) {
-	.image-l-text-r-block {
-		.image-l-text-r-block__image {
-			max-height: govuk-px-to-rem(318px);
 		}
 	}
 }
