@@ -210,6 +210,16 @@ COMPONENTS
 		font-size: govuk-px-to-rem(7px);
 		opacity: 1;
 	}
+
+	.slick-prev {
+		left: 20px;
+    	z-index: 10;
+	}
+
+	.slick-next {
+		right: 20px;
+    	z-index: 10;
+	}
 }
 
 @media only screen and (min-width : $tablet) {

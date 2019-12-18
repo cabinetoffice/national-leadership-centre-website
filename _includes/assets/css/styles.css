@@ -523,6 +523,14 @@ COMPONENTS
   font-size: 0.36842rem;
   opacity: 1; }
 
+.carousel-block .slick-prev {
+  left: 20px;
+  z-index: 10; }
+
+.carousel-block .slick-next {
+  right: 20px;
+  z-index: 10; }
+
 @media only screen and (min-width: 768px) {
   .slick-track {
     height: 20.26316rem; }
