@@ -655,6 +655,8 @@ COMPONENTS
 
 .breadcrumbs-block {
   border-top: 1px solid #d9dcdf; }
+  .breadcrumbs-block .govuk-breadcrumbs {
+    font-family: "Nunito Sans", sans-serif; }
   .breadcrumbs-block .govuk-breadcrumbs__link {
     font-family: "Nunito Sans", sans-serif;
     color: #CE132D;
