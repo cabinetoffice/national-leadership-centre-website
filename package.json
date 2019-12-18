@@ -5,9 +5,10 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css",
+    "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css & npx postcss --watch _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build ",
     "debug": "DEBUG=* npx eleventy",
-    "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css"
+    "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css",
+    "npf": "npx postcss _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,9 @@
     "html-minifier": "^4.0.0",
     "node-sass": "^4.13.0",
     "govuk-frontend": "^3.3.0",
+    "postcss-cli": "6.1.3",
+    "autoprefixer": "9.7.3",
+    "sass-autoprefixer": "^1.0.1",
     "uglify-es": "^3.3.9"
   }
 }

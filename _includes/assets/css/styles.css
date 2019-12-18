@@ -420,16 +420,73 @@ COMPONENTS
     background-color: #CE132D; }
 
 @media only screen and (min-width: 768px) {
+  .tiles-block {
+    display: flex; }
+    .tiles-block .tiles-block__tile {
+      min-height: 19.84211rem;
+      max-width: 17.68421rem;
+      padding: 1.05263rem;
+      margin: auto;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1; } }
+
+@media only screen and (min-width: 992px) {
   .tiles-block .tiles-block__tile {
-    min-height: 16.84211rem;
-    max-width: 17.68421rem;
-    -ms-flex-preferred-size: 0;
+    min-height: 16rem; } }
+
+.image-l-text-r-block {
+  padding-top: 1.05263rem; }
+  .image-l-text-r-block .image-l-text-r-block__image {
+    width: 100%;
+    max-width: 70%;
+    overflow: hidden;
+    order: 2;
+    margin-left: auto;
+    line-height: 0; }
+  .image-l-text-r-block .image-l-text-r-block__text {
+    max-width: 31.05263rem;
+    margin: auto;
+    order: 1; }
+    .image-l-text-r-block .image-l-text-r-block__text h3 {
+      display: block;
+      margin: auto;
+      font-size: 1rem;
+      line-height: 1.36842rem; }
+
+@media only screen and (min-width: 768px) {
+  .image-l-text-r-block .image-l-text-r-block__image {
+    max-width: 55%; } }
+
+@media only screen and (min-width: 992px) {
+  .image-l-text-r-block .image-l-text-r-block__image {
+    max-width: 100%;
     flex-basis: 0;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    padding: 1.05263rem;
-    margin: auto; } }
+    align-self: flex-end;
+    order: 1; }
+  .image-l-text-r-block .image-l-text-r-block__text {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: inline-block;
+    order: 2;
+    max-width: 31.05263rem;
+    margin-left: 4.78947rem;
+    margin-top: 0rem; }
+    .image-l-text-r-block .image-l-text-r-block__text h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.47368rem;
+      max-width: 26.36842rem; }
+    .image-l-text-r-block .image-l-text-r-block__text p {
+      margin-top: 2.26316rem;
+      margin-bottom: 2.89474rem; } }
 
 .footer-main {
   background-color: #F3F6F9;
@@ -619,6 +676,7 @@ TYPOGRAPHY
 ========================================================================== */
 p {
   width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 0.84211rem;
   font-weight: normal;
   line-height: 1.31579rem;
@@ -668,12 +726,14 @@ h3 {
 
 h4 {
   font-size: 0.89474rem;
-  line-height: 1.31579rem;
-  font-weight: 700; }
+  line-height: 1.31579rem; }
   @media only screen and (min-width: 768px) {
     h4 {
       font-size: 1rem;
       line-height: 1.47368rem; } }
+
+.bold {
+  font-weight: 700; }
 
 .centered {
   text-align: center; }

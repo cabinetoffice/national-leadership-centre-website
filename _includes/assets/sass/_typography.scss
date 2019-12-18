@@ -4,6 +4,7 @@ TYPOGRAPHY
 
 p {
 	width: 100%;
+	font-family: $secondary-font;
 	font-size: $body-font-size-mobile;
 	font-weight: $base-font-weight-regular;
 	line-height: $body-line-height;
@@ -64,12 +65,15 @@ h3 {
 h4 {
 	font-size: $h4-font-size-mobile;
 	line-height: $h4-line-height-mobile;
-	font-weight: $base-font-weight-bold;
 
 	@media only screen and (min-width : $tablet) {
 		font-size: $h4-font-size;
 		line-height: $h4-line-height;
 	}
+}
+
+.bold {
+	font-weight: $base-font-weight-bold;
 }
 
 .centered {
