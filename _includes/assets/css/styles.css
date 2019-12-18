@@ -512,6 +512,24 @@ COMPONENTS
       float: unset;
       width: 3.36842rem; } }
 
+.carousel-block .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+
+.carousel-block .slick-dots {
+  bottom: 0; }
+
+.carousel-block .slick-dots li button:before {
+  color: #ED6B1C;
+  font-size: 0.36842rem;
+  opacity: 1; }
+
+@media only screen and (min-width: 768px) {
+  .slick-track {
+    height: 20.26316rem; }
+  .slick-initialized .slick-track .slick-slide {
+    display: flex;
+    align-items: center; } }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/

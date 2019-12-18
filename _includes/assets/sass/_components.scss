@@ -194,3 +194,31 @@ COMPONENTS
 		}
 	}
 }
+
+// Slick carousel settings - https://kenwheeler.github.io/slick/
+.carousel-block {
+	.slick-dotted.slick-slider {
+		margin-bottom: 0;
+	}
+
+	.slick-dots {
+		bottom: 0;
+	}
+
+	.slick-dots li button:before {
+		color: $orange;
+		font-size: govuk-px-to-rem(7px);
+		opacity: 1;
+	}
+}
+
+@media only screen and (min-width : $tablet) {
+	.slick-track {
+		height: govuk-px-to-rem(385px);
+	}
+
+	.slick-initialized .slick-track .slick-slide {
+		display: flex;
+		align-items: center;
+	}
+}
