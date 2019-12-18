@@ -221,14 +221,3 @@ COMPONENTS
     	z-index: 10;
 	}
 }
-
-@media only screen and (min-width : $tablet) {
-	.slick-track {
-		height: govuk-px-to-rem(385px);
-	}
-
-	.slick-initialized .slick-track .slick-slide {
-		display: flex;
-		align-items: center;
-	}
-}

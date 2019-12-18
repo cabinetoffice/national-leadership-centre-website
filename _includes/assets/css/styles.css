@@ -531,13 +531,6 @@ COMPONENTS
   right: 20px;
   z-index: 10; }
 
-@media only screen and (min-width: 768px) {
-  .slick-track {
-    height: 20.26316rem; }
-  .slick-initialized .slick-track .slick-slide {
-    display: flex;
-    align-items: center; } }
-
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
