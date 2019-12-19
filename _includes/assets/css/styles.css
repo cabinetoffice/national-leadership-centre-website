@@ -553,6 +553,55 @@ COMPONENTS
       float: unset;
       width: 3.36842rem; } }
 
+.landing-block {
+  position: relative; }
+  .landing-block .landing-block__image {
+    background-image: url("../static/img/our-programme/landing-our-programme.png");
+    height: 100%;
+    min-height: 10.52632rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .landing-block .landing-block__text {
+    padding: 35px 0 27px 0;
+    width: 100%;
+    background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%); }
+    .landing-block .landing-block__text .landing-block__text__internal h1 {
+      color: #ffffff;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 33px; }
+    .landing-block .landing-block__text .landing-block__text__internal p {
+      color: #ffffff;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 30px; }
+
+@media only screen and (min-width: 768px) {
+  .landing-block .landing-block__image {
+    background-position: center top;
+    height: calc(100vh - 176px); }
+  .landing-block .landing-block__text {
+    position: absolute;
+    bottom: 117px;
+    display: inline-block;
+    width: 100%;
+    background: none; }
+    .landing-block .landing-block__text .landing-block__text__internal {
+      background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
+      max-width: 722px;
+      padding: 56px 55px 56px 62px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      .landing-block .landing-block__text .landing-block__text__internal h1 {
+        font-size: 44px;
+        line-height: 150%; }
+      .landing-block .landing-block__text .landing-block__text__internal p {
+        font-size: 31px;
+        line-height: 150%;
+        margin: 0; } }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/

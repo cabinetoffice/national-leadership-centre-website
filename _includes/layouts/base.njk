@@ -28,8 +28,11 @@
 				</button>
 			</div>
 		</header>
-		
-		{% include "components/title-bar.njk" %}
+
+		{% if tags.includes("primary") %}
+		{% else %}
+			{% include "components/title-bar.njk" %}
+		{% endif %}
 
 		<main>
 			{{ layoutContent | safe }}
