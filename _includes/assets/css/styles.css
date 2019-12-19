@@ -553,6 +553,105 @@ COMPONENTS
       float: unset;
       width: 3.36842rem; } }
 
+.govuk-breadcrumbs {
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.73684rem;
+  line-height: 1.14286;
+  color: #0b0c0c;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+  @media print {
+    .govuk-breadcrumbs {
+      font-family: sans-serif; } }
+  @media (min-width: 40.0625em) {
+    .govuk-breadcrumbs {
+      font-size: 16px;
+      font-size: 0.84211rem;
+      line-height: 1.25; } }
+  @media print {
+    .govuk-breadcrumbs {
+      font-size: 14pt;
+      line-height: 1.2; } }
+  @media print {
+    .govuk-breadcrumbs {
+      color: #000000; } }
+
+.govuk-breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .govuk-breadcrumbs__list:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.govuk-breadcrumbs__list-item {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-left: 15.655px;
+  float: left; }
+  .govuk-breadcrumbs__list-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -3.31px;
+    width: 7px;
+    height: 7px;
+    margin: auto 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #626a6e; }
+  .govuk-breadcrumbs__list-item:first-child {
+    margin-left: 0;
+    padding-left: 0; }
+    .govuk-breadcrumbs__list-item:first-child:before {
+      content: none;
+      display: none; }
+
+.govuk-breadcrumbs__link {
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  @media print {
+    .govuk-breadcrumbs__link {
+      font-family: sans-serif; } }
+  .govuk-breadcrumbs__link:focus {
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #ffdd00;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    text-decoration: none; }
+  .govuk-breadcrumbs__link:link, .govuk-breadcrumbs__link:visited, .govuk-breadcrumbs__link:hover, .govuk-breadcrumbs__link:active, .govuk-breadcrumbs__link:focus {
+    color: #0b0c0c; }
+    @media print {
+      .govuk-breadcrumbs__link:link, .govuk-breadcrumbs__link:visited, .govuk-breadcrumbs__link:hover, .govuk-breadcrumbs__link:active, .govuk-breadcrumbs__link:focus {
+        color: #000000; } }
+
+.breadcrumbs-block {
+  border-top: 1px solid #d9dcdf; }
+  .breadcrumbs-block .govuk-breadcrumbs__link {
+    color: #CE132D;
+    font-size: 0.94737rem;
+    line-height: 1.31579rem; }
+    .breadcrumbs-block .govuk-breadcrumbs__link:focus {
+      box-shadow: none; }
+  .breadcrumbs-block .govuk-breadcrumbs__list-item:before {
+    border-color: #B3BABF; }
+  .breadcrumbs-block .govuk-breadcrumbs__list-item:last-child a {
+    color: #000;
+    text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -687,38 +786,38 @@ LAYOUT
 ACCESSIBILITY
 ========================================================================== */
 .visually-hidden {
-  position: absolute iff(true, !important);
-  width: 1px iff(true, !important);
-  height: 1px iff(true, !important);
-  margin: 0 iff(true, !important);
-  padding: 0 iff(true, !important);
-  overflow: hidden iff(true, !important);
-  clip: rect(0 0 0 0) iff(true, !important);
-  -webkit-clip-path: inset(50%) iff(true, !important);
-  clip-path: inset(50%) iff(true, !important);
-  border: 0 iff(true, !important);
-  white-space: nowrap iff(true, !important); }
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important; }
 
 .visually-hidden-focusable {
-  position: absolute iff(true, !important);
-  width: 1px iff(true, !important);
-  height: 1px iff(true, !important);
-  margin: 0 iff(true, !important);
-  overflow: hidden iff(true, !important);
-  clip: rect(0 0 0 0) iff(true, !important);
-  -webkit-clip-path: inset(50%) iff(true, !important);
-  clip-path: inset(50%) iff(true, !important);
-  white-space: nowrap iff(true, !important); }
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important; }
   .visually-hidden-focusable:active, .visually-hidden-focusable:focus {
-    position: static iff(true, !important);
-    width: auto iff(true, !important);
-    height: auto iff(true, !important);
-    margin: inherit iff(true, !important);
-    overflow: visible iff(true, !important);
-    clip: auto iff(true, !important);
-    -webkit-clip-path: none iff(true, !important);
-    clip-path: none iff(true, !important);
-    white-space: inherit iff(true, !important); }
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    margin: inherit !important;
+    overflow: visible !important;
+    clip: auto !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+    white-space: inherit !important; }
 
 /*--------------------------------------------------------------
 # Forms
