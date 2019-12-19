@@ -282,14 +282,22 @@ COMPONENTS
 		margin-bottom: 0;
 	}
 
+	.slick-slide {
+		margin-bottom: govuk-px-to-rem(-1px);
+	}
+
 	.slick-dots {
-		bottom: 0;
+		bottom: govuk-px-to-rem(1px);
 	}
 
 	.slick-dots li button:before {
 		color: $orange;
-		font-size: govuk-px-to-rem(7px);
+		font-size: govuk-px-to-rem(8px);
 		opacity: 1;
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: $orange;
 	}
 
 	.slick-prev {
