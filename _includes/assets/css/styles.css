@@ -641,6 +641,7 @@ COMPONENTS
 .breadcrumbs-block {
   border-top: 1px solid #d9dcdf; }
   .breadcrumbs-block .govuk-breadcrumbs__link {
+    color: #CE132D;
     font-size: 0.94737rem;
     line-height: 1.31579rem; }
     .breadcrumbs-block .govuk-breadcrumbs__link:focus {
