@@ -284,13 +284,8 @@ COMPONENTS
 .breadcrumbs-block {
 	border-top: 1px solid $grey-border;
 
-	.govuk-breadcrumbs {
-		font-family: $primary-font;
-	}
-
 	.govuk-breadcrumbs__link {
-		font-family: $primary-font;
-		color: $red;
+		// color: $red;
 		font-size: govuk-px-to-rem(18px);
 		line-height: govuk-px-to-rem(25px);
 
