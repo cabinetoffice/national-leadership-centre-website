@@ -563,43 +563,41 @@ COMPONENTS
     background-repeat: no-repeat;
     background-size: cover; }
   .landing-block .landing-block__text {
-    padding: 35px 0 27px 0;
+    padding: 1.84211rem 0 1.42105rem 0;
     width: 100%;
     background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%); }
     .landing-block .landing-block__text .landing-block__text__internal h1 {
       color: #ffffff;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 33px; }
+      font-size: 1.26316rem;
+      line-height: 1.73684rem; }
     .landing-block .landing-block__text .landing-block__text__internal p {
       color: #ffffff;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 22px;
-      line-height: 30px; }
+      font-size: 1.15789rem;
+      line-height: 1.57895rem; }
 
 @media only screen and (min-width: 768px) {
   .landing-block .landing-block__image {
     background-position: center top;
+    min-height: 34.21053rem;
     height: calc(100vh - 176px); }
   .landing-block .landing-block__text {
     position: absolute;
-    bottom: 117px;
+    bottom: 6.15789rem;
     display: inline-block;
     width: 100%;
     background: none; }
     .landing-block .landing-block__text .landing-block__text__internal {
       background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
-      max-width: 722px;
-      padding: 56px 55px 56px 62px;
+      max-width: 38.26316rem;
+      padding: 2.94737rem 2.89474rem 2.94737rem 3.26316rem;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
       .landing-block .landing-block__text .landing-block__text__internal h1 {
-        font-size: 44px;
-        line-height: 150%; }
+        font-size: 2.31579rem;
+        line-height: 3.47368rem;
+        margin-bottom: 0.68421rem; }
       .landing-block .landing-block__text .landing-block__text__internal p {
-        font-size: 31px;
-        line-height: 150%;
+        font-size: 1.63158rem;
+        line-height: 2.42105rem;
         margin: 0; } }
 
 /*--------------------------------------------------------------
@@ -614,6 +612,7 @@ p {
   font-size: 0.84211rem;
   font-weight: normal;
   line-height: 1.31579rem;
+  font-style: normal;
   color: #323E48; }
   @media only screen and (min-width: 768px) {
     p {

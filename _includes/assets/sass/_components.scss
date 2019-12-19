@@ -290,7 +290,7 @@ COMPONENTS
 	}
 
 	.landing-block__text {
-		padding: 35px 0 27px 0;
+		padding: govuk-px-to-rem(35px) 0 govuk-px-to-rem(27px) 0;
 		width: 100%;
 		background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
 
@@ -298,18 +298,14 @@ COMPONENTS
 
 			h1 {
 				color: $white;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 24px;
-				line-height: 33px;
+				font-size: govuk-px-to-rem(24px);
+				line-height: govuk-px-to-rem(33px);
 			}
 
 			p {
 				color: $white;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 22px;
-				line-height: 30px;
+				font-size: $h1-font-size-mobile;
+				line-height: $h1-line-height-mobile;
 			}
 		}
 	}
@@ -319,30 +315,32 @@ COMPONENTS
 	.landing-block {
 		.landing-block__image {
 			background-position: center top;
+			min-height: govuk-px-to-rem(650px);
 			height: calc(100vh - 176px);
 		}
 
 		.landing-block__text {
 			position: absolute;
-			bottom: 117px;
+			bottom: govuk-px-to-rem(117px);
 			display: inline-block;
 			width: 100%;
 			background: none;
 
 			.landing-block__text__internal {
 				background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
-				max-width: 722px;
-				padding: 56px 55px 56px 62px;
+				max-width: govuk-px-to-rem(727px);
+				padding: govuk-px-to-rem(56px) govuk-px-to-rem(55px) govuk-px-to-rem(56px) govuk-px-to-rem(62px);
 				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	
 				h1 {
-					font-size: 44px;
-					line-height: 150%;
+					font-size: govuk-px-to-rem(44px);
+					line-height: govuk-px-to-rem(66px);
+					margin-bottom: govuk-px-to-rem(13px);
 				}
 	
 				p {
-					font-size: 31px;
-					line-height: 150%;
+					font-size: govuk-px-to-rem(31px);
+					line-height: govuk-px-to-rem(46px);
 					margin: 0;
 				}
 			}
