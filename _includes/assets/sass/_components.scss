@@ -302,3 +302,19 @@ COMPONENTS
     	z-index: 1;
 	}
 }
+
+// For accessibility, if there is no js, hide all carousel images apart from the first one.
+.carousel-block {
+	.carousel-block__home__img:nth-of-type(n+2) {
+		display:none;
+	}
+}
+
+// If there is js, show all images so they can be included in carousel.
+.js {
+	.carousel-block {
+		.carousel-block__home__img:nth-of-type(n+2) {
+			display: unset;
+		}
+	}
+}

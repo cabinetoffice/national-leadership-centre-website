@@ -572,6 +572,12 @@ COMPONENTS
   right: 20px;
   z-index: 1; }
 
+.carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: none; }
+
+.js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: unset; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
