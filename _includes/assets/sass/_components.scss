@@ -318,3 +318,36 @@ COMPONENTS
 		}
 	}
 }
+
+// Breadcrumbs block
+// Uses govuk sass and replica markup (found in breadcrumbs.njk) as a base, then we override cosmetic styles; color, text-decoration etc.
+@import "node_modules/govuk-frontend/govuk/components/breadcrumbs/breadcrumbs";
+
+.breadcrumbs-block {
+	border-top: 1px solid $grey-border;
+
+	.govuk-breadcrumbs__link {
+		color: $red;
+		font-size: govuk-px-to-rem(18px);
+		line-height: govuk-px-to-rem(25px);
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.govuk-breadcrumbs__list-item {
+
+		&:before { 
+			border-color: $grey-support;
+		}
+
+		&:last-child {
+			
+			a {
+				color: $black;
+				text-decoration: none;
+			}
+		}
+	}
+}
