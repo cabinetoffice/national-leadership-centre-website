@@ -579,6 +579,37 @@ COMPONENTS
     font-size: 0.63158rem;
     line-height: 0.78947rem; } }
 
+.carousel-block .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+
+.carousel-block .slick-slide {
+  margin-bottom: -0.05263rem; }
+
+.carousel-block .slick-dots {
+  bottom: 0.05263rem; }
+
+.carousel-block .slick-dots li button:before {
+  color: #EE701C;
+  font-size: 0.42105rem;
+  opacity: 1; }
+
+.carousel-block .slick-dots li.slick-active button:before {
+  color: #EE701C; }
+
+.carousel-block .slick-prev {
+  left: 20px;
+  z-index: 1; }
+
+.carousel-block .slick-next {
+  right: 20px;
+  z-index: 1; }
+
+.carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: none; }
+
+.js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: unset; }
+
 .govuk-breadcrumbs {
   font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;

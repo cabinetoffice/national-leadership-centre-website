@@ -22,5 +22,17 @@ $(document).ready(function(){
 			$('button.header-main__menu').attr("aria-expanded","true");
 		}
 	});
+
+	// Slick https://kenwheeler.github.io/slick/ - Home page carousel
+	$('.carousel-block__home').slick({
+		dots: true,
+		arrows: true,
+		infinite: true,
+		speed: 800,
+		fade: true,
+		cssEase: 'linear',
+		autoplay: true,
+		autoplaySpeed: 8000,
+	});
 });
   
