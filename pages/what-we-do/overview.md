@@ -22,7 +22,7 @@ tags:
 </div>
 
 <div class="content-block">
-  <div class="container container--sm">
+  <div class="container container--sm vertical-padding">
 
 The National Leadership Centre was launched by the Chancellor in 2018 as a three year pilot, following the recommendations of the Public Services Leadership Taskforce. The Taskforce was established in 2017 to advise on the scope for a new body to support public service leaders.
 

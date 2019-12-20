@@ -9,7 +9,7 @@ tags:
 ---
 
 
-<div class="header-block highlight margin-bottom">
+<div class="header-block highlight">
   <div class="container container--sm">
 
 ## We are excited about the work we are doing in the National Leadership Centre. We have five values that talk about how we want to deliver our work and who we want to be as a team.
@@ -18,7 +18,7 @@ tags:
 </div>
 
 <div class="content-block">
-  <div class="container container--xs align-left">
+  <div class="container container--xs align-left vertical-padding">
 
 # Human
 
@@ -44,7 +44,7 @@ tags:
 </div>
 
 <div class="content-block">
-  <div class="container container--xs centered text-gradient">
+  <div class="container container--xs centered vertical-padding text-gradient">
 
 ## Together we support the leaders of public services in England to improve the services they run.
 

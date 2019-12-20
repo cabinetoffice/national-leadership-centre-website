@@ -377,8 +377,8 @@ button {
   border: none; }
 
 ul, ol {
-  margin-top: 2.10526rem;
-  margin-bottom: 0; }
+  margin: 0;
+  padding: 0; }
   ul li, ol li {
     font-size: 0.84211rem;
     font-weight: normal; }
@@ -388,6 +388,11 @@ ul, ol {
         line-height: 1.31579rem; } }
     ul li:last-child, ol li:last-child {
       margin-bottom: 0px; }
+
+main ul, main ol {
+  margin-top: 2.10526rem;
+  margin-bottom: 0;
+  padding-left: 40px; }
 
 /*--------------------------------------------------------------
 # Components
@@ -683,20 +688,20 @@ h2, .h2-style {
       font-size: 1.21053rem;
       line-height: 1.73684rem; } }
 
-h3 {
+h3, .h3-style {
   font-size: 0.89474rem;
   line-height: 1.31579rem;
   font-weight: normal; }
   @media only screen and (min-width: 768px) {
-    h3 {
+    h3, .h3-style {
       font-size: 1rem;
       line-height: 1.47368rem; } }
 
-h4 {
+h4, .h4-style {
   font-size: 0.89474rem;
   line-height: 1.31579rem; }
   @media only screen and (min-width: 768px) {
-    h4 {
+    h4, .h4-style {
       font-size: 1rem;
       line-height: 1.47368rem; } }
 
@@ -715,17 +720,11 @@ h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.text-gradient {
-  margin: 3rem 0; }
-  .text-gradient h1, .text-gradient h2, .text-gradient h3, .text-gradient h4 {
-    background-color: #ce132d;
-    background: linear-gradient(135deg, #ce132d 0, #ee701c 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-
-@media only screen and (min-width: 768px) {
-  .text-gradient {
-    margin: 5.05263rem 0; } }
+.text-gradient h1, .text-gradient h2, .text-gradient h3, .text-gradient h4 {
+  background-color: #ce132d;
+  background: linear-gradient(135deg, #ce132d 0, #ee701c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .header-highlight {
   border-left: 2px solid #FFDB03;
@@ -737,9 +736,6 @@ h4 {
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.highlight {
-  background-color: rgba(252, 247, 215, 0.63); }
-
 .container {
   position: relative;
   margin-right: auto;
@@ -776,6 +772,9 @@ LAYOUT
   position: relative;
   right: 50%;
   width: 100vw; }
+
+.highlight {
+  background-color: rgba(252, 247, 215, 0.63); }
 
 @media only screen and (min-width: 768px) {
   .align-left {
