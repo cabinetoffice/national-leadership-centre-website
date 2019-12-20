@@ -59,3 +59,8 @@ LAYOUT
 		padding: 0;
 	}
 }
+
+.vertical-padding {
+	padding-top: govuk-px-to-rem(30px);
+	padding-bottom: govuk-px-to-rem(53px);
+}
