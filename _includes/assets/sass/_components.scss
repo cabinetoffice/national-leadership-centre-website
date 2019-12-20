@@ -276,6 +276,46 @@ COMPONENTS
 	}
 }
 
+.cookie-bar {
+	background: $yellow;
+	padding: govuk-px-to-rem(14px) 0 govuk-px-to-rem(14px) 0;
+	text-align: center;
+
+	p {
+		display: inline;
+		margin: 0;
+		font-size: govuk-px-to-rem(17px);
+		line-height: govuk-px-to-rem(25px);
+	}
+
+	a {
+		text-decoration: none;
+		padding-left: govuk-px-to-rem(5px);
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.cookie-bar {
+	
+		p {
+			display: block;
+			font-size: govuk-px-to-rem(15px);
+			line-height: govuk-px-to-rem(22px);
+
+			&:first-child {
+				margin-bottom: govuk-px-to-rem(10px);
+			}
+		}
+	
+		a {
+			text-decoration: none;
+			padding-left: none;
+			font-size: govuk-px-to-rem(12px);
+			line-height: govuk-px-to-rem(15px);
+		}
+	}	
+}
+
 // Landing block
 .landing-block {
 	position: relative;
@@ -344,6 +384,90 @@ COMPONENTS
 					margin: 0;
 				}
 			}
+		}
+	}
+}
+
+// Breadcrumbs block
+// Uses govuk sass and replica markup (found in breadcrumbs.njk) as a base, then we override cosmetic styles; color, text-decoration etc.
+@import "node_modules/govuk-frontend/govuk/components/breadcrumbs/breadcrumbs";
+
+.breadcrumbs-block {
+	border-top: 1px solid $grey-border;
+
+	.govuk-breadcrumbs__link {
+		color: $red;
+		font-size: govuk-px-to-rem(18px);
+		line-height: govuk-px-to-rem(25px);
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.govuk-breadcrumbs__list-item {
+
+		&:before { 
+			border-color: $grey-support;
+		}
+
+		&:last-child {
+			
+			a {
+				color: $black;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+// Slick carousel settings - https://kenwheeler.github.io/slick/
+.carousel-block {
+	.slick-dotted.slick-slider {
+		margin-bottom: 0;
+	}
+
+	.slick-slide {
+		margin-bottom: govuk-px-to-rem(-1px);
+	}
+
+	.slick-dots {
+		bottom: govuk-px-to-rem(1px);
+	}
+
+	.slick-dots li button:before {
+		color: $orange;
+		font-size: govuk-px-to-rem(8px);
+		opacity: 1;
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: $orange;
+	}
+
+	.slick-prev {
+		left: 20px;
+		z-index: 1;
+	}
+
+	.slick-next {
+		right: 20px;
+		z-index: 1;
+	}
+}
+
+// For accessibility, if there is no js, hide all carousel images apart from the first one.
+.carousel-block {
+	.carousel-block__home__img:nth-of-type(n+2) {
+		display:none;
+	}
+}
+
+// If there is js, show all images so they can be included in carousel.
+.js {
+	.carousel-block {
+		.carousel-block__home__img:nth-of-type(n+2) {
+			display: unset;
 		}
 	}
 }
