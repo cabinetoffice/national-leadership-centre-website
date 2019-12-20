@@ -29,8 +29,7 @@
 			</div>
 		</header>
 
-		{% if tags.includes("primary") %}
-		{% else %}
+		{% if not primary %}
 			{% include "components/title-bar.njk" %}
 		{% endif %}
 

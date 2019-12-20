@@ -14,6 +14,7 @@ p {
 	@media only screen and (min-width : $tablet) {
 		font-size: $body-font-size;
 		line-height: $body-line-height;
+		margin: govuk-px-to-rem(30px) 0px;
 	}
 }
 
@@ -86,4 +87,26 @@ h4 {
 	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+	margin: govuk-px-to-rem(57px) 0;
+
+	h1, h2, h3, h4 {
+		background-color: #ce132d;
+		background: linear-gradient(135deg,#ce132d 0,#ee701c 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+@media only screen and (min-width : $tablet) {
+	.text-gradient {
+		margin: govuk-px-to-rem(96px) 0;
+	}
+}
+
+.header-highlight {
+	border-left: 2px solid $yellow;
+    padding-left: govuk-px-to-rem(20px);
 }
