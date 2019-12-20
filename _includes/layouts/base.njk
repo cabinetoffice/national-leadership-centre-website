@@ -28,11 +28,19 @@
 				</button>
 			</div>
 		</header>
+		
+		{%- if navtitle == "Home" -%}
+			{% include "components/carousel.njk" %}
+		{% endif %}
+		
+		{%- if navtitle !== "Home" -%}
+			{% include "components/breadcrumbs.njk" %}
+		{% endif %}
 
 		{% if not primary %}
 			{% include "components/title-bar.njk" %}
 		{% endif %}
-
+		
 		<main>
 			{{ layoutContent | safe }}
 		</main>

@@ -6,10 +6,13 @@
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/build/styles.css" %}
+	{% include "assets/slick/slick.css" %}
+	{% include "assets/slick/slick-theme.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
-    {# {% include "assets/js/jquery-3.4.1.min.js" %} #}
+    {% include "assets/js/jquery-3.4.1.min.js" %}
+	{% include "assets/slick/slick.min.js" %}
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
