@@ -37,8 +37,10 @@
 			{% include "components/breadcrumbs.njk" %}
 		{% endif %}
 
-		{% include "components/title-bar.njk" %}
-
+		{% if not primary %}
+			{% include "components/title-bar.njk" %}
+		{% endif %}
+		
 		<main>
 			{{ layoutContent | safe }}
 		</main>
