@@ -276,6 +276,47 @@ COMPONENTS
 	}
 }
 
+.cookie-bar {
+	background: $yellow;
+	padding: govuk-px-to-rem(14px) 0 govuk-px-to-rem(14px) 0;
+	text-align: center;
+
+	p {
+		display: inline;
+		margin: 0;
+		font-size: govuk-px-to-rem(17px);
+		line-height: govuk-px-to-rem(25px);
+	}
+
+	a {
+		text-decoration: none;
+		padding-left: govuk-px-to-rem(5px);
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.cookie-bar {
+	
+		p {
+			display: block;
+			font-size: govuk-px-to-rem(15px);
+			line-height: govuk-px-to-rem(22px);
+
+			&:first-child {
+				margin-bottom: govuk-px-to-rem(10px);
+			}
+		}
+	
+		a {
+			text-decoration: none;
+			padding-left: none;
+			font-size: govuk-px-to-rem(12px);
+			line-height: govuk-px-to-rem(15px);
+		}
+	}	
+}
+
+// Breadcrumbs block
 // Slick carousel settings - https://kenwheeler.github.io/slick/
 .carousel-block {
 	.slick-dotted.slick-slider {

@@ -553,6 +553,32 @@ COMPONENTS
       float: unset;
       width: 3.36842rem; } }
 
+.cookie-bar {
+  background: #FFDB03;
+  padding: 0.73684rem 0 0.73684rem 0;
+  text-align: center; }
+  .cookie-bar p {
+    display: inline;
+    margin: 0;
+    font-size: 0.89474rem;
+    line-height: 1.31579rem; }
+  .cookie-bar a {
+    text-decoration: none;
+    padding-left: 0.26316rem; }
+
+@media only screen and (max-width: 768px) {
+  .cookie-bar p {
+    display: block;
+    font-size: 0.78947rem;
+    line-height: 1.15789rem; }
+    .cookie-bar p:first-child {
+      margin-bottom: 0.52632rem; }
+  .cookie-bar a {
+    text-decoration: none;
+    padding-left: none;
+    font-size: 0.63158rem;
+    line-height: 0.78947rem; } }
+
 .carousel-block .slick-dotted.slick-slider {
   margin-bottom: 0; }
 
