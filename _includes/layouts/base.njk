@@ -28,7 +28,11 @@
 				</button>
 			</div>
 		</header>
-		
+
+		{%- if navtitle !== "Home" -%}
+			{% include "components/breadcrumbs.njk" %}
+		{% endif %}
+
 		{% include "components/title-bar.njk" %}
 
 		<main>
