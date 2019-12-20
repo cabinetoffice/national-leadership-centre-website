@@ -579,36 +579,52 @@ COMPONENTS
     font-size: 0.63158rem;
     line-height: 0.78947rem; } }
 
-.carousel-block .slick-dotted.slick-slider {
-  margin-bottom: 0; }
+.landing-block {
+  position: relative; }
+  .landing-block .landing-block__image {
+    background-image: url("../static/img/our-programme/landing-our-programme.png");
+    height: 100%;
+    min-height: 10.52632rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .landing-block .landing-block__text {
+    padding: 1.84211rem 0 1.42105rem 0;
+    width: 100%;
+    background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%); }
+    .landing-block .landing-block__text .landing-block__text__internal h1 {
+      color: #ffffff;
+      font-size: 1.26316rem;
+      line-height: 1.73684rem; }
+    .landing-block .landing-block__text .landing-block__text__internal p {
+      color: #ffffff;
+      font-size: 1.15789rem;
+      line-height: 1.57895rem; }
 
-.carousel-block .slick-slide {
-  margin-bottom: -0.05263rem; }
-
-.carousel-block .slick-dots {
-  bottom: 0.05263rem; }
-
-.carousel-block .slick-dots li button:before {
-  color: #EE701C;
-  font-size: 0.42105rem;
-  opacity: 1; }
-
-.carousel-block .slick-dots li.slick-active button:before {
-  color: #EE701C; }
-
-.carousel-block .slick-prev {
-  left: 20px;
-  z-index: 1; }
-
-.carousel-block .slick-next {
-  right: 20px;
-  z-index: 1; }
-
-.carousel-block .carousel-block__home__img:nth-of-type(n+2) {
-  display: none; }
-
-.js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
-  display: unset; }
+@media only screen and (min-width: 768px) {
+  .landing-block .landing-block__image {
+    background-position: center top;
+    min-height: 34.21053rem;
+    height: calc(100vh - 176px); }
+  .landing-block .landing-block__text {
+    position: absolute;
+    bottom: 6.15789rem;
+    display: inline-block;
+    width: 100%;
+    background: none; }
+    .landing-block .landing-block__text .landing-block__text__internal {
+      background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
+      max-width: 38.26316rem;
+      padding: 2.94737rem 2.89474rem 2.94737rem 3.26316rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      .landing-block .landing-block__text .landing-block__text__internal h1 {
+        font-size: 2.31579rem;
+        line-height: 3.47368rem;
+        margin-bottom: 0.68421rem; }
+      .landing-block .landing-block__text .landing-block__text__internal p {
+        font-size: 1.63158rem;
+        line-height: 2.42105rem;
+        margin: 0; } }
 
 .govuk-breadcrumbs {
   font-family: "Nunito Sans", sans-serif;
@@ -709,6 +725,37 @@ COMPONENTS
     color: #000;
     text-decoration: none; }
 
+.carousel-block .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+
+.carousel-block .slick-slide {
+  margin-bottom: -0.05263rem; }
+
+.carousel-block .slick-dots {
+  bottom: 0.05263rem; }
+
+.carousel-block .slick-dots li button:before {
+  color: #EE701C;
+  font-size: 0.42105rem;
+  opacity: 1; }
+
+.carousel-block .slick-dots li.slick-active button:before {
+  color: #EE701C; }
+
+.carousel-block .slick-prev {
+  left: 20px;
+  z-index: 1; }
+
+.carousel-block .slick-next {
+  right: 20px;
+  z-index: 1; }
+
+.carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: none; }
+
+.js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+  display: unset; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -721,6 +768,7 @@ p {
   font-size: 0.84211rem;
   font-weight: normal;
   line-height: 1.31579rem;
+  font-style: normal;
   color: #323E48; }
   @media only screen and (min-width: 768px) {
     p {

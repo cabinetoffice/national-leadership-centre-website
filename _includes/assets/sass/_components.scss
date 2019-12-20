@@ -316,7 +316,111 @@ COMPONENTS
 	}	
 }
 
+// Landing block
+.landing-block {
+	position: relative;
+
+	.landing-block__image {
+		background-image: url("../static/img/our-programme/landing-our-programme.png");
+		height: 100%;
+		min-height: govuk-px-to-rem(200px);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.landing-block__text {
+		padding: govuk-px-to-rem(35px) 0 govuk-px-to-rem(27px) 0;
+		width: 100%;
+		background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
+
+		.landing-block__text__internal {
+
+			h1 {
+				color: $white;
+				font-size: govuk-px-to-rem(24px);
+				line-height: govuk-px-to-rem(33px);
+			}
+
+			p {
+				color: $white;
+				font-size: $h1-font-size-mobile;
+				line-height: $h1-line-height-mobile;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : $tablet) {
+	.landing-block {
+		.landing-block__image {
+			background-position: center top;
+			min-height: govuk-px-to-rem(650px);
+			height: calc(100vh - 176px);
+		}
+
+		.landing-block__text {
+			position: absolute;
+			bottom: govuk-px-to-rem(117px);
+			display: inline-block;
+			width: 100%;
+			background: none;
+
+			.landing-block__text__internal {
+				background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 100%, rgba(238, 112, 28, 0) 100%);
+				max-width: govuk-px-to-rem(727px);
+				padding: govuk-px-to-rem(56px) govuk-px-to-rem(55px) govuk-px-to-rem(56px) govuk-px-to-rem(62px);
+				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+				h1 {
+					font-size: govuk-px-to-rem(44px);
+					line-height: govuk-px-to-rem(66px);
+					margin-bottom: govuk-px-to-rem(13px);
+				}
+	
+				p {
+					font-size: govuk-px-to-rem(31px);
+					line-height: govuk-px-to-rem(46px);
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
 // Breadcrumbs block
+// Uses govuk sass and replica markup (found in breadcrumbs.njk) as a base, then we override cosmetic styles; color, text-decoration etc.
+@import "node_modules/govuk-frontend/govuk/components/breadcrumbs/breadcrumbs";
+
+.breadcrumbs-block {
+	border-top: 1px solid $grey-border;
+
+	.govuk-breadcrumbs__link {
+		color: $red;
+		font-size: govuk-px-to-rem(18px);
+		line-height: govuk-px-to-rem(25px);
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.govuk-breadcrumbs__list-item {
+
+		&:before { 
+			border-color: $grey-support;
+		}
+
+		&:last-child {
+			
+			a {
+				color: $black;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
 // Slick carousel settings - https://kenwheeler.github.io/slick/
 .carousel-block {
 	.slick-dotted.slick-slider {
@@ -364,39 +468,6 @@ COMPONENTS
 	.carousel-block {
 		.carousel-block__home__img:nth-of-type(n+2) {
 			display: unset;
-		}
-	}
-}
-
-// Breadcrumbs block
-// Uses govuk sass and replica markup (found in breadcrumbs.njk) as a base, then we override cosmetic styles; color, text-decoration etc.
-@import "node_modules/govuk-frontend/govuk/components/breadcrumbs/breadcrumbs";
-
-.breadcrumbs-block {
-	border-top: 1px solid $grey-border;
-
-	.govuk-breadcrumbs__link {
-		color: $red;
-		font-size: govuk-px-to-rem(18px);
-		line-height: govuk-px-to-rem(25px);
-
-		&:focus {
-			box-shadow: none;
-		}
-	}
-
-	.govuk-breadcrumbs__list-item {
-
-		&:before { 
-			border-color: $grey-support;
-		}
-
-		&:last-child {
-			
-			a {
-				color: $black;
-				text-decoration: none;
-			}
 		}
 	}
 }
