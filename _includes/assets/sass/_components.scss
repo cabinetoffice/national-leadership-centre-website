@@ -236,6 +236,7 @@ COMPONENTS
 			list-style: none;
 			padding: 0;
 			margin-left: govuk-px-to-rem(115px);
+			margin-top: 0;
 
 			li {
 				display: inline-block;
@@ -256,6 +257,7 @@ COMPONENTS
 		display: inline-block;
 		width: govuk-px-to-rem(90px);
 		vertical-align: middle;
+		margin-top: govuk-px-to-rem(-20px);
 	}
 }
 
@@ -301,6 +303,7 @@ COMPONENTS
 		.footer-main__crest {
 			float: unset;
 			width: govuk-px-to-rem(64px);
+			margin-top: unset;
 		}
 	}
 }
