@@ -3,6 +3,12 @@ layout: layouts/base.njk
 section: meet the team
 ---
 
+<div class="header-child centered">
+	<div class="container">
+		<h2>{{navtitle}}</h2>
+	</div>
+</div>
+
 <div class="team-block-wrapper">
 	<div class="container">
 		{{ layoutContent | safe }}
@@ -10,11 +16,14 @@ section: meet the team
 		<div class="team-block vertical-padding">
 			{% for member, item in teamMembers %}
 				<div class="team-block__item">
-					<div class="team-block__item__name h3-style">
-						{{ member }}: {{ item.name }}
+					<div class="team-block__item__image">
+						<img src="{{ item.image }}">
+					</div>
+					<div class="team-block__item__name">
+						{{ item.name }}
 					</div>
 					<div class="team-block__item__bio">
-						{{ item.description }}
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 			{% endfor %}

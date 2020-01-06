@@ -437,6 +437,19 @@ COMPONENTS
 .content-block h1, .content-block h3 {
   margin-bottom: 1.10526rem; }
 
+.header-child {
+  padding: 2.10526rem 0px; }
+  @media only screen and (min-width: 768px) {
+    .header-child {
+      padding: 2.73684rem 0px; } }
+  .header-child h2 {
+    font-size: 1rem;
+    line-height: 1.36842rem; }
+    @media only screen and (min-width: 768px) {
+      .header-child h2 {
+        font-size: 1.84211rem;
+        line-height: 2.73684rem; } }
+
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
@@ -796,21 +809,46 @@ COMPONENTS
   display: unset; }
 
 .team-block-wrapper {
-  background-color: #f2f3f4; }
+  background-color: #f2f3f4;
+  padding-top: 5.26316rem; }
 
 .team-block {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between; }
   .team-block .team-block__item {
-    max-width: 18.31579rem;
+    height: fit-content;
     text-align: center;
     background-color: #ffffff;
-    margin-bottom: 2.10526rem; }
+    margin: 0rem 0.94737rem 5.15789rem 0.94737rem; }
+    @media only screen and (min-width: 576px) {
+      .team-block .team-block__item {
+        flex: 30%; } }
+  .team-block .team-block__item__image {
+    margin-bottom: 1.05263rem; }
+    .team-block .team-block__item__image img {
+      max-width: 4.94737rem;
+      margin-top: -3.05263rem; }
+      @media only screen and (min-width: 576px) {
+        .team-block .team-block__item__image img {
+          max-width: 5.89474rem;
+          margin-top: -3.05263rem; } }
   .team-block .team-block__item__name {
-    padding: 0rem 1.68421rem; }
+    padding: 0rem 1.68421rem;
+    font-size: 0.89474rem;
+    line-height: 1.31579rem; }
+    @media only screen and (min-width: 768px) {
+      .team-block .team-block__item__name {
+        font-size: 1.36842rem;
+        line-height: 1.57895rem; } }
   .team-block .team-block__item__bio {
     padding: 1.05263rem 1.68421rem; }
+    .team-block .team-block__item__bio p {
+      margin: 0; }
+      @media only screen and (max-width: 768px) {
+        .team-block .team-block__item__bio p {
+          font-size: 0.73684rem;
+          line-height: 1.05263rem; } }
 
 /*--------------------------------------------------------------
 # Typography

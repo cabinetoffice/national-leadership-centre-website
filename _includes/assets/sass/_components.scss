@@ -63,6 +63,25 @@ COMPONENTS
 	}
 }
 
+// Header child
+.header-child {
+	padding: govuk-px-to-rem(40px) 0px;
+
+	@media only screen and (min-width : $tablet) {
+		padding: govuk-px-to-rem(52px) 0px;
+	}
+
+	h2 {
+		font-size: govuk-px-to-rem(19px);
+		line-height: govuk-px-to-rem(26px);
+
+		@media only screen and (min-width : $tablet) {
+			font-size: govuk-px-to-rem(35px);
+			line-height: govuk-px-to-rem(52px);
+		}
+	}
+}
+
 // Tiles Block
 .tiles-block {
 
@@ -507,6 +526,7 @@ COMPONENTS
 // Meet the team / board block
 .team-block-wrapper {
 	background-color: $grey-light;
+	padding-top: govuk-px-to-rem(100px);
 }
 
 .team-block {
@@ -515,17 +535,51 @@ COMPONENTS
 	justify-content: space-between;
 	
 	.team-block__item {
-		max-width: govuk-px-to-rem(348px);
+		height: fit-content;
 		text-align: center;
 		background-color: $white;
-		margin-bottom: govuk-px-to-rem(40px);
+		margin: 0rem govuk-px-to-rem(18px) govuk-px-to-rem(98px) govuk-px-to-rem(18px);
+	
+		@media only screen and (min-width : $mobile) {
+			flex: 30%;
+		}
+	}
+
+	.team-block__item__image {
+		margin-bottom: govuk-px-to-rem(20px);
+
+		img {
+			max-width: govuk-px-to-rem(94px);
+			margin-top: govuk-px-to-rem(-58px);
+
+			@media only screen and (min-width : $mobile) {
+				max-width: govuk-px-to-rem(112px);
+				margin-top: govuk-px-to-rem(-58px);
+			}
+		}
 	}
 
 	.team-block__item__name {
 		padding: govuk-px-to-rem(0px) govuk-px-to-rem(32px);
+		font-size: $team-header-mobile;
+		line-height: $team-header-line-height-mobile;
+
+		@media only screen and (min-width : $tablet) {
+			font-size: $team-header;
+			line-height: $team-header-line-height;
+		}
 	}
 
 	.team-block__item__bio {
 		padding: govuk-px-to-rem(20px) govuk-px-to-rem(32px);
+
+		p {
+			margin: 0;
+
+			@media only screen and (max-width : $tablet) {
+				font-size: govuk-px-to-rem(14px);
+				line-height: govuk-px-to-rem(20px);
+			}
+		}
 	}
 }
