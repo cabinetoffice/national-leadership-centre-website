@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+section: meet the team
+---
+
+<div class="container">
+	{{ layoutContent | safe }}
+
+	<div class="team-block">
+		{% for member, item in teamMembers %}
+			<div class="team-block__item">{{ member }}: {{ item.name }} {{ item.description }}</div>
+		{% endfor %}
+	</div>
+</div>
