@@ -36,7 +36,7 @@ tags:
 <br>
 <br>
 
-<p><a href="{{ '/our-programme/' | url }}">Read about the Programme Structure ></a></p>
+<!-- <p><a href="{{ '/our-programme/programme-structure.html' | url }}">Read about the Programme Structure ></a></p> -->
 <p><a href="{{ '/faqs/' | url }}">Visit the FAQs ></a></p>
 <p><a href="{{ '/the-network/' | url }}">Access The Network ></a></p>
 

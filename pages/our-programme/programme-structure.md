@@ -4,7 +4,7 @@ title: TBC TBC TBC
 leader: TBC TBC TBC TBC TBC
 date: 2017-01-01T00:00:00.000Z
 permalink: /our-programme/programme-structure.html
-navtitle: Our Programme
+navtitle: Programme Structure
 primary: true
 ---
 
