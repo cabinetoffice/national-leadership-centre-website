@@ -14,6 +14,7 @@ p {
 	@media only screen and (min-width : $tablet) {
 		font-size: $body-font-size;
 		line-height: $body-line-height;
+		margin: govuk-px-to-rem(30px) 0px;
 	}
 }
 
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 	mix-blend-mode: normal;
 }
 
-h1 {
+h1, .h1-style {
 	font-size: $h1-font-size-mobile;
 	line-height: $h1-line-height-mobile;
 	font-weight: $base-font-weight-regular;
@@ -40,7 +41,7 @@ h1 {
 	}
 }
 
-h2 {
+h2, .h2-style {
 	font-size: $h2-font-size-mobile;
 	line-height: $h2-line-height-mobile;
 	font-weight: $base-font-weight-regular;
@@ -51,7 +52,7 @@ h2 {
 	}
 }
 
-h3 {
+h3, .h3-style {
 	font-size: $h3-font-size-mobile;
 	line-height: $h3-line-height-mobile;
 	font-weight: $base-font-weight-regular;
@@ -63,7 +64,7 @@ h3 {
 }
 
 // Subheading, slightly different styling.
-h4 {
+h4, .h4-style {
 	font-size: $h4-font-size-mobile;
 	line-height: $h4-line-height-mobile;
 
@@ -73,6 +74,7 @@ h4 {
 	}
 }
 
+// Helpers - Additions to help with reuseable code approach. Add classes to achieve styles rather than nesting.
 .bold {
 	font-weight: $base-font-weight-bold;
 }
@@ -81,9 +83,27 @@ h4 {
 	text-align: center;
 }
 
+.no-margin {
+	margin: 0;
+}
+
 .gradient {
 	background-color: $red;
 	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+	h1, h2, h3, h4 {
+		background-color: #ce132d;
+		background: linear-gradient(135deg,#ce132d 0,#ee701c 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+.header-highlight {
+	border-left: 2px solid $yellow;
+	padding-left: govuk-px-to-rem(20px);
 }

@@ -2,11 +2,6 @@
 LAYOUT
 ========================================================================== */
 
-// Highlight section
-.highlight {
-	background-color: $pale-yellow;
-}
-
 // Grid containers. Variations on base container style can be added as necessary.
 .container {
 	position: relative;
@@ -52,10 +47,23 @@ LAYOUT
 	width: 100vw;
 }
 
-// Where different size containers are used on the same page, and all of them need to align left regardless of max-width, attach .align-left to your container wrapper.
+// Container extensions - To be added to the container div in order to support required variations.
+
+// 1. Extension to highlight a section with a background colour.
+.highlight {
+	background-color: $pale-yellow;
+}
+
+// 2. Extension to left-align all containers regardless of container width.
 .align-left {
 	@media only screen and (min-width : $tablet) {
 		left: govuk-px-to-rem(-5px);
 		padding: 0;
 	}
+}
+
+// 3. Extension to add required vertical padding for body content sections. 
+.vertical-padding {
+	padding-top: govuk-px-to-rem(30px);
+	padding-bottom: govuk-px-to-rem(53px);
 }
