@@ -795,6 +795,23 @@ COMPONENTS
 .js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
   display: unset; }
 
+.team-block-wrapper {
+  background-color: #f2f3f4; }
+
+.team-block {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between; }
+  .team-block .team-block__item {
+    max-width: 18.31579rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 2.10526rem; }
+  .team-block .team-block__item__name {
+    padding: 0rem 1.68421rem; }
+  .team-block .team-block__item__bio {
+    padding: 1.05263rem 1.68421rem; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/

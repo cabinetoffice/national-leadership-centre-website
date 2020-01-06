@@ -503,3 +503,29 @@ COMPONENTS
 		}
 	}
 }
+
+// Meet the team / board block
+.team-block-wrapper {
+	background-color: $grey-light;
+}
+
+.team-block {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	
+	.team-block__item {
+		max-width: govuk-px-to-rem(348px);
+		text-align: center;
+		background-color: $white;
+		margin-bottom: govuk-px-to-rem(40px);
+	}
+
+	.team-block__item__name {
+		padding: govuk-px-to-rem(0px) govuk-px-to-rem(32px);
+	}
+
+	.team-block__item__bio {
+		padding: govuk-px-to-rem(20px) govuk-px-to-rem(32px);
+	}
+}
