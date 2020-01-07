@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-section: meet the team
+section: meet the board
 ---
 <script>
 var root = document.getElementsByTagName( 'html' )[0]; // '0' to assign the first (and only `HTML` tag)
@@ -13,7 +13,7 @@ root.setAttribute( 'class', 'js' );
 	</div>
 </div>
 
-<div class="team-block-wrapper no-images">
+<div class="team-block-wrapper">
 	<div class="container">
 		{{ layoutContent | safe }}
 
@@ -21,18 +21,14 @@ root.setAttribute( 'class', 'js' );
 			{% for member, item in teamMembers %}
 				<div class="team-block__item">
 					<div class="team-block__item__image">
-						{# <img src="{{ item.image }}" alt="Headshot image of {{ item.name }}"> #}
+						<img src="{{ item.image }}" alt="Headshot image of {{ item.name }}">
 					</div>
 					<div class="team-block__item__name">
 						{{ item.name }}
 					</div>
-					<div class="team-block__item__bio cropped">
-						<p>{{ item.description | safe }}</p>
+					<div class="team-block__item__bio">
+						<p>{{ item.description }}</p>
 					</div>
-					<div class="team-block__item__readmore caption">
-						More
-					</div>
-					<img class="team-block__item__readmore__img" src="../static/img/readmore.svg">
 				</div>
 			{% endfor %}
 		</div>

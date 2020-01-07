@@ -527,6 +527,16 @@ COMPONENTS
 .team-block-wrapper {
 	background-color: $grey-light;
 	padding-top: govuk-px-to-rem(100px);
+
+	&.no-images {
+		padding-top: govuk-px-to-rem(40px);
+
+		.team-block__item {
+			@media only screen and (max-width : $tablet) {
+				margin-bottom: govuk-px-to-rem(32px);
+			}
+		}
+	}
 }
 
 .team-block {
@@ -535,6 +545,7 @@ COMPONENTS
 	justify-content: space-between;
 	
 	.team-block__item {
+		width: 100%;
 		height: fit-content;
 		text-align: center;
 		background-color: $white;
@@ -600,14 +611,17 @@ COMPONENTS
 @media only screen and (max-width : $tablet) {
 	.js {
 		.team-block__item__bio {
-			padding-bottom: govuk-px-to-rem(0px);
-			overflow: hidden;
-			text-overflow: -o-ellipsis-lastline;
-			text-overflow: ellipsis;
-			display: block;
-			display: -webkit-box;
-			-webkit-line-clamp: 2;
-			-webkit-box-orient: vertical;
+
+			&.cropped {
+				padding-bottom: govuk-px-to-rem(0px);
+				overflow: hidden;
+				text-overflow: -o-ellipsis-lastline;
+				text-overflow: ellipsis;
+				display: block;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+			}
 
 			&.expand {
 				-webkit-line-clamp: unset;
