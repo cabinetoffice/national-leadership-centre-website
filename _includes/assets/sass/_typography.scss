@@ -107,3 +107,13 @@ h4, .h4-style {
 	border-left: 2px solid $yellow;
 	padding-left: govuk-px-to-rem(20px);
 }
+
+.caption {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: normal;
+	font-size: govuk-px-to-rem(12px);
+	line-height: govuk-px-to-rem(16px);
+	text-align: center;
+	color: $red;
+}

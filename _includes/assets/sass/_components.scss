@@ -546,7 +546,11 @@ COMPONENTS
 	}
 
 	.team-block__item__image {
-		margin-bottom: govuk-px-to-rem(20px);
+		margin-bottom: govuk-px-to-rem(10px);
+
+		@media only screen and (min-width : $mobile) {
+			margin-bottom: govuk-px-to-rem(20px);
+		}
 
 		img {
 			max-width: govuk-px-to-rem(94px);
@@ -571,7 +575,11 @@ COMPONENTS
 	}
 
 	.team-block__item__bio {
-		padding: govuk-px-to-rem(20px) govuk-px-to-rem(32px);
+		padding: govuk-px-to-rem(10px) govuk-px-to-rem(32px) govuk-px-to-rem(20px);
+
+		@media only screen and (min-width : $tablet) {
+			padding: govuk-px-to-rem(20px) govuk-px-to-rem(32px);
+		}
 
 		p {
 			margin: 0;
@@ -579,6 +587,46 @@ COMPONENTS
 			@media only screen and (max-width : $tablet) {
 				font-size: govuk-px-to-rem(14px);
 				line-height: govuk-px-to-rem(20px);
+			}
+		}
+	}
+}
+
+.team-block__item__readmore, .team-block__item__readmore__img  {
+	display: none;		
+}
+
+// Progressive enhancement - If js is available to the browser, then style and enable the show / hide functionality. If not, show whole bio as default.
+@media only screen and (max-width : $tablet) {
+	.js {
+		.team-block__item__bio {
+			padding-bottom: govuk-px-to-rem(0px);
+			overflow: hidden;
+			text-overflow: -o-ellipsis-lastline;
+			text-overflow: ellipsis;
+			display: block;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+
+			&.expand {
+				-webkit-line-clamp: unset;
+			}
+		}
+
+		.team-block__item__readmore {
+			cursor: pointer;
+			display: inline-block;
+    		margin-right: govuk-px-to-rem(4px);
+			padding: govuk-px-to-rem(12px) 0 govuk-px-to-rem(20px);
+		}
+
+		.team-block__item__readmore__img {
+			display: inline-block;
+			width: govuk-px-to-rem(13px);
+
+			&.rotate {
+				transform: rotate(180deg);
 			}
 		}
 	}

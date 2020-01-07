@@ -2,6 +2,10 @@
 layout: layouts/base.njk
 section: meet the team
 ---
+<script>
+var root = document.getElementsByTagName( 'html' )[0]; // '0' to assign the first (and only `HTML` tag)
+root.setAttribute( 'class', 'js' );
+</script>
 
 <div class="header-child centered">
 	<div class="container">
@@ -17,7 +21,7 @@ section: meet the team
 			{% for member, item in teamMembers %}
 				<div class="team-block__item">
 					<div class="team-block__item__image">
-						<img src="{{ item.image }}">
+						{# <img src="{{ item.image }}" alt="Headshot image of {{ item.name }}"> #}
 					</div>
 					<div class="team-block__item__name">
 						{{ item.name }}
@@ -25,6 +29,10 @@ section: meet the team
 					<div class="team-block__item__bio">
 						<p>{{ item.description }}</p>
 					</div>
+					<div class="team-block__item__readmore caption">
+						More
+					</div>
+					<img class="team-block__item__readmore__img" src="../static/img/readmore.svg">
 				</div>
 			{% endfor %}
 		</div>

@@ -825,7 +825,10 @@ COMPONENTS
       .team-block .team-block__item {
         flex: 30%; } }
   .team-block .team-block__item__image {
-    margin-bottom: 1.05263rem; }
+    margin-bottom: 0.52632rem; }
+    @media only screen and (min-width: 576px) {
+      .team-block .team-block__item__image {
+        margin-bottom: 1.05263rem; } }
     .team-block .team-block__item__image img {
       max-width: 4.94737rem;
       margin-top: -3.05263rem; }
@@ -842,13 +845,42 @@ COMPONENTS
         font-size: 1.36842rem;
         line-height: 1.57895rem; } }
   .team-block .team-block__item__bio {
-    padding: 1.05263rem 1.68421rem; }
+    padding: 0.52632rem 1.68421rem 1.05263rem; }
+    @media only screen and (min-width: 768px) {
+      .team-block .team-block__item__bio {
+        padding: 1.05263rem 1.68421rem; } }
     .team-block .team-block__item__bio p {
       margin: 0; }
       @media only screen and (max-width: 768px) {
         .team-block .team-block__item__bio p {
           font-size: 0.73684rem;
           line-height: 1.05263rem; } }
+
+.team-block__item__readmore, .team-block__item__readmore__img {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  .js .team-block__item__bio {
+    padding-bottom: 0rem;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    text-overflow: ellipsis;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+    .js .team-block__item__bio.expand {
+      -webkit-line-clamp: unset; }
+  .js .team-block__item__readmore {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.21053rem;
+    padding: 0.63158rem 0 1.05263rem; }
+  .js .team-block__item__readmore__img {
+    display: inline-block;
+    width: 0.68421rem; }
+    .js .team-block__item__readmore__img.rotate {
+      transform: rotate(180deg); } }
 
 /*--------------------------------------------------------------
 # Typography
@@ -940,6 +972,15 @@ h4, .h4-style {
 .header-highlight {
   border-left: 2px solid #FFDB03;
   padding-left: 1.05263rem; }
+
+.caption {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.63158rem;
+  line-height: 0.84211rem;
+  text-align: center;
+  color: #CE132D; }
 
 /*--------------------------------------------------------------
 # Layout
