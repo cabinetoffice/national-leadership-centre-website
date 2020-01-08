@@ -378,7 +378,8 @@ button {
 
 ul, ol {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #323E48; }
   ul li, ol li {
     font-size: 0.84211rem;
     font-weight: normal; }
