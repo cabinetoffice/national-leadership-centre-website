@@ -20,7 +20,7 @@ teamMembers: {
   },
   member3: {
 	name: "General Sir Gordon Messenger",
-	image: ../static/img/meet-the-board/placeholder.png,
+	image: ../static/img/meet-the-board/gordon-messenger.png,
 	description: "Former Vice Chief of the Defence Staff (2016-19)"
   },
   member4: {
@@ -50,7 +50,7 @@ teamMembers: {
   },
   member9: {
 	name: "Sir Kenneth Olisa",
-	image: ../static/img/meet-the-board/placeholder.png,
+	image: ../static/img/meet-the-board/kenneth-olisa.png,
 	description: "Lord-Lieutenant of Greater London"
   },
   member10: {
