@@ -635,7 +635,6 @@ COMPONENTS
 .landing-block {
   position: relative; }
   .landing-block .landing-block__image {
-    background-image: url("../static/img/our-programme/landing-our-programme.png");
     height: 100%;
     min-height: 10.52632rem;
     background-position: center top;
