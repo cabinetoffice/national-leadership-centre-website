@@ -437,10 +437,23 @@ COMPONENTS
 .content-block h1, .content-block h3 {
   margin-bottom: 1.10526rem; }
 
+.header-child {
+  padding: 2.10526rem 0px; }
+  @media only screen and (min-width: 768px) {
+    .header-child {
+      padding: 2.73684rem 0px; } }
+  .header-child h2 {
+    font-size: 1rem;
+    line-height: 1.36842rem; }
+    @media only screen and (min-width: 768px) {
+      .header-child h2 {
+        font-size: 1.84211rem;
+        line-height: 2.73684rem; } }
+
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 25.52632rem; }
+    max-width: 30rem; }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;
@@ -471,7 +484,7 @@ COMPONENTS
 
 @media only screen and (min-width: 992px) {
   .tiles-block .tiles-block__tile {
-    min-height: 16rem; } }
+    min-height: 12.73684rem; } }
 
 .image-l-text-r-block {
   padding-top: 1.05263rem; }
@@ -795,6 +808,86 @@ COMPONENTS
 .js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
   display: unset; }
 
+.team-block-wrapper {
+  background-color: #f2f3f4;
+  padding-top: 5.26316rem; }
+  .team-block-wrapper.no-images {
+    padding-top: 2.10526rem; }
+    @media only screen and (max-width: 768px) {
+      .team-block-wrapper.no-images .team-block__item {
+        margin-bottom: 1.68421rem; } }
+
+.team-block {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between; }
+  .team-block .team-block__item {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0rem 0.94737rem 5.15789rem 0.94737rem; }
+    @media only screen and (min-width: 576px) {
+      .team-block .team-block__item {
+        flex: 30%; } }
+  .team-block .team-block__item__image {
+    margin-bottom: 0.52632rem; }
+    @media only screen and (min-width: 576px) {
+      .team-block .team-block__item__image {
+        margin-bottom: 1.05263rem; } }
+    .team-block .team-block__item__image img {
+      max-width: 4.94737rem;
+      margin-top: -3.05263rem; }
+      @media only screen and (min-width: 576px) {
+        .team-block .team-block__item__image img {
+          max-width: 5.89474rem;
+          margin-top: -3.05263rem; } }
+  .team-block .team-block__item__name {
+    padding: 0rem 1.68421rem;
+    font-size: 0.89474rem;
+    line-height: 1.31579rem; }
+    @media only screen and (min-width: 768px) {
+      .team-block .team-block__item__name {
+        font-size: 1.36842rem;
+        line-height: 1.57895rem; } }
+  .team-block .team-block__item__bio {
+    padding: 0.52632rem 1.68421rem 1.05263rem; }
+    @media only screen and (min-width: 768px) {
+      .team-block .team-block__item__bio {
+        padding: 1.05263rem 1.68421rem; } }
+    .team-block .team-block__item__bio p {
+      margin: 0; }
+      @media only screen and (max-width: 768px) {
+        .team-block .team-block__item__bio p {
+          font-size: 0.73684rem;
+          line-height: 1.05263rem; } }
+
+.team-block__item__readmore, .team-block__item__readmore__img {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  .js .team-block__item__bio.cropped {
+    padding-bottom: 0rem;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    text-overflow: ellipsis;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .js .team-block__item__bio.expand {
+    -webkit-line-clamp: unset; }
+  .js .team-block__item__readmore {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.21053rem;
+    padding: 0.63158rem 0 1.05263rem; }
+  .js .team-block__item__readmore__img {
+    display: inline-block;
+    width: 0.68421rem; }
+    .js .team-block__item__readmore__img.rotate {
+      transform: rotate(180deg); } }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -885,6 +978,15 @@ h4, .h4-style {
 .header-highlight {
   border-left: 2px solid #FFDB03;
   padding-left: 1.05263rem; }
+
+.caption {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.63158rem;
+  line-height: 0.84211rem;
+  text-align: center;
+  color: #CE132D; }
 
 /*--------------------------------------------------------------
 # Layout

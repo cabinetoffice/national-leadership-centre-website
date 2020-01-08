@@ -34,5 +34,21 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 8000,
 	});
+
+	// Meet the team show/hide functionality
+    $(".team-block__item__readmore").click(function(){
+		$(this).closest('.team-block__item').find('.team-block__item__bio').toggleClass('expand');
+
+		var x = $(this).closest('.team-block__item').find('.team-block__item__readmore');
+
+		if (x.text() == 'More') {
+			x.text('Less');
+		} else if (x.text() == 'Less') {
+			x.text('More');
+		}
+
+		$(this).closest('.team-block__item').find('.team-block__item__readmore__img').toggleClass('rotate');
+	});
+
 });
   
