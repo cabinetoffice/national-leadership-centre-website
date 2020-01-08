@@ -453,7 +453,7 @@ COMPONENTS
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 25.52632rem; }
+    max-width: 30rem; }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;
@@ -484,7 +484,7 @@ COMPONENTS
 
 @media only screen and (min-width: 992px) {
   .tiles-block .tiles-block__tile {
-    min-height: 16rem; } }
+    min-height: 12.73684rem; } }
 
 .image-l-text-r-block {
   padding-top: 1.05263rem; }

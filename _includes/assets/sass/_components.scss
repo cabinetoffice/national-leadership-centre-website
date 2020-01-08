@@ -89,7 +89,7 @@ COMPONENTS
 		margin-bottom: govuk-px-to-rem(39px);
 
 		&.tiles-block__tile--two-col {
-			max-width: govuk-px-to-rem(485px);
+			max-width: govuk-px-to-rem(570px);
 		}
 
 		hr {
@@ -135,7 +135,7 @@ COMPONENTS
 @media only screen and (min-width : $desktop) {
 	.tiles-block {
 		.tiles-block__tile {
-			min-height: govuk-px-to-rem(304px);
+			min-height: govuk-px-to-rem(242px);
 		}
 	}
 }

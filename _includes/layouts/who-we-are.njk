@@ -3,6 +3,19 @@ layout: layouts/base.njk
 section: who we are
 ---
 
-{{ layoutContent | safe }}
+<div class="header-block highlight">
+	<div class="container container--sm">
+		<h2>Meet the people who work together to support Senior Leaders in their roles across the UK Public Sector.</h2>
+  </div>
+</div>
 
-{% include "components/tiles-who-we-are.njk" %}
+
+<div class="content-block">
+	<div class="container container--sm">
+		<p>We are working to establish a strong, thriving network of senior leaders both online and in person through our Programme. As well as this, we host events which allow Senior Leaders to connect. The team and board work together, using the latest research, data and success stories, to develop a hub that supports leaders in their work.</p>
+	</div>
+
+	{% include "components/tiles-who-we-are.njk" %}
+
+	<div class="container container--xxs align-left vertical-padding">
+		{{ layoutContent | safe }}
