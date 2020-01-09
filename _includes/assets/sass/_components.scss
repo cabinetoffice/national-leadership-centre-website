@@ -23,6 +23,23 @@ COMPONENTS
 	}
 }
 
+// Leader bar
+.leader-bar {
+	background-color: $white;
+	padding: govuk-px-to-rem(67px) govuk-px-to-rem(0px);
+	width: 100%;
+
+	@media only screen and (min-width : $tablet) {
+		background-color: $red;
+	}
+
+	p {
+		@media only screen and (min-width : $tablet) {
+			color: white
+		}	
+	}
+}
+
 // Header block
 .header-block {
 	padding: govuk-px-to-rem(55px) 0;

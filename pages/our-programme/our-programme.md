@@ -10,7 +10,13 @@ tags:
   - primary
 ---
 
-## Every year The National Leadership Centre invites a selection of the UK’s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.
+<div class="leader-bar">
+	<div class="container container--sm">
+		<p class="large-body-text no-margin">Every year The National Leadership Centre invites a selection of the UK’s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.</p>
+	</div>
+</div>
+
+<div class="container container--sm vertical-padding">
 
 <br>
 <br>
@@ -59,3 +65,5 @@ Civil Service Permanent Secretaries and Director Generals
 Three star Military officers
 CEOs of large Housing Associations
 CEOs of large Arms Length Bodies and Regional Transport Authorities
+
+</div>

@@ -414,6 +414,17 @@ COMPONENTS
       margin: auto;
       max-width: 31.78947rem; }
 
+.leader-bar {
+  background-color: #ffffff;
+  padding: 3.52632rem 0rem;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .leader-bar {
+      background-color: #CE132D; } }
+  @media only screen and (min-width: 768px) {
+    .leader-bar p {
+      color: white; } }
+
 .header-block {
   padding: 2.89474rem 0; }
   .header-block.header-block--home {
@@ -987,6 +998,18 @@ h4, .h4-style {
   line-height: 0.84211rem;
   text-align: center;
   color: #CE132D; }
+
+.large-body-text {
+  font-size: 1rem;
+  line-height: 1.36842rem;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    .large-body-text {
+      font-size: 1.31579rem;
+      line-height: 1.94737rem; } }
+
+.white-text {
+  color: #ffffff; }
 
 /*--------------------------------------------------------------
 # Layout

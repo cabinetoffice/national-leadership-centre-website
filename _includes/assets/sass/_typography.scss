@@ -117,3 +117,19 @@ h4, .h4-style {
 	text-align: center;
 	color: $red;
 }
+
+.large-body-text {
+	font-size: $lg-body-font-size-mobile;
+	line-height: $lg-body-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $lg-body-font-size;
+		line-height: $lg-body-line-height;
+	}
+}
+
+// Colours
+.white-text {
+	color: $white;
+}
