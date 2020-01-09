@@ -16,10 +16,7 @@ tags:
 	</div>
 </div>
 
-<div class="container container--sm vertical-padding">
-
-<br>
-<br>
+<div class="container container--sm dbl-vertical-padding">
 
 ## What happens on the programme
 ### The programme serves senior leaders by:
@@ -38,9 +35,6 @@ tags:
 2. Confidence to push boundaries with new approaches to public sector leadership
 3. Valuable experience of collaborating with leaders across the sector
 4. Access to best practice theory and cutting-edge research
-
-<br>
-<br>
 
 <!-- <p><a href="{{ '/our-programme/programme-structure.html' | url }}">Read about the Programme Structure ></a></p> -->
 <p><a href="{{ '/faqs/' | url }}">Visit the FAQs ></a></p>

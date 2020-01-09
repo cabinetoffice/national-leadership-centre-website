@@ -391,9 +391,10 @@ ul, ol {
       margin-bottom: 0px; }
 
 main ul, main ol {
-  margin-top: 2.10526rem;
-  margin-bottom: 0;
+  margin-bottom: 1.57895rem;
   padding-left: 40px; }
+  main ul li, main ol li {
+    margin: 0.47368rem; }
 
 /*--------------------------------------------------------------
 # Components
@@ -416,11 +417,12 @@ COMPONENTS
 
 .leader-bar {
   background-color: #ffffff;
-  padding: 3.52632rem 0rem;
+  padding: 1.89474rem 0rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .leader-bar {
-      background-color: #CE132D; } }
+      background-color: #CE132D;
+      padding: 3.52632rem 0rem; } }
   @media only screen and (min-width: 768px) {
     .leader-bar p {
       color: white; } }
@@ -917,7 +919,7 @@ p {
     p {
       font-size: 0.89474rem;
       line-height: 1.31579rem;
-      margin: 1.57895rem 0px; } }
+      margin: 0 0 1.57895rem 0px; } }
 
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
@@ -942,20 +944,24 @@ h1, .h1-style {
 h2, .h2-style {
   font-size: 1rem;
   line-height: 1.36842rem;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 1.05263rem; }
   @media only screen and (min-width: 768px) {
     h2, .h2-style {
       font-size: 1.21053rem;
-      line-height: 1.73684rem; } }
+      line-height: 1.73684rem;
+      margin-bottom: 1.21053rem; } }
 
 h3, .h3-style {
   font-size: 0.89474rem;
   line-height: 1.31579rem;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 0.63158rem; }
   @media only screen and (min-width: 768px) {
     h3, .h3-style {
       font-size: 1rem;
-      line-height: 1.47368rem; } }
+      line-height: 1.47368rem;
+      margin-bottom: 0.84211rem; } }
 
 h4, .h4-style {
   font-size: 0.89474rem;
@@ -1064,6 +1070,10 @@ LAYOUT
 
 .vertical-padding {
   padding-top: 1.57895rem;
+  padding-bottom: 2.78947rem; }
+
+.dbl-vertical-padding {
+  padding-top: 4.05263rem;
   padding-bottom: 2.78947rem; }
 
 /*--------------------------------------------------------------

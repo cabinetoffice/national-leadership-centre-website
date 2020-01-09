@@ -10,18 +10,33 @@ tags:
   - primary
 ---
 
+<div class="container container--sm dbl-vertical-padding">
+
 ## The National Leadership Centre is creating a network that connects people from across every sector and region. This will include:
 
+<div class="container container--xxs">
+
 Chief Executive Officers (CEOs) in the National Health Service, including NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups.
+
 University Vice-Chancellors
+
 Heads of large Further Education Colleges and Academy Chains
+
 Local Authority CEOs
+
 Police Chief Constables
+
 Fire Chiefs
+
 Civil Service Permanent Secretaries and Director Generals
+
 Three star Military officers
+
 CEOs of large Housing Associations
+
 CEOs of large Arms Length Bodies and Regional Transport Authorities
+
+</div>
 
 User research shows that leaders tend to make links within their own sectors, and often within their local areas, but this rarely happens outside those structures. This new network connects people across these boundaries.
 
@@ -42,3 +57,5 @@ The NLC will create a private area of our website for the network. In this secti
 The public service challenges in this country are mirrored in countries throughout the world. Our priorities may have been successfully addressed abroad, and our leaders will have experience to share internationally as well.
 
 This is why the National Leadership Centre, in partnership with the British Council, will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
+
+</div>

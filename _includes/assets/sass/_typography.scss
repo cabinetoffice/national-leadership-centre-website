@@ -14,7 +14,7 @@ p {
 	@media only screen and (min-width : $tablet) {
 		font-size: $body-font-size;
 		line-height: $body-line-height;
-		margin: govuk-px-to-rem(30px) 0px;
+		margin: 0 0 govuk-px-to-rem(30px) 0px;
 	}
 }
 
@@ -45,10 +45,12 @@ h2, .h2-style {
 	font-size: $h2-font-size-mobile;
 	line-height: $h2-line-height-mobile;
 	font-weight: $base-font-weight-regular;
+	margin-bottom: govuk-px-to-rem(20px); 
 
 	@media only screen and (min-width : $tablet) {
 		font-size: $h2-font-size;
 		line-height: $h2-line-height;
+		margin-bottom: govuk-px-to-rem(23px); 
 	}
 }
 
@@ -56,10 +58,12 @@ h3, .h3-style {
 	font-size: $h3-font-size-mobile;
 	line-height: $h3-line-height-mobile;
 	font-weight: $base-font-weight-regular;
+	margin-bottom: govuk-px-to-rem(12px); 
 
 	@media only screen and (min-width : $tablet) {
 		font-size: $h3-font-size;
 		line-height: $h3-line-height;
+		margin-bottom: govuk-px-to-rem(16px); 
 	}
 }
 
