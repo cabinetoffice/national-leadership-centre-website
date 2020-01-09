@@ -1,0 +1,153 @@
+// Footer
+.footer-main {
+	background-color: $grey-footer;
+	padding: govuk-px-to-rem(61px) 0;
+
+	.footer-main__nav {
+		display: inline-block;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				padding-right: govuk-px-to-rem(15px);
+
+				a {
+					color: $black;
+					font-size: govuk-px-to-rem(17px);
+					line-height: govuk-px-to-rem(25px);
+					text-decoration: none;
+				}
+			}
+
+			li:last-child {
+				padding-right: 0;
+			}
+
+			.current {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-main__social {
+		display: inline-block;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin-left: govuk-px-to-rem(115px);
+			margin-top: 0;
+
+			li {
+				display: inline-block;
+				padding-right: govuk-px-to-rem(15px);
+				font-size: govuk-px-to-rem(17px);
+				line-height: govuk-px-to-rem(25px);
+
+				img {
+					width: govuk-px-to-rem(26px);
+					vertical-align: bottom;
+				}
+			}
+		}
+	}
+
+	.footer-main__crest {
+		float: right;
+		display: inline-block;
+		width: govuk-px-to-rem(90px);
+		vertical-align: middle;
+		margin-top: govuk-px-to-rem(-20px);
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.footer-main {
+		text-align: center;
+		padding: govuk-px-to-rem(36px) 0 govuk-px-to-rem(40px) 0;
+
+		.footer-main__nav {
+			display: block;
+			margin-bottom: govuk-px-to-rem(23px);
+
+			ul {
+				li {
+					a {
+						font-size: govuk-px-to-rem(15);
+						line-height: govuk-px-to-rem(22px);
+					}
+				}
+			}
+		}
+	
+		.footer-main__social {
+			display: block;
+			margin-bottom: govuk-px-to-rem(22px);
+
+			ul {
+				margin: 0;
+
+				li {
+					a {
+						font-size: govuk-px-to-rem(15);
+						line-height: govuk-px-to-rem(22px);
+					}
+				}
+
+				img {
+					width: govuk-px-to-rem(20px);
+				}
+			}
+		}
+
+		.footer-main__crest {
+			float: unset;
+			width: govuk-px-to-rem(64px);
+			margin-top: unset;
+		}
+	}
+}
+
+.cookie-bar {
+	background: $yellow;
+	padding: govuk-px-to-rem(14px) 0 govuk-px-to-rem(14px) 0;
+	text-align: center;
+
+	p {
+		display: inline;
+		margin: 0;
+		font-size: govuk-px-to-rem(17px);
+		line-height: govuk-px-to-rem(25px);
+	}
+
+	a {
+		text-decoration: none;
+		padding-left: govuk-px-to-rem(5px);
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.cookie-bar {
+	
+		p {
+			display: block;
+			font-size: govuk-px-to-rem(15px);
+			line-height: govuk-px-to-rem(22px);
+
+			&:first-child {
+				margin-bottom: govuk-px-to-rem(10px);
+			}
+		}
+	
+		a {
+			text-decoration: none;
+			padding-left: none;
+			font-size: govuk-px-to-rem(12px);
+			line-height: govuk-px-to-rem(15px);
+		}
+	}	
+}

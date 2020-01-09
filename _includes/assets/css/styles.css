@@ -403,7 +403,7 @@ main ul, main ol {
 COMPONENTS
 ========================================================================== */
 .title-bar {
-  background-color: #CE132D;
+  background-color: green;
   background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
   padding: 2.73684rem 0rem;
   width: 100%; }
@@ -467,7 +467,8 @@ COMPONENTS
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 30rem; }
+    max-width: 30rem;
+    min-height: 12.36842rem; }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;

@@ -1,0 +1,122 @@
+// Meet the team / board block
+.team-block-wrapper {
+	background-color: $grey-light;
+	padding-top: govuk-px-to-rem(100px);
+
+	&.no-images {
+		padding-top: govuk-px-to-rem(40px);
+
+		.team-block__item {
+			@media only screen and (max-width : $tablet) {
+				margin-bottom: govuk-px-to-rem(32px);
+			}
+		}
+	}
+}
+
+.team-block {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	
+	.team-block__item {
+		width: 100%;
+		height: fit-content;
+		text-align: center;
+		background-color: $white;
+		margin: 0rem govuk-px-to-rem(18px) govuk-px-to-rem(98px) govuk-px-to-rem(18px);
+	
+		@media only screen and (min-width : $mobile) {
+			flex: 30%;
+		}
+	}
+
+	.team-block__item__image {
+		margin-bottom: govuk-px-to-rem(10px);
+
+		@media only screen and (min-width : $mobile) {
+			margin-bottom: govuk-px-to-rem(20px);
+		}
+
+		img {
+			max-width: govuk-px-to-rem(94px);
+			margin-top: govuk-px-to-rem(-58px);
+
+			@media only screen and (min-width : $mobile) {
+				max-width: govuk-px-to-rem(112px);
+				margin-top: govuk-px-to-rem(-58px);
+			}
+		}
+	}
+
+	.team-block__item__name {
+		padding: govuk-px-to-rem(0px) govuk-px-to-rem(32px);
+		font-size: $team-header-mobile;
+		line-height: $team-header-line-height-mobile;
+
+		@media only screen and (min-width : $tablet) {
+			font-size: $team-header;
+			line-height: $team-header-line-height;
+		}
+	}
+
+	.team-block__item__bio {
+		padding: govuk-px-to-rem(10px) govuk-px-to-rem(32px) govuk-px-to-rem(20px);
+
+		@media only screen and (min-width : $tablet) {
+			padding: govuk-px-to-rem(20px) govuk-px-to-rem(32px);
+		}
+
+		p {
+			margin: 0;
+
+			@media only screen and (max-width : $tablet) {
+				font-size: govuk-px-to-rem(14px);
+				line-height: govuk-px-to-rem(20px);
+			}
+		}
+	}
+}
+
+.team-block__item__readmore, .team-block__item__readmore__img  {
+	display: none;		
+}
+
+// Progressive enhancement - If js is available to the browser, then style and enable the show / hide functionality. If not, show whole bio as default.
+@media only screen and (max-width : $tablet) {
+	.js {
+		.team-block__item__bio {
+
+			&.cropped {
+				padding-bottom: govuk-px-to-rem(0px);
+				overflow: hidden;
+				text-overflow: -o-ellipsis-lastline;
+				text-overflow: ellipsis;
+				display: block;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+			}
+
+			&.expand {
+				-webkit-line-clamp: unset;
+			}
+		}
+
+		.team-block__item__readmore {
+			cursor: pointer;
+			display: inline-block;
+    		margin-right: govuk-px-to-rem(4px);
+			padding: govuk-px-to-rem(12px) 0 govuk-px-to-rem(20px);
+		}
+
+		.team-block__item__readmore__img {
+			display: inline-block;
+			width: govuk-px-to-rem(13px);
+
+			&.rotate {
+				transform: rotate(180deg);
+			}
+		}
+	}
+}
