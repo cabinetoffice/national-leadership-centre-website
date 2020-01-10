@@ -10,10 +10,13 @@ tags:
   - primary
 ---
 
-## Every year The National Leadership Centre invites a selection of the UK’s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.
+<div class="leader-bar">
+	<div class="container container--sm">
+		<p class="large-body-text no-margin">Every year The National Leadership Centre invites a selection of the UK’s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.</p>
+	</div>
+</div>
 
-<br>
-<br>
+<div class="container container--sm dbl-vertical-padding">
 
 ## What happens on the programme
 ### The programme serves senior leaders by:
@@ -32,9 +35,6 @@ tags:
 2. Confidence to push boundaries with new approaches to public sector leadership
 3. Valuable experience of collaborating with leaders across the sector
 4. Access to best practice theory and cutting-edge research
-
-<br>
-<br>
 
 <!-- <p><a href="{{ '/our-programme/programme-structure.html' | url }}">Read about the Programme Structure ></a></p> -->
 <p><a href="{{ '/faqs/' | url }}">Visit the FAQs ></a></p>
@@ -59,3 +59,5 @@ Civil Service Permanent Secretaries and Director Generals
 Three star Military officers
 CEOs of large Housing Associations
 CEOs of large Arms Length Bodies and Regional Transport Authorities
+
+</div>

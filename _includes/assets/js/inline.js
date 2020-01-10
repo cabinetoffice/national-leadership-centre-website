@@ -50,5 +50,17 @@ $(document).ready(function(){
 		$(this).closest('.team-block__item').find('.team-block__item__readmore__img').toggleClass('rotate');
 	});
 
+	// The navigation is built dynamically, with the addition of one hardcoded li item which is the external link to the Medium blog. We need to reposition this nav item dynamically.
+	div1 = jQuery('.main-nav li:nth-child(4)');
+	div2 = jQuery('.main-nav li:nth-child(5)');
+	
+	tdiv1 = div1.clone();
+	tdiv2 = div2.clone();
+	
+	if(!div2.is(':empty')){
+		div1.replaceWith(tdiv2);
+		div2.replaceWith(tdiv1);	  
+	}
+
 });
   

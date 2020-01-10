@@ -378,7 +378,8 @@ button {
 
 ul, ol {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #323E48; }
   ul li, ol li {
     font-size: 0.84211rem;
     font-weight: normal; }
@@ -390,9 +391,10 @@ ul, ol {
       margin-bottom: 0px; }
 
 main ul, main ol {
-  margin-top: 2.10526rem;
-  margin-bottom: 0;
+  margin-bottom: 1.57895rem;
   padding-left: 40px; }
+  main ul li, main ol li {
+    margin: 0.47368rem; }
 
 /*--------------------------------------------------------------
 # Components
@@ -401,7 +403,7 @@ main ul, main ol {
 COMPONENTS
 ========================================================================== */
 .title-bar {
-  background-color: #CE132D;
+  background-color: green;
   background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
   padding: 2.73684rem 0rem;
   width: 100%; }
@@ -412,6 +414,18 @@ COMPONENTS
     .title-bar.title-bar--centered h1 {
       margin: auto;
       max-width: 31.78947rem; }
+
+.leader-bar {
+  background-color: #ffffff;
+  padding: 1.89474rem 0rem;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .leader-bar {
+      background-color: #CE132D;
+      padding: 3.52632rem 0rem; } }
+  @media only screen and (min-width: 768px) {
+    .leader-bar p {
+      color: white; } }
 
 .header-block {
   padding: 2.89474rem 0; }
@@ -453,7 +467,8 @@ COMPONENTS
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 30rem; }
+    max-width: 30rem;
+    min-height: 12.36842rem; }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;
@@ -484,7 +499,7 @@ COMPONENTS
 
 @media only screen and (min-width: 992px) {
   .tiles-block .tiles-block__tile {
-    min-height: 12.73684rem; } }
+    min-height: 19.84211rem; } }
 
 .image-l-text-r-block {
   padding-top: 1.05263rem; }
@@ -634,7 +649,6 @@ COMPONENTS
 .landing-block {
   position: relative; }
   .landing-block .landing-block__image {
-    background-image: url("../static/img/our-programme/landing-our-programme.png");
     height: 100%;
     min-height: 10.52632rem;
     background-position: center top;
@@ -906,7 +920,7 @@ p {
     p {
       font-size: 0.89474rem;
       line-height: 1.31579rem;
-      margin: 1.57895rem 0px; } }
+      margin: 0 0 1.57895rem 0px; } }
 
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
@@ -931,20 +945,24 @@ h1, .h1-style {
 h2, .h2-style {
   font-size: 1rem;
   line-height: 1.36842rem;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 1.05263rem; }
   @media only screen and (min-width: 768px) {
     h2, .h2-style {
       font-size: 1.21053rem;
-      line-height: 1.73684rem; } }
+      line-height: 1.73684rem;
+      margin-bottom: 1.21053rem; } }
 
 h3, .h3-style {
   font-size: 0.89474rem;
   line-height: 1.31579rem;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 0.63158rem; }
   @media only screen and (min-width: 768px) {
     h3, .h3-style {
       font-size: 1rem;
-      line-height: 1.47368rem; } }
+      line-height: 1.47368rem;
+      margin-bottom: 0.84211rem; } }
 
 h4, .h4-style {
   font-size: 0.89474rem;
@@ -987,6 +1005,18 @@ h4, .h4-style {
   line-height: 0.84211rem;
   text-align: center;
   color: #CE132D; }
+
+.large-body-text {
+  font-size: 1rem;
+  line-height: 1.36842rem;
+  font-weight: normal; }
+  @media only screen and (min-width: 768px) {
+    .large-body-text {
+      font-size: 1.31579rem;
+      line-height: 1.94737rem; } }
+
+.white-text {
+  color: #ffffff; }
 
 /*--------------------------------------------------------------
 # Layout
@@ -1041,6 +1071,10 @@ LAYOUT
 
 .vertical-padding {
   padding-top: 1.57895rem;
+  padding-bottom: 2.78947rem; }
+
+.dbl-vertical-padding {
+  padding-top: 4.05263rem;
   padding-bottom: 2.78947rem; }
 
 /*--------------------------------------------------------------

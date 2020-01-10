@@ -65,7 +65,7 @@ teamMembers: {
   },
   member12: {
 	name: "Paul Martin",
-	image: ../static/img/meet-the-board/placeholder.png,
+	image: ../static/img/meet-the-board/paul-martin.png,
 	description: "Distinguished Fellow, Royal United Services Institute for Defence and Security Studies"
   },
 }

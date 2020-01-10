@@ -4,7 +4,15 @@ section: programme
 ---
 
 <div class="landing-block">
-	<div class="landing-block__image"></div>
+
+{%- if title == "The NLC Programme" -%}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/programme.jpg');"></div>
+{% elseif title == "Research & Evaluation" %}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/research.jpg');"></div>
+{% elseif title == "The Network of Senior Leaders" %}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/network.jpg');"></div>
+{% endif %}
+
 	<div class="landing-block__text">
 		<div class="container container--wide">
 			<div class="landing-block__text__internal">
@@ -15,7 +23,4 @@ section: programme
 	</div>
 </div>
 
-<div class="container container--sm vertical-padding">
-	{{ layoutContent | safe }}
-</div>
-
+{{ layoutContent | safe }}
