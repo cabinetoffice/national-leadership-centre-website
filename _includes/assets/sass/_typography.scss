@@ -96,6 +96,11 @@ h4, .h4-style {
 	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+		background-color: none;
+		background: none;
+	}
 }
 
 .text-gradient {

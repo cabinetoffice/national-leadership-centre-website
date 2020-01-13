@@ -403,7 +403,6 @@ main ul, main ol {
 COMPONENTS
 ========================================================================== */
 .title-bar {
-  background-color: green;
   background: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
   padding: 2.73684rem 0rem;
   width: 100%; }
@@ -464,11 +463,17 @@ COMPONENTS
         font-size: 1.84211rem;
         line-height: 2.73684rem; } }
 
+@media only screen and (max-width: 768px) {
+  .tiles-block.margin-top {
+    margin-top: 2.63158rem; } }
+
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 30rem;
-    min-height: 12.36842rem; }
+    max-width: 30rem; }
+    @media only screen and (min-width: 768px) {
+      .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
+        min-height: 12.36842rem; } }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;
@@ -496,6 +501,9 @@ COMPONENTS
       -webkit-box-flex: 1;
       -ms-flex-positive: 1;
       flex-grow: 1; } }
+    @media only screen and (min-width: 768px) and (-ms-high-contrast: active), only screen and (min-width: 768px) and (-ms-high-contrast: none) {
+      .tiles-block .tiles-block__tile {
+        flex-basis: inherit; } }
 
 @media only screen and (min-width: 992px) {
   .tiles-block .tiles-block__tile {
@@ -587,7 +595,7 @@ COMPONENTS
         line-height: 1.31579rem; }
         .footer-main .footer-main__social ul li img {
           width: 1.36842rem;
-          vertical-align: bottom; }
+          vertical-align: middle; }
   .footer-main .footer-main__crest {
     float: right;
     display: inline-block;
@@ -986,6 +994,10 @@ h4, .h4-style {
   background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .gradient {
+      background-color: none;
+      background: none; } }
 
 .text-gradient h1, .text-gradient h2, .text-gradient h3, .text-gradient h4 {
   background-color: #ce132d;
@@ -1049,6 +1061,9 @@ LAYOUT
   display: flex;
   align-items: center;
   flex-wrap: wrap; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .container--flex {
+      align-items: inherit; } }
 
 .container--negative {
   left: 50%;

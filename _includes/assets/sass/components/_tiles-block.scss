@@ -1,12 +1,21 @@
 // Tiles Block
 .tiles-block {
 
+	&.margin-top {
+		@media only screen and (max-width : $tablet) {
+			margin-top: govuk-px-to-rem(50px);
+		}				
+	}
+
 	.tiles-block__tile {
 		margin-bottom: govuk-px-to-rem(39px);
 
 		&.tiles-block__tile--two-col {
 			max-width: govuk-px-to-rem(570px);
-			min-height: govuk-px-to-rem(235px);
+
+			@media only screen and (min-width : $tablet) {
+				min-height: govuk-px-to-rem(235px);
+			}
 		}
 
 		hr {
@@ -45,6 +54,10 @@
 			-webkit-box-flex: 1;
 			-ms-flex-positive: 1;
 			flex-grow: 1;
+
+			@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+				flex-basis: inherit;
+			}
 		}
 	}
 }
