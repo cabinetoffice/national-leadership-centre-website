@@ -463,11 +463,17 @@ COMPONENTS
         font-size: 1.84211rem;
         line-height: 2.73684rem; } }
 
+@media only screen and (max-width: 768px) {
+  .tiles-block.margin-top {
+    margin-top: 2.63158rem; } }
+
 .tiles-block .tiles-block__tile {
   margin-bottom: 2.05263rem; }
   .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
-    max-width: 30rem;
-    min-height: 12.36842rem; }
+    max-width: 30rem; }
+    @media only screen and (min-width: 768px) {
+      .tiles-block .tiles-block__tile.tiles-block__tile--two-col {
+        min-height: 12.36842rem; } }
   .tiles-block .tiles-block__tile hr {
     display: inline-block;
     background-color: #F3F6F9;
