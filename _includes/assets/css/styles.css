@@ -1007,7 +1007,8 @@ h4, .h4-style {
 
 .header-highlight {
   border-left: 2px solid #FFDB03;
-  padding-left: 1.05263rem; }
+  padding-left: 1.05263rem;
+  margin: 1.78947rem 0; }
 
 .caption {
   font-family: "Nunito Sans", sans-serif;

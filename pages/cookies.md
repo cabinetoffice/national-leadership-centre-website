@@ -31,10 +31,16 @@ We don’t collect or store your personal information (eg your name or address) 
 
 The following cookies are used:
 
-Name | Purpose | Expires
----- | ------- | -------
-_ga | This helps us identify how you use this site so we can make it better	 | 2 years
-_gid | This helps us identify how you use this site so we can make it better | 24 hours
-_gat | This prevents too many requests being made to the Google Analytics service | 10 minutes
+* **_ga**
+This helps us identify how you use this site so we can make it better.
+*2 years* 
+
+* **_gid**
+This helps us identify how you use this site so we can make it better.
+*24 hours*
+
+* **_gat**
+This prevents too many requests being made to the Google Analytics service.
+*10 minutes*
 
 Google isn’t allowed to use or share our analytics data.

@@ -3,7 +3,7 @@ layout: layouts/meet-the-board.njk
 title: Who we are
 date: 2017-01-01T00:00:00.000Z
 permalink: /who-we-are/board.html
-navtitle: Meet the NLC Board
+navtitle: Meet the NLC board
 breadcrumbs_parent: Who we are
 breadcrumbs_parent_url: /who-we-are/
 
@@ -36,12 +36,12 @@ teamMembers: {
   member6: {
 	name: "Professor Dame Janet Beer",
 	image: ../static/img/meet-the-board/janet-beer.png,
-	description: "Vice Chancellor, University of Liverpool President, Universities UK"
+	description: "Vice Chancellor, University of Liverpool President"
   },
   member7: {
 	name: "Steve McGuirk",
 	image: ../static/img/meet-the-board/steve-mcguirk.png,
-	description: "Chairman of the Board of Directors, Warrington and Halton Hospitals NHS Foundation Trust"
+	description: "Former Chief Fire Officer and CEO, Chairman of a Hospitals Foundation, and Fire Training Trust"
   },
   member8: {
 	name: "Sir Jon Thompson",
@@ -56,17 +56,17 @@ teamMembers: {
   member10: {
 	name: "Melanie Richards",
 	image: ../static/img/meet-the-board/melanie-richards.png,
-	description: "Deputy Chair, KMPG UK"
+	description: "Deputy Chair and board member, KPMG UK"
   },
   member11: {
 	name: "Peter Wanless",
 	image: ../static/img/meet-the-board/peter-wanless.png,
-	description: "Chief Execuitve Officer, National Society for the Prevention of Cruelty to Children"
+	description: "Chief Executive Officer, National Society for the Prevention of Cruelty to Children"
   },
   member12: {
-	name: "Paul Martin",
+	name: "Paul Martin CBE",
 	image: ../static/img/meet-the-board/paul-martin.png,
-	description: "Distinguished Fellow, Royal United Services Institute for Defence and Security Studies"
+	description: "Distinguished Fellow of the Royal United Services Institute for Defence and Security Studies"
   },
 }
 ---
