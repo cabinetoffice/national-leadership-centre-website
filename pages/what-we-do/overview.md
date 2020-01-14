@@ -37,9 +37,9 @@ The Taskforce made [a number of recommendations](https://www.gov.uk/government/p
 
 ### Related Links:
 
-The National Leadership Centre on Gov.uk 
+[The National Leadership Centre on Gov.uk](https://www.gov.uk/government/publications/national-leadership-centre) 
 
-October 2018: Better Public Services Report by the Public Services Leadership Taskforce
+[October 2018: Better Public Services Report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/799567/6.4846_CO_CPSL-Report_A4-P_WEB_NoLogo__002.pdf) by the Public Services Leadership Taskforce
 (PDF, 1010KB, 52 pages.)
 
 If you need an accessible format, please email <a href="mailto: publiccorrespondence@cabinetoffice.gov.uk">publiccorrespondence@cabinetoffice.gov.uk.</a>
