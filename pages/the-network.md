@@ -45,6 +45,7 @@ Research shows that the higher ranking a leader becomes   the more potential the
 ### Become a part of the Connect Network for Senior Leaders 
 The Connect Network for Senior Leaders is open to all senior leaders across the public sector.
 
+[Request access to Connect Network of Senior Leaders](https://connect.nationalleadership.gov.uk/)
 
 ### Events across the country
 The NLC brings leaders together through national, regional and small group events. This allows peers to make time, outside formal governance or partnership structures, to work together to address the most complex and pressing problems that they face.
