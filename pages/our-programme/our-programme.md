@@ -1,7 +1,7 @@
 ---
 layout: layouts/primary.njk
-title: The NLC Programme
-leader: A flagship programme that empowers senior leaders from across the public sector to work together to realise their potential.
+title: Our Programme
+leader: The NLC Leadership Programme empowers senior leaders from across the public sector to work together to realise their potential.
 date: 2017-01-01T00:00:00.000Z
 permalink: /our-programme/index.html
 navtitle: Our Programme
@@ -18,46 +18,17 @@ tags:
 
 <div class="container container--sm dbl-vertical-padding">
 
-## What happens on the programme
-### The programme serves senior leaders by:
+The most difficult challenges faced by public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. Being accountable for the whole organisation means overseeing a wider range of expertise.
 
-1. Inspiring them with insights from the world’s foremost academics, practitioners and leaders
-2. Providing opportunities to learn from real-time simulations
-3. Facilitating analysis and guidance on participants’ leadership styles
-4. Building a network of leaders who understand the challenges that their peers face.
+To help people make the best of a move into these roles, the National Leadership Centre is delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country.
 
-<p><a href="{{ '/the-network/' | url }}">Read more about the network ></a></p>
+Senior leaders from across all public services will come together for a challenging, supportive and stretching 12 month development programme. It will include three residential modules, during which delegates will be inspired by world leaders in systems and collective leadership, offered unique opportunities to put this thinking into practice, and given in-depth psychometric analysis and coaching support to help delegates realise their potential as a public service leader.Senior leaders from across all public services will come together for a challenging, supportive and stretching 12 month development programme. It will include three residential modules, during which delegates will be inspired by world leaders in systems and collective leadership, offered unique opportunities to put this thinking into practice, and given in-depth psychometric analysis and coaching support to help delegates realise their potential as a public service leader.
 
-## Benefits of attending the Programme
-### As part of the Programme, leaders gain:
+The programme will seek to transform the leadership of public services by:
 
-1. Access to a close network of the public sectors’ most senior people
-2. Confidence to push boundaries with new approaches to public sector leadership
-3. Valuable experience of collaborating with leaders across the sector
-4. Access to best practice theory and cutting-edge research
-
-<!-- <p><a href="{{ '/our-programme/programme-structure.html' | url }}">Read about the Programme Structure ></a></p> -->
-<p><a href="{{ '/faqs/' | url }}">Visit the FAQs ></a></p>
-<p><a href="{{ '/the-network/' | url }}">Access The Network ></a></p>
-
-## Who can attend
-
-Participants who are invited to take part in the NLC Programme will have just taken on, or will be about to take on, the most senior roles across public service.
-
-They will be making a transition from being part of a senior leadership team, to being the person with principal executive responsibility within the organisation.
-
-As the public face of their organisation, they are expected to operate with senior leaders from other sectors and deliver services to thousands or even millions of people each year.
-
-#### Delegates’ roles who have attended previous programmes 
-Chief Executive Officers (CEOs) in the National Health Service, including NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups
-University Vice-Chancellors
-Heads of large Further Education Colleges and Academy Chains
-Local Authority CEOs
-Police Chief Constables
-Fire Chiefs
-Civil Service Permanent Secretaries and Director Generals
-Three star Military officers
-CEOs of large Housing Associations
-CEOs of large Arms Length Bodies and Regional Transport Authorities
+- providing leaders with insights and experience from some of the world’s foremost academics, practitioners and leaders
+- delivering opportunities to learn from real-time simulations
+- facilitating internationally acclaimed analysis, insight and guidance into participants’ leadership styles and how they can develop and progress
+- building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 </div>
