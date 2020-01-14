@@ -919,7 +919,7 @@ COMPONENTS
 /* ==========================================================================
 TYPOGRAPHY
 ========================================================================== */
-p {
+p, .body-style {
   width: 100%;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.84211rem;
@@ -928,7 +928,7 @@ p {
   font-style: normal;
   color: #323E48; }
   @media only screen and (min-width: 768px) {
-    p {
+    p, .body-style {
       font-size: 0.89474rem;
       line-height: 1.31579rem;
       margin: 0 0 1.57895rem 0px; } }
@@ -1093,8 +1093,12 @@ LAYOUT
   padding-bottom: 2.78947rem; }
 
 .dbl-vertical-padding {
-  padding-top: 4.05263rem;
+  padding-top: 1.57895rem;
   padding-bottom: 2.78947rem; }
+  @media only screen and (min-width: 768px) {
+    .dbl-vertical-padding {
+      padding-top: 4.05263rem;
+      padding-bottom: 2.78947rem; } }
 
 /*--------------------------------------------------------------
 # Accessibility

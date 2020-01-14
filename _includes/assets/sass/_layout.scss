@@ -73,6 +73,11 @@ LAYOUT
 }
 
 .dbl-vertical-padding {
-	padding-top: govuk-px-to-rem(77px);
+	padding-top: govuk-px-to-rem(30px);
 	padding-bottom: govuk-px-to-rem(53px);
+
+	@media only screen and (min-width : $tablet) {
+		padding-top: govuk-px-to-rem(77px);
+		padding-bottom: govuk-px-to-rem(53px);
+	}
 }
