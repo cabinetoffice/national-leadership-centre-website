@@ -631,7 +631,10 @@ COMPONENTS
 .cookie-bar {
   background: #FFDB03;
   padding: 0.73684rem 0 0.73684rem 0;
-  text-align: center; }
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%; }
   .cookie-bar p {
     display: inline;
     margin: 0;
