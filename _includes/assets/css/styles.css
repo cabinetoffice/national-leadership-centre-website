@@ -576,7 +576,7 @@ COMPONENTS
           color: #000;
           font-size: 0.89474rem;
           line-height: 1.31579rem;
-          text-decoration: none; }
+          text-decoration: underline; }
       .footer-main .footer-main__nav ul li:last-child {
         padding-right: 0; }
       .footer-main .footer-main__nav ul .current {
