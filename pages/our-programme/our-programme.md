@@ -12,7 +12,7 @@ tags:
 
 <div class="leader-bar">
 	<div class="container container--sm">
-		<p class="large-body-text no-margin">Every year The National Leadership Centre invites a selection of the UK’s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.</p>
+		<p class="large-body-text no-margin">Every year The National Leadership Centre invites a selection of the UK&rsquo;s most senior leaders from across the spectrum of public services to come together for a challenging, supportive and stretching twelve month development programme.</p>
 	</div>
 </div>
 
