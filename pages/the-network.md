@@ -12,7 +12,7 @@ tags:
 
 <div class="container container--sm dbl-vertical-padding">
 
-## The National Leadership Centre is creating a network that connects people from across every sector and region. This will include:
+## The National Leadership Centre has created the Connect Network for Senior Leaders. It connects people from across every sector and region. The public service leaders in the Network include:
 
 <div class="container container--xxs">
 
@@ -38,24 +38,20 @@ CEOs of large Arms Length Bodies and Regional Transport Authorities
 
 </div>
 
-User research shows that leaders tend to make links within their own sectors, and often within their local areas, but this rarely happens outside those structures. This new network connects people across these boundaries.
+User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria.. The Connect Network connects people across these boundaries.
 
-Leading is a difficult job. At the top of organisations, people more exposed and isolated. Helping leaders build connections will help them share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+Research shows that the higher ranking a leader becomes   the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
 
-### Test our network directory
-The National Leadership Centre is testing ways to help senior leaders find each other and get in contact with each other, starting with a directory for network members only.
+### Become a part of the Connect Network for Senior Leaders 
+The Connect Network for Senior Leaders is open to all senior leaders across the public sector.
+
 
 ### Events across the country
-The NLC will bring leaders together through national, regional and small group events. This will allow peers to make time, outside formal governance or partnership structures, to work together to address the problems that are most pressing.
-
-At our event in January, we will be presenting the first NLC Award for Public Services.
-
-### Connecting on a digital service
-The NLC will create a private area of our website for the network. In this section, they’ll be able to find contact details for each other, start a conversation, and access cutting edge research, resources, and event information.
+The NLC brings leaders together through national, regional and small group events. This allows peers to make time, outside formal governance or partnership structures, to work together to address the most complex and pressing problems that they face.
 
 ### International peers
 The public service challenges in this country are mirrored in countries throughout the world. Our priorities may have been successfully addressed abroad, and our leaders will have experience to share internationally as well.
 
-This is why the National Leadership Centre, in partnership with the British Council, will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
+This is why the National Leadership Centre, in partnership with the [British Council](https://www.britishcouncil.org/), will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
 
 </div>
