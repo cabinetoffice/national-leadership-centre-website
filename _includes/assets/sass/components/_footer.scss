@@ -133,6 +133,24 @@
 		}
 	}
 
+	.cookie-bar__accept {
+		color: $red;
+		cursor: pointer;
+		width: 100%;
+		margin-top: govuk-px-to-rem(5px);
+
+		p {
+			color: $red;
+			text-decoration: underline;
+		}
+
+		@media only screen and (min-width : $desktop) {
+			float: right;
+			width: unset;
+			margin-top: 0;
+		}
+	}
+
 	p {
 		display: inline;
 		margin: 0;

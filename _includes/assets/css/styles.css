@@ -644,6 +644,19 @@ COMPONENTS
     cursor: pointer; }
     .cookie-bar .cookie-bar__close img {
       width: 0.89474rem; }
+  .cookie-bar .cookie-bar__accept {
+    color: #CE132D;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.26316rem; }
+    .cookie-bar .cookie-bar__accept p {
+      color: #CE132D;
+      text-decoration: underline; }
+    @media only screen and (min-width: 992px) {
+      .cookie-bar .cookie-bar__accept {
+        float: right;
+        width: unset;
+        margin-top: 0; } }
   .cookie-bar p {
     display: inline;
     margin: 0;
