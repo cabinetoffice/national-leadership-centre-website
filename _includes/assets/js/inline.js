@@ -62,4 +62,9 @@ $(document).ready(function(){
 		div2.replaceWith(tdiv1);	  
 	}
 
+	// Cookie bar
+	$(".js-cookie-bar-close").click(function(){
+		$(".cookie-bar").hide();
+	});
+
 });

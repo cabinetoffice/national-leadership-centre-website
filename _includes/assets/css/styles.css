@@ -635,6 +635,15 @@ COMPONENTS
   position: sticky;
   bottom: 0;
   width: 100%; }
+  .cookie-bar .cookie-bar__close {
+    width: 3.15789rem;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    padding: 0;
+    cursor: pointer; }
+    .cookie-bar .cookie-bar__close img {
+      width: 0.89474rem; }
   .cookie-bar p {
     display: inline;
     margin: 0;
@@ -645,10 +654,14 @@ COMPONENTS
     padding-left: 0.26316rem; }
 
 @media only screen and (max-width: 768px) {
+  .cookie-bar .cookie-bar__close {
+    top: 18px; }
   .cookie-bar p {
     display: block;
     font-size: 0.78947rem;
-    line-height: 1.15789rem; }
+    line-height: 1.15789rem;
+    width: 85%;
+    margin: auto; }
     .cookie-bar p:first-child {
       margin-bottom: 0.52632rem; }
   .cookie-bar a {

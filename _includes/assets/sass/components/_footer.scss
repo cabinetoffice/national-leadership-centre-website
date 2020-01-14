@@ -120,6 +120,19 @@
 	bottom: 0;
 	width: 100%;
 
+	.cookie-bar__close {
+		width: govuk-px-to-rem(60px);
+		position: absolute;
+		right: 0;
+		top: 40%;
+		padding: 0;
+		cursor: pointer;
+
+		img {
+			width: govuk-px-to-rem(17px);
+		}
+	}
+
 	p {
 		display: inline;
 		margin: 0;
@@ -135,11 +148,17 @@
 
 @media only screen and (max-width : $tablet) {
 	.cookie-bar {
+
+		.cookie-bar__close {
+			top: 18px;
+		}
 	
 		p {
 			display: block;
 			font-size: govuk-px-to-rem(15px);
 			line-height: govuk-px-to-rem(22px);
+			width: 85%;
+			margin: auto;
 
 			&:first-child {
 				margin-bottom: govuk-px-to-rem(10px);
