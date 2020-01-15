@@ -16,7 +16,7 @@ Cookies are used to:
 * track cookie acceptance
 * measure how you use the website so it can be updated and improved based on your needs
 
-How our cookies are used
+## How our cookies are used
 ### Measuring website usage (Google Analytics)
 
 Google Analytics software collects information about how you use the site. This is done to help make sure the site is meeting the needs of its users and to help make improvements.
