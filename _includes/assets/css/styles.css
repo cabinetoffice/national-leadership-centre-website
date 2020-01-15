@@ -632,7 +632,7 @@ COMPONENTS
   background: #FFDB03;
   padding: 0.73684rem 0 0.73684rem 0;
   text-align: center;
-  position: relative;
+  position: sticky;
   bottom: 0;
   width: 100%; }
   .cookie-bar .cookie-bar__close {
