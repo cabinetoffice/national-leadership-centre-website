@@ -10,11 +10,11 @@ if (window.netlifyIdentity) {
 
 // Cookie bar
 // Disable Google Analytics in first instance
-window['ga-disable-UA-69921843-12'] = true;
+window['ga-disable-UA-69921843-11'] = true;
 
 // Variable to store 'Reset' of Google Analytics account
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-69921843-12']);
+_gaq.push(['_setAccount', 'UA-69921843-11']);
 _gaq.push(['_trackPageview']);
 
 // Check if cookie exists on click.
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
 	document.getElementById('cookie-hide').addEventListener('click', function(e) {
 
 		// Enable Google Analytics when cookies accepted.. 
-		window['ga-disable-UA-69921843-12'] = false;
+		window['ga-disable-UA-69921843-11'] = false;
 		// Push the page view to Google Analytics that you 'missed', using the reset variable..
 		_gaq.push(['_trackPageview']); // now run the pageview that you 'missed'
 

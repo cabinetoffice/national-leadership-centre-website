@@ -4,6 +4,15 @@
   <title>{{ title or renderData.title or metadata.title }}</title>
   <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,700%7CSource+Sans+Pro:300,400&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-69921843-11”></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(‘js’, new Date());
+  gtag(‘config’, ‘UA-69921843-11’);
+</script>
+  
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/build/styles.css" %}
