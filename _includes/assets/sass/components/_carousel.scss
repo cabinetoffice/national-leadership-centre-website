@@ -1,5 +1,7 @@
 // Slick carousel settings - https://kenwheeler.github.io/slick/
 .carousel-block {
+	margin-bottom: govuk-px-to-rem(-2px);
+
 	.slick-dotted.slick-slider {
 		margin-bottom: 0;
 	}
