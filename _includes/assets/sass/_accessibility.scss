@@ -12,3 +12,5 @@ ACCESSIBILITY
 .visually-hidden-focusable {
 	@include govuk-visually-hidden-focusable;
 }
+
+@import "node_modules/govuk-frontend/govuk/components/skip-link/_skip-link.scss";
