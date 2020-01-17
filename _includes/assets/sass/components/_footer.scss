@@ -19,7 +19,7 @@
 					color: $black;
 					font-size: govuk-px-to-rem(17px);
 					line-height: govuk-px-to-rem(25px);
-					text-decoration: none;
+					text-decoration: underline;
 				}
 			}
 
@@ -116,6 +116,40 @@
 	background: $yellow;
 	padding: govuk-px-to-rem(14px) 0 govuk-px-to-rem(14px) 0;
 	text-align: center;
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+
+	.cookie-bar__close {
+		width: govuk-px-to-rem(60px);
+		position: absolute;
+		right: 0;
+		top: 40%;
+		padding: 0;
+		cursor: pointer;
+
+		img {
+			width: govuk-px-to-rem(17px);
+		}
+	}
+
+	.cookie-bar__accept {
+		color: $red;
+		cursor: pointer;
+		width: 100%;
+		margin-top: govuk-px-to-rem(5px);
+
+		p {
+			color: $red;
+			text-decoration: underline;
+		}
+
+		@media only screen and (min-width : $desktop) {
+			float: right;
+			width: unset;
+			margin-top: 0;
+		}
+	}
 
 	p {
 		display: inline;
@@ -132,11 +166,17 @@
 
 @media only screen and (max-width : $tablet) {
 	.cookie-bar {
+
+		.cookie-bar__close {
+			top: 18px;
+		}
 	
 		p {
 			display: block;
 			font-size: govuk-px-to-rem(15px);
 			line-height: govuk-px-to-rem(22px);
+			width: 85%;
+			margin: auto;
 
 			&:first-child {
 				margin-bottom: govuk-px-to-rem(10px);

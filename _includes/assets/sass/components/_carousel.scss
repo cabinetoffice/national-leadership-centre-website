@@ -1,5 +1,7 @@
 // Slick carousel settings - https://kenwheeler.github.io/slick/
 .carousel-block {
+	margin-bottom: govuk-px-to-rem(-2px);
+
 	.slick-dotted.slick-slider {
 		margin-bottom: 0;
 	}
@@ -13,7 +15,7 @@
 	}
 
 	.slick-dots li button:before {
-		color: $orange;
+		color: $grey-support;
 		font-size: govuk-px-to-rem(8px);
 		opacity: 1;
 	}
@@ -38,6 +40,17 @@
 	.carousel-block__home__img:nth-of-type(n+2) {
 		display:none;
 	}
+
+	@media only screen and (min-width : $carousel-desktop) {
+		.carousel-block__home__img {
+			height: govuk-px-to-rem(400px);
+			overflow: hidden;
+
+			img {
+				margin-top: govuk-px-to-rem(-50px);
+			}
+		}
+	}
 }
 
 // If there is js, show all images so they can be included in carousel.
@@ -45,6 +58,22 @@
 	.carousel-block {
 		.carousel-block__home__img:nth-of-type(n+2) {
 			display: unset;
+		}
+
+		@media only screen and (min-width : $carousel-desktop) {
+			.slick-track {
+				height: govuk-px-to-rem(400px);
+				overflow: hidden;
+			}
+
+			.carousel-block__home__img {
+				height: unset;
+				margin-top: govuk-px-to-rem(-50px);
+
+				img {
+					margin-top: unset;
+				}
+			}
 		}
 	}
 }

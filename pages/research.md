@@ -14,7 +14,7 @@ tags:
 
 ## The NLC is working with leaders, academics and practitioners to bring the best of the available evidence together in one place. It is building a deeper understanding of the complex links between leadership, productivity and outcomes in public services.
 
-The Centre’s initial research suggests that the best way to support public sector leaders is to increase their ability to work as a system. To do this successfully, the NLC is:
+<p class="no-margin">The Centre’s initial research suggests that the best way to support public sector leaders is to increase their ability to work as a system. To do this successfully, the NLC is:</p>
 
 - developing a data-driven picture of public sector leadership
 - running place-based pilots across the country

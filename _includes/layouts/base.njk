@@ -4,6 +4,9 @@
 	{% include "components/head.njk" %}
 
 	<body>
+		<div class="govuk-skip-link-wrapper">
+			<a href="#content" class="govuk-skip-link">Skip to main content</a>
+		</div>
 
 		<header role="banner" class="header-main" id="main-navigation">
 			<div class="container container--wide container--flex">
@@ -41,7 +44,7 @@
 			{% include "components/title-bar.njk" %}
 		{% endif %}
 		
-		<main>
+		<main id="content">
 			{{ layoutContent | safe }}
 		</main>
 

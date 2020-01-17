@@ -8,6 +8,64 @@ if (window.netlifyIdentity) {
   });
 }
 
+// Cookie bar
+// Disable Google Analytics in first instance
+window['ga-disable-UA-69921843-12'] = true;
+
+// Variable to store 'Reset' of Google Analytics account
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-69921843-12']);
+_gaq.push(['_trackPageview']);
+
+// Check if cookie exists on click.
+document.addEventListener('DOMContentLoaded', function(e) {
+	// if cookie exists, hide the cookie bar with css..
+	if (getCookie('nlc_cookie_bar').length > 0) {
+	  document.getElementById('cookie-bar-bottom').style.display = 'none';
+	}
+	// if cookie bar shows and accept cookies button is clicked, set the cookies and hide the cookie bar..
+	document.getElementById('cookie-hide').addEventListener('click', function(e) {
+
+		// Enable Google Analytics when cookies accepted.. 
+		window['ga-disable-UA-69921843-12'] = false;
+		// Push the page view to Google Analytics that you 'missed', using the reset variable..
+		_gaq.push(['_trackPageview']); // now run the pageview that you 'missed'
+
+		createCookie('nlc_cookie_bar', true, 100);
+		document.getElementById('cookie-bar-bottom').style.display = 'none';
+	})
+});
+
+// Cookie definitions
+var createCookie = function(name, value, days) {
+	var expires;
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		expires = "; expires=" + date.toGMTString();
+	}
+	else {
+		expires = "";
+	}
+	document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+// Get cookie
+function getCookie(c_name) {
+	if (document.cookie.length > 0) {
+		c_start = document.cookie.indexOf(c_name + "=");
+		if (c_start != -1) {
+		c_start = c_start + c_name.length + 1;
+		c_end = document.cookie.indexOf(";", c_start);
+			if (c_end == -1) {
+				c_end = document.cookie.length;
+			}
+			return unescape(document.cookie.substring(c_start, c_end));
+		}
+	}
+	return "";
+}
+
 $(document).ready(function(){
 	$("html").addClass('js');
 
@@ -61,5 +119,10 @@ $(document).ready(function(){
 		div1.replaceWith(tdiv2);
 		div2.replaceWith(tdiv1);	  
 	}
+
+	// Cookie bar
+	// $(".js-cookie-bar-close").click(function(){
+	// 	$(".cookie-bar").hide();
+	// });
 
 });
