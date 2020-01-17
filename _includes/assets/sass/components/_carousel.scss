@@ -40,6 +40,17 @@
 	.carousel-block__home__img:nth-of-type(n+2) {
 		display:none;
 	}
+
+	@media only screen and (min-width : $carousel-desktop) {
+		.carousel-block__home__img {
+			height: govuk-px-to-rem(400px);
+			overflow: hidden;
+
+			img {
+				margin-top: govuk-px-to-rem(-50px);
+			}
+		}
+	}
 }
 
 // If there is js, show all images so they can be included in carousel.
@@ -52,10 +63,16 @@
 		@media only screen and (min-width : $carousel-desktop) {
 			.slick-track {
 				height: govuk-px-to-rem(400px);
+				overflow: hidden;
 			}
 
 			.carousel-block__home__img {
+				height: unset;
 				margin-top: govuk-px-to-rem(-50px);
+
+				img {
+					margin-top: unset;
+				}
 			}
 		}
 	}
