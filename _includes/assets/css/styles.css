@@ -855,6 +855,12 @@ COMPONENTS
 .js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
   display: unset; }
 
+@media only screen and (min-width: 1300px) {
+  .js .carousel-block .slick-track {
+    height: 21.05263rem; }
+  .js .carousel-block .carousel-block__home__img {
+    margin-top: -2.63158rem; } }
+
 .team-block-wrapper {
   background-color: #f2f3f4;
   padding-top: 5.26316rem; }

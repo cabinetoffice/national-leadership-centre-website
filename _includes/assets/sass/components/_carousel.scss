@@ -48,5 +48,15 @@
 		.carousel-block__home__img:nth-of-type(n+2) {
 			display: unset;
 		}
+
+		@media only screen and (min-width : $carousel-desktop) {
+			.slick-track {
+				height: govuk-px-to-rem(400px);
+			}
+
+			.carousel-block__home__img {
+				margin-top: govuk-px-to-rem(-50px);
+			}
+		}
 	}
 }
