@@ -16,7 +16,6 @@
   to = "/what-we-do"
   status = 301
   force = false
-  query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["en","es"], Country = ["US"]}
 
 # The default HTTP status code is 301, but you can define a different one e.g.
