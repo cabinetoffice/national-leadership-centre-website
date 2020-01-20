@@ -596,12 +596,24 @@ COMPONENTS
         .footer-main .footer-main__social ul li img {
           width: 1.36842rem;
           vertical-align: middle; }
-  .footer-main .footer-main__crest {
+  .footer-main .footer-main__crest__wrapper {
     float: right;
+    display: block; }
+  .footer-main .footer-main__crest {
+    cursor: pointer;
     display: inline-block;
-    width: 4.73684rem;
     vertical-align: middle;
-    margin-top: -1.05263rem; }
+    margin-top: -1.78947rem;
+    text-align: center; }
+    .footer-main .footer-main__crest img {
+      width: 4.73684rem;
+      margin-bottom: 0.26316rem; }
+    .footer-main .footer-main__crest p {
+      font-size: 0.63158rem;
+      margin: 0; }
+      @media only screen and (max-width: 768px) {
+        .footer-main .footer-main__crest p {
+          font-size: 0.47368rem; } }
 
 @media only screen and (max-width: 768px) {
   .footer-main {
@@ -623,10 +635,12 @@ COMPONENTS
           line-height: 1.15789rem; }
         .footer-main .footer-main__social ul img {
           width: 1.05263rem; }
+    .footer-main .footer-main__crest__wrapper {
+      float: unset; }
     .footer-main .footer-main__crest {
-      float: unset;
-      width: 3.36842rem;
-      margin-top: unset; } }
+      margin-top: unset; }
+      .footer-main .footer-main__crest img {
+        width: 3.36842rem; } }
 
 .cookie-bar {
   background: #FFDB03;
