@@ -56,12 +56,31 @@
 		}
 	}
 
-	.footer-main__crest {
+	.footer-main__crest__wrapper {
 		float: right;
+		display: block;
+	}
+
+	.footer-main__crest {
+		cursor: pointer;
 		display: inline-block;
-		width: govuk-px-to-rem(90px);
 		vertical-align: middle;
-		margin-top: govuk-px-to-rem(-20px);
+		margin-top: govuk-px-to-rem(-34px);
+		text-align: center;
+
+		img {
+			width: govuk-px-to-rem(90px);
+			margin-bottom: govuk-px-to-rem(5px);
+		}
+		
+		p {
+			font-size: govuk-px-to-rem(12px);
+			margin: 0;
+
+			@media only screen and (max-width : $tablet) {
+				font-size: govuk-px-to-rem(9px);
+			}
+		}
 	}
 }
 
@@ -104,10 +123,16 @@
 			}
 		}
 
-		.footer-main__crest {
+		.footer-main__crest__wrapper {
 			float: unset;
-			width: govuk-px-to-rem(64px);
+		}
+
+		.footer-main__crest {
 			margin-top: unset;
+
+			img {
+				width: govuk-px-to-rem(64px);
+			}
 		}
 	}
 }
