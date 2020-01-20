@@ -80,6 +80,10 @@
 			@media only screen and (max-width : $tablet) {
 				font-size: govuk-px-to-rem(9px);
 			}
+
+			span {
+				margin-right: govuk-px-to-rem(3px);
+			}
 		}
 	}
 }
