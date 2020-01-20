@@ -15,8 +15,7 @@
   from = "/about"
   to = "/what-we-do"
   status = 301
-  force = false
-  conditions = {Language = ["en","es"], Country = ["US"]}
+  force = true
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302
