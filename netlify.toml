@@ -17,6 +17,42 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/about/values"
+  to = "/who-we-are"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/board"
+  to = "/who-we-are/board"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/team"
+  to = "/who-we-are/team"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/programme"
+  to = "/our-programme"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/network"
+  to = "/the-network"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/awards"
+  to = "/network"
+  status = 301
+  force = true
+
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302
 
