@@ -2,7 +2,7 @@
 layout: layouts/meet-the-team.njk
 title: Who we are
 date: 2017-01-01T00:00:00.000Z
-permalink: /who-we-are/team.html
+permalink: /who-we-are/team/index.html
 navtitle: Meet the NLC team
 breadcrumbs_parent: Who we are
 breadcrumbs_parent_url: /who-we-are/
