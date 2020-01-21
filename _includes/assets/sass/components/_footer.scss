@@ -163,13 +163,13 @@
 	}
 
 	.cookie-bar__accept {
-		color: $red;
+		color: $black;
 		cursor: pointer;
 		width: 100%;
 		margin-top: govuk-px-to-rem(5px);
 
 		p {
-			color: $red;
+			color: $black;
 			text-decoration: underline;
 		}
 
@@ -177,6 +177,12 @@
 			float: right;
 			width: unset;
 			margin-top: 0;
+		}
+
+		&:focus {
+			p {
+				text-decoration: none;
+			}		
 		}
 	}
 
@@ -188,8 +194,12 @@
 	}
 
 	a {
-		text-decoration: none;
 		padding-left: govuk-px-to-rem(5px);
+		color: $black;
+		text-decoration: underline;
+		&:focus {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -213,7 +223,6 @@
 		}
 	
 		a {
-			text-decoration: none;
 			padding-left: none;
 			font-size: govuk-px-to-rem(12px);
 			line-height: govuk-px-to-rem(15px);
