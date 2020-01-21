@@ -681,10 +681,11 @@ COMPONENTS
     font-size: 0.89474rem;
     line-height: 1.31579rem; }
   .cookie-bar a {
-    text-decoration: none;
     padding-left: 0.26316rem;
     color: #000;
     text-decoration: underline; }
+    .cookie-bar a:focus {
+      text-decoration: none; }
 
 @media only screen and (max-width: 768px) {
   .cookie-bar .cookie-bar__close {
@@ -698,7 +699,6 @@ COMPONENTS
     .cookie-bar p:first-child {
       margin-bottom: 0.52632rem; }
   .cookie-bar a {
-    text-decoration: none;
     padding-left: none;
     font-size: 0.63158rem;
     line-height: 0.78947rem; } }
@@ -807,7 +807,7 @@ COMPONENTS
     transform: rotate(45deg);
     border: solid;
     border-width: 1px 1px 0 0;
-    border-color: #626a6e; }
+    border-color: #6f777b; }
   .govuk-breadcrumbs__list-item:first-child {
     margin-left: 0;
     padding-left: 0; }
