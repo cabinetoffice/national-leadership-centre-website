@@ -49,8 +49,8 @@
 
 [[redirects]]
   from = "/awards"
-  to = "/network"
-  status = 301
+  to = "/the-network"
+  status = 307
   force = true
 
 # The default HTTP status code is 301, but you can define a different one e.g.
