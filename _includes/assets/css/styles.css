@@ -661,18 +661,20 @@ COMPONENTS
     .cookie-bar .cookie-bar__close img {
       width: 0.89474rem; }
   .cookie-bar .cookie-bar__accept {
-    color: #CE132D;
+    color: #000;
     cursor: pointer;
     width: 100%;
     margin-top: 0.26316rem; }
     .cookie-bar .cookie-bar__accept p {
-      color: #CE132D;
+      color: #000;
       text-decoration: underline; }
     @media only screen and (min-width: 992px) {
       .cookie-bar .cookie-bar__accept {
         float: right;
         width: unset;
         margin-top: 0; } }
+    .cookie-bar .cookie-bar__accept:focus p {
+      text-decoration: none; }
   .cookie-bar p {
     display: inline;
     margin: 0;
@@ -680,7 +682,9 @@ COMPONENTS
     line-height: 1.31579rem; }
   .cookie-bar a {
     text-decoration: none;
-    padding-left: 0.26316rem; }
+    padding-left: 0.26316rem;
+    color: #000;
+    text-decoration: underline; }
 
 @media only screen and (max-width: 768px) {
   .cookie-bar .cookie-bar__close {
