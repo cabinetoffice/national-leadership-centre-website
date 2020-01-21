@@ -1,0 +1,298 @@
+/* ==========================================================================
+NAVIGATION
+========================================================================== */
+
+.header-main {
+	padding: govuk-px-to-rem(56px) 0 govuk-px-to-rem(42px) 0;
+
+	.header-main__logo {
+		display: inline-block;
+		max-width: govuk-px-to-rem(160px);
+	}
+
+	.header-main__nav {
+		display: inline-block;
+		text-align: right;
+		right: 0;
+		position: absolute;
+	}
+
+	.header-main__menu {
+		height: 100%;
+		cursor: pointer;
+		display: none;
+		text-align: right;
+		right: 0;
+		position: absolute;
+		z-index: 2;
+
+		.header-main__menu__text {
+			display: none;
+			font-size: govuk-px-to-rem(15px);
+		}
+
+		.open-text {
+			display: none;
+			color: $white;
+		}
+
+		.header-main__menu__burger {
+			width: govuk-px-to-rem(18px);
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: govuk-px-to-rem(8px);
+
+			div {
+				width: 100%;
+				height: govuk-px-to-rem(3px);
+				border-radius: govuk-px-to-rem(2px);
+				background-color: $red;
+				margin-bottom: govuk-px-to-rem(4px);
+			}
+		}
+	}
+}
+
+.main-nav, .secondary-nav {
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin-right: govuk-px-to-rem(28px);
+				
+			a {
+				color: $black;
+				font-family: $primary-font;
+				font-style: normal;
+				font-size: govuk-px-to-rem(18px);
+				line-height: govuk-px-to-rem(25px);
+				text-decoration: none;
+
+				&:hover,:visited {
+					color: $red;
+				}
+			}
+
+			.current {
+				border-bottom: 1px solid $black;
+				padding-bottom: govuk-px-to-rem(4.5px);
+			}
+		}
+	}
+}
+
+.secondary-nav {
+	margin-top: govuk-px-to-rem(26px);
+
+	ul {
+
+		li {
+			margin-right: govuk-px-to-rem(29px);
+
+			a {
+				font-size: $h1-font-size;
+				line-height: $h1-line-height;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width : $tablet) {
+	.header-main,  {
+		padding: govuk-px-to-rem(22px) 0 govuk-px-to-rem(28px) 0;
+
+		.header-main__logo {
+			max-width: govuk-px-to-rem(125px);
+		}
+
+		&.open-mobile {
+			background-color: $red;
+			height: 100vh;
+			position: fixed;
+			width: 100%;
+			z-index: 10;
+			
+			.header-main__nav {
+				display: flex;
+				flex-flow: column;
+				overflow: scroll;
+			}
+
+			.header-main__menu {
+				&.js-closed {
+					.header-main__menu__burger {
+						div {
+							background-color: $white;
+						}
+						div:nth-child(1) {
+							transition: 0.3s ease-in-out;
+							display: none;
+						}
+						div:nth-child(2) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(45deg);
+							margin-bottom: govuk-px-to-rem(-3px);
+						}
+						div:nth-child(3) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(-45deg);
+						}
+					}
+				}
+			}
+		}
+
+		.css-nav {
+			display: none;
+		}
+
+		.css-nav--open {
+			display: inline-block;
+		}
+
+		// Redefine styles for css-only nav
+		&#main-navigation:target {
+			background-color: $red;
+			
+			.header-main__nav {
+				display: flex;
+				flex-flow: column;
+			}
+
+			.css-nav--open {
+				display: inline-block;
+			}
+
+			.header-main__menu {
+				&.js-closed {
+					.header-main__menu__burger {
+						div {
+							background-color: $white;
+						}
+						div:nth-child(1) {
+							transition: 0.3s ease-in-out;
+							display: none;
+						}
+						div:nth-child(2) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(45deg);
+							margin-bottom: govuk-px-to-rem(-3px);
+						}
+						div:nth-child(3) {
+							transition: 0.3s ease-in-out;
+							transform: rotate(-45deg);
+						}
+					}
+				}
+			}
+
+			.open-text {
+				display: none;
+			}
+			.closed-text {
+				display: none;
+			}
+
+			.css-nav--close {
+				display: inline-block;
+				color: $white;
+			}
+		}
+		// End css-only nav definitions
+
+		.header-main__nav {
+			display: none;
+			position: absolute;
+			height: 100vh;
+			top: 0;
+			left: 0;
+			background-color: $red;
+			z-index: 2;
+			text-align: left;
+			padding: govuk-px-to-rem(75px) govuk-px-to-rem(25px) govuk-px-to-rem(25px) govuk-px-to-rem(25px);
+		}
+
+		.main-nav, .secondary-nav {
+			ul {
+				li {
+					display: block;
+					margin-bottom: govuk-px-to-rem(9px);
+
+					a {
+						color: $white;
+					}
+
+					.current {
+						border-bottom: 1px solid $white;
+					}
+				}
+			}
+		}
+
+		.main-nav {
+			order: 2;
+		}
+
+		.secondary-nav {
+			order: 1;
+			margin-top: 0;
+			margin-bottom: govuk-px-to-rem(23px);
+
+			ul {
+				li {
+					margin-bottom: govuk-px-to-rem(14px);
+					a {
+						font-size: govuk-px-to-rem(25px);
+					}
+				}
+			}
+		}
+
+		.header-main__menu {
+			display: inline-block;
+			padding-right: govuk-px-to-rem(20px);
+		}
+	}
+}
+
+.css-nav--close {
+	display: none;
+	color: $white;
+}
+
+// .js class added to html to show if js is enabled or not.
+.js {
+
+	.css-nav {
+		display: none;
+	}
+
+	.header-main {
+		.header-main__menu {
+			.header-main__menu__text {
+				display: inline-block;
+
+				&.open-text {
+					display: none;
+				}
+			}
+		}
+		&.open-mobile {
+			.header-main__menu {
+				.header-main__menu__text {
+					display: inline-block;
+	
+					&.open-text {
+						display: inline-block;
+					}
+					&.closed-text {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

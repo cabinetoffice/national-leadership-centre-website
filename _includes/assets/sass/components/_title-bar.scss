@@ -1,0 +1,19 @@
+// Title bar
+.title-bar {
+	background: $gradient;
+	padding: govuk-px-to-rem(52px) govuk-px-to-rem(0px);
+	width: 100%;
+
+	h1 {
+		color: $white;
+	}
+
+	&.title-bar--centered {
+		text-align: center;
+
+		h1 {
+			margin: auto;
+			max-width: govuk-px-to-rem(604px);
+		}
+	}
+}

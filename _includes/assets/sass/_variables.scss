@@ -1,0 +1,94 @@
+/* ==========================================================================
+VARIABLES
+========================================================================== */
+
+@import "node_modules/govuk-frontend/govuk/tools/px-to-rem";
+
+$base-font-size: 19px;
+$govuk-root-font-size: $base-font-size !default;
+
+// Colors
+$black: #000;
+$white: #ffffff;
+$yellow: #FFDB03;
+$pale-yellow: rgba(252, 247, 215, 0.63);
+$red: #CE132D;
+$orange: #EE701C;
+$grey-light: #f2f3f4;
+$grey-background: #E5E5E5;
+$grey-support: #B3BABF;
+$grey-footer: #F3F6F9;
+$grey-border: #d9dcdf;
+$gradient: linear-gradient(90deg, #CE132D 0%, rgba(206, 19, 45, 0) 100%), linear-gradient(270deg, #EE701C 0%, rgba(238, 112, 28, 0) 100%), #CE132D;
+
+$body: #323E48;
+
+// Custom media queries
+$xs-mobile-down: 340px;
+$sm-mobile: 375px;
+$md-mobile: 480px;
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$lg-desktop: 1200px;
+$carousel-desktop: 1300px;
+$xl-desktop: 1440px;
+
+// Fonts
+$primary-font: 'Nunito Sans', sans-serif;
+$secondary-font: 'Source Sans Pro', sans-serif;
+$headings-font: 'Nunito Sans', sans-serif;
+
+// Govuk frontend variables
+$govuk-font-family: $primary-font;
+
+// Font weight
+$base-font-weight-bold: 700;
+$base-font-weight-regular: normal;
+$headings-font-weight: 700;
+
+// Font sizes
+$body-font-size-mobile: govuk-px-to-rem(16px);
+$body-font-size: govuk-px-to-rem(17px);
+
+$lg-body-font-size-mobile: govuk-px-to-rem(19px);
+$lg-body-font-size: govuk-px-to-rem(25px);
+
+$h1-font-size-mobile: govuk-px-to-rem(22px);
+$h1-font-size: govuk-px-to-rem(29px);
+
+$h2-font-size-mobile: govuk-px-to-rem(19px);
+$h2-font-size: govuk-px-to-rem(23px);
+
+$h3-font-size-mobile: govuk-px-to-rem(17px);
+$h3-font-size: govuk-px-to-rem(19px);
+
+$h4-font-size-mobile: govuk-px-to-rem(17px);
+$h4-font-size: govuk-px-to-rem(19px);
+
+$team-header-mobile: govuk-px-to-rem(17px);
+$team-header: govuk-px-to-rem(26px);
+
+// Font line heights
+$base-line-height: govuk-px-to-rem(19px);
+
+$body-line-height-mobile: govuk-px-to-rem(23px);
+$body-line-height: govuk-px-to-rem(25px);
+
+$lg-body-line-height-mobile: govuk-px-to-rem(26px);
+$lg-body-line-height: govuk-px-to-rem(37px);
+
+$h1-line-height-mobile: govuk-px-to-rem(30px);
+$h1-line-height: govuk-px-to-rem(40px);
+
+$h2-line-height-mobile: govuk-px-to-rem(26px);
+$h2-line-height: govuk-px-to-rem(33px);
+
+$h3-line-height-mobile: govuk-px-to-rem(25px);
+$h3-line-height: govuk-px-to-rem(28px);
+
+$h4-line-height-mobile: govuk-px-to-rem(25px);
+$h4-line-height: govuk-px-to-rem(28px);
+
+$team-header-line-height-mobile: govuk-px-to-rem(25px);
+$team-header-line-height: govuk-px-to-rem(30px);

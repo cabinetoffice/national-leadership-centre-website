@@ -8,7 +8,6 @@
 [context.production.environment]
   NLC_GA_UA = "UA-69921843-11"
 
-
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
@@ -17,6 +16,48 @@
 #[[redirects]]
 #  from = "/*"
 #  to = "/blog/:splat"
+
+[[redirects]]
+  from = "/about"
+  to = "/what-we-do"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/values"
+  to = "/who-we-are"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/board"
+  to = "/who-we-are/board"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/team"
+  to = "/who-we-are/team"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/programme"
+  to = "/our-programme"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/network"
+  to = "/the-network"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/awards"
+  to = "/the-network"
+  status = 307
+  force = true
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302

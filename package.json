@@ -1,16 +1,23 @@
 {
   "name": "nlc-website",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "The National Leadership Centre website",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy"
+    "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css & npx postcss --watch _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build ",
+    "debug": "DEBUG=* npx eleventy",
+    "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css",
+    "npf": "npx postcss _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cabinetoffice/national-leadership-centre-website"
+  },
+  "author": {
+    "name": "Convivio",
+    "email": "hello@weareconvivio.com",
+    "url": "https://weareconvivio.com/"
   },
   "license": "MIT",
   "bugs": {
@@ -19,19 +26,19 @@
   "homepage": "https://www.nationalleadership.gov.uk",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
-    "luxon": "^1.19.3",
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.0.2"
+    "luxon": "^1.21.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "autoprefixer": "^9.6.5",
+    "autoprefixer": "9.7.3",
     "clean-css": "^4.2.1",
     "govuk-frontend": "^3.3.0",
     "html-minifier": "^4.0.0",
-    "postcss": "^7.0.18",
-    "postcss-import": "^12.0.1",
-    "postcss-simple-vars": "^5.0.2",
+    "node-sass": "^4.13.0",
+    "postcss-cli": "6.1.3",
+    "sass-autoprefixer": "^1.0.1",
     "uglify-es": "^3.3.9"
   }
 }

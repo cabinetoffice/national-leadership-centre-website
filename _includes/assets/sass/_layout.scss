@@ -1,0 +1,83 @@
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+// Grid containers. Variations on base container style can be added as necessary.
+.container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: govuk-px-to-rem(1158px); // 1118px + 40px l+r padding = 1158px
+	padding-left: govuk-px-to-rem(20px);
+	padding-right: govuk-px-to-rem(20px);
+	width: 100%;
+}
+
+.container--xxs {
+	max-width: govuk-px-to-rem(542px); // 502px + 40px l+r padding = 542px
+}
+
+.container--xs {
+	max-width: govuk-px-to-rem(645px); // 605px + 40px l+r padding = 645px
+}
+
+.container--sm {
+	max-width: govuk-px-to-rem(696px); // 656px + 40px l+r padding = 696px
+}
+
+.container--wide {
+	max-width: govuk-px-to-rem(1260px); // 1220px + 40px l+r padding = 1260px
+}
+
+.container--flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+		align-items: inherit;
+	}
+}
+
+.container--negative {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+// Container extensions - To be added to the container div in order to support required variations.
+
+// 1. Extension to highlight a section with a background colour.
+.highlight {
+	background-color: $pale-yellow;
+}
+
+// 2. Extension to left-align all containers regardless of container width.
+.align-left {
+	@media only screen and (min-width : $tablet) {
+		left: govuk-px-to-rem(-5px);
+		padding: 0;
+	}
+}
+
+// 3. Extension to add required vertical padding for body content sections. 
+.vertical-padding {
+	padding-top: govuk-px-to-rem(30px);
+	padding-bottom: govuk-px-to-rem(53px);
+}
+
+.dbl-vertical-padding {
+	padding-top: govuk-px-to-rem(30px);
+	padding-bottom: govuk-px-to-rem(53px);
+
+	@media only screen and (min-width : $tablet) {
+		padding-top: govuk-px-to-rem(77px);
+		padding-bottom: govuk-px-to-rem(53px);
+	}
+}

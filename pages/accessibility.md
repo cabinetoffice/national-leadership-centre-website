@@ -1,11 +1,12 @@
 ---
-title: Accessibility statement for The National Leadership Centre
+title: Accessibility
+date: 2017-01-01T00:00:00.000Z
+permalink: /accessibility/index.html
+navtitle: Accessibility
 tags:
   - footer
-navtitle: Accessibility
-date: 2018-04-01
-permalink: /accessibility/index.html
 ---
+
 
 This website is run by The National Leadership Centre. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
@@ -40,7 +41,7 @@ This website is fully compliant with the [Web Content Accessibility Guidelines v
 
 ## How we tested this website
 
-This website was last tested on 27 August, 2019. The test was carried out by Convivio Team Ltd during their work for the National Leadership Centre.
+This website was last tested on 13th January 2020. The test was carried out by Convivio Team Ltd during their work for the National Leadership Centre.
 
 We used this approach to deciding on a sample of pages to test the site functionality was accessible for people with different needs and the content was as easy as possible to understand.
 
@@ -49,4 +50,4 @@ We tested:
 * our main website platform, available at [https://www.nationalleadership.gov.uk/](https://www.nationalleadership.gov.uk/)
 * the gov.uk page available about the National Leadership Centre at [https://www.gov.uk/government/publications/national-leadership-centre](https://www.gov.uk/government/publications/national-leadership-centre)
 
-This statement was updated on 3 December, 2019.
+This page was last amended on the 13th of January 2020.

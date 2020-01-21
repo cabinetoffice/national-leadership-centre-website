@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+section: programme
+---
+
+<div class="landing-block">
+
+{%- if title == "Our Programme" -%}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/programme.jpg');"></div>
+{% elseif title == "Research & Evaluation" %}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/research.jpg');"></div>
+{% elseif title == "The Network of Senior Leaders" %}
+	<div class="landing-block__image" style="background-image: url('../static/img/primary/network.jpg');"></div>
+{% endif %}
+
+	<div class="landing-block__text">
+		<div class="container container--wide">
+			<div class="landing-block__text__internal">
+				<h1>{{title}}</h1>
+				<p>{{leader}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ layoutContent | safe }}

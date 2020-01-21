@@ -1,9 +1,9 @@
 {
-  "title": "National Leadership Centre",
-  "url": "https://www.nationalleadership.gov.uk",
+  "title": "Eleventy Netlify Boilerplate",
+  "url": "https://eleventy-netlify-boilerplate.netlify.com",
   "author": {
-    "name": "Convivio",
-    "email": "hello@weareconvivio.com",
-    "github": "https://github.com/ConvivioTeam"
+    "name": "Dan Urbanowicz",
+    "email": "dan.urbanowicz@gmail.com",
+    "github": "https://github.com/danurbanowicz"
   }
 }

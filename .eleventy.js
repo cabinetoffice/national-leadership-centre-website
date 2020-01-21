@@ -1,4 +1,3 @@
-const path = require('path')
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
@@ -6,10 +5,9 @@ const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
+
   // RSS Plugin
-  eleventyConfig.addPlugin(pluginRss);
-  
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+   eleventyConfig.addPlugin(pluginRss);
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -49,23 +47,11 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
-  // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
-    });
-  });
-
-  eleventyConfig.addCollection("aboutsubpages", function(collection) {
-    let aboutSubPages = collection.getFilteredByGlob(['pages/about/*.md', 'pages/about.md']);
-    return aboutSubPages;
-  });
-
   // Don't process folders with static assets e.g. images
+  eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("_includes/assets/");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -83,19 +69,8 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, opts)
   );
 
-
-  // Our own nunjucks instance with imported govuk-frontend macros
-  let nunjucks = require("nunjucks");
-
-  let nunjucksEnvironment = new nunjucks.Environment([
-    new nunjucks.FileSystemLoader(path.join(__dirname, '/node_modules/govuk-frontend/govuk/components')),
-    new nunjucks.FileSystemLoader('_includes')
-  ]);
-
-  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
-
   return {
-    templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
+    templateFormats: ["md", "njk", "html", "liquid"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.

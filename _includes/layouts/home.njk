@@ -3,12 +3,12 @@ layout: layouts/base.njk
 section: home
 ---
 
-{% if subtitle %}
-<div class="gradient gradient--coil">
-  <h2 class="subtitle subtitle--with-image max-width">{{ subtitle }}</h2>
+<div class="header-block header-block--home">
+	<div class="container container--xxs">
+		<h2 class="centered gradient no-margin">The National Leadership Centre is a three year pilot with three strategic aims.</h2>
+	</div>
+	{{ layoutContent | safe }}
 </div>
-{% endif %}
 
-<div class="text-formatted max-width max-width--overflow-hidden">
-{{ layoutContent | safe }}
-</div>
+{% include "components/tiles.njk" %}
+{% include "components/image-left-text-right.njk" %}

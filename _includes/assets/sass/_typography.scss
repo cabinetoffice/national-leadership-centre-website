@@ -1,0 +1,145 @@
+/* ==========================================================================
+TYPOGRAPHY
+========================================================================== */
+
+p, .body-style {
+	width: 100%;
+	font-family: $secondary-font;
+	font-size: $body-font-size-mobile;
+	font-weight: $base-font-weight-regular;
+	line-height: $body-line-height;
+	font-style: normal;
+	color: $body;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $body-font-size;
+		line-height: $body-line-height;
+		margin: 0 0 govuk-px-to-rem(30px) 0px;
+	}
+}
+
+/* Shared styles */
+h1, h2, h3, h4, h5, h6 {
+	color: $body;
+	font-family: $headings-font;
+	font-weight: $headings-font-weight;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+	margin: 0;
+	mix-blend-mode: normal;
+}
+
+h1, .h1-style {
+	font-size: $h1-font-size-mobile;
+	line-height: $h1-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h1-font-size;
+		line-height: $h1-line-height;
+	}
+}
+
+h2, .h2-style {
+	font-size: $h2-font-size-mobile;
+	line-height: $h2-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+	margin-bottom: govuk-px-to-rem(20px); 
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h2-font-size;
+		line-height: $h2-line-height;
+		margin-bottom: govuk-px-to-rem(23px); 
+	}
+}
+
+h3, .h3-style {
+	font-size: $h3-font-size-mobile;
+	line-height: $h3-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+	margin-bottom: govuk-px-to-rem(12px); 
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h3-font-size;
+		line-height: $h3-line-height;
+		margin-bottom: govuk-px-to-rem(16px); 
+	}
+}
+
+// Subheading, slightly different styling.
+h4, .h4-style {
+	font-size: $h4-font-size-mobile;
+	line-height: $h4-line-height-mobile;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $h4-font-size;
+		line-height: $h4-line-height;
+	}
+}
+
+// Helpers - Additions to help with reuseable code approach. Add classes to achieve styles rather than nesting.
+.bold {
+	font-weight: $base-font-weight-bold;
+}
+
+.centered {
+	text-align: center;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.gradient {
+	background-color: $red;
+	background: linear-gradient(135deg, #CE132D 0%, #EE701C 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+		background-color: none;
+		background: none;
+	}
+}
+
+.text-gradient {
+	h1, h2, h3, h4 {
+		background-color: #ce132d;
+		background: linear-gradient(135deg,#ce132d 0,#ee701c 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+.header-highlight {
+	border-left: 2px solid $yellow;
+	padding-left: govuk-px-to-rem(20px);
+	margin: govuk-px-to-rem(34px) 0;
+}
+
+.caption {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: normal;
+	font-size: govuk-px-to-rem(12px);
+	line-height: govuk-px-to-rem(16px);
+	text-align: center;
+	color: $red;
+}
+
+.large-body-text {
+	font-size: $lg-body-font-size-mobile;
+	line-height: $lg-body-line-height-mobile;
+	font-weight: $base-font-weight-regular;
+
+	@media only screen and (min-width : $tablet) {
+		font-size: $lg-body-font-size;
+		line-height: $lg-body-line-height;
+	}
+}
+
+// Colours
+.white-text {
+	color: $white;
+}
