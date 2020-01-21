@@ -194,10 +194,12 @@
 	}
 
 	a {
-		text-decoration: none;
 		padding-left: govuk-px-to-rem(5px);
 		color: $black;
 		text-decoration: underline;
+		&:focus {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -221,7 +223,6 @@
 		}
 	
 		a {
-			text-decoration: none;
 			padding-left: none;
 			font-size: govuk-px-to-rem(12px);
 			line-height: govuk-px-to-rem(15px);
