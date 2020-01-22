@@ -11,7 +11,7 @@ teamMembers: {
   member1: {
 	name: "Dame Sara Thornton",
 	image: ../../static/img/meet-the-board/sara-thornton.png,
-	description: "Chair of National Leadership Centre's Advisory Board Independent Anti-Slavery Commissioner"
+	description: "Chair of National Leadership Centre's Advisory Board, Independent Anti-Slavery Commissioner"
   },
   member2: {
 	name: "Deb McKenzie",
@@ -36,7 +36,7 @@ teamMembers: {
   member6: {
 	name: "Professor Dame Janet Beer",
 	image: ../../static/img/meet-the-board/janet-beer.png,
-	description: "Vice Chancellor, University of Liverpool President"
+	description: "Vice Chancellor, University of Liverpool"
   },
   member7: {
 	name: "Steve McGuirk",

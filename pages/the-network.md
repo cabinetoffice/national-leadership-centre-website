@@ -1,7 +1,7 @@
 ---
 layout: layouts/primary.njk
 title: The Network of Senior Leaders
-leader: The National Leadership Centre is connecting the most senior public sector leaders across the country and making international links to widen our network
+leader: The National Leadership Centre is connecting the most senior public sector leaders across the country and making international links to widen our network.
 date: 2017-01-01T00:00:00.000Z
 permalink: /the-network/index.html
 navtitle: The Network
@@ -38,7 +38,7 @@ CEOs of large Arms Length Bodies and Regional Transport Authorities
 
 </div>
 
-User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria.. The Connect Network connects people across these boundaries.
+User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria. The Connect Network connects people across these boundaries.
 
 Research shows that the higher ranking a leader becomes   the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
 
