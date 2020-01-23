@@ -78,10 +78,11 @@ ul, ol {
 main {
 	ul, ol {
 		margin-bottom: govuk-px-to-rem(30px);
-		padding-left: 40px;
+		padding-left: govuk-px-to-rem(40px);
 
 		li {
 			margin: govuk-px-to-rem(9px);
+			line-height: govuk-px-to-rem(27px);
 		}
 	}
 }

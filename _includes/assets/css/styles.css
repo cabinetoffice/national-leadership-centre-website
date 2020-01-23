@@ -392,9 +392,10 @@ ul, ol {
 
 main ul, main ol {
   margin-bottom: 1.57895rem;
-  padding-left: 40px; }
+  padding-left: 2.10526rem; }
   main ul li, main ol li {
-    margin: 0.47368rem; }
+    margin: 0.47368rem;
+    line-height: 1.42105rem; }
 
 /*--------------------------------------------------------------
 # Components
@@ -807,7 +808,7 @@ COMPONENTS
     transform: rotate(45deg);
     border: solid;
     border-width: 1px 1px 0 0;
-    border-color: #6f777b; }
+    border-color: #626a6e; }
   .govuk-breadcrumbs__list-item:first-child {
     margin-left: 0;
     padding-left: 0; }
@@ -1158,6 +1159,9 @@ LAYOUT
     .dbl-vertical-padding {
       padding-top: 4.05263rem;
       padding-bottom: 2.78947rem; } }
+
+.dbl-margin li {
+  margin-bottom: 0.73684rem; }
 
 /*--------------------------------------------------------------
 # Accessibility

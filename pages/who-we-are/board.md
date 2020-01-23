@@ -41,7 +41,7 @@ teamMembers: {
   member7: {
 	name: "Steve McGuirk",
 	image: ../../static/img/meet-the-board/steve-mcguirk.png,
-	description: "Former Chief Fire Officer and CEO, Chairman of a Hospitals Foundation, and Fire Training Trust"
+	description: "Chairman of Hospitals Foundation Trust and Fire Training Trust"
   },
   member8: {
 	name: "Sir Jon Thompson",
