@@ -81,3 +81,9 @@ LAYOUT
 		padding-bottom: govuk-px-to-rem(53px);
 	}
 }
+
+.dbl-margin {
+	li {
+		margin-bottom: govuk-px-to-rem(14px);
+	}
+}

@@ -14,27 +14,20 @@ tags:
 
 ## The National Leadership Centre has created the Connect Network for Senior Leaders. It connects people from across every sector and region. The public service leaders in the Network include:
 
-<div class="container container--xxs">
+<div class="container container--xs">
 
-Chief Executive Officers (CEOs) in the National Health Service, including NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups.
-
-University Vice-Chancellors
-
-Heads of large Further Education Colleges and Academy Chains
-
-Local Authority CEOs
-
-Police Chief Constables
-
-Fire Chiefs
-
-Civil Service Permanent Secretaries and Director Generals
-
-Three star Military officers
-
-CEOs of large Housing Associations
-
-CEOs of large Arms Length Bodies and Regional Transport Authorities
+<ul class="dbl-margin">
+	<li>Chief Executive Officers (CEOs) in the National Health Service, including NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups.</li>
+	<li>University Vice-Chancellors</li>
+	<li>Heads of large Further Education Colleges and Academy Chains</li>
+	<li>Local Authority CEOs</li>
+	<li>Police Chief Constables</li>
+	<li>Fire Chiefs</li>
+	<li>Civil Service Permanent Secretaries and Director Generals</li>
+	<li>Three star Military officers</li>
+	<li>CEOs of large Housing Associations</li>
+	<li>CEOs of large Arms Length Bodies and Regional Transport Authorities</li>
+</ul>
 
 </div>
 
