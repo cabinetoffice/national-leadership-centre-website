@@ -35,7 +35,7 @@ User research shows that leaders tend to make links with other leaders in their 
 
 Research shows that the higher ranking a leader becomes   the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
 
-### Become a part of the Connect Network for Senior Leaders 
+### **Become a part of the Connect Network for Senior Leaders**
 The Connect Network for Senior Leaders is open to all senior leaders across the public sector.
 
 [Request access to Connect Network of Senior Leaders](https://connect.nationalleadership.gov.uk/)
