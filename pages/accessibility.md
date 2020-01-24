@@ -31,13 +31,13 @@ We’re always looking to improve the accessibility of this website. If you find
 
 ## Enforcement procedure
 
-The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, <a href="https://www.equalityadvisoryservice.com/" target="_blank">contact the Equality Advisory and Support Service (EASS).</a>
+The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, <a href="https://www.equalityadvisoryservice.com/" target="_blank">contact the Equality Advisory and Support Service (EASS)</a>.
 
 ## Technical information about this website’s accessibility
 
 The National Leadership Centre is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
 
-This website is fully compliant with the [Web Content Accessibility Guidelines version 2.1 AA standard.](https://www.w3.org/TR/WCAG21/)
+This website is fully compliant with the [Web Content Accessibility Guidelines version 2.1 AA standard](https://www.w3.org/TR/WCAG21/).
 
 ## How we tested this website
 
