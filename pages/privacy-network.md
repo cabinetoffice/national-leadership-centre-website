@@ -8,7 +8,7 @@ permalink: /privacy-network/index.html
 
 ## The Network Members' Privacy Notice
 
-The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. [Read the terms of reference for the Taskforce here.](https://www.gov.uk/government/publications/national-leadership-centre/november-2017-public-services-leadership-taskforce-terms-of-reference)
+The National Leadership Centre, as part of the Cabinet Office, was created by HM Government in 2018 to deliver the recommendations of the Public Services Leadership Taskforce. [Read the terms of reference for the Taskforce here](https://www.gov.uk/government/publications/national-leadership-centre/november-2017-public-services-leadership-taskforce-terms-of-reference).
 
 This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and 14 of the General Data Protection Regulation (GDPR).
 
@@ -88,7 +88,7 @@ In relation to using disability data for reasonable adjustments, it is necessary
 
 Senior public service leader contact details will be shared securely between senior public service leaders on our online platform.
 
-Personal data relating to the National Leadership Centre Award for Public Services will be shared with our Advisory Board. [Read more about the Advisory Board here.](https://www.nationalleadership.gov.uk/about/board)
+Personal data relating to the National Leadership Centre Award for Public Services will be shared with our Advisory Board. [Read more about the Advisory Board here](https://www.nationalleadership.gov.uk/about/board).
 
 Personal data collected in relation to events, surveys, research, and leadership programmes will be shared by us with our IT suppliers and researchers. In particular it will be shared with Identity Group, our supplier of Customer Relationship Management software, our mailing list management supplier, CrowdCompass Cvent, Korn Ferry Hay Group, and Convivio Team Ltd.
 
@@ -123,17 +123,14 @@ You have the right to object to the processing of your personal data where it is
 ## International transfers
 
 As your personal data is stored on our IT infrastructure, and shared with our data processors, it may be transferred and stored securely outside the European Union. Where that is the case it will be subject to equivalent legal protection through the use of Model Contract Clauses.
+
 As your personal data is shared with our IT suppliers, it may be transferred and stored securely in the United States of America. Where that is the case it will be subject to equivalent legal protection through the supplier’s membership of the Privacy Shield scheme.
 
 ## Contact Details
 
-The data controller for your personal data is the Cabinet Office. The contact details for the data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234 
+The data controller for your personal data is the Cabinet Office. The contact details for the data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234, publiccorrespondence@cabinetoffice.gov.uk.
 
-
-publiccorrespondence@cabinetoffice.gov.uk.
-
-The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, 70 Whitehall, London, SW1A 2AS, 
-dpo@cabinetoffice.gov.uk.
+The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, 70 Whitehall, London, SW1A 2AS, dpo@cabinetoffice.gov.uk.
 
 The Data Protection Officer provides independent advice and monitoring of Cabinet Office’s use of personal information.
 
@@ -141,9 +138,7 @@ The Data Protection Officer provides independent advice and monitoring of Cabine
 
 If you consider that your personal data has been misused or mishandled, you may make a complaint to the Information Commissioner, who is an independent regulator.
 
-The Information Commissioner can be contacted at: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, or 0303 123 1113,
-
-casework@ico.org.uk
+The Information Commissioner can be contacted at: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, or 0303 123 1113, casework@ico.org.uk
 
 Any complaint to the Information Commissioner is without prejudice to your right to seek redress through the courts.
 
