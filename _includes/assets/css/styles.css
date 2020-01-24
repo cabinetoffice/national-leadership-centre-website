@@ -596,7 +596,8 @@ COMPONENTS
         line-height: 1.31579rem; }
         .footer-main .footer-main__social ul li img {
           width: 1.36842rem;
-          vertical-align: middle; }
+          vertical-align: middle;
+          border-radius: 0.21053rem; }
   .footer-main .footer-main__crest__wrapper {
     float: right;
     display: block; }
