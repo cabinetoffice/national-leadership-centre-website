@@ -396,6 +396,9 @@ main ul, main ol {
   main ul li, main ol li {
     margin: 0.47368rem;
     line-height: 1.42105rem; }
+  main ul hr, main ol hr {
+    height: 0.05263rem;
+    border: none; }
 
 /*--------------------------------------------------------------
 # Components
