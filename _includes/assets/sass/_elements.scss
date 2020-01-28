@@ -84,5 +84,10 @@ main {
 			margin: govuk-px-to-rem(9px);
 			line-height: govuk-px-to-rem(27px);
 		}
+
+		hr {
+			height: govuk-px-to-rem(1px);
+			border: none;
+		}
 	}
 }
