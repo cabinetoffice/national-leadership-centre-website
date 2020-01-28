@@ -64,7 +64,7 @@ teamMembers: {
 	description: "Chief Executive Officer, National Society for the Prevention of Cruelty to Children"
   },
   member12: {
-	name: "Paul Martin CBE",
+	name: "Paul Martin",
 	image: ../../static/img/meet-the-board/paul-martin.png,
 	description: "Distinguished Fellow of the Royal United Services Institute for Defence and Security Studies"
   },
