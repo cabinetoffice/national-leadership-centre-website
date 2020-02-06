@@ -992,7 +992,8 @@ COMPONENTS
     display: block;
     margin-bottom: 0.52632rem; }
   .pdf-left-block a {
-    color: #000; }
+    color: #000;
+    display: block; }
 
 @media only screen and (min-width: 992px) {
   .pdf-left-block {
