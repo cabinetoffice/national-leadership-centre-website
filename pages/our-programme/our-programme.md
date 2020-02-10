@@ -43,7 +43,7 @@ Given the seniority and capability of our cohort, we will take around 100 deleg
 - Chief Constables
 - Chief Fire Officers
 - CEOs of major housing providers
-- 2* and 3* military officers
+- Senior 2* and 3* military officers
 
 This programme is aimed at people who are less than 2 years into their first CEO role. 
 
