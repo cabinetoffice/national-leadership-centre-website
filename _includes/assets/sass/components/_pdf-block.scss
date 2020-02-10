@@ -1,0 +1,40 @@
+// PDF Block
+.pdf-left-block {
+	display: flex;
+	flex-direction: column;
+	
+	.pdf-left-block__pdf {
+		order: 2;
+		min-width: govuk-px-to-rem(141px);
+		width: govuk-px-to-rem(141px);
+		margin: auto;
+	}
+
+	span {
+		font-family: $primary-font;
+		font-size: govuk-px-to-rem(12px);
+		line-height: govuk-px-to-rem(16px);
+		display: block;
+		margin-bottom: govuk-px-to-rem(10px);
+	}
+
+	a {
+		color: $black;
+		display: block;
+	}
+}
+
+@media only screen and (min-width : $desktop) {
+	.pdf-left-block {
+		flex-direction: row;
+		
+		.pdf-left-block__pdf {
+			width: initial;
+			max-height: govuk-px-to-rem(165px);
+			margin-left: govuk-px-to-rem(-184px);
+			margin-right: govuk-px-to-rem(43px);
+			padding-top: govuk-px-to-rem(12px);
+			order: initial;
+		}
+	}
+}
