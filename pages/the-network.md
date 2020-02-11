@@ -33,7 +33,7 @@ tags:
 
 User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria. The Connect Network connects people across these boundaries.
 
-Research shows that the higher ranking a leader becomes   the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+Research shows that the higher ranking a leader becomes the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
 
 </div>
 
