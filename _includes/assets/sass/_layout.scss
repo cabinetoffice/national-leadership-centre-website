@@ -39,6 +39,31 @@ LAYOUT
 	}
 }
 
+.container--two-col {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+    justify-content: space-around;
+
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+		align-items: inherit;
+	}
+
+	.column {
+		width: 100%;
+
+		@media only screen and (min-width : $desktop) {
+			width: 41%;
+		}
+
+		.h3-style {
+			@media only screen and (min-width : $desktop) {
+				width: 92%;
+			}
+		}
+	}
+}
+
 .container--negative {
 	left: 50%;
 	margin-left: -50vw;
