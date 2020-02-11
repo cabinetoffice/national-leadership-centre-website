@@ -1141,7 +1141,7 @@ h4, .h4-style {
   width: 100%; }
   @media only screen and (min-width: 992px) {
     .section-header.section-header--narrow {
-      width: 533px; } }
+      width: 28.10526rem; } }
 
 .section-header__text {
   font-size: 1.63158rem;

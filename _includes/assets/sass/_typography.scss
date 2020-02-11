@@ -128,7 +128,7 @@ h4, .h4-style {
 		width: 100%;
 
 		@media only screen and (min-width : $desktop) {
-			width: 533px;
+			width: govuk-px-to-rem(534px);
 		}
 	}
 }
@@ -180,20 +180,6 @@ h4, .h4-style {
 		mix-blend-mode: lighten;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .caption {
 	font-family: $primary-font;
