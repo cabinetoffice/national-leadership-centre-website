@@ -1141,7 +1141,10 @@ h4, .h4-style {
   width: 100%; }
   @media only screen and (min-width: 992px) {
     .section-header.section-header--narrow {
-      width: 28.10526rem; } }
+      width: 28.10526rem; }
+      @supports (-ms-ime-align: auto) {
+        .section-header.section-header--narrow {
+          width: 100%; } } }
 
 .section-header__text {
   font-size: 1.63158rem;
@@ -1161,7 +1164,7 @@ h4, .h4-style {
       line-height: 3.84211rem; } }
   .section-header__text span {
     color: #ffffff;
-    background-color: #000;
+    background-color: #CE132D;
     padding: 1.21053rem 1.05263rem;
     padding-top: 1.21053rem;
     padding-bottom: 1.21053rem;
