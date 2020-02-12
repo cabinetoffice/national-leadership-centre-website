@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: NLC Award for Public Service
 date: 2017-01-01T00:00:00.000Z
 permalink: /the-network/awards/index.html
-navtitle: NLC Award
+navtitle: NLC Awards
 breadcrumbs_parent: The Network
 breadcrumbs_parent_url: /the-network/
 ---
