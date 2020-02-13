@@ -51,5 +51,8 @@ Vimeo’s embeddable video player uses essential cookies.
 
 The following cookies are used:
 
-* **player 1 year**
+* **player**
+*1 year*
+
 * **vuid 1 year**
+*1 year*
