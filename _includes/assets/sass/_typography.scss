@@ -127,8 +127,12 @@ h4, .h4-style {
 	&.section-header--narrow {
 		width: 100%;
 
+		@media only screen and (min-width : $mobile) {
+			max-width: govuk-px-to-rem(400px);
+		}
+
 		@media only screen and (min-width : $desktop) {
-			width: govuk-px-to-rem(534px);
+			max-width: govuk-px-to-rem(534px);
 
 			@supports (-ms-ime-align:auto) {
 				width: 100%;

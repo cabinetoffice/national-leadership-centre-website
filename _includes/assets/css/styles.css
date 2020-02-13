@@ -1139,9 +1139,12 @@ h4, .h4-style {
 
 .section-header.section-header--narrow {
   width: 100%; }
+  @media only screen and (min-width: 576px) {
+    .section-header.section-header--narrow {
+      max-width: 21.05263rem; } }
   @media only screen and (min-width: 992px) {
     .section-header.section-header--narrow {
-      width: 28.10526rem; }
+      max-width: 28.10526rem; }
       @supports (-ms-ime-align: auto) {
         .section-header.section-header--narrow {
           width: 100%; } } }
