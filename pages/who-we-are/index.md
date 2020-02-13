@@ -8,7 +8,7 @@ tags:
   - nav
 ---
 
-<h3 class="h2-style">Our values</h3>
+## Our values
 
 We are excited about the work we are doing in the National Leadership Centre. We have five values that talk about how we want to deliver our work and who we want to be as a team.
 
