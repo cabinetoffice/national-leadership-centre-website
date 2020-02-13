@@ -48,8 +48,26 @@
   force = true
 
 [[redirects]]
+  from = "/programme"
+  to = "/what-we-do/our-programme"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/network"
   to = "/the-network"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-network"
+  to = "/what-we-do/the-network"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/research"
+  to = "/what-we-do/the-network"
   status = 301
   force = true
 

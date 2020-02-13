@@ -9,9 +9,9 @@
 		padding: govuk-px-to-rem(67px) govuk-px-to-rem(0px);
 	}
 
-	p {
+	.leader-bar__text {
 		@media only screen and (min-width : $tablet) {
 			color: $white
-		}	
+		}
 	}
 }

@@ -127,8 +127,16 @@ h4, .h4-style {
 	&.section-header--narrow {
 		width: 100%;
 
+		@media only screen and (min-width : $mobile) {
+			max-width: govuk-px-to-rem(400px);
+		}
+
 		@media only screen and (min-width : $desktop) {
-			width: govuk-px-to-rem(534px);
+			max-width: govuk-px-to-rem(534px);
+
+			@supports (-ms-ime-align:auto) {
+				width: 100%;
+			}
 		}
 	}
 }
@@ -153,7 +161,7 @@ h4, .h4-style {
 
 	span {
 		color: $white;
-		background-color: $black;
+		background-color: $red;
 		padding: govuk-px-to-rem(23px) govuk-px-to-rem(20px);
 		padding-top: govuk-px-to-rem(23px);
 		padding-bottom: govuk-px-to-rem(23px);

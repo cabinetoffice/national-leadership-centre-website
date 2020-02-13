@@ -9,7 +9,19 @@ module.exports = function(eleventyConfig) {
   // RSS Plugin
    eleventyConfig.addPlugin(pluginRss);
 
-  // Date formatting (human readable)
+  // Return active path attributes
+  eleventyConfig.addShortcode("activepath", function(itemUrl, currentUrl) {
+    if(itemUrl == '/' && itemUrl !== currentUrl) {
+      return '';
+    }
+    if(currentUrl.includes(itemUrl)) {
+      return ' data-current="current item" class="current"';
+    }
+    return '';
+  });
+
+
+  // Check active path for urls
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
@@ -60,7 +72,7 @@ module.exports = function(eleventyConfig) {
   let options = {
     html: true,
     breaks: true,
-    linkify: true
+    linkify: false
   };
   let opts = {
     permalink: false

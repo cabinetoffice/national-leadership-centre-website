@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* 
-Stylesheet for nationalleadershipcentre.gov.uk 
+/*
+Stylesheet for nationalleadershipcentre.gov.uk
 Author: Convivio
 Description: Stylesheet
 */
@@ -427,7 +427,7 @@ COMPONENTS
       background-color: #CE132D;
       padding: 3.52632rem 0rem; } }
   @media only screen and (min-width: 768px) {
-    .leader-bar p {
+    .leader-bar .leader-bar__text {
       color: #ffffff; } }
 
 .header-block {
@@ -812,7 +812,7 @@ COMPONENTS
     transform: rotate(45deg);
     border: solid;
     border-width: 1px 1px 0 0;
-    border-color: #626a6e; }
+    border-color: #6f777b; }
   .govuk-breadcrumbs__list-item:first-child {
     margin-left: 0;
     padding-left: 0; }
@@ -1139,9 +1139,15 @@ h4, .h4-style {
 
 .section-header.section-header--narrow {
   width: 100%; }
+  @media only screen and (min-width: 576px) {
+    .section-header.section-header--narrow {
+      max-width: 21.05263rem; } }
   @media only screen and (min-width: 992px) {
     .section-header.section-header--narrow {
-      width: 28.10526rem; } }
+      max-width: 28.10526rem; }
+      @supports (-ms-ime-align: auto) {
+        .section-header.section-header--narrow {
+          width: 100%; } } }
 
 .section-header__text {
   font-size: 1.63158rem;
@@ -1161,7 +1167,7 @@ h4, .h4-style {
       line-height: 3.84211rem; } }
   .section-header__text span {
     color: #ffffff;
-    background-color: #000;
+    background-color: #CE132D;
     padding: 1.21053rem 1.05263rem;
     padding-top: 1.21053rem;
     padding-bottom: 1.21053rem;
