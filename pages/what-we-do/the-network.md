@@ -33,7 +33,36 @@ tags:
 
 User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria. The Connect Network connects people across these boundaries.
 
-Research shows that the higher ranking a leader becomes   the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+Research shows that the higher ranking a leader becomes the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+
+</div>
+
+<div class="container container--wide vertical-padding">
+	<div class="section-header section-header--narrow">
+		<h2 class="section-header__text"><span>National Leadership Forum 2020</span></h2>
+	</div>
+</div>
+
+<div class="container container-sm container--two-col">
+	<div class="column">
+		<p class="h3-style">The National Leadership Forum 2020 brought together around 400 Chief Executive-level leaders from across the public sector for the first time ever.</p>
+		<p class="no-margin">Attendees heard from high-profile expert speakers on leadership and systems thinking, including:</p>
+		<ul>
+			<li>Cabinet Secretary Sir Mark Sedwill</li>
+			<li>Head of Amazon in the UK Doug Gurr</li>
+			<li>Mayor of Tulsa G.T. Bynum</li>
+			<li>England Men’s Football Manager Gareth Southgate</li>
+		</ul>
+	</div>
+	<div class="column">
+		<div class='embed-container'>
+			<iframe src="https://player.vimeo.com/video/389775874" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+		<p class="supporting-text">Hear some of the experiences of NLF from delegates. Featuring: Bill Skelly, Chief Constable of Lincolnshire Police; Katharine Braddick, Director General of Financial Services, HM Treasury; David Parr, Chief Executive of Halton Borough Council; and Jane Harrington, Vice-Chancellor of University of Greenwich.</p>
+	</div>
+</div>
+
+<div class="container container--sm dbl-vertical-padding">
 
 ### **Become a part of the Connect Network for Senior Leaders**
 The Connect Network for Senior Leaders is open to all senior leaders across the public sector.
@@ -49,3 +78,4 @@ The public service challenges in this country are mirrored in countries througho
 This is why the National Leadership Centre, in partnership with the [British Council](https://www.britishcouncil.org/), will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
 
 </div>
+
