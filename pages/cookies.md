@@ -15,7 +15,6 @@ Cookies are used to:
 * deliver services that require authentication
 * track cookie acceptance
 * measure how you use the website so it can be updated and improved based on your needs
-* play video content
 
 ## How our cookies are used
 ### Measuring website usage (Google Analytics)
@@ -45,14 +44,3 @@ This prevents too many requests being made to the Google Analytics service.
 *10 minutes*
 
 Google isn’t allowed to use or share our analytics data.
-
-### Play video content (Vimeo)
-Vimeo’s embeddable video player uses essential cookies.
-
-The following cookies are used:
-
-* **player**
-*1 year*
-
-* **vuid**
-*1 year*
