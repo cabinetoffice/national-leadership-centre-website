@@ -54,5 +54,5 @@ The following cookies are used:
 * **player**
 *1 year*
 
-* **vuid 1 year**
+* **vuid**
 *1 year*
