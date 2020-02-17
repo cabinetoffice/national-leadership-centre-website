@@ -3,7 +3,7 @@ layout: layouts/primary.njk
 title: Our Programme
 leader: The NLC Leadership Programme empowers senior leaders from across the public sector to work together to realise their potential.
 date: 2017-01-01T00:00:00.000Z
-permalink: /what-we-do/our-programme/index.html
+permalink: /our-programme/index.html
 navtitle: Our Programme
 primary: true
 tags:
