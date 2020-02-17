@@ -33,7 +33,7 @@ This award recognises the success of leaders and organisations who are working a
 
 <div class="container container--wide vertical-padding">
 	<div class="section-header section-header--narrow">
-		<h2 class="section-header__text"><span>The 2020 edition</span></h2>
+		<h2 class="section-header__text"><span>The 2020 award</span></h2>
 	</div>
 </div>
 
