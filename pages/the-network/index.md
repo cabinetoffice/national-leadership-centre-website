@@ -5,9 +5,9 @@ leader: The National Leadership Centre is connecting the most senior public sect
 date: 2017-01-01T00:00:00.000Z
 permalink: /the-network/index.html
 navtitle: The Network
-# primary: true
-# tags:
-#   - primary
+primary: true
+tags:
+  - primary
 ---
 
 <div class="container container--sm dbl-vertical-padding">
