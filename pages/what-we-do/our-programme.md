@@ -3,7 +3,7 @@ layout: layouts/primary.njk
 title: Our Programme
 leader: The NLC Leadership Programme empowers senior leaders from across the public sector to work together to realise their potential.
 date: 2017-01-01T00:00:00.000Z
-permalink: /what-we-do/our-programme/index.html
+permalink: /our-programme/index.html
 navtitle: Our Programme
 primary: true
 tags:
@@ -49,7 +49,7 @@ This programme is aimed at people who are less than 2 years into their first CEO
 
 If you are at a different point in your career, but nevertheless feel that you would benefit from this programme and provide an outstanding return on our investment, we would like to hear from you.
 
-Download the [Programme Brochure](../static/nlc-programme-brochure.pdf) PDF, 2.9MB, 12 pages.
+Download the [Programme Brochure](/static/nlc-programme-brochure.pdf) PDF, 2.9MB, 12 pages.
 
 ### **How to register your interest in taking part.**
 1. You will need access to the Connect Network of Senior Leaders to register your interest in taking part.<hr>[Request access to Connect Network of Senior Leaders](https://connect.nationalleadership.gov.uk/)<hr>Expressions of interest will open at the National Leadership Forum on Wednesday 29th January 2020 and remain open until 5pm on Friday 28th February 2020.
