@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*
-Stylesheet for nationalleadershipcentre.gov.uk
+/* 
+Stylesheet for nationalleadershipcentre.gov.uk 
 Author: Convivio
 Description: Stylesheet
 */
@@ -812,7 +812,7 @@ COMPONENTS
     transform: rotate(45deg);
     border: solid;
     border-width: 1px 1px 0 0;
-    border-color: #6f777b; }
+    border-color: #626a6e; }
   .govuk-breadcrumbs__list-item:first-child {
     margin-left: 0;
     padding-left: 0; }
