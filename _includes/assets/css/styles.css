@@ -347,7 +347,7 @@ ELEMENTS
 html {
   background-color: #ffffff;
   color: #000;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 19px;
   font-weight: normal;
   line-height: 1rem;
@@ -377,6 +377,7 @@ button {
   border: none; }
 
 ul, ol {
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
   color: #323E48; }
@@ -755,7 +756,7 @@ COMPONENTS
         margin: 0; } }
 
 .govuk-breadcrumbs {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -821,7 +822,7 @@ COMPONENTS
       display: none; }
 
 .govuk-breadcrumbs__link {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
   @media print {
@@ -986,7 +987,7 @@ COMPONENTS
     width: 7.42105rem;
     margin: auto; }
   .pdf-left-block span {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 0.63158rem;
     line-height: 0.84211rem;
     display: block;
@@ -1057,7 +1058,7 @@ p, .body-style {
 /* Shared styles */
 h1, h2, h3, h4, h5, h6 {
   color: #323E48;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -1152,7 +1153,7 @@ h4, .h4-style {
 .section-header__text {
   font-size: 1.63158rem;
   line-height: 3rem;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0;
   position: relative;
   background-color: #ffffff;
@@ -1191,7 +1192,7 @@ h4, .h4-style {
     mix-blend-mode: lighten; } }
 
 .caption {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.63158rem;
@@ -1356,7 +1357,7 @@ ACCESSIBILITY
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
   white-space: nowrap !important;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
@@ -1478,7 +1479,7 @@ NAVIGATION
     margin-right: 1.47368rem; }
     .main-nav ul li a, .secondary-nav ul li a {
       color: #000;
-      font-family: "Nunito Sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-size: 0.94737rem;
       line-height: 1.31579rem;
