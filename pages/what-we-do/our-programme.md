@@ -51,9 +51,4 @@ If you are at a different point in your career, but nevertheless feel that you w
 
 Download the [Programme Brochure](/static/nlc-programme-brochure.pdf) PDF, 2.9MB, 12 pages.
 
-### **How to register your interest in taking part.**
-1. You will need access to the Connect Network of Senior Leaders to register your interest in taking part.<hr>[Request access to Connect Network of Senior Leaders](https://connect.nationalleadership.gov.uk/)<hr>Expressions of interest will open at the National Leadership Forum on Wednesday 29th January 2020 and remain open until 5pm on Friday 28th February 2020.
-2. The Programme Team will send you a link to an application form, which you will need to complete and return by 5pm on Friday 28th February 2020.
-3. Expressions of interest will be passed to the relevant sector body to sift. We aim to advise successful delegates no later than Friday 30th April.
-
 </div>
