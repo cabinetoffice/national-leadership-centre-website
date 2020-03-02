@@ -1,7 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or renderData.title or metadata.title }}</title>
+  {% if permalink == '/' %}
+    <title>{{ title or renderData.title or metadata.title }}</title>
+  {% else %}
+    <title>{{ title or renderData.title or metadata.title }} | National Leadership Centre</title>
+  {% endif %}
   <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700|Source+Sans+Pro:300,400&display=swap" rel="stylesheet">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

@@ -7,6 +7,7 @@
     "watch": "npx eleventy --watch",
     "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css & npx postcss --watch _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build ",
     "debug": "DEBUG=* npx eleventy",
+    "wdebug": "set DEBUG=Eleventy* & eleventy",
     "sass": "node-sass --watch _includes/assets/sass/styles.scss _includes/assets/css/styles.css",
     "npf": "npx postcss _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build"
   },
