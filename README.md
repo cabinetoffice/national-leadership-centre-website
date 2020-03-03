@@ -96,7 +96,6 @@ More informartion on embed paddings here - <a target="_blank" href="https://css-
 
 <a target="_blank" href="https://docs.google.com/spreadsheets/d/1PTgir2Rxk4SDAWBqTZVcrfAJ516UFOj6s2o37qTYOTc/edit#gid=459751473">Content Modelling NLC (Lego Blocks)</a>
 
-
 ## Platforms
 
 <a target="_blank" href="https://www.figma.com/file/xewdA0mJKkZqh3XIBYu8Gx/WIP-1?node-id=672%3A2405">Figma designs</a>
