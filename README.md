@@ -12,7 +12,7 @@ Pre-requisite knowledge.
 3. Built on Nunjucks - https://css-tricks.com/killer-features-of-nunjucks/
 
 ## To install and start local environment:
-1. Use Node.js v10
+1. Use Node.js v10.16.0 or later
 2. cd [my project]
 3. Run `npm install`
 4. Run `npm run serve
