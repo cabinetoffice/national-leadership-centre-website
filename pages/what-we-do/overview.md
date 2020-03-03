@@ -40,7 +40,8 @@ The National Leadership Centre was launched by the Chancellor in 2018 as a three
 
 Although the Taskforce was clear that public service leadership is not a silver bullet for these challenges, they found that the weight of evidence suggests that bolstering public service leaders does make a difference. The Taskforce also found that many leaders are struggling with the strategic complexity of the services they lead, while experiencing a sense of isolation amid the challenges that come with becoming the most senior person of a public service organisation.
 
-The Taskforce made [a number of recommendations](https://www.gov.uk/government/publications/national-leadership-centre) in their report and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.
+The Taskforce made a number of recommendations in their report and, in response, the government created the National Leadership Centre to support leaders of public services in England to improve the services they run.
+[View the recommendations from the Taskforce](https://www.gov.uk/government/publications/national-leadership-centre)
 
 ### **Related Links:**
 
