@@ -69,7 +69,7 @@ This for compiling reference - https://stackoverflow.com/questions/31448114/how-
 There are some instances where helpers are imported from the govuk-frontend framework. For example, in the accessibility scss file, we import the visually-hidden mixin styles.
 
 ## Website Media Sizing
-#### Imagery
+### Imagery
 
 The site uses specifically sized imagery in multiple places. Below is a table for the location of the imagery used, and it's sizing requirements.
 
