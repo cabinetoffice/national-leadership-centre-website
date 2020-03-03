@@ -1,6 +1,6 @@
 <footer class="footer-main">
 	<div class="container container--wide">
-		<nav class="footer-main__nav">
+		<nav aria-label="Find out more" class="footer-main__nav">
 			<ul>
 				{%- for footer in collections.footer | sort(attribute="date") -%}
 				<li>
@@ -9,13 +9,13 @@
 				{%- endfor -%}
 			</ul>
 		</nav>
-		<div class="footer-main__social">
+		<nav aria-labelledby="footer-social-menu" class="footer-main__social">
+			<h2 id="footer-social-menu" class="footer-main__social__heading">Follow the NLC:</h2>
 			<ul>
-				<li>Follow the NLC:</li>
 				<li>
 					<a target="_blank" href="https://twitter.com/NLC_HQ">
 						<img src="/static/img/twitter.svg" alt="Follow The National Leadership Centre on Twitter" />
-					</a>	
+					</a>
 				</li>
 				<li>
 					<a target="_blank" href="https://www.linkedin.com/company/national-leadership-centre/">
@@ -23,7 +23,7 @@
 					</a>
 				</li>
 			</ul>
-		</div>
+		</nav>
 		<a class="footer-main__crest__wrapper" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/" target="_blank">
 			<div class="footer-main__crest">
 				<img src="/static/img/govuk-crest-2x.png" alt="Government crest" />
@@ -33,12 +33,12 @@
 	</div>
 </footer>
 
-<div class="cookie-bar" id="cookie-bar-bottom">
+<section aria-label="Cookie banner" class="cookie-bar" id="cookie-bar-bottom">
 	<div class="container">
-		<p>The National Leadership Centre uses cookies to make this site simpler.<a href="/cookies" >Find out more about cookies</a></p> 
+		<p>The National Leadership Centre uses cookies to make this site simpler.<a href="/cookies" >Find out more about cookies</a></p>
 		<button class="cookie-bar__accept" id="cookie-hide">Accept cookies</button>
 	</div>
 	{# <button class="cookie-bar__close js-cookie-bar-close" id="cookie-hide">
 		<img src="/static/img/close.png" alt="Close cookie bar icon" />
 	</button> #}
-</div>
+</section>

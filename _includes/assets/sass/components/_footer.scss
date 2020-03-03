@@ -35,13 +35,20 @@
 
 	.footer-main__social {
 		display: inline-block;
-
+		.footer-main__social__heading {
+			font-family: $secondary-font;
+			font-size: govuk-px-to-rem(17px);
+			line-height: govuk-px-to-rem(25px);
+			margin: 0;
+			margin-left: govuk-px-to-rem(115px);
+			padding-right: govuk-px-to-rem(15px);
+			display: inline-block;
+		}
 		ul {
 			list-style: none;
 			padding: 0;
-			margin-left: govuk-px-to-rem(115px);
 			margin-top: 0;
-
+			display: inline-block;
 			li {
 				display: inline-block;
 				padding-right: govuk-px-to-rem(15px);
@@ -73,7 +80,7 @@
 			width: govuk-px-to-rem(90px);
 			margin-bottom: govuk-px-to-rem(5px);
 		}
-		
+
 		p {
 			font-size: govuk-px-to-rem(12px);
 			margin: 0;
@@ -107,7 +114,7 @@
 				}
 			}
 		}
-	
+
 		.footer-main__social {
 			display: block;
 			margin-bottom: govuk-px-to-rem(22px);
@@ -183,7 +190,7 @@
 		&:focus {
 			p {
 				text-decoration: none;
-			}		
+			}
 		}
 	}
 
@@ -210,7 +217,7 @@
 		.cookie-bar__close {
 			top: 18px;
 		}
-	
+
 		p, button {
 			display: block;
 			font-size: govuk-px-to-rem(15px);
@@ -222,10 +229,10 @@
 				margin-bottom: govuk-px-to-rem(10px);
 			}
 		}
-	
+
 		a {
 			padding-left: none;
 			line-height: govuk-px-to-rem(15px);
 		}
-	}	
+	}
 }
