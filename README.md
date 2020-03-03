@@ -20,7 +20,7 @@ Pre-requisite knowledge.
 ** Although npm run serve runs multiple scripts simultaneously, for other build scripts, please refer to the package.json file.
 
 ## Technical Approach
-#### Building blocks
+### Building blocks
 The site uses a re-useable block based HTML structure, for easy separation of styling and to ensure blocks can be recycled easily. Also, this methodology is used as a way of future-proofing; if the site is moved to another platform, the blocks can be used independently of any third party syntax conventions:
 
 	<div class=“content-area”>
