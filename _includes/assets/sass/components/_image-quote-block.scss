@@ -30,9 +30,6 @@
 		left: govuk-px-to-rem(-25px);
 		margin-top: govuk-px-to-rem(-25px);
 		top: 0;
-
-		@media only screen and (min-width : $desktop) {
-		}
 	}
 
 	.image-quote-block__quote::after {
