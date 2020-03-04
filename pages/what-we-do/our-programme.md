@@ -19,7 +19,7 @@ tags:
 <div class="image-quote-block">
 	<div class="container container--wide container--two-col vertical-padding">
 		<div class="column">
-			<img class="media-full-width" src="../../static/img/presenting.png" alt="######"/>
+			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
 		</div>
 		<div class="column column--card">
 			<div class="image-quote-block__card">
