@@ -19,7 +19,8 @@ p, .body-style {
 }
 
 /* Shared styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1-style, .h2-style, .h3-style, .h4-style, .h5-style, .h6-style {
 	color: $body;
 	font-family: $headings-font;
 	font-weight: $headings-font-weight;
@@ -45,12 +46,12 @@ h2, .h2-style {
 	font-size: $h2-font-size-mobile;
 	line-height: $h2-line-height-mobile;
 	font-weight: $base-font-weight-regular;
-	margin-bottom: govuk-px-to-rem(20px); 
+	margin-bottom: govuk-px-to-rem(20px);
 
 	@media only screen and (min-width : $tablet) {
 		font-size: $h2-font-size;
 		line-height: $h2-line-height;
-		margin-bottom: govuk-px-to-rem(23px); 
+		margin-bottom: govuk-px-to-rem(23px);
 	}
 }
 
@@ -58,12 +59,12 @@ h3, .h3-style {
 	font-size: $h3-font-size-mobile;
 	line-height: $h3-line-height-mobile;
 	font-weight: $base-font-weight-regular;
-	margin-bottom: govuk-px-to-rem(12px); 
+	margin-bottom: govuk-px-to-rem(12px);
 
 	@media only screen and (min-width : $tablet) {
 		font-size: $h3-font-size;
 		line-height: $h3-line-height;
-		margin-bottom: govuk-px-to-rem(16px); 
+		margin-bottom: govuk-px-to-rem(16px);
 	}
 }
 
@@ -97,7 +98,7 @@ h4, .h4-style {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
-	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 		background-color: none;
 		background: none;
 	}
