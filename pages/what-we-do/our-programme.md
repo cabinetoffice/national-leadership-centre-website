@@ -16,6 +16,23 @@ tags:
 	</div>
 </div>
 
+<div class="image-quote-block">
+	<div class="container container--wide container--two-col vertical-padding">
+		<div class="column">
+			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
+		</div>
+		<div class="column column--card">
+			<blockquote class="image-quote-block__card">
+				<p class="large-body-text image-quote-block__quote">We support leaders to become more adaptive, connected, open, informed, focused and ethical. In doing so, we are empowering the next generation of leaders to make an even bigger difference to the lives of citizens across the country.</p>
+				<footer>
+					<cite class="h4-style bold no-margin">Kristina Murrin, CBE</cite>
+					<p class="no-margin">CEO, National Leadership Centre</p>
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
 <div class="container container--sm dbl-vertical-padding">
 
 The most difficult challenges faced by public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. Being accountable for the whole organisation means overseeing a wider range of expertise.

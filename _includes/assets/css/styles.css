@@ -565,6 +565,63 @@ COMPONENTS
       margin-top: 2.26316rem;
       margin-bottom: 2.89474rem; } }
 
+.image-quote-block .image-quote-block__card {
+  background-color: #F3F6F9;
+  padding: 1.89474rem 2.52632rem;
+  text-align: center;
+  box-shadow: 4px 6px 10px #cfcfcf;
+  margin: 0; }
+  @media only screen and (min-width: 992px) {
+    .image-quote-block .image-quote-block__card {
+      padding: 2.73684rem 5.78947rem; } }
+  .image-quote-block .image-quote-block__card .large-body-text {
+    margin-bottom: 1.05263rem; }
+  .image-quote-block .image-quote-block__card h3 {
+    margin-bottom: 0.26316rem; }
+
+.image-quote-block .image-quote-block__quote {
+  position: relative; }
+
+.image-quote-block .image-quote-block__quote::before {
+  content: url("../../static/img/quote.svg");
+  position: absolute;
+  left: -1.31579rem;
+  margin-top: -1.31579rem;
+  top: 0; }
+
+.image-quote-block .image-quote-block__quote::after {
+  content: url("../../static/img/quote.svg");
+  position: absolute;
+  right: -1.31579rem;
+  margin-top: -1.31579rem;
+  top: 0;
+  transform: scaleY(-1);
+  transform: scaleX(-1); }
+
+.image-quote-block .container--two-col {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  @media only screen and (min-width: 992px) {
+    .image-quote-block .container--two-col .column {
+      width: 50%; } }
+  .image-quote-block .container--two-col .column--card {
+    margin-top: -1.57895rem;
+    z-index: 1; }
+    @media only screen and (min-width: 992px) {
+      .image-quote-block .container--two-col .column--card {
+        margin-top: unset;
+        z-index: unset;
+        width: 55%;
+        margin-left: -3.36842rem; } }
+
+.image-quote-block .vertical-padding {
+  padding-bottom: 0; }
+
 .footer-main {
   background-color: #F3F6F9;
   padding: 3.21053rem 0; }
@@ -664,7 +721,8 @@ COMPONENTS
   text-align: center;
   position: sticky;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 10; }
   .cookie-bar .cookie-bar__close {
     width: 3.15789rem;
     position: absolute;
@@ -1063,7 +1121,8 @@ p, .body-style {
       margin: 0 0 1.57895rem 0px; } }
 
 /* Shared styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1-style, .h2-style, .h3-style, .h4-style, .h5-style, .h6-style {
   color: #323E48;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
