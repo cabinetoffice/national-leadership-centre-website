@@ -928,7 +928,7 @@ COMPONENTS
     transform: rotate(45deg);
     border: solid;
     border-width: 1px 1px 0 0;
-    border-color: #626a6e; }
+    border-color: #6f777b; }
   .govuk-breadcrumbs__list-item:first-child {
     margin-left: 0;
     padding-left: 0; }
@@ -1171,7 +1171,8 @@ p, .body-style {
       margin: 0 0 1.57895rem 0px; } }
 
 /* Shared styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1-style, .h2-style, .h3-style, .h4-style, .h5-style, .h6-style {
   color: #323E48;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
