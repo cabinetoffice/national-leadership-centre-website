@@ -31,6 +31,24 @@ tags:
 	</div>
 </div>
 
+<div class="image-centralised-text-block vertical-padding">
+	<div class="image-centralised-text-block__image" style="background-image: url('/static/img/hands.jpg');"></div>
+	<div class="image-centralised-text-block__text">
+		<div class="image-centralised-text-block__text__internal">
+			<h3 class="h4-style bold no-margin">Key information:</h3>
+			<div class="header-highlight">
+				<blockquote class="h3-style">
+					<p>100 senior level public leaders</p>
+					<p>development & supportive cross-sector network</p>
+					<p>3 residential 2-day moduls</p>
+					<p>20 days over an 8 month window</p>
+					<p>at locations across England, and remote work</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container container--sm dbl-vertical-padding">
 
 The most difficult challenges faced by public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. Being accountable for the whole organisation means overseeing a wider range of expertise.

@@ -565,6 +565,56 @@ COMPONENTS
       margin-top: 2.26316rem;
       margin-bottom: 2.89474rem; } }
 
+.image-centralised-text-block {
+  position: relative; }
+  .image-centralised-text-block.vertical-padding {
+    padding-bottom: 0; }
+  .image-centralised-text-block .image-centralised-text-block__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 9.26316rem; }
+    @media only screen and (min-width: 768px) {
+      .image-centralised-text-block .image-centralised-text-block__image {
+        height: 26.47368rem; } }
+  .image-centralised-text-block .header-highlight {
+    margin: 0; }
+  .image-centralised-text-block h3 {
+    margin-bottom: 0.78947rem;
+    margin-left: 1.05263rem; }
+  .image-centralised-text-block .image-centralised-text-block__text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .image-centralised-text-block .image-centralised-text-block__text {
+        position: absolute;
+        padding-top: 1.57895rem; } }
+    .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal {
+      width: 28.26316rem;
+      padding: 40px 23px 0px 48px;
+      padding: 2.10526rem 1.21053rem 0rem 2.52632rem;
+      background-color: #ffffff; }
+      @media only screen and (min-width: 768px) {
+        .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal {
+          padding: 2.10526rem 1.21053rem 2.10526rem 2.52632rem; } }
+      .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal p {
+        margin: 0;
+        margin-bottom: 0.52632rem; }
+
 .image-quote-block .image-quote-block__card {
   background-color: #F3F6F9;
   padding: 1.89474rem 2.52632rem;
