@@ -6,6 +6,7 @@
 		padding: govuk-px-to-rem(36px) govuk-px-to-rem(48px);
 		text-align: center;
 		box-shadow: 4px 6px 10px #cfcfcf;
+		margin: 0;
 
 		@media only screen and (min-width : $desktop) {
 			padding: govuk-px-to-rem(52px) govuk-px-to-rem(110px);

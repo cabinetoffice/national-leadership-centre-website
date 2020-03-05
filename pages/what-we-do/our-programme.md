@@ -22,11 +22,11 @@ tags:
 			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
 		</div>
 		<div class="column column--card">
-			<div class="image-quote-block__card">
+			<blockquote class="image-quote-block__card">
 				<p class="large-body-text image-quote-block__quote">We support leaders to become more adaptive, connected, open, informed, focused and ethical. In doing so, we are empowering the next generation of leaders to make an even bigger difference to the lives of citizens across the country.</p>
 				<h3 class="h4-style bold no-margin">Kristina Murrin, CBE</h3>
 				<p class="no-margin">CEO, National Leadership Centre</p>
-			</div>
+			</blockquote>
 		</div>
 	</div>
 </div>
