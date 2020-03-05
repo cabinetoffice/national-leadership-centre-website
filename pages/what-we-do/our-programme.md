@@ -24,8 +24,10 @@ tags:
 		<div class="column column--card">
 			<blockquote class="image-quote-block__card">
 				<p class="large-body-text image-quote-block__quote">We support leaders to become more adaptive, connected, open, informed, focused and ethical. In doing so, we are empowering the next generation of leaders to make an even bigger difference to the lives of citizens across the country.</p>
-				<cite class="h4-style bold no-margin">Kristina Murrin, CBE</cite>
-				<p class="no-margin">CEO, National Leadership Centre</p>
+				<footer>
+					<cite class="h4-style bold no-margin">Kristina Murrin, CBE</cite>
+					<p class="no-margin">CEO, National Leadership Centre</p>
+				</footer>
 			</blockquote>
 		</div>
 	</div>
