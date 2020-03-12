@@ -36,7 +36,7 @@ Google Analytics stores information about:
 * how you got to the site
 * what you click on while you’re visiting the site
 
-We do store a anonymous unique identifier in Google Analytics, which allows us to track your activy across sessions and devices, and more accurately count the users of our service.
+We do store a anonymous unique identifier in Google Analytics, which allows us to track your activity across sessions and devices, and more accurately count the users of our service.
 
 We do not collect or store your personal information through Google Analytics (for example your name or address).
 
