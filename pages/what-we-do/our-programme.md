@@ -20,7 +20,7 @@ tags:
 	<div class="image-centralised-text-block__image" style="background-image: url('/static/img/hands.jpg');"></div>
 	<div class="image-centralised-text-block__text">
 		<div class="image-centralised-text-block__text__internal">
-			<h3 class="h4-style bold no-margin">Key information:</h3>
+			<h2 class="h4-style bold no-margin">Key information:</h2>
 			<div class="header-highlight">
 				<blockquote class="h3-style">
 					<p>100 senior public leaders from across all public services</p>
