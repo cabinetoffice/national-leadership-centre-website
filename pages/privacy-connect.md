@@ -36,7 +36,9 @@ Google Analytics stores information about:
 * how you got to the site
 * what you click on while you’re visiting the site
 
-We do not collect or store your personal information through Google Analytics (for example your name or address) so this information cannot be used to identify who you are.
+We do store a anonymous unique identifier in Google Analytics, which allows us to track your activity across sessions and devices, and more accurately count the users of our service.
+
+We do not collect or store your personal information through Google Analytics (for example your name or address).
 
 ## Why we need your data
 
@@ -109,7 +111,7 @@ If you have any of these requests, get in contact with the NLC.
 
 NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk contain links to other websites.
 
-This privacy policy only applies to NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk, and it does not cover other government services and transactions that we link to. 
+This privacy policy only applies to NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk, and it does not cover other government services and transactions that we link to.
 
 ### Following a link to another website
 
@@ -140,7 +142,7 @@ Data Protection Officer
 [DPO@cabinetoffice.gov.uk](mailto:DPO@cabinetoffice.gov.uk)
 Cabinet Office
 70 Whitehall
-London 
+London
 SW1A 2AS
 
 The DPO provides independent advice and monitoring of our use of personal information.
@@ -153,11 +155,11 @@ Textphone: 01625 545860
 Monday to Friday, 9am to 4:30pm
 [Find out about call charges](https://www.gov.uk/call-charges)
 
-Information Commissioner's Office 
-Wycliffe House 
-Water Lane 
-Wilmslow 
-Cheshire SK9 5AF 
+Information Commissioner's Office
+Wycliffe House
+Water Lane
+Wilmslow
+Cheshire SK9 5AF
 
 Last updated 9 December 2019
 
