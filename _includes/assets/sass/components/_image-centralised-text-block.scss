@@ -19,6 +19,14 @@
 
   .header-highlight {
     margin: 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      margin: govuk-px-to-rem(9px) govuk-px-to-rem(0);
+    }
   }
 
   h3 {
@@ -51,13 +59,13 @@
 
     .image-centralised-text-block__text__internal {
       width: govuk-px-to-rem(557px);
-      padding: 40px 23px 0px 48px;
-      padding: govuk-px-to-rem(40px) govuk-px-to-rem(23px) govuk-px-to-rem(0px)
+      padding: 40px 20px 0px 48px;
+      padding: govuk-px-to-rem(40px) govuk-px-to-rem(20px) govuk-px-to-rem(0px)
         govuk-px-to-rem(48px);
       background-color: $white;
 
       @media only screen and (min-width: $tablet) {
-        padding: govuk-px-to-rem(40px) govuk-px-to-rem(23px)
+        padding: govuk-px-to-rem(40px) govuk-px-to-rem(20px)
           govuk-px-to-rem(40px) govuk-px-to-rem(48px);
       }
 

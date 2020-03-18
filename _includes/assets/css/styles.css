@@ -579,6 +579,12 @@ COMPONENTS
         height: 26.47368rem; } }
   .image-centralised-text-block .header-highlight {
     margin: 0; }
+    .image-centralised-text-block .header-highlight ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+    .image-centralised-text-block .header-highlight li {
+      margin: 0.47368rem 0rem; }
   .image-centralised-text-block h3 {
     margin-bottom: 0.78947rem;
     margin-left: 1.05263rem; }
@@ -604,13 +610,13 @@ COMPONENTS
         position: absolute;
         padding-top: 1.57895rem; } }
     .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal {
-      width: 28.26316rem;
-      padding: 40px 23px 0px 48px;
-      padding: 2.10526rem 1.21053rem 0rem 2.52632rem;
+      width: 29.31579rem;
+      padding: 40px 20px 0px 48px;
+      padding: 2.10526rem 1.05263rem 0rem 2.52632rem;
       background-color: #ffffff; }
       @media only screen and (min-width: 768px) {
         .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal {
-          padding: 2.10526rem 1.21053rem 2.10526rem 2.52632rem; } }
+          padding: 2.10526rem 1.05263rem 2.10526rem 2.52632rem; } }
       .image-centralised-text-block .image-centralised-text-block__text .image-centralised-text-block__text__internal p {
         margin: 0;
         margin-bottom: 0.52632rem; }

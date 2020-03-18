@@ -20,15 +20,15 @@ tags:
 	<div class="image-centralised-text-block__image" style="background-image: url('/static/img/hands.jpg');"></div>
 	<div class="image-centralised-text-block__text">
 		<div class="image-centralised-text-block__text__internal">
-			<h3 class="h4-style bold no-margin">Key information:</h3>
+			<h3 class="h4-style bold">Key information:</h3>
 			<div class="header-highlight">
-				<blockquote class="h3-style">
-					<p>100 senior public leaders from across all public services</p>
-					<p>Three residential modules over 12 months</p>
-					<p>Be inspired by world leaders in systems and collective leadership</p>
-					<p>In-depth psychometric analysis and coaching support</p>
-					<p>At locations across England and online</p>
-				</blockquote>
+				<ul class="h3-style">
+					<li>100 senior public leaders from across all public services</li>
+					<li>Three residential modules over 12 months</li>
+					<li>Be inspired by world leaders in systems and collective leadership</li>
+					<li>In-depth psychometric analysis and coaching support</li>
+					<li>At locations across England and online</li>
+				</ul>
 			</div>
 		</div>
 	</div>
