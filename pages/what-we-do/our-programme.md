@@ -16,24 +16,7 @@ tags:
 	</div>
 </div>
 
-<div class="image-quote-block">
-	<div class="container container--wide container--two-col vertical-padding">
-		<div class="column">
-			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
-		</div>
-		<div class="column column--card">
-			<blockquote class="image-quote-block__card">
-				<p class="large-body-text image-quote-block__quote">We support leaders to become more adaptive, connected, open, informed, focused and ethical. In doing so, we are empowering the next generation of leaders to make an even bigger difference to the lives of citizens across the country.</p>
-				<footer>
-					<cite class="h4-style bold no-margin">Kristina Murrin, CBE</cite>
-					<p class="no-margin">CEO, National Leadership Centre</p>
-				</footer>
-			</blockquote>
-		</div>
-	</div>
-</div>
-
-<div class="image-centralised-text-block vertical-padding">
+<div class="image-centralised-text-block">
 	<div class="image-centralised-text-block__image" style="background-image: url('/static/img/hands.jpg');"></div>
 	<div class="image-centralised-text-block__text">
 		<div class="image-centralised-text-block__text__internal">
@@ -57,7 +40,26 @@ The most difficult challenges faced by public services are complex and cross-cut
 
 To help people make the best of a move into these roles, the National Leadership Centre is delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country.
 
-Senior leaders from across all public services will come together for a challenging, supportive and stretching 12 month development programme. It will include three residential modules, during which delegates will be inspired by world leaders in systems and collective leadership, offered unique opportunities to put this thinking into practice, and given in-depth psychometric analysis and coaching support to help delegates realise their potential as a public service leader.
+</div>
+
+<div class="image-quote-block">
+	<div class="container container--wide container--two-col vertical-padding">
+		<div class="column">
+			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
+		</div>
+		<div class="column column--card">
+			<blockquote class="image-quote-block__card">
+				<p class="large-body-text image-quote-block__quote">We support leaders to become more adaptive, connected, open, informed, focused and ethical. In doing so, we are empowering the next generation of leaders to make an even bigger difference to the lives of citizens across the country.</p>
+				<footer>
+					<cite class="h4-style bold no-margin">Kristina Murrin, CBE</cite>
+					<p class="no-margin">CEO, National Leadership Centre</p>
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+<div class="container container--sm dbl-vertical-padding">
 
 The programme will seek to transform the leadership of public services by:
 
@@ -67,9 +69,11 @@ The programme will seek to transform the leadership of public services by:
 - building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 ### **Would you like to take part in the flagship NLC Programme?**
+
 We welcome applications from outstanding Chief Executives (and equivalent) of publicly funded organisations delivering public services.
 
 Given the seniority and capability of our cohort, we will take around 100 delegates each year who we expect to be recognised as some of the best leaders in their field or sector. This includes, but is not exclusive to:
+
 - Chief Executives of County Councils, London Boroughs and Unitary Authorities
 - NHS Chief Executives and Regional Directors
 - University Vice Chancellors
