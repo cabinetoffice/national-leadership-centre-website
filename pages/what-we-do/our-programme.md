@@ -23,11 +23,11 @@ tags:
 			<h3 class="h4-style bold no-margin">Key information:</h3>
 			<div class="header-highlight">
 				<blockquote class="h3-style">
-					<p>100 senior level public leaders</p>
-					<p>development & supportive cross-sector network</p>
-					<p>3 residential 2-day moduls</p>
-					<p>20 days over an 8 month window</p>
-					<p>at locations across England, and remote work</p>
+					<p>100 senior public leaders from across all public services</p>
+					<p>Three residential modules over 12 months</p>
+					<p>Be inspired by world leaders in systems and collective leadership</p>
+					<p>In-depth psychometric analysis and coaching support</p>
+					<p>At locations across England and online</p>
 				</blockquote>
 			</div>
 		</div>
