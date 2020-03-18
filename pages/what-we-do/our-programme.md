@@ -43,7 +43,7 @@ To help people make the best of a move into these roles, the National Leadership
 </div>
 
 <div class="image-quote-block">
-	<div class="container container--wide container--two-col vertical-padding">
+	<div class="container container--wide container--two-col">
 		<div class="column">
 			<img class="media-full-width" src="../../static/img/presenting.png" alt="Image of woman presenting to group."/>
 		</div>
