@@ -421,7 +421,7 @@ COMPONENTS
 
 .leader-bar {
   background-color: #ffffff;
-  padding: 1.89474rem 0rem 0rem;
+  padding: 1.89474rem 0rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .leader-bar {
