@@ -1,0 +1,78 @@
+// Image left text right
+.image-centralised-text-block {
+  position: relative;
+
+  &.vertical-padding {
+    padding-bottom: 0;
+  }
+
+  .image-centralised-text-block__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: govuk-px-to-rem(176px);
+
+    @media only screen and (min-width: $tablet) {
+      height: govuk-px-to-rem(503px);
+    }
+  }
+
+  .header-highlight {
+    margin: 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      margin: govuk-px-to-rem(9px) govuk-px-to-rem(0);
+    }
+  }
+
+  h3 {
+    margin-bottom: govuk-px-to-rem(15px);
+    margin-left: govuk-px-to-rem(20px);
+  }
+
+  .image-centralised-text-block__text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    @media only screen and (min-width: $tablet) {
+      position: absolute;
+      padding-top: govuk-px-to-rem(30px);
+    }
+
+    .image-centralised-text-block__text__internal {
+      width: govuk-px-to-rem(595px);
+      padding: 40px 20px 0px 48px;
+      padding: govuk-px-to-rem(40px) govuk-px-to-rem(20px) govuk-px-to-rem(0px)
+        govuk-px-to-rem(48px);
+      background-color: $white;
+
+      @media only screen and (min-width: $tablet) {
+        padding: govuk-px-to-rem(40px) govuk-px-to-rem(20px)
+          govuk-px-to-rem(40px) govuk-px-to-rem(48px);
+      }
+
+      p {
+        margin: 0;
+        margin-bottom: govuk-px-to-rem(10px);
+      }
+    }
+  }
+}
