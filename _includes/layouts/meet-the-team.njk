@@ -9,28 +9,5 @@ section: meet the team
 	</div>
 </div>
 
-<div class="team-block-wrapper no-images">
-	<div class="container">
-		{{ layoutContent | safe }}
+ {{ layoutContent | safe }}
 
-		<div class="team-block vertical-padding">
-			{% for member, item in teamMembers %}
-				<div class="team-block__item">
-					<div class="team-block__item__image">
-						{# <img src="{{ item.image }}" alt="Headshot image of {{ item.name }}"> #}
-					</div>
-					<div class="team-block__item__name">
-						{{ item.name }}
-					</div>
-					<div class="team-block__item__bio cropped">
-						<p>{{ item.description | safe }}</p>
-					</div>
-					<div class="team-block__item__readmore caption">
-						More
-					</div>
-					<img class="team-block__item__readmore__img" alt="" src="../../static/img/readmore.svg">
-				</div>
-			{% endfor %}
-		</div>
-	</div>
-</div>
