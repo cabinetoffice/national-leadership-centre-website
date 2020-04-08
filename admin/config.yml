@@ -18,5 +18,12 @@ collections:
     identifier_field: name
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
+      - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          valueType: 'int',
+          hint: 'Control the order team members are displayed on the page. Lower numbers appear higher up the page.',
+        }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Description', name: 'body', widget: 'markdown' }
