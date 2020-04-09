@@ -16,11 +16,30 @@ tags:
 	</div>
 </div>
 
+<div class="image-centralised-text-block">
+	<div class="image-centralised-text-block__image" style="background-image: url('/static/img/hands.jpg');"></div>
+	<div class="image-centralised-text-block__text">
+		<div class="image-centralised-text-block__text__internal">
+			<h3 class="h4-style bold">Key information:</h3>
+			<div class="header-highlight">
+				<ul class="h3-style">
+					<li>100 senior public leaders from across all public services</li>
+					<li>Three residential modules over 12 months</li>
+					<li>Be inspired by world leaders in systems and collective leadership</li>
+					<li>In-depth psychometric analysis and coaching support</li>
+					<li>At locations across England and online</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container container--sm dbl-vertical-padding">
 
 The most difficult challenges faced by public services are complex and cross-cutting. People in charge of organisations are trying to achieve strategic outcomes that they can only partly influence. Being accountable for the whole organisation means overseeing a wider range of expertise.
 
 To help people make the best of a move into these roles, the National Leadership Centre is delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country.
+
 </div>
 
 <div class="image-quote-block">
@@ -42,8 +61,6 @@ To help people make the best of a move into these roles, the National Leadership
 
 <div class="container container--sm dbl-vertical-padding">
 
-Senior leaders from across all public services will come together for a challenging, supportive and stretching 12 month development programme. It will include three residential modules, during which delegates will be inspired by world leaders in systems and collective leadership, offered unique opportunities to put this thinking into practice, and given in-depth psychometric analysis and coaching support to help delegates realise their potential as a public service leader.
-
 The programme will seek to transform the leadership of public services by:
 
 - providing leaders with insights and experience from some of the world’s foremost academics, practitioners and leaders
@@ -52,9 +69,11 @@ The programme will seek to transform the leadership of public services by:
 - building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 ### **Would you like to take part in the flagship NLC Programme?**
+
 We welcome applications from outstanding Chief Executives (and equivalent) of publicly funded organisations delivering public services.
 
 Given the seniority and capability of our cohort, we will take around 100 delegates each year who we expect to be recognised as some of the best leaders in their field or sector. This includes, but is not exclusive to:
+
 - Chief Executives of County Councils, London Boroughs and Unitary Authorities
 - NHS Chief Executives and Regional Directors
 - University Vice Chancellors
