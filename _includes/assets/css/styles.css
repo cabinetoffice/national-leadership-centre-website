@@ -376,28 +376,40 @@ button {
   background: none;
   border: none; }
 
-ul, ol {
+ul,
+ol {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
   color: #323E48; }
-  ul li, ol li {
+  ul li,
+  ol li {
     font-size: 0.84211rem;
     font-weight: normal; }
     @media only screen and (min-width: 768px) {
-      ul li, ol li {
+      ul li,
+      ol li {
         font-size: 0.89474rem;
         line-height: 1.31579rem; } }
-    ul li:last-child, ol li:last-child {
+    ul li:last-child,
+    ol li:last-child {
       margin-bottom: 0px; }
 
-main ul, main ol {
+main ul,
+main ol {
   margin-bottom: 1.57895rem;
   padding-left: 2.10526rem; }
-  main ul li, main ol li {
+  main ul ul,
+  main ul ol,
+  main ol ul,
+  main ol ol {
+    margin-bottom: 0; }
+  main ul li,
+  main ol li {
     margin: 0.47368rem;
     line-height: 1.42105rem; }
-  main ul hr, main ol hr {
+  main ul hr,
+  main ol hr {
     height: 0.05263rem;
     border: none; }
 
