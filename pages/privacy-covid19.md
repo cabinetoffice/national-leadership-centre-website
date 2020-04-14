@@ -48,7 +48,7 @@ Your personal data will be shared by us with our IT suppliers who provide survey
 
 As your personal data will be stored on our IT infrastructure it will also be shared with our data processors who provide email, and document management and storage services.
 
-Your personal data may also be shared with research partners IPSOS MORI where we use them to gather information. Where that is the case they will only use it under our instruction for the purposes set out above.
+Your personal data may also be shared with research partners Ipsos MORI where we use them to gather information. Where that is the case they will only use it under our instruction for the purposes set out above.
 
 Aggregated reports will be shared with the Cabinet Secretary, Cabinet and its sub-committees, and other senior members of government as required for the purpose of informing Government about the impact of COVID-19 on our network of public sector leaders.
 
@@ -88,9 +88,9 @@ As your personal data is stored on our IT infrastructure, and shared with our da
 
 ## Contact details
 
-The data controller for your personal data is the Cabinet Office. The contact details for the data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234, or publiccorrespondence@cabinetoffice.gov.uk.
+The data controller for your personal data is the Cabinet Office. The contact details for the data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234, or PublicCorrespondence@CabinetOffice.gov.uk.
 
-The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, Room 405, 70 Whitehall, London, SW1A 2AS, or dpo@cabinetoffice.gov.uk.
+The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, Room 405, 70 Whitehall, London, SW1A 2AS, or DPO@CabinetOffice.gov.uk.
 
 The Data Protection Officer provides independent advice and monitoring of Cabinet Office’s use of personal information.
 
