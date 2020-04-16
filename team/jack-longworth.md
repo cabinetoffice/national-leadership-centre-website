@@ -1,5 +1,5 @@
 ---
 name: Jack Longworth
-order: 25
+order: 18
 ---
-Jack is a Learning and Development specialist working in the Programmes Team.
+Jack is a **learning and development specialist** working in the programme team.
