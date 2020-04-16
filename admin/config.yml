@@ -26,4 +26,10 @@ collections:
           hint: 'Control the order team members are displayed on the page. Lower numbers appear higher up the page.',
         }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
-      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Description',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'The job title should be in bold. Limit of 230 characters.',
+          pattern: ['^.{1,230}$', 'Must have less than 230 characters.'],
+        }
