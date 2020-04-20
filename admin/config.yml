@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: feature/team-cms # Branch to update (optional; defaults to master)
+
+local_backend: true
+
+# publish_mode: editorial_workflow
+
+media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: 'team' # Used in routes, e.g., /admin/collections/blog
+    label: 'Team member' # Used in the UI
+    preview_path: who-we-are/team/
+    folder: 'team' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          valueType: 'int',
+          hint: 'Control the order team members are displayed on the page. Lower numbers appear higher up the page.',
+        }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - {
+          label: 'Description',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'The job title should be in bold. Limit of 230 characters.',
+          pattern: ['^.{1,230}$', 'Must have less than 230 characters.'],
+        }

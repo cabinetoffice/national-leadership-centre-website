@@ -1,0 +1,36 @@
+---
+layout: layouts/meet-the-team.njk
+title: Who we are
+date: 2017-01-01T00:00:00.000Z
+permalink: /who-we-are/team/index.html
+navtitle: Meet the NLC team
+breadcrumbs_parent: Who we are
+breadcrumbs_parent_url: /who-we-are/
+---
+
+{% set teamMembers = collections.teamMembers %}
+
+<div class="team-block-wrapper no-images">
+	<div class="container">
+
+		<div class="team-block vertical-padding">
+			{% for member in teamMembers %}
+				<div class="team-block__item">
+					<div class="team-block__item__image">
+						{# <img src="{{ item.image }}" alt="Headshot image of {{ item.name }}"> #}
+					</div>
+					<div class="team-block__item__name">
+						{{ member.data.name }}
+					</div>
+					<div class="team-block__item__bio cropped">
+						{{ member.templateContent | safe }}
+					</div>
+					<div class="team-block__item__readmore caption">
+						More
+					</div>
+					<img class="team-block__item__readmore__img" alt="" src="../../static/img/readmore.svg">
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
