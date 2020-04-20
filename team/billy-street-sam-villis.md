@@ -1,5 +1,5 @@
 ---
-name: Billy Street and Sam Villis
+name: Billy Street & Sam Villis
 order: 6
 image: ""
 ---
