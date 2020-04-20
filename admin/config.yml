@@ -1,8 +1,5 @@
 backend:
   name: git-gateway
-  branch: feature/team-cms # Branch to update (optional; defaults to master)
-
-local_backend: true
 
 # publish_mode: editorial_workflow
 
