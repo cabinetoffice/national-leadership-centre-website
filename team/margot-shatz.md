@@ -2,5 +2,4 @@
 name: Margot Shatz
 order: 3
 ---
-
-Margot **leads the strategy and insight** function. She has strategic oversight for our research and evaluation, while also leading on our corporate governance and ministerial relationships.
+Margot runs the **Research and Evaluation portfolio**. She works with leaders, researchers and experts to understand the complex links between leadership, productivity and outcomes of public services.
