@@ -2,13 +2,18 @@
 title: COVID 19 library
 date: 2017-01-01T00:00:00.000Z
 permalink: /covid19-library/index.html
+templateEngineOverride: njk,md
 ---
 
 
 {% for card in covid19TrelloExport.cards %}
-<h2>{{ card.name }}</h2>
-<p>{{card.desc}}<p>
+## {{ card.name }}
+
+{{card.desc}}
+
+<p>
 {% for attachment in card.attachments %}
-<a href="{{ attachment.url}}" target="_blank" aria-label="Visit page: {{ card.name }}">Visit page</a>
+<a href="{{ attachment.url}}" target="_blank" aria-label="Visit page: {{ attachment.name }}">{{ attachment.name }}</a>
 {% endfor %}
+<p>
 {% endfor %}
