@@ -29,6 +29,16 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat('yyyy-MM-dd');
   });
 
+  const slugify = require('slugify');
+  eleventyConfig.addFilter('slug', (input) => {
+    const options = {
+      replacement: '-',
+      remove: /[&,+()$~%.'":*?<>{}]/g,
+      lower: true,
+    };
+    return slugify(input, options);
+  });
+
   // Minify CSS
   eleventyConfig.addFilter('cssmin', function (code) {
     return new CleanCSS({}).minify(code).styles;

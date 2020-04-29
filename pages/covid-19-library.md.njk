@@ -13,7 +13,7 @@ templateEngineOverride: njk,md
 
 <p>
 {% for attachment in card.attachments %}
-<a href="{{ attachment.url}}" target="_blank" aria-label="Visit page: {{ attachment.name }}">{{ attachment.name }}</a>
+<a href="/convid19-library/{{ card.name | slug }}/" aria-label="Visit page: {{ attachment.name }}">{{ attachment.name }}</a>
 {% endfor %}
 <p>
 {% endfor %}

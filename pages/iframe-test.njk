@@ -1,0 +1,25 @@
+---
+pagination:
+    data: covid19TrelloExport.cards
+    size: 1
+    alias: card
+permalink: "convid19-library/{{ card.name | slug }}/index.html"
+title: {{ card.name }}
+date: 2017-01-01T00:00:00.000Z
+layout: null
+---
+  {% set attachment = card.attachments | first %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include "components/head.njk" %}
+  </head>
+  <body style="overflow: hidden;">
+  <div style="position: sticky; top: 0; display: flex;">
+  <a style="display: block; padding: 10px; background: #CE132D; color: white;" href="/covid19-library" onclick="window.history.go(-1); return false;">Go back to NLC library</a>
+  <a style="text-align: right;  padding: 10px; background: #CE132D; color: white;" href="{{ attachment.url }}" target="_blank">Visit original page</a>
+  </div>
+  <iframe style="width: 100%; height: calc(100vh - 36px); border: 0;" src="{{ attachment.url }}" title="{{ card.name }}"></iframe>
+  </body>
+</html>
