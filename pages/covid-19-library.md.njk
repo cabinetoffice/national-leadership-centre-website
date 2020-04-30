@@ -5,9 +5,19 @@ permalink: /covid19-library/index.html
 templateEngineOverride: njk,md
 ---
 
+<div class="team-block-wrapper no-images">
+<div class="container">
 
+<div class="team-block vertical-padding">
 {% for card in covid19TrelloExport.cards %}
-## {{ card.name }}
+<div class="team-block__item">
+<div class="team-block__item__image">
+{# <img src="{{ item.image }}" alt="Headshot image of {{ item.name }}"> #}
+</div>
+<div class="team-block__item__name">
+{{ card.name }}
+</div>
+<div class="team-block__item__bio cropped">
 
 {{card.desc}}
 
@@ -16,4 +26,13 @@ templateEngineOverride: njk,md
 <a href="{{ attachment.url}}" target="_blank" aria-label="Visit page: {{ attachment.name }}">{{ attachment.name }}</a>
 {% endfor %}
 <p>
+</div>
+<div class="team-block__item__readmore caption">
+More
+</div>
+<img class="team-block__item__readmore__img" alt="" src="../../static/img/readmore.svg">
+</div>
 {% endfor %}
+</div>
+</div>
+</div>
