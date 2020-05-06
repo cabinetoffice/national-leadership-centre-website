@@ -12,7 +12,7 @@ tags:
 
 <div class="container container--sm dbl-vertical-padding">
 
-## The National Leadership Centre has created the Connect Network for Senior Leaders. It connects people from across every sector and region. The public service leaders in the Network include:
+## The National Leadership Centre has created a network for the most senior leaders in public service. Its purpose is to connect people from across every sector and region, in order to help improve public services. The public service leaders in the network include:
 
 <div class="container container--xs">
 
@@ -31,9 +31,22 @@ tags:
 
 </div>
 
-User research shows that leaders tend to make links with other leaders in their own sectors, and often within their local areas, but rarely with public service leaders outside of those criteria. The Connect Network connects people across these boundaries.
+Within these categories, membership depends on the scale of an organisation, amount of public funding and how many citizens it serves.
 
-Research shows that the higher ranking a leader becomes the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+Research shows that the higher ranking a leader becomes, the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response.
+
+<div class="vertical-padding">
+
+## Connect
+
+As members of the network, public service leaders automatically gain access to Connect, the senior leaders’ library and directory for the public service. Here leaders can connect with each other and find exclusive information.
+[Access Connect](https://connect.nationalleadership.gov.uk/)
+
+</div>
+
+## Events across the country
+
+The National Leadership Centre brings leaders together through national, regional and small group events. This allows peers to make time, outside formal governance or partnership structures, to work together to address the most complex and pressing problems that they face.
 
 </div>
 
@@ -64,18 +77,12 @@ Research shows that the higher ranking a leader becomes the more potential there
 
 <div class="container container--sm dbl-vertical-padding">
 
-### **Become a part of the Connect Network for Senior Leaders**
-The Connect Network for Senior Leaders is open to all senior leaders across the public sector.
+## International peers
 
-[Request access to Connect Network of Senior Leaders](https://connect.nationalleadership.gov.uk/)
+The public service challenges we face are mirrored in countries throughout the world. Some of our priorities may have already been addressed successfully abroad, and our leaders will have valuable experience to share with international colleagues.
 
-### Events across the country
-The NLC brings leaders together through national, regional and small group events. This allows peers to make time, outside formal governance or partnership structures, to work together to address the most complex and pressing problems that they face.
+This is why the National Leadership Centre, in partnership with the [British Council,](https://www.britishcouncil.org/) will host an international summit for some of the world’s most senior public service leaders in 2021.
 
-### International peers
-The public service challenges in this country are mirrored in countries throughout the world. Our priorities may have been successfully addressed abroad, and our leaders will have experience to share internationally as well.
-
-This is why the National Leadership Centre, in partnership with the [British Council](https://www.britishcouncil.org/), will host an international summit for some of the world’s most senior public service leaders in 2020. This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
+This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice.
 
 </div>
-
