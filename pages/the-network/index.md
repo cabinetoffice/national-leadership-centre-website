@@ -12,7 +12,7 @@ tags:
 
 <div class="container container--sm dbl-vertical-padding">
 
-## The National Leadership Centre is connecting senior leaders from across every sector and region, in order to help improve public services.
+## The National Leadership Centre has created a network for the most senior leaders in public service. Its purpose is to connect people from across every sector and region, in order to help improve public services. The public service leaders in the network include:
 
 <div class="container container--xs">
 
