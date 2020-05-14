@@ -17,14 +17,13 @@
 .team-block {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
 
   .team-block__item {
     width: 100%;
     height: fit-content;
     text-align: center;
     background-color: $white;
-    margin: 0 govuk-px-to-rem(18px) govuk-px-to-rem(98px) govuk-px-to-rem(18px);
+    margin: 0 1.666% govuk-px-to-rem(30px);
 
     @media only screen and (min-width: $mobile) {
       flex: 0 0 30%;
