@@ -26,7 +26,13 @@ collections:
           hint: 'Control the order team members are displayed on the page. Lower numbers appear higher up the page.',
         }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
-      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Description',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'The job title should be in bold. Limit of 230 characters.',
+          pattern: ['^.{1,230}$', 'Must have less than 230 characters.'],
+        }
   - name: 'page' # Used in routes, e.g., /admin/collections/blog
     label: 'Basic page' # Used in the UI
     folder: 'pages' # The path to the folder where the documents are stored
@@ -35,23 +41,12 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Permalink',
-          name: 'permalink',
-          widget: 'string',
-          required: false,
-        }
-      - {
-          label: 'Navigation title',
-          name: 'navtitle',
-          widget: 'string',
-          required: false,
-        }
+      - { label: 'Permalink', name: 'permalink', widget: 'string' }
+      - { label: 'Navigation title', name: 'navtitle', widget: 'string' }
       - label: 'Menu'
         name: 'tags'
         widget: 'select'
         multiple: true
-        required: false
         options:
           - { label: 'Header', value: 'nav' }
           - { label: 'Footer', value: 'footer' }
