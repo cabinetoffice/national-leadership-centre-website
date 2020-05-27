@@ -3,8 +3,8 @@ title: Network Privacy Policy
 navtitle: Network Privacy Policy
 date: 2018-05-01
 permalink: /privacy-network/index.html
+layout: layouts/page.njk
 ---
-
 
 ## The Network Members' Privacy Notice
 
@@ -19,58 +19,65 @@ The purposes for which we are processing your personal data are to manage all as
 The processing will also allow our audience to contact and interact with each other in line with our strategic objective of creating cross country network of senior public service leaders and delivering a leadership programme.
 
 Specifically, we will:
-* collect via online survey, official records, and from public sources contact details of senior public service leaders
-* upload these into a directory on a secure online platform
-* inform and invite senior public service leaders to join the platform
-* share those contact details with senior public service leaders who use the platform (and our own staff)
-* use data to understand and map the connections and relationships between senior public sector individuals and organisations
+
+- collect via online survey, official records, and from public sources contact details of senior public service leaders
+- upload these into a directory on a secure online platform
+- inform and invite senior public service leaders to join the platform
+- share those contact details with senior public service leaders who use the platform (and our own staff)
+- use data to understand and map the connections and relationships between senior public sector individuals and organisations
 
 We will also use personal data to:
-* organise and hold events for senior public service leaders
-* carry out research and experimental pilots aiming to build the evidence base around leadership and its impact on public services
-* conduct surveys of the network
-* deliver the National Leadership Centre Award for Public Services, including hosting an awards ceremony
-* gather your opinions on your role as a public sector leader
-* deliver residential courses as a part of the leadership programme
+
+- organise and hold events for senior public service leaders
+- carry out research and experimental pilots aiming to build the evidence base around leadership and its impact on public services
+- conduct surveys of the network
+- deliver the National Leadership Centre Award for Public Services, including hosting an awards ceremony
+- gather your opinions on your role as a public sector leader
+- deliver residential courses as a part of the leadership programme
 
 We will also use diversity data to:
-* assess our own diversity and inclusion statistics for our network and programme audience of senior public service leaders
-* for reasonable adjustments for disabilities: for example, at senior leadership events and at programme residential courses
+
+- assess our own diversity and inclusion statistics for our network and programme audience of senior public service leaders
+- for reasonable adjustments for disabilities: for example, at senior leadership events and at programme residential courses
 
 ## What data we will process
 
 We will process the following personal data:
-* First Name
-* Last Name
-* Email
-* Phone number
-* Work Address
-* Business-facing social media account handles
-* Job Title
-* Sector (for example: Local Government, Police, Fire)
-* Opinions
+
+- First Name
+- Last Name
+- Email
+- Phone number
+- Work Address
+- Business-facing social media account handles
+- Job Title
+- Sector (for example: Local Government, Police, Fire)
+- Opinions
 
 We will also collect the following diversity data:
-* Age
-* Gender
-* Ethnicity
-* Disability
+
+- Age
+- Gender
+- Ethnicity
+- Disability
 
 If you submit a nomination for the National Leadership Centre Award for Public Services, then we will collect the following personal data about you:
-* First Name
-* Last Name
-* Email
-* Job Title
-* Sector (for example: Local Government, Police, Fire)
-* Opinions
+
+- First Name
+- Last Name
+- Email
+- Job Title
+- Sector (for example: Local Government, Police, Fire)
+- Opinions
 
 If you submit a nomination for the National Leadership Centre Award for Public Services on behalf of someone else, then we will collect the following personal data about you and the individual that you have nominated:
-* First Name
-* Last Name
-* Email
-* Job Title
-* Sector (for example: Local Government, Police, Fire)
-* Opinions
+
+- First Name
+- Last Name
+- Email
+- Job Title
+- Sector (for example: Local Government, Police, Fire)
+- Opinions
 
 ## Legal basis of processing
 
@@ -99,8 +106,9 @@ Your diversity data will not be shared, except if we need to share it with a ven
 ## Retention
 
 Your personal data will be retained by us for as long as you meet the following criteria:
-* you occupy a role in the public sector at the level of seniority required to belong to the National Leadership Centre’s network e.g. Chief Executive or equivalent
-* you have not informed us that you no longer want us to process your personal data for the purposes of our work at the National Leadership Centre
+
+- you occupy a role in the public sector at the level of seniority required to belong to the National Leadership Centre’s network e.g. Chief Executive or equivalent
+- you have not informed us that you no longer want us to process your personal data for the purposes of our work at the National Leadership Centre
 
 All personal data will be reviewed at least every 12 months to ensure that it is relevant and up to date. The National Leadership Centre will delete any stored personal data that we hold on individuals who no longer meet the above criteria.
 
