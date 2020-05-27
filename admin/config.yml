@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  branch: feature/team-cms # Branch to update (optional; defaults to master)
+  branch: feature/ch3687/add-the-ability-for-nlc-staff-to-edit-website # Branch to update (optional; defaults to master)
 
 local_backend: true
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
 
@@ -35,4 +35,13 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string' }
+      - { label: 'Navigation title', name: 'navtitle', widget: 'string' }
+      - label: 'Menu'
+        name: 'tags'
+        widget: 'select'
+        multiple: true
+        options:
+          - { label: 'Header', value: 'nav' }
+          - { label: 'Footer', value: 'footer' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
