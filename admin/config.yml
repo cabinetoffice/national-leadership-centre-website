@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/ch3687/add-the-ability-for-nlc-staff-to-edit-website # Branch to update (optional; defaults to master)
-
-local_backend: true
+  branch: master
 
 publish_mode: editorial_workflow
 
