@@ -61,7 +61,7 @@ collections:
         options:
           - { label: 'Header', value: 'nav' }
           - { label: 'Footer', value: 'footer' }
-       - {
+      - {
           label: 'Order',
           name: 'order',
           widget: 'number',

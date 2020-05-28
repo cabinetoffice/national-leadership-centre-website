@@ -1,9 +1,9 @@
 import Team from '/admin/preview-templates/team.js';
-// import Page from '/admin/preview-templates/page.js';
+import Page from '/admin/preview-templates/basic-page.js';
 
 // Register the Post component as the preview for entries in the blog collection
 CMS.registerPreviewTemplate('team', Team);
-// CMS.registerPreviewTemplate('pages', Page);
+CMS.registerPreviewTemplate('page', Page);
 
 CMS.registerPreviewStyle('/_includes/assets/css/build/styles.css');
 // Register any CSS file on the home page as a preview style
