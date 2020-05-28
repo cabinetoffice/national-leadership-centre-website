@@ -8,14 +8,16 @@ const Page = createClass({
     const entry = this.props.entry;
 
     return html`
-      <div class="title-bar">
-        <div class="container">
-          <h1>${entry.getIn(['data', 'title'], null)}</h1>
+      <main>
+        <div class="title-bar">
+          <div class="container">
+            <h1>${entry.getIn(['data', 'title'], null)}</h1>
+          </div>
         </div>
-      </div>
-      <div class="container vertical-padding">
-        ${this.props.widgetFor('body')}
-      </div>
+        <div class="container vertical-padding">
+          ${this.props.widgetFor('body')}
+        </div>
+      </main>
     `;
   },
 });
