@@ -1,7 +1,6 @@
 ---
 title: Network Privacy Policy
 navtitle: Network Privacy Policy
-date: 2018-05-01
 permalink: /privacy-network/index.html
 layout: layouts/page.njk
 ---

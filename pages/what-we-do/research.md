@@ -2,7 +2,7 @@
 layout: layouts/primary.njk
 title: Research & Evaluation
 leader: The National Leadership Centre will become a global hub for data-driven research on leadership in the public sector.
-date: 2017-01-01T00:00:00.000Z
+order: 3
 permalink: /research/index.html
 navtitle: Research
 primary: true
@@ -31,18 +31,23 @@ To do this, the NLC will take a highly iterative approach and seek out the best 
 The NLC has identified five leadership qualities that appear most relevant to its aims and audience. These initial qualities are: adaptive, connected, questioning, purposeful and ethical.
 
 ### Adaptive
+
 Adaptive leaders are able to change proactively and constantly learn in a complex, uncertain and volatile world.
 
 ### Connected
+
 Connected leaders are empathic, collaborative thinkers who consistently work across organisational boundaries to build strategic relationships across the public service.
 
 ### Questioning
+
 Questioning leaders are open minded and seek to understand the views and experiences of others.
 
 ### Purposeful
+
 Purposeful leaders display absolute clarity about their mission and purpose, and they are able to see beyond the problems and pressures of the present.
 
 ### Ethical
+
 Ethical leaders consistently behave in ways that create trust, and they take a long-term, sustainable approach to fulfilling the organisation’s public service mission.
 
 By helping leaders to enhance these qualities, the NLC can help them to deepen their impact on the organisations they run, the services they lead, and – ultimately – the lives of citizens.

@@ -1,7 +1,6 @@
 ---
 title: Privacy Notice for Senior Leaders COVID-19 Impact Survey
 navtitle: Privacy Notice for Senior Leaders COVID-19 Impact Survey
-date: 2018-05-01
 permalink: /privacy-covid19/index.html
 layout: layouts/page.njk
 ---

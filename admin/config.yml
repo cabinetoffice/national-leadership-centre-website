@@ -61,6 +61,13 @@ collections:
         options:
           - { label: 'Header', value: 'nav' }
           - { label: 'Footer', value: 'footer' }
+       - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          valueType: 'int',
+          hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - {
           label: 'Layout',

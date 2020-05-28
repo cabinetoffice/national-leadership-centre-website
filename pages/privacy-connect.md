@@ -1,7 +1,6 @@
 ---
 title: Privacy Notice for the Connect service
 navtitle: Privacy-for-Connect
-date: 2018-05-01
 permalink: /privacy-for-connect/index.html
 layout: layouts/page.njk
 ---
