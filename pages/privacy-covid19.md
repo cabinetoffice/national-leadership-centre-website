@@ -1,8 +1,8 @@
 ---
 title: Privacy Notice for Senior Leaders COVID-19 Impact Survey
 navtitle: Privacy Notice for Senior Leaders COVID-19 Impact Survey
-date: 2018-05-01
 permalink: /privacy-covid19/index.html
+layout: layouts/page.njk
 ---
 
 This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and/or 14 of the General Data Protection Regulation (GDPR).

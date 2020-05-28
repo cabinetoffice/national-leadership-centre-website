@@ -1,17 +1,15 @@
 ---
 title: Privacy Notice for the Connect service
 navtitle: Privacy-for-Connect
-date: 2018-05-01
 permalink: /privacy-for-connect/index.html
+layout: layouts/page.njk
 ---
 
-*******
+---
 
 This is the privacy notice for the use of the National Leadership Centre's websites and online services. If you are looking for our privacy statement for handling network members' personal data, please click here: nationalleadership.gov.uk/privacy-network
 
-*******
-
-
+---
 
 Connect.NationalLeadership.gov.uk and www.NationalLeadership.gov.uk are provided by the National Leadership Centre (NLC), part of the Cabinet Office.
 
@@ -23,18 +21,18 @@ A data controller determines how and why personal data is processed. For more in
 
 The personal data we collect from you includes:
 
-* questions, queries or feedback you leave, including your email address if you contact the NLC
-* your Internet Protocol (IP) address, and details of which version of web browser you used
-* information on how you use the site, using cookies and page tagging techniques
+- questions, queries or feedback you leave, including your email address if you contact the NLC
+- your Internet Protocol (IP) address, and details of which version of web browser you used
+- information on how you use the site, using cookies and page tagging techniques
 
 We use Google Analytics software to collect information about how you use NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk.
 
 Google Analytics stores information about:
 
-* the pages you visit on NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk
-* how long you spend on each NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk page
-* how you got to the site
-* what you click on while you’re visiting the site
+- the pages you visit on NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk
+- how long you spend on each NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk page
+- how you got to the site
+- what you click on while you’re visiting the site
 
 We do store a anonymous unique identifier in Google Analytics, which allows us to track your activity across sessions and devices, and more accurately count the users of our service.
 
@@ -44,15 +42,15 @@ We do not collect or store your personal information through Google Analytics (f
 
 We collect information through Google Analytics to monitor how you use the site. We do this to help:
 
-* make sure the site is meeting the needs of its users
-* make improvements, for example improving site search
+- make sure the site is meeting the needs of its users
+- make improvements, for example improving site search
 
 We also collect data in order to:
 
-* gather feedback to improve our services
-* respond to any feedback you send us, if you’ve asked us to
-* allow you to access NLC services and make transactions, where relevant
-* monitor use of the site to identify security threats
+- gather feedback to improve our services
+- respond to any feedback you send us, if you’ve asked us to
+- allow you to access NLC services and make transactions, where relevant
+- monitor use of the site to identify security threats
 
 The legal basis for processing personal data in relation to site security is our legitimate interests, and the legitimate interests of our users, in ensuring the security and integrity of NationalLeadership.gov.uk and Connect.NationalLeadership.gov.uk.
 
@@ -63,8 +61,9 @@ The legal basis for processing all other personal data is that it’s necessary 
 The data we collect may be shared with other government departments, agencies and public bodies. It may also be shared with our technology suppliers, for example our hosting provider.
 
 We will not:
-* sell or rent your data to third parties
-* share your data with third parties for marketing purposes
+
+- sell or rent your data to third parties
+- share your data with third parties for marketing purposes
 
 We will share your data if we are required to do so by law – for example, by court order, or to prevent fraud or other crime.
 
@@ -72,8 +71,8 @@ We will share your data if we are required to do so by law – for example, by c
 
 We will only retain your personal data for as long as:
 
-* it is needed for the purposes set out in this document
-* the law requires us to
+- it is needed for the purposes set out in this document
+- the law requires us to
 
 ## Children’s privacy protection
 
@@ -95,15 +94,15 @@ We also make sure that any third parties that we deal with keep all personal dat
 
 You have the right to request:
 
-* information about how your personal data is processed
-* a copy of that personal data
-* that anything inaccurate in your personal data is corrected immediately
+- information about how your personal data is processed
+- a copy of that personal data
+- that anything inaccurate in your personal data is corrected immediately
 
 You can also:
 
-* raise an objection about how your personal data is processed
-* request that your personal data is erased if there is no longer a justification for it
-* ask that the processing of your personal data is restricted in certain circumstances
+- raise an objection about how your personal data is processed
+- request that your personal data is erased if there is no longer a justification for it
+- ask that the processing of your personal data is restricted in certain circumstances
 
 If you have any of these requests, get in contact with the NLC.
 
@@ -131,8 +130,8 @@ If these changes affect how your personal data is processed, the NLC will take r
 
 Contact the NLC if you:
 
-* have a question about anything in this privacy notice
-* think that your personal data has been misused or mishandled
+- have a question about anything in this privacy notice
+- think that your personal data has been misused or mishandled
 
 You can contact the NLC on:
 [NLC@CabinetOffice.gov.uk](mailto:NLC@CabinetOffice.gov.uk)
@@ -162,4 +161,3 @@ Wilmslow
 Cheshire SK9 5AF
 
 Last updated 9 December 2019
-

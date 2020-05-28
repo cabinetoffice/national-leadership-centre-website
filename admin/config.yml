@@ -1,11 +1,54 @@
 backend:
   name: git-gateway
+  branch: master
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: 'page' # Used in routes, e.g., /admin/collections/blog
+    label: 'Basic page' # Used in the UI
+    folder: 'pages' # The path to the folder where the documents are stored
+    filter: { field: 'layout', value: 'layouts/page.njk' }
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Permalink',
+          name: 'permalink',
+          widget: 'string',
+          required: false,
+        }
+      - {
+          label: 'Navigation title',
+          name: 'navtitle',
+          widget: 'string',
+          required: false,
+        }
+      - label: 'Menu'
+        name: 'tags'
+        widget: 'select'
+        multiple: true
+        required: false
+        options:
+          - { label: 'Header', value: 'nav' }
+          - { label: 'Footer', value: 'footer' }
+      - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          valueType: 'int',
+          hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'layouts/page.njk',
+        }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
     preview_path: who-we-are/team/

@@ -1,7 +1,6 @@
 ---
 layout: layouts/base.njk
 title: NLC Award for Public Service
-date: 2017-01-01T00:00:00.000Z
 permalink: /the-network/awards/index.html
 navtitle: NLC Awards
 breadcrumbs_parent: The Network
@@ -71,4 +70,5 @@ In selecting Child Friendly Leeds as the winner the judges looked for collaborat
 Nominations will open for the 2021 awards in the Autumn. Follow the National Leadership Centre on social media to be notified.
 
 [Read more about the Awards in our NLC blog >](https://medium.com/national-leadership-centre/nlc-award-for-public-service-shortlist-d9140f46801)
+
 </div>
