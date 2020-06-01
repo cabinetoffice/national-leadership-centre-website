@@ -1,105 +1,18 @@
 ---
-layout: layouts/primary.njk
-title: The Network of Senior Leaders
-leader: The National Leadership Centre is connecting senior leaders from across every sector and region, in order to help improve public services.
-order: 1
-permalink: /the-network/index.html
-navtitle: The Network
-primary: true
-image: /static/img/primary/network.jpg
-tags:
-  - primary
-paragraph_one: 'The National Leadership Centre has created a network for the most senior leaders in public service. Its purpose is to connect people from across every sector and region, in order to help improve public services. The public service leaders in the network include:'
-list_one: "<ul>
-		<li>Chief Executive Officers (CEOs) in the National Health Service, including NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups.</li>
-		<li>University Vice-Chancellors</li>
-		<li>Heads of large Further Education Colleges and Academy Chains</li>
-		<li>Local Authority CEOs</li>
-		<li>Police Chief Constables</li>
-		<li>Fire Chiefs</li>
-		<li>Civil Service Permanent Secretaries and Director Generals</li>
-		<li>Three star Military officers</li>
-		<li>CEOs of large Housing Associations</li>
-		<li>CEOs of large Arms Length Bodies and Regional Transport Authorities</li>
-	</ul>"
-paragraph_two: "Within these categories, membership depends on the scale of an organisation, amount of public funding and how many citizens it serves.
-
-Research shows that the higher ranking a leader becomes, the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response"
-paragraph_three: "## Connect
-
-As members of the network, public service leaders automatically gain access to Connect, the senior leaders’ library and directory for the public service. Here leaders can connect with each other and find exclusive information.
-
-[Access Connect](https://connect.nationalleadership.gov.uk/)"
-paragraph_four: "## Events across the country
-
-The National Leadership Centre brings leaders together through national, regional and small group events. This allows peers to make time, outside formal governance or partnership structures, to work together to address the most complex and pressing problems that they face."
-nlf_heading: National Leadership Forum 2020
-nlf_text_one: The National Leadership Forum 2020 brought together around 400 Chief Executive-level leaders from across the public sector for the first time ever.
-nlf_text_two: "Attendees heard from high-profile expert speakers on leadership and systems thinking, including:"
-nlf_list: "<ul>
-			<li>Cabinet Secretary Sir Mark Sedwill</li>
-			<li>Head of Amazon in the UK Doug Gurr</li>
-			<li>Mayor of Tulsa G.T. Bynum</li>
-			<li>England Men’s Football Manager Gareth Southgate</li>
-		</ul>"
+title: Hello
+leader: Leader
+permalink: awdawd
+tags: primary
+paragraph_one: adawd
+list_one: "* list one"
+paragraph_two: dawdawd wad a
+paragraph_three: awd wad
+paragraph_four: " adaw d"
+nlf_heading: awd
+nlf_text_one: "awdwa "
+nlf_text_two: "adwad "
+nlf_list: "* awdaw"
 nlf_video_url: https://player.vimeo.com/video/389775874
-nlf_video_text: "Hear some of the experiences of NLF from delegates. Featuring: Bill Skelly, Chief Constable of Lincolnshire Police; Katharine Braddick, Director General of Financial Services, HM Treasury; David Parr, Chief Executive of Halton Borough Council; and Jane Harrington, Vice-Chancellor of University of Greenwich."
-paragraph_five: "## International peers
-
-The public service challenges we face are mirrored in countries throughout the world. Some of our priorities may have already been addressed successfully abroad, and our leaders will have valuable experience to share with international colleagues.
-
-This is why the National Leadership Centre, in partnership with the [British Council,](https://www.britishcouncil.org/) will host an international summit for some of the world’s most senior public service leaders in 2021.
-
-This prestigious event will bring together people from around 50 countries to discuss approaches to common challenges and share best practice."
+nlf_video_text: Tex
+paragraph_five: "* awdwad awd"
 ---
-
-<div class="container container--sm dbl-vertical-padding">
-
-## {{ paragraph_one }}
-
-<div class="container container--xs">
-	<div class="dbl-margin">
-
-{{ list_one }}
-
-</div>
-
-</div>
-
-{{ paragraph_two }}
-
-<div class="vertical-padding">
-
-{{ paragraph_three }}
-
-</div>
-
-{{ paragraph_four }}
-
-</div>
-
-<div class="container container--wide vertical-padding">
-	<div class="section-header section-header--narrow">
-		<h2 class="section-header__text"><span>{{ nlf_heading }}</span></h2>
-	</div>
-</div>
-
-<div class="container container-sm container--two-col">
-	<div class="column">
-		<p class="h3-style">{{ nlf_text_one }}</p>
-		<p class="no-margin">{{ nlf_text_two }}</p>
-		{{ nlf_list }}
-	</div>
-	<div class="column">
-		<div class='embed-container'>
-			<iframe src="{{ nlf_video_url }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-		</div>
-		<p class="supporting-text">{{ nlf_video_text }}</p>
-	</div>
-</div>
-
-<div class="container container--sm dbl-vertical-padding">
-
-{{ paragraph_five }}
-
-</div>
