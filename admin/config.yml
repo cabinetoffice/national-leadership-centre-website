@@ -48,7 +48,6 @@ collections:
           required: false,
           hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
       - {
           label: 'Layout',
           name: 'layout',
@@ -94,7 +93,38 @@ collections:
               required: false,
               hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
             }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'string' }
+          - { label: 'List one', name: 'list_one', widget: 'markdown' }
+          - {
+              label: 'Paragraph two',
+              name: 'paragraph_two',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph three',
+              name: 'paragraph_three',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph four',
+              name: 'paragraph_four',
+              widget: 'markdown',
+            }
+          - { label: 'NLF heading', name: 'nlf_heading', widget: 'string' }
+          - { label: 'NLF text one', name: 'nlf_text_one', widget: 'string' }
+          - { label: 'NLF text two', name: 'nlf_text_two', widget: 'string' }
+          - { label: 'NLF list', name: 'nlf_list', widget: 'markdown' }
+          - { label: 'NLF video URL', name: 'nlf_video_url', widget: 'string' }
+          - {
+              label: 'NLF video text',
+              name: 'nlf_video_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Paragraph five',
+              name: 'paragraph_five',
+              widget: 'markdown',
+            }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
     preview_path: who-we-are/team/
