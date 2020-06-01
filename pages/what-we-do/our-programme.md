@@ -5,7 +5,7 @@ leader: The NLC Leadership Programme empowers senior leaders from across the pub
 order: 2
 permalink: /our-programme/index.html
 navtitle: Our Programme
-image: /static/img/primary/programme.jpg
+image: /static/img/programme.jpg
 primary: true
 tags:
   - primary
