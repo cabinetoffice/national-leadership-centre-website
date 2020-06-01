@@ -20,14 +20,10 @@ collections:
           name: 'permalink',
           widget: 'string',
           required: false,
-        }
-      - {
-          label: 'Navigation title',
-          name: 'navtitle',
-          widget: 'string',
-          required: false,
+          hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
         }
       - label: 'Menu'
+        hint: 'Select a menu if you want to this page to appear in global page navigation.'
         name: 'tags'
         widget: 'select'
         multiple: true
@@ -36,10 +32,18 @@ collections:
           - { label: 'Header', value: 'nav' }
           - { label: 'Footer', value: 'footer' }
       - {
+          label: 'Navigation title',
+          name: 'navtitle',
+          hint: 'Override the page title for menus only.',
+          widget: 'string',
+          required: false,
+        }
+      - {
           label: 'Order',
           name: 'order',
           widget: 'number',
           valueType: 'int',
+          required: false,
           hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
