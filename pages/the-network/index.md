@@ -6,6 +6,7 @@ order: 1
 permalink: /the-network/index.html
 navtitle: The Network
 primary: true
+image: /static/img/primary/network.jpg
 tags:
   - primary
 ---

@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/ch4795/make-the-primary-pages-editable
+
+local_backend: true
 
 publish_mode: editorial_workflow
 
@@ -53,6 +55,46 @@ collections:
           widget: 'hidden',
           default: 'layouts/page.njk',
         }
+  - name: 'primary-pages'
+    label: 'Primary pages'
+    files:
+      - label: 'Network page'
+        name: 'network-page'
+        file: 'pages/the-network/index.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image', required: false }
+          - {
+              label: 'Permalink',
+              name: 'permalink',
+              widget: 'string',
+              required: false,
+              hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+            }
+          - label: 'Menu'
+            hint: 'Select a menu if you want to this page to appear in global page navigation.'
+            name: 'tags'
+            widget: 'select'
+            required: false
+            options:
+              - { label: 'Primary', value: 'primary' }
+          - {
+              label: 'Navigation title',
+              name: 'navtitle',
+              hint: 'Override the page title for menus only.',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Order',
+              name: 'order',
+              widget: 'number',
+              valueType: 'int',
+              required: false,
+              hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
     preview_path: who-we-are/team/

@@ -5,6 +5,7 @@ leader: The National Leadership Centre will become a global hub for data-driven 
 order: 3
 permalink: /research/index.html
 navtitle: Research
+image: /static/img/primary/research.jpg
 primary: true
 tags:
   - primary
