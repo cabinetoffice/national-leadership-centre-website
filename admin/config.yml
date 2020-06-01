@@ -10,7 +10,7 @@ media_folder: 'static/img' # Media files will be stored in the repo under images
 
 collections:
   - name: 'page' # Used in routes, e.g., /admin/collections/blog
-    label: 'Basic pagse' # Used in the UI
+    label: 'Basic page' # Used in the UI
     folder: 'pages' # The path to the folder where the documents are stored
     filter: { field: 'layout', value: 'layouts/page.njk' }
     create: true # Allow users to create new documents in this collection
@@ -59,7 +59,7 @@ collections:
     files:
       - label: 'Network page'
         name: 'network-page'
-        file: 'pages\the-network\index.md'
+        file: 'pages/the-network/index.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Leader', name: 'leader', widget: 'string' }
