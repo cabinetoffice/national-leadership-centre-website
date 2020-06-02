@@ -24,7 +24,7 @@ list_one: >-
   * In-depth psychometric analysis and coaching support
 
   * At locations across England and online
-  paragraph_two: >-
+paragraph_two: >-
   The most difficult challenges faced by public services are complex and
   cross-cutting. People in charge of organisations are trying to achieve
   strategic outcomes that they can only partly influence. Being accountable for
@@ -127,10 +127,10 @@ primary: true
 		</div>
 		<div class="column column--card">
 			<blockquote class="image-quote-block__card">
-				<p class="large-body-text image-quote-block__quote">{{ quote_text }}</p>
+				<p class="large-body-text image-quote-block__quote">{{ quote.quote_text }}</p>
 				<footer>
-					<cite class="h4-style bold no-margin">{{ quote_name }}</cite>
-					<p class="no-margin">{{ quote_title }}</p>
+					<cite class="h4-style bold no-margin">{{ quote.quote_name }}</cite>
+					<p class="no-margin">{{ quote.quote_title }}</p>
 				</footer>
 			</blockquote>
 		</div>
