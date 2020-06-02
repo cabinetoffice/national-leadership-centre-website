@@ -11,9 +11,9 @@ paragraph_one: The NLC is working with leaders, academics and practitioners to
   bring the best of the available evidence together in one place. It is building
   a deeper understanding of the complex links between leadership, productivity
   and outcomes in public services.
-paragraph_two: "The Centre’s initial research suggests that the best way to
+paragraph_two: 'The Centre’s initial research suggests that the best way to
   support public sector leaders is to increase their ability to work as a
-  system. To do this successfully, the NLC is:"
+  system. To do this successfully, the NLC is:'
 paragraph_three: "- developing a data-driven picture of public sector
   leadership\r
 
@@ -118,3 +118,13 @@ paragraph_three: "- developing a data-driven picture of public sector
 layout: layouts/primary.njk
 primary: true
 ---
+
+<div class="container container--sm dbl-vertical-padding">
+
+## {{ paragraph_one }}
+
+<p class="no-margin">{{ paragraph_two}}</p>
+
+{{ paragraph_three }}
+
+</div>
