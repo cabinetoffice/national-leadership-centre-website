@@ -59,6 +59,7 @@ collections:
     files:
       - label: 'Network page'
         name: 'network-page'
+        preview_path: the-network
         file: 'pages/the-network/index.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }

@@ -2,15 +2,18 @@ import htm from 'https://unpkg.com/htm?module';
 
 const html = htm.bind(h);
 
-// Preview component for the Network Page
 const Network = createClass({
   render() {
     const entry = this.props.entry;
+    const image = entry.getIn(['data', 'image']);
+    const bgImage = {
+      backgroundImage: 'url(' + this.props.getAsset(image).toString() + ')',
+    };
 
     return html`
       <main>
         <div class="landing-block">
-          <div class="landing-block__image"></div>
+          <div class="landing-block__image" style=${bgImage}></div>
           <div class="landing-block__text">
             <div class="container container--wide">
               <div class="landing-block__text__internal">
