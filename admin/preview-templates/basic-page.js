@@ -17,6 +17,7 @@ const Page = createClass({
         <div class="container vertical-padding">
           ${this.props.widgetFor('body')}
         </div>
+        ss
       </main>
     `;
   },
