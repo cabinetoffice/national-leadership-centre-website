@@ -100,18 +100,17 @@ primary: true
 </div>
 
 <div class="image-centralised-text-block">
-	<div class="image-centralised-text-block__image" style="background-image: url('{{ image_two }}');"></div>
-	<div class="image-centralised-text-block__text">
-		<div class="image-centralised-text-block__text__internal">
-			<h3 class="h4-style bold">{{ heading_one }}</h3>
-			<div class="header-highlight">
-				<div class="h3-style">
-    				{{ list_one }}
-				</div>
-    		</div>
-    	</div>
-    </div>
-
+<div class="image-centralised-text-block__image" style="background-image: url('{{ image_two }}');"></div>
+<div class="image-centralised-text-block__text">
+<div class="image-centralised-text-block__text__internal">
+	<h3 class="h4-style bold">{{ heading_one }}</h3>
+	<div class="header-highlight">
+		<div class="h3-style">
+		{{ list_one }}
+		</div>
+	</div>
+</div>
+</div>
 </div>
 
 <div class="container container--sm dbl-vertical-padding">
