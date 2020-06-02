@@ -6,7 +6,7 @@ image: /static/img/programme.jpg
 permalink: /our-programme/index.html
 tags: primary
 navtitle: Our Programme
-order: 0
+order: 2
 paragraph_one: Every year The National Leadership Centre invites a selection of
   the UK&rsquo;s most senior leaders from across the spectrum of public services
   to come together for a challenging, supportive and stretching twelve month
