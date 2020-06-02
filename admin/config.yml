@@ -239,7 +239,7 @@ collections:
             }
           - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
           - { label: 'Image two', name: 'image_two', widget: 'image' }
-          - { label: 'Heading one', name: 'heading_two', widget: 'string' }
+          - { label: 'Heading one', name: 'heading_one', widget: 'string' }
           - { label: 'List one', name: 'list_one', widget: 'markdown' }
           - {
               label: 'Paragraph two',

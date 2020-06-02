@@ -12,14 +12,19 @@ paragraph_one: Every year The National Leadership Centre invites a selection of
   to come together for a challenging, supportive and stretching twelve month
   development programme.
 image_two: /static/img/hands.jpg
-heading_two: "Key information:"
-list_one: |-
+heading_one: 'Key information:'
+list_one: >-
+
   * 100 senior public leaders from across all public services
+
   * Three residential modules over 12 months
+
   * Be inspired by world leaders in systems and collective leadership
+
   * In-depth psychometric analysis and coaching support
+
   * At locations across England and online
-paragraph_two: >-
+  paragraph_two: >-
   The most difficult challenges faced by public services are complex and
   cross-cutting. People in charge of organisations are trying to achieve
   strategic outcomes that they can only partly influence. Being accountable for
@@ -49,7 +54,7 @@ paragraph_three: >-
   * building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 
-  ### **Would you like to take part in the flagship NLC Programme?**
+  ### Would you like to take part in the flagship NLC Programme?
 
 
   We welcome applications from outstanding Chief Executives (and equivalent) of publicly funded organisations delivering public services.
@@ -101,11 +106,12 @@ primary: true
 			<h3 class="h4-style bold">{{ heading_one }}</h3>
 			<div class="header-highlight">
 				<div class="h3-style">
-					{{ list_one }}
+    				{{ list_one }}
 				</div>
-			</div>
-		</div>
-	</div>
+    		</div>
+    	</div>
+    </div>
+
 </div>
 
 <div class="container container--sm dbl-vertical-padding">
