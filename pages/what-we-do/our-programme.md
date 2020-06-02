@@ -5,7 +5,7 @@ leader: The NLC Leadership Programme empowers senior leaders from across the
 image: /static/img/programme.jpg
 permalink: /our-programme/index.html
 tags: primary
-navtitle: Our programme
+navtitle: Our Programme
 order: 0
 paragraph_one: Every year The National Leadership Centre invites a selection of
   the UK&rsquo;s most senior leaders from across the spectrum of public services
