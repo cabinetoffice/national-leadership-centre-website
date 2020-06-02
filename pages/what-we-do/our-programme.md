@@ -54,7 +54,7 @@ paragraph_three: >-
   * building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 
-  ### Would you like to take part in the flagship NLC Programme?
+  ### **Would you like to take part in the flagship NLC Programme?**
 
 
   We welcome applications from outstanding Chief Executives (and equivalent) of publicly funded organisations delivering public services.
