@@ -127,6 +127,12 @@ collections:
               name: 'paragraph_five',
               widget: 'markdown',
             }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/primary.njk',
+            }
       - label: 'Research page'
         name: 'research-page'
         preview_path: research
@@ -170,6 +176,12 @@ collections:
               label: 'Paragraph three',
               name: 'paragraph_three',
               widget: 'markdown',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/primary.njk',
             }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
