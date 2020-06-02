@@ -6,7 +6,7 @@ image: /static/img/research.jpg
 permalink: /research/index.html
 tags: primary
 navtitle: Research
-order: 2
+order: 3
 paragraph_one: The NLC is working with leaders, academics and practitioners to
   bring the best of the available evidence together in one place. It is building
   a deeper understanding of the complex links between leadership, productivity
