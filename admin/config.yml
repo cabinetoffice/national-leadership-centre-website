@@ -133,6 +133,12 @@ collections:
               widget: 'hidden',
               default: 'layouts/primary.njk',
             }
+          - {
+              label: 'Primary',
+              name: 'primary',
+              widget: 'hidden',
+              default: true,
+            }
       - label: 'Research page'
         name: 'research-page'
         preview_path: research
@@ -182,6 +188,12 @@ collections:
               name: 'layout',
               widget: 'hidden',
               default: 'layouts/primary.njk',
+            }
+          - {
+              label: 'Primary',
+              name: 'primary',
+              widget: 'hidden',
+              default: true,
             }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
