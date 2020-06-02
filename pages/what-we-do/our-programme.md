@@ -84,4 +84,55 @@ paragraph_three: >-
 
 
   Download the [Programme Brochure PDF, 2.9MB, 12 pages.](/static/nlc-programme-brochure.pdf)
+layout: layouts/primary.njk
+primary: true
 ---
+
+<div class="leader-bar">
+	<div class="container container--sm">
+		<h2 class="large-body-text no-margin leader-bar__text">{{ paragraph_one }}</h2>
+	</div>
+</div>
+
+<div class="image-centralised-text-block">
+	<div class="image-centralised-text-block__image" style="background-image: url('{{ image_two }}');"></div>
+	<div class="image-centralised-text-block__text">
+		<div class="image-centralised-text-block__text__internal">
+			<h3 class="h4-style bold">{{ heading_one }}</h3>
+			<div class="header-highlight">
+				<div class="h3-style">
+					{{ list_one }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container container--sm dbl-vertical-padding">
+
+{{ paragraph_two }}
+
+</div>
+
+<div class="image-quote-block">
+	<div class="container container--wide container--two-col">
+		<div class="column">
+			<img class="media-full-width" src="{{ image_three }}" alt="{{ image_three_alt }}"/>
+		</div>
+		<div class="column column--card">
+			<blockquote class="image-quote-block__card">
+				<p class="large-body-text image-quote-block__quote">{{ quote_text }}</p>
+				<footer>
+					<cite class="h4-style bold no-margin">{{ quote_name }}</cite>
+					<p class="no-margin">{{ quote_title }}</p>
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+<div class="container container--sm dbl-vertical-padding">
+
+{{ paragraph_three }}
+
+</div>
