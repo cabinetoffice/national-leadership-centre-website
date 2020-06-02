@@ -116,4 +116,5 @@ paragraph_three: "- developing a data-driven picture of public sector
   most immediately relevant to the National Leadership Centre’s aims and
   audience"
 layout: layouts/primary.njk
+primary: true
 ---
