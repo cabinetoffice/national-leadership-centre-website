@@ -8,21 +8,17 @@ tags: primary
 navtitle: Our Programme
 order: 2
 paragraph_one: Every year The National Leadership Centre invites a selection of
-  the UK&rsquo;s most senior leaders from across the spectrum of public services
-  to come together for a challenging, supportive and stretching twelve month
+  the UK's most senior leaders from across the spectrum of public services to
+  come together for a challenging, supportive and stretching twelve month
   development programme.
 image_two: /static/img/hands.jpg
-heading_one: 'Key information:'
-list_one: >-
-
+heading_two: "Key information:"
+list_one: |-
+  
   * 100 senior public leaders from across all public services
-
   * Three residential modules over 12 months
-
   * Be inspired by world leaders in systems and collective leadership
-
   * In-depth psychometric analysis and coaching support
-
   * At locations across England and online
 paragraph_two: >-
   The most difficult challenges faced by public services are complex and
@@ -41,6 +37,8 @@ quote:
     citizens across the country.
   quote_name: Kristina Murrin, CBE
   quote_title: CEO, National Leadership Centre
+primary: true
+heading_one: "Key information:"
 paragraph_three: >-
   The programme will seek to transform the leadership of public services by:
 
@@ -90,7 +88,6 @@ paragraph_three: >-
 
   Download the [Programme Brochure PDF, 2.9MB, 12 pages.](/static/nlc-programme-brochure.pdf)
 layout: layouts/primary.njk
-primary: true
 ---
 
 <div class="leader-bar">
