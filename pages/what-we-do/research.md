@@ -115,4 +115,5 @@ paragraph_three: "- developing a data-driven picture of public sector
   research, these five leadership qualities were identified because they appear
   most immediately relevant to the National Leadership Centre’s aims and
   audience"
+  layout: layouts/primary.njk
 ---
