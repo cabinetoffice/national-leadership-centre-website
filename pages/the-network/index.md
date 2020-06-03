@@ -127,11 +127,13 @@ primary: true
 </div>
 
 <div class="container container-sm container--two-col">
-	<div class="column">
-		<p class="h3-style">{{ nlf_text_one }}</p>
-		<p class="no-margin">{{ nlf_text_two }}</p>
-		{{ nlf_list }}
-	</div>
+<div class="column">
+  <p class="h3-style">{{ nlf_text_one }}</p>
+  <p class="no-margin">{{ nlf_text_two }}</p>
+
+{{ nlf_list }}
+
+</div>
 	<div class="column">
 		<div class='embed-container'>
 			<iframe src="{{ nlf_video_url }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
