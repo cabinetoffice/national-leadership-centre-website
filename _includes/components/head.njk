@@ -6,7 +6,9 @@
   {% else %}
     <title>{{ title or renderData.title or metadata.title }} | National Leadership Centre</title>
   {% endif %}
-  <link rel="manifest" href="/manifest.json">
+  {% if metadesc %}
+  <meta name="description" content="{{ metadesc }}" />
+  {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700|Source+Sans+Pro:300,400&display=swap" rel="stylesheet">
   {% set css %}
     {% include "assets/css/build/styles.css" %}

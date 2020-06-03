@@ -1,20 +1,23 @@
 ---
 title: Accessibility
+metadesc: This website is run by The National Leadership Centre. Find out more
+  about how we're making this website accessible to as many people as possible.
 permalink: /accessibility/index.html
-navtitle: Accessibility
 tags:
   - footer
+navtitle: Accessibility
 order: 1
 layout: layouts/page.njk
 ---
+
 This website is run by The National Leadership Centre. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
-* change colours, contrast levels and fonts
-* zoom in up to 300% without the text spilling off the screen
-* navigate most of the website using just a keyboard
-* navigate most of the website using speech recognition software
-* read most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
-* We’ve also made the website text as simple as possible to understand.
+- change colours, contrast levels and fonts
+- zoom in up to 300% without the text spilling off the screen
+- navigate most of the website using just a keyboard
+- navigate most of the website using speech recognition software
+- read most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
+- We’ve also made the website text as simple as possible to understand.
 
 <a href="https://mcmw.abilitynet.org.uk/" target="_blank">AbilityNet</a> has advice on making your device easier to use if you have a disability.
 
@@ -46,7 +49,7 @@ We used this approach to deciding on a sample of pages to test the site function
 
 We tested:
 
-* our main website platform, available at <https://www.nationalleadership.gov.uk/>
-* the gov.uk page available about the National Leadership Centre at <https://www.gov.uk/government/publications/national-leadership-centre>
+- our main website platform, available at <https://www.nationalleadership.gov.uk/>
+- the gov.uk page available about the National Leadership Centre at <https://www.gov.uk/government/publications/national-leadership-centre>
 
 This page was last amended on the 13th of January 2020.

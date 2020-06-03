@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
     if (itemUrl == '/' && itemUrl !== currentUrl) {
       return '';
     }
-    if (currentUrl.includes(itemUrl)) {
+    if (currentUrl && currentUrl.includes(itemUrl)) {
       return ' data-current="current item" class="current"';
     }
     return '';
@@ -42,6 +42,15 @@ module.exports = function (eleventyConfig) {
       return code;
     }
     return minified.code;
+  });
+
+  // Get all pages with a URL
+  eleventyConfig.addCollection('withUrl', (collection) => {
+    return collection.getAll().filter(function (item) {
+      return item.url;
+    });
+
+    return sortByOrder(team);
   });
 
   // Sort team members by 'order' field
@@ -78,7 +87,7 @@ module.exports = function (eleventyConfig) {
 
   // Minify HTML output
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
-    if (outputPath.indexOf('.html') > -1) {
+    if (outputPath && outputPath.indexOf('.html') > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
