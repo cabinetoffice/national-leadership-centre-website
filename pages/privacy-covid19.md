@@ -1,7 +1,10 @@
 ---
 title: Privacy Notice for Senior Leaders COVID-19 Impact Survey
-navtitle: Privacy Notice for Senior Leaders COVID-19 Impact Survey
+metadesc: Find out about the National Leadership Centre's data protection policy
+  and procedures for responses to the COVID-19 Public Services Leadership
+  Taskforce survey.
 permalink: /privacy-covid19/index.html
+navtitle: Privacy Notice for Senior Leaders COVID-19 Impact Survey
 layout: layouts/page.njk
 ---
 
