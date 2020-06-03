@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
+# local_backend: true
+
 publish_mode: editorial_workflow
 
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
@@ -15,6 +17,13 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Meta description',
+          name: 'metadesc',
+          widget: 'text',
+          hint: 'This text shows up under search engine results. Limit of 275 characters.',
+          pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+        }
       - {
           label: 'Permalink',
           name: 'permalink',
@@ -62,6 +71,13 @@ collections:
         file: 'pages/the-network/index.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta description',
+              name: 'metadesc',
+              widget: 'text',
+              hint: 'This text shows up under search engine results. Limit of 275 characters.',
+              pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+            }
           - { label: 'Leader', name: 'leader', widget: 'text' }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
           - {
@@ -139,6 +155,13 @@ collections:
         file: 'pages/what-we-do/research.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta description',
+              name: 'metadesc',
+              widget: 'text',
+              hint: 'This text shows up under search engine results. Limit of 275 characters.',
+              pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+            }
           - { label: 'Leader', name: 'leader', widget: 'text' }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
           - {
@@ -195,6 +218,13 @@ collections:
         file: 'pages/what-we-do/our-programme.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta description',
+              name: 'metadesc',
+              widget: 'text',
+              hint: 'This text shows up under search engine results. Limit of 275 characters.',
+              pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+            }
           - { label: 'Leader', name: 'leader', widget: 'text' }
           - {
               label: 'Image one',
