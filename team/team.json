@@ -1,4 +1,5 @@
 {
   "layout": "layouts/team.njk",
-  "tags": ["team"]
+  "tags": ["team"],
+  "permalink": false
 }
