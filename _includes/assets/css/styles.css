@@ -1042,17 +1042,16 @@ COMPONENTS
 
 .team-block {
   flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
   .team-block .team-block__item {
     width: 100%;
     height: fit-content;
     text-align: center;
     background-color: #ffffff;
-    margin: 0rem 0.94737rem 5.15789rem 0.94737rem; }
+    margin: 0 1.666% 1.57895rem; }
     @media only screen and (min-width: 576px) {
       .team-block .team-block__item {
-        flex: 30%; } }
+        flex: 0 0 30%; } }
   .team-block .team-block__item__image {
     margin-bottom: 0.52632rem; }
     @media only screen and (min-width: 576px) {
@@ -1085,7 +1084,8 @@ COMPONENTS
           font-size: 0.73684rem;
           line-height: 1.05263rem; } }
 
-.team-block__item__readmore, .team-block__item__readmore__img {
+.team-block__item__readmore,
+.team-block__item__readmore__img {
   display: none; }
 
 @media only screen and (max-width: 768px) {

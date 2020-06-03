@@ -45,13 +45,36 @@ module.exports = function (eleventyConfig) {
   });
 
   // Sort team members by 'order' field
-  eleventyConfig.addCollection('teamMembers', (collection) =>
-    collection.getFilteredByTag('team').sort((a, b) => {
+  eleventyConfig.addCollection('teamMembers', (collection) => {
+    var team = collection.getFilteredByTag('team');
+    return sortByOrder(team);
+  });
+
+  // Sort footer menu items by 'order' field
+  eleventyConfig.addCollection('footerNav', (collection) => {
+    var nav = collection.getFilteredByTag('footer');
+    return sortByOrder(nav);
+  });
+
+  // Sort main menu items by 'order' field
+  eleventyConfig.addCollection('mainNav', (collection) => {
+    var nav = collection.getFilteredByTag('nav');
+    return sortByOrder(nav);
+  });
+
+  // Sort primary pages by 'order' field
+  eleventyConfig.addCollection('primaryNav', (collection) => {
+    var nav = collection.getFilteredByTag('primary');
+    return sortByOrder(nav);
+  });
+
+  function sortByOrder(collection) {
+    return collection.sort((a, b) => {
       if (a.data.order < b.data.order) return -1;
       else if (a.data.order > b.data.order) return 1;
       else return 0;
-    })
-  );
+    });
+  }
 
   // Minify HTML output
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

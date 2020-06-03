@@ -6,6 +6,6 @@ tags:
   - footer
 navtitle: Contact
 section: contact
-date: 2018-01-01
+order: 5
 permalink: /contact/index.html
 ---

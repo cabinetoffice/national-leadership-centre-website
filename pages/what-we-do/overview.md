@@ -1,10 +1,9 @@
 ---
 layout: layouts/what-we-do.njk
 title: What We Do
-date: 2017-01-01T00:00:00.000Z
+order: 2
 permalink: /what-we-do/index.html
 navtitle: What we do
-order: 1
 tags:
   - nav
 ---

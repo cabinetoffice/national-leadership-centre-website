@@ -1,7 +1,7 @@
 <nav aria-label="Main navigation">
   <div class="main-nav">
     <ul>
-    {%- for nav in collections.nav | sort(attribute="date") -%}
+    {%- for nav in collections.mainNav -%}
       <li>
         <a href="{{ nav.url | url }}"{% activepath nav.url, page.url %}>{{ nav.data.navtitle }}</a>
       </li>
@@ -12,7 +12,7 @@
 
   <div class="secondary-nav">
     <ul>
-      {%- for primary in collections.primary | sort(attribute="date") -%}
+      {%- for primary in collections.primaryNav -%}
       <li>
         <a href="{{ primary.url | url }}"{% if primary.url == page.url %} data-current="current item" class="current"{% endif %}>{{ primary.data.navtitle }}</a>
       </li>

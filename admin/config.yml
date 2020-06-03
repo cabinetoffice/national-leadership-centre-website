@@ -1,11 +1,283 @@
 backend:
   name: git-gateway
+  branch: master
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: 'page' # Used in routes, e.g., /admin/collections/blog
+    label: 'Basic page' # Used in the UI
+    folder: 'pages' # The path to the folder where the documents are stored
+    filter: { field: 'layout', value: 'layouts/page.njk' }
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Permalink',
+          name: 'permalink',
+          widget: 'string',
+          required: false,
+          hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+        }
+      - label: 'Menu'
+        hint: 'Select a menu if you want to this page to appear in global page navigation.'
+        name: 'tags'
+        widget: 'select'
+        multiple: true
+        required: false
+        options:
+          - { label: 'Header', value: 'nav' }
+          - { label: 'Footer', value: 'footer' }
+      - {
+          label: 'Navigation title',
+          name: 'navtitle',
+          hint: 'Override the page title for menus only.',
+          widget: 'string',
+          required: false,
+        }
+      - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          valueType: 'int',
+          required: false,
+          hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'layouts/page.njk',
+        }
+  - name: 'primary-pages'
+    label: 'Primary pages'
+    files:
+      - label: 'Network page'
+        name: 'network-page'
+        preview_path: the-network
+        file: 'pages/the-network/index.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
+          - { label: 'Image', name: 'image', widget: 'image', required: false }
+          - {
+              label: 'Permalink',
+              name: 'permalink',
+              widget: 'string',
+              required: false,
+              hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+            }
+          - label: 'Menu'
+            hint: 'Select a menu if you want to this page to appear in global page navigation.'
+            name: 'tags'
+            widget: 'select'
+            required: false
+            options:
+              - { label: 'Primary', value: 'primary' }
+          - {
+              label: 'Navigation title',
+              name: 'navtitle',
+              hint: 'Override the page title for menus only.',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Order',
+              name: 'order',
+              widget: 'number',
+              valueType: 'int',
+              required: false,
+              hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+            }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
+          - { label: 'List one', name: 'list_one', widget: 'markdown' }
+          - {
+              label: 'Paragraph two',
+              name: 'paragraph_two',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph three',
+              name: 'paragraph_three',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph four',
+              name: 'paragraph_four',
+              widget: 'markdown',
+            }
+          - { label: 'NLF heading', name: 'nlf_heading', widget: 'string' }
+          - { label: 'NLF text one', name: 'nlf_text_one', widget: 'string' }
+          - { label: 'NLF text two', name: 'nlf_text_two', widget: 'string' }
+          - { label: 'NLF list', name: 'nlf_list', widget: 'markdown' }
+          - { label: 'NLF video URL', name: 'nlf_video_url', widget: 'string' }
+          - { label: 'NLF video text', name: 'nlf_video_text', widget: 'text' }
+          - {
+              label: 'Paragraph five',
+              name: 'paragraph_five',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/primary.njk',
+            }
+          - {
+              label: 'Primary',
+              name: 'primary',
+              widget: 'hidden',
+              default: true,
+            }
+      - label: 'Research page'
+        name: 'research-page'
+        preview_path: research
+        file: 'pages/what-we-do/research.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
+          - { label: 'Image', name: 'image', widget: 'image', required: false }
+          - {
+              label: 'Permalink',
+              name: 'permalink',
+              widget: 'string',
+              required: false,
+              hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+            }
+          - label: 'Menu'
+            hint: 'Select a menu if you want to this page to appear in global page navigation.'
+            name: 'tags'
+            widget: 'select'
+            required: false
+            options:
+              - { label: 'Primary', value: 'primary' }
+          - {
+              label: 'Navigation title',
+              name: 'navtitle',
+              hint: 'Override the page title for menus only.',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Order',
+              name: 'order',
+              widget: 'number',
+              valueType: 'int',
+              required: false,
+              hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+            }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
+          - { label: 'Paragraph two', name: 'paragraph_two', widget: 'text' }
+          - {
+              label: 'Paragraph three',
+              name: 'paragraph_three',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/primary.njk',
+            }
+          - {
+              label: 'Primary',
+              name: 'primary',
+              widget: 'hidden',
+              default: true,
+            }
+      - label: 'Programme page'
+        name: 'programme-page'
+        preview_path: our-programme
+        file: 'pages/what-we-do/our-programme.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
+          - {
+              label: 'Image one',
+              name: 'image',
+              widget: 'image',
+              required: false,
+            }
+          - {
+              label: 'Permalink',
+              name: 'permalink',
+              widget: 'string',
+              required: false,
+              hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+            }
+          - label: 'Menu'
+            hint: 'Select a menu if you want to this page to appear in global page navigation.'
+            name: 'tags'
+            widget: 'select'
+            required: false
+            options:
+              - { label: 'Primary', value: 'primary' }
+          - {
+              label: 'Navigation title',
+              name: 'navtitle',
+              hint: 'Override the page title for menus only.',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Order',
+              name: 'order',
+              widget: 'number',
+              valueType: 'int',
+              required: false,
+              hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+            }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
+          - { label: 'Image two', name: 'image_two', widget: 'image' }
+          - { label: 'Heading one', name: 'heading_one', widget: 'string' }
+          - { label: 'List one', name: 'list_one', widget: 'markdown' }
+          - {
+              label: 'Paragraph two',
+              name: 'paragraph_two',
+              widget: 'markdown',
+            }
+          - { label: 'Image three URL', name: 'image_three', widget: 'image' }
+          - {
+              label: 'Image three alt text',
+              name: 'image_three_alt',
+              widget: 'string',
+            }
+          - label: 'Quotation'
+            widget: 'object'
+            name: 'quote'
+            fields:
+              - { label: 'Quotation', name: 'quote_text', widget: 'text' }
+              - {
+                  label: 'Quotation author name',
+                  name: 'quote_name',
+                  widget: 'string',
+                }
+              - {
+                  label: 'Quotation author title',
+                  name: 'quote_title',
+                  widget: 'string',
+                }
+          - {
+              label: 'Paragraph three',
+              name: 'paragraph_three',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/primary.njk',
+            }
+          - {
+              label: 'Primary',
+              name: 'primary',
+              widget: 'hidden',
+              default: true,
+            }
   - name: 'team' # Used in routes, e.g., /admin/collections/blog
     label: 'Team member' # Used in the UI
     preview_path: who-we-are/team/
