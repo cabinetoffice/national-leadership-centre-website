@@ -1,7 +1,9 @@
 ---
 title: Privacy Notice for the Connect service
-navtitle: Privacy-for-Connect
+metadesc: Find out about the National Leadership Centre's data protection policy
+  and procedures for www.NationalLeadership.gov.uk and the Connect service.
 permalink: /privacy-for-connect/index.html
+navtitle: Privacy-for-Connect
 layout: layouts/page.njk
 ---
 
