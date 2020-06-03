@@ -84,20 +84,22 @@ $(document).ready(function () {
   });
 
   // Slick https://kenwheeler.github.io/slick/ - Home page carousel
-  $('.carousel-block__home').slick({
-    dots: true,
-    arrows: true,
-    infinite: true,
-    speed: 800,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 8000,
-    prevArrow:
-      '<button type="button" class="slick-prev" aria-controls="carousel">Previous</button>',
-    nextArrow:
-      '<button type="button" class="slick-next" aria-controls="carousel">Next</button>',
-  });
+  var $carousel = $('.carousel-block__home');
+  if ($carousel.length > 0 && $carousel.slick instanceof Function)
+    $('.carousel-block__home').slick({
+      dots: true,
+      arrows: true,
+      infinite: true,
+      speed: 800,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 8000,
+      prevArrow:
+        '<button type="button" class="slick-prev" aria-controls="carousel">Previous</button>',
+      nextArrow:
+        '<button type="button" class="slick-next" aria-controls="carousel">Next</button>',
+    });
 
   // Meet the team show/hide functionality
   $('.team-block__item__readmore').click(function () {

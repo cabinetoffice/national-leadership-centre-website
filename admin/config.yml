@@ -73,6 +73,13 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - {
+              label: 'Meta description',
+              name: 'metadesc',
+              widget: 'text',
+              hint: 'This text shows up under search engine results. Limit of 275 characters.',
+              pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+            }
+          - {
               label: 'Permalink',
               name: 'permalink',
               widget: 'string',
@@ -85,7 +92,8 @@ collections:
             widget: 'select'
             required: false
             options:
-              - { label: 'Primary', value: 'primary' }
+              - { label: 'Header', value: 'nav' }
+              - { label: 'Footer', value: 'footer' }
           - {
               label: 'Navigation title',
               name: 'navtitle',
@@ -104,10 +112,20 @@ collections:
           - { label: 'Paragraph one', name: 'paragraph_one', widget: 'string' }
           - label: 'Carousel images'
             name: 'carousel_images'
-            widget: 'image'
-            media_library:
-              config:
-                multiple: true
+            widget: 'object'
+            fields:
+              - label: 'Image one'
+                name: 'image_one'
+                widget: 'image'
+                required: false
+              - label: 'Image two'
+                name: 'image_two'
+                widget: 'image'
+                required: false
+              - label: 'Image three'
+                name: 'image_three'
+                widget: 'image'
+                required: false
           - label: 'Tiles'
             widget: 'object'
             name: 'tiles'
@@ -122,35 +140,36 @@ collections:
                       name: 'description',
                       widget: 'text',
                     }
-                  - {
-                      label: 'Link to page',
-                      name: 'link_url',
-                      widget: 'relation',
-                      collection: 'withUrl',
-                      valueField: 'permalink',
-                      searchFields: ['title'],
-                      displayFields: ['title'],
-                    }
+                  - { label: 'Link URL', name: 'link_url', widget: 'string' }
                   - { label: 'Link', name: 'link_text', widget: 'string' }
-          - { label: 'List one', name: 'list_one', widget: 'markdown' }
+              - label: 'Tile two'
+                widget: 'object'
+                name: 'tile_two'
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - {
+                      label: 'Description',
+                      name: 'description',
+                      widget: 'text',
+                    }
+                  - { label: 'Link URL', name: 'link_url', widget: 'string' }
+                  - { label: 'Link', name: 'link_text', widget: 'string' }
+              - label: 'Tile three'
+                widget: 'object'
+                name: 'tile_three'
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - {
+                      label: 'Description',
+                      name: 'description',
+                      widget: 'text',
+                    }
+                  - { label: 'Link URL', name: 'link_url', widget: 'string' }
+                  - { label: 'Link', name: 'link_text', widget: 'string' }
+          - { label: 'Heading one', name: 'heading_one', widget: 'text' }
           - {
               label: 'Paragraph two',
               name: 'paragraph_two',
-              widget: 'markdown',
-            }
-          - {
-              label: 'Paragraph three',
-              name: 'paragraph_three',
-              widget: 'markdown',
-            }
-          - {
-              label: 'Paragraph four',
-              name: 'paragraph_four',
-              widget: 'markdown',
-            }
-          - {
-              label: 'Paragraph five',
-              name: 'paragraph_five',
               widget: 'markdown',
             }
           - {
