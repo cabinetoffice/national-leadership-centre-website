@@ -1,11 +1,13 @@
 ---
 title: Privacy
-layout: layouts/page.njk
-order: 2
+metadesc: Find out about the National Leadership Centre's data protection policy
+  and procedures for www.NationalLeadership.gov.uk.
 permalink: /privacy/index.html
-navtitle: Privacy
 tags:
   - footer
+navtitle: Privacy
+order: 2
+layout: layouts/page.njk
 ---
 
 NationalLeadership.gov.uk is provided by the National Leadership Centre (NLC), part of the Cabinet Office.
