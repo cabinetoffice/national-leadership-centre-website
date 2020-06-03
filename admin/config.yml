@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/ch4795/make-the-primary-pages-editable
-
-local_backend: true
+  branch: master
 
 publish_mode: editorial_workflow
 
