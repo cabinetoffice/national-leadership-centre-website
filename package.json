@@ -26,7 +26,7 @@
   },
   "homepage": "https://www.nationalleadership.gov.uk",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.11.0",
     "luxon": "^1.21.1",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5"
