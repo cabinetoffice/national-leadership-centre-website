@@ -1,7 +1,10 @@
 ---
 title: Network Privacy Policy
-navtitle: Network Privacy Policy
+metadesc: Find out about the National Leadership Centre's data protection policy
+  and procedures for senior public service leaders who are part of the NLC
+  Network.
 permalink: /privacy-network/index.html
+navtitle: Network Privacy Policy
 layout: layouts/page.njk
 ---
 
