@@ -1,9 +1,11 @@
 ---
 title: Accessibility
+metadesc: This website is run by The National Leadership Centre. Find out more
+  about how we're making this website accessible to as many people as possible.
 permalink: /accessibility/index.html
-navtitle: Accessibility
 tags:
   - footer
+navtitle: Accessibility
 order: 1
 layout: layouts/page.njk
 ---
