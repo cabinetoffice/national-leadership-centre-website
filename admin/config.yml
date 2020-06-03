@@ -64,7 +64,7 @@ collections:
         file: 'pages/the-network/index.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Leader', name: 'leader', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
           - {
               label: 'Permalink',
@@ -95,7 +95,7 @@ collections:
               required: false,
               hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
             }
-          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'string' }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
           - { label: 'List one', name: 'list_one', widget: 'markdown' }
           - {
               label: 'Paragraph two',
@@ -117,11 +117,7 @@ collections:
           - { label: 'NLF text two', name: 'nlf_text_two', widget: 'string' }
           - { label: 'NLF list', name: 'nlf_list', widget: 'markdown' }
           - { label: 'NLF video URL', name: 'nlf_video_url', widget: 'string' }
-          - {
-              label: 'NLF video text',
-              name: 'nlf_video_text',
-              widget: 'string',
-            }
+          - { label: 'NLF video text', name: 'nlf_video_text', widget: 'text' }
           - {
               label: 'Paragraph five',
               name: 'paragraph_five',
@@ -145,7 +141,7 @@ collections:
         file: 'pages/what-we-do/research.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Leader', name: 'leader', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
           - { label: 'Image', name: 'image', widget: 'image', required: false }
           - {
               label: 'Permalink',
@@ -176,8 +172,8 @@ collections:
               required: false,
               hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
             }
-          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'string' }
-          - { label: 'Paragraph two', name: 'paragraph_two', widget: 'string' }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'text' }
+          - { label: 'Paragraph two', name: 'paragraph_two', widget: 'text' }
           - {
               label: 'Paragraph three',
               name: 'paragraph_three',
@@ -201,7 +197,7 @@ collections:
         file: 'pages/what-we-do/our-programme.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Leader', name: 'leader', widget: 'string' }
+          - { label: 'Leader', name: 'leader', widget: 'text' }
           - {
               label: 'Image one',
               name: 'image',
