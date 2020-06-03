@@ -32,11 +32,11 @@
 			</div>
 		</header>
 
-		{%- if navtitle == "Home" -%}
+		{%- if carousel_images -%}
 			{% include "components/carousel.njk" %}
 		{% endif %}
 
-		{%- if navtitle !== "Home" -%}
+		{%- if not home -%}
 			{% include "components/breadcrumbs.njk" %}
 		{% endif %}
 

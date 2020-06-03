@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/ch4793/make-home-page-editable
+
+local_backend: true
 
 publish_mode: editorial_workflow
 
@@ -54,8 +56,101 @@ collections:
           default: 'layouts/page.njk',
         }
   - name: 'primary-pages'
-    label: 'Primary pages'
+    label: 'Unique pages'
     files:
+      - label: 'Home page'
+        name: 'home-page'
+        file: 'pages/home.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Permalink',
+              name: 'permalink',
+              widget: 'string',
+              required: false,
+              hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+            }
+          - label: 'Menu'
+            hint: 'Select a menu if you want to this page to appear in global page navigation.'
+            name: 'tags'
+            widget: 'select'
+            required: false
+            options:
+              - { label: 'Primary', value: 'primary' }
+          - {
+              label: 'Navigation title',
+              name: 'navtitle',
+              hint: 'Override the page title for menus only.',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Order',
+              name: 'order',
+              widget: 'number',
+              valueType: 'int',
+              required: false,
+              hint: 'Control the order pages are displayed in menu. Lower numbers appear earlier.',
+            }
+          - { label: 'Paragraph one', name: 'paragraph_one', widget: 'string' }
+          - label: 'Carousel images'
+            name: 'carousel_images'
+            widget: 'image'
+            media_library:
+              config:
+                multiple: true
+          - label: 'Tiles'
+            widget: 'object'
+            name: 'tiles'
+            fields:
+              - label: 'Tile one'
+                widget: 'object'
+                name: 'tile_one'
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - {
+                      label: 'Description',
+                      name: 'description',
+                      widget: 'text',
+                    }
+                  - {
+                      label: 'Link to page',
+                      name: 'link_url',
+                      widget: 'relation',
+                      collection: 'withUrl',
+                      valueField: 'permalink',
+                      searchFields: ['title'],
+                      displayFields: ['title'],
+                    }
+                  - { label: 'Link', name: 'link_text', widget: 'string' }
+          - { label: 'List one', name: 'list_one', widget: 'markdown' }
+          - {
+              label: 'Paragraph two',
+              name: 'paragraph_two',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph three',
+              name: 'paragraph_three',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph four',
+              name: 'paragraph_four',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Paragraph five',
+              name: 'paragraph_five',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'layouts/home.njk',
+            }
+          - { label: 'Home', name: 'home', widget: 'hidden', default: true }
       - label: 'Network page'
         name: 'network-page'
         preview_path: the-network

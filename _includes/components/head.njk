@@ -12,11 +12,14 @@
     {% include "assets/css/build/styles.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  {%- if carousel_images -%}
   <link rel="stylesheet" href="/_includes/assets/slick/slick.css">
   <link rel="stylesheet" href="/_includes/assets/slick/slick-theme.css">
+  {%- endif -%}
   <script src="/_includes/assets/js/jquery-3.4.1.min.js"></script>
-  {# TODO: Do not load the slick library on every page #}
+  {%- if carousel_images -%}
   <script src="/_includes/assets/slick/slick.min.js"></script>
+  {%- endif -%}
   {% set js %}
     {% include "assets/js/inline.js" %}
   {% endset %}
