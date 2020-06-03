@@ -1,8 +1,10 @@
 ---
 title: Cookies
-layout: layouts/page.njk
+metadesc: We use cookies to store information about how you use the National
+  Leadership Centre website, such as the pages you visit.
 permalink: /cookies/index.html
 navtitle: Cookies
+layout: layouts/page.njk
 ---
 
 Cookies are files saved on your phone, tablet or computer when you visit a website.
