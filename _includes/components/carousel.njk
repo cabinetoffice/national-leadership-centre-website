@@ -1,10 +1,9 @@
 <section class="carousel-block" aria-label="carousel" id="carousel">
 	<div class="carousel-block__home">
+	{% for key, image in carousel_images %}
 		<div class="carousel-block__home__img">
-			<img src="/static/img/carousel-home/carousel-2.jpg" alt="People talking at national leadership centre event">
+			<img src="{{ image }}" alt="People talking at national leadership centre event">
 		</div>
-		<div class="carousel-block__home__img">
-			<img src="/static/img/carousel-home/carousel-1.jpg" alt="People talking at national leadership centre event">
-		</div>
+	{% endfor %}
 	</div>
 </section>

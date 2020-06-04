@@ -1,22 +1,12 @@
 <div class="tiles-block">
 	<div class="container container--wide container--flex">
-		<div class="tiles-block__tile">
-			<hr>
-			<h3 class="h4-style bold">The Leadership Programme</h3>
-			<p>Our flagship leadership programme brings together 100 of the most senior people across the public sector each year.</p>
-			<p><a href="{{ '/our-programme/' | url }}">Read more about our Programme ></a><p>
-		</div>
-		<div class="tiles-block__tile">
-			<hr>
-			<h3 class="h4-style bold">The Network of Peers</h3>
-			<p>Through national and local events and a new digital service, we are connecting the country's leaders across every sector and region, nationally and internationally.</p>
-			<p><a href="{{ '/the-network/' | url }}">Read more about the Network ></a></p>
-		</div>
-		<div class="tiles-block__tile">
-			<hr>
-			<h3 class="h4-style bold">Research and Evaluation</h3>
-			<p>The National Leadership Centre is becoming a global hub of leadership data, high quality research and lessons learned.</p>
-			<p><a href="{{ '/research/' | url }}">Read more about NLC Research ></a></p>
-		</div>
+		{% for key, tile in tiles %}
+			<div class="tiles-block__tile">
+				<hr>
+				<h3 class="h4-style bold">{{ tile.title }}</h3>
+				<p>{{ tile.description }}</p>
+				<p><a href="{{ tile.link_url | url }}">{{ tile.link_text }} ></a></p>
+			</div>
+		{% endfor %}
 	</div>
 </div>
