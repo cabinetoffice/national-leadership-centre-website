@@ -5,7 +5,7 @@ metadesc: The NLC Leadership Programme invites a selection of the UK's most
   supportive and stretching twelve-month development programme.
 leader: The NLC Leadership Programme empowers senior leaders from across the
   public sector to work together to realise their potential.
-image: /static/img/programme.jpg
+image: /static/img/programme-desktop.jpg
 permalink: /our-programme/index.html
 tags: primary
 navtitle: Our Programme
