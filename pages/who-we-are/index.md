@@ -1,6 +1,7 @@
 ---
 layout: layouts/who-we-are.njk
 title: Who we are
+metadesc: Meet the people who work together to support Senior Leaders in their roles across the public sector.
 order: 3
 permalink: /who-we-are/index.html
 navtitle: Who we are
