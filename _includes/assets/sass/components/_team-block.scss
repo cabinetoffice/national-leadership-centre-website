@@ -24,10 +24,13 @@
     text-align: center;
     background-color: $white;
     margin: 0 1.666% govuk-px-to-rem(30px);
-
     @media only screen and (min-width: $mobile) {
       flex: 0 0 30%;
     }
+  }
+
+  .team-block__item--with-image {
+    margin-top: 60px;
   }
 
   .team-block__item__image {

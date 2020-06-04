@@ -12,10 +12,9 @@ section: meet the board
 <div class="team-block-wrapper">
 	<div class="container">
 		{{ layoutContent | safe }}
-
 		<div class="team-block vertical-padding">
 			{% for member, item in teamMembers %}
-				<div class="team-block__item">
+				<div class="team-block__item team-block__item--with-image">
 					<div class="team-block__item__image">
 						<img src="{{ item.image }}" alt="Headshot image of {{ item.name }}">
 					</div>
