@@ -1021,28 +1021,11 @@ COMPONENTS
     right: 20px;
     z-index: 1; }
 
-.carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+.carousel-block .carousel-block__home__img:nth-of-type(n + 2) {
   display: none; }
 
-@media only screen and (min-width: 1300px) {
-  .carousel-block .carousel-block__home__img {
-    height: 21.05263rem;
-    overflow: hidden; }
-    .carousel-block .carousel-block__home__img img {
-      margin-top: -2.63158rem; } }
-
-.js .carousel-block .carousel-block__home__img:nth-of-type(n+2) {
+.js .carousel-block .carousel-block__home__img:nth-of-type(n + 2) {
   display: unset; }
-
-@media only screen and (min-width: 1300px) {
-  .js .carousel-block .slick-track {
-    height: 21.05263rem;
-    overflow: hidden; }
-  .js .carousel-block .carousel-block__home__img {
-    height: unset;
-    margin-top: -2.63158rem; }
-    .js .carousel-block .carousel-block__home__img img {
-      margin-top: unset; } }
 
 .team-block-wrapper {
   background-color: #f2f3f4;
