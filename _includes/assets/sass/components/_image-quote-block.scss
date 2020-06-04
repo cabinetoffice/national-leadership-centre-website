@@ -1,77 +1,76 @@
 // Image quote block
 .image-quote-block {
+  .image-quote-block__card {
+    background-color: $grey-footer;
+    padding: govuk-px-to-rem(36px) govuk-px-to-rem(48px);
+    text-align: center;
+    box-shadow: 4px 6px 10px #cfcfcf;
+    margin: 0;
 
-	.image-quote-block__card {
-		background-color: $grey-footer;
-		padding: govuk-px-to-rem(36px) govuk-px-to-rem(48px);
-		text-align: center;
-		box-shadow: 4px 6px 10px #cfcfcf;
-		margin: 0;
+    @media only screen and (min-width: $desktop) {
+      padding: govuk-px-to-rem(52px) govuk-px-to-rem(110px);
+    }
 
-		@media only screen and (min-width : $desktop) {
-			padding: govuk-px-to-rem(52px) govuk-px-to-rem(110px);
-		}
+    .large-body-text {
+      margin-bottom: govuk-px-to-rem(20px);
+    }
 
-		.large-body-text {
-			margin-bottom: govuk-px-to-rem(20px);
-		}
+    h3 {
+      margin-bottom: govuk-px-to-rem(5px);
+    }
+  }
 
-		h3 {
-			margin-bottom: govuk-px-to-rem(5px);	
-		}
-	}
+  .image-quote-block__quote {
+    position: relative;
+  }
 
-	.image-quote-block__quote {
-		position: relative;
-	}
+  .image-quote-block__quote::before {
+    content: url('../../static/img/ui/quote.svg');
+    position: absolute;
+    left: govuk-px-to-rem(-25px);
+    margin-top: govuk-px-to-rem(-25px);
+    top: 0;
+  }
 
-	.image-quote-block__quote::before {
-		content: url("../../static/img/quote.svg");
-		position: absolute;
-		left: govuk-px-to-rem(-25px);
-		margin-top: govuk-px-to-rem(-25px);
-		top: 0;
-	}
+  .image-quote-block__quote::after {
+    content: url('../../static/img/ui/quote.svg');
+    position: absolute;
+    right: govuk-px-to-rem(-25px);
+    margin-top: govuk-px-to-rem(-25px);
+    top: 0;
+    transform: scaleY(-1);
+    transform: scaleX(-1);
+  }
 
-	.image-quote-block__quote::after {
-		content: url("../../static/img/quote.svg");
-		position: absolute;
-		right: govuk-px-to-rem(-25px);
-		margin-top: govuk-px-to-rem(-25px);
-		top: 0;
-		transform: scaleY(-1);
-		transform: scaleX(-1);
-	}
+  .container--two-col {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 
-	.container--two-col {
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		-ms-flex-align: center;
-		align-items: center;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
+    .column {
+      @media only screen and (min-width: $desktop) {
+        width: 50%;
+      }
+    }
 
-		.column {
-			@media only screen and (min-width : $desktop) {
-				width: 50%;
-			}
-		}
+    .column--card {
+      margin-top: govuk-px-to-rem(-30px);
+      z-index: 1;
 
-		.column--card {
-			margin-top: govuk-px-to-rem(-30px);
-			z-index: 1;
-			
-			@media only screen and (min-width : $desktop) {
-				margin-top: unset;
-				z-index: unset;
-				width: 55%;
-				margin-left: govuk-px-to-rem(-64px);
-			}
-		}
-	}
+      @media only screen and (min-width: $desktop) {
+        margin-top: unset;
+        z-index: unset;
+        width: 55%;
+        margin-left: govuk-px-to-rem(-64px);
+      }
+    }
+  }
 
-	.vertical-padding {
-		padding-bottom: 0;
-	}
+  .vertical-padding {
+    padding-bottom: 0;
+  }
 }

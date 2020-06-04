@@ -47,7 +47,7 @@ This award recognises the success of leaders and organisations who are working a
 		</ul>
 	</div>
 	<div class="column">
-		<img class="media-full-width" src="../../static/img/network/awards-page.jpg" alt="Image of Cabinet Secretary, Mark Sedwill, presented the inaugural award at our annual conference, in recognition of the team’s work across multiple organisations and sectors to provide clear improvements for citizens."/>
+		<img class="media-full-width" src="/static/img/awards-page.jpg" alt="Image of Cabinet Secretary, Mark Sedwill, presented the inaugural award at our annual conference, in recognition of the team’s work across multiple organisations and sectors to provide clear improvements for citizens."/>
 		<p class="supporting-text">Cabinet Secretary, Mark Sedwill, presented the inaugural award at our annual conference, in recognition of the team’s work across multiple organisations and sectors to provide clear improvements for citizens.</p>
 	</div>
 </div>
@@ -64,7 +64,7 @@ In selecting Child Friendly Leeds as the winner the judges looked for collaborat
 - [One Rochdale Health and Care](https://twitter.com/OneRochdaleHC): empowered citizens to decide priority areas of health and social care. Then leaders from multiple organisations collaborated to create local multi-skilled teams in these areas. This has led to a reduction in hospital transfers, and time spent in hospital.
 - [Lincoln City Centre Homelessness Project](https://www.lincoln.gov.uk/downloads/file/811/lincolnshire-rough-sleeping-strategy-2019-to-2021): A multi-agency approach to support vulnerable individuals, connecting them seamlessly to the right services.
 
-<img class="media-full-width" src="../../static/img/network/awards-page-2.jpg" alt="Image of Sir Mark Sedwill and all awards nominees on stage at the National Leadership Forum."/>
+<img class="media-full-width" src="/static/img/awards-page-2.jpg" alt="Image of Sir Mark Sedwill and all awards nominees on stage at the National Leadership Forum."/>
 <p class="supporting-text">Sir Mark Sedwill and all awards nominees on stage at the National Leadership Forum.</p>
 
 Nominations will open for the 2021 awards in the Autumn. Follow the National Leadership Centre on social media to be notified.
