@@ -1,6 +1,7 @@
 ---
 layout: layouts/meet-the-board.njk
 title: Who we are
+metadesc: Meet the senior leaders from across the public sector who support our work at the National Leadership Centre.
 permalink: /who-we-are/board/index.html
 navtitle: Meet the NLC board
 breadcrumbs_parent: Who we are

@@ -1,5 +1,8 @@
 ---
 title: Our Programme
+metadesc: The NLC Leadership Programme invites a selection of the UK's most
+  senior leaders from across public service to come together for a challenging,
+  supportive and stretching twelve-month development programme.
 leader: The NLC Leadership Programme empowers senior leaders from across the
   public sector to work together to realise their potential.
 image: /static/img/programme.jpg
@@ -12,7 +15,7 @@ paragraph_one: Every year The National Leadership Centre invites a selection of
   come together for a challenging, supportive and stretching twelve month
   development programme.
 image_two: /static/img/hands.jpg
-heading_two: "Key information:"
+heading_one: "Key information:"
 list_one: |-
   
   * 100 senior public leaders from across all public services
@@ -37,8 +40,6 @@ quote:
     citizens across the country.
   quote_name: Kristina Murrin, CBE
   quote_title: CEO, National Leadership Centre
-primary: true
-heading_one: "Key information:"
 paragraph_three: >-
   The programme will seek to transform the leadership of public services by:
 
@@ -88,6 +89,8 @@ paragraph_three: >-
 
   Download the [Programme Brochure PDF, 2.9MB, 12 pages.](/static/nlc-programme-brochure.pdf)
 layout: layouts/primary.njk
+primary: true
+heading_two: "Key information:"
 ---
 
 <div class="leader-bar">
