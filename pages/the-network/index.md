@@ -5,7 +5,7 @@ metadesc: The National Leadership Centre has created a network for the most
   region in order to help improve public services.
 leader: The National Leadership Centre is connecting senior leaders from across
   every sector and region, in order to help improve public services.
-image: /static/img/network.jpg
+image: /static/img/network-desktop.jpg
 permalink: /the-network/index.html
 tags: primary
 navtitle: The Network

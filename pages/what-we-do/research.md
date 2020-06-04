@@ -5,7 +5,7 @@ metadesc: Find out how the National Leadership Centre is working with leaders,
   leadership in the public sector.
 leader: The National Leadership Centre will become a global hub for data-driven
   research on leadership in the public sector.
-image: /static/img/research.jpg
+image: /static/img/research-desktop.jpg
 permalink: /research/index.html
 tags: primary
 navtitle: Research
