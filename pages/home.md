@@ -9,8 +9,8 @@ navtitle: Home
 order: 1
 paragraph_one: The National Leadership Centre is a three year pilot with three strategic aims.
 carousel_images:
-  image_one: /static/img/carousel-home/carousel-1.jpg
-  image_two: /static/img/carousel-home/carousel-2.jpg
+  image_one: /static/img/home-1-desktop.jpg
+  image_two: /static/img/home-2-desktop.jpg
 tiles:
   tile_one:
     title: The Leadership Programme
