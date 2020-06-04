@@ -1048,6 +1048,8 @@ COMPONENTS
     @media only screen and (min-width: 576px) {
       .team-block .team-block__item {
         flex: 0 0 30%; } }
+  .team-block .team-block__item--with-image {
+    margin-top: 60px; }
   .team-block .team-block__item__image {
     margin-bottom: 0.52632rem; }
     @media only screen and (min-width: 576px) {
