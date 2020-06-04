@@ -1,6 +1,7 @@
 ---
 layout: layouts/what-we-do.njk
 title: What We Do
+metadesc: The National Leadership Centre supports cross-sector leadership, facilitating and supporting senior leaders to work together on the toughest challenges we face as a country.
 order: 2
 permalink: /what-we-do/index.html
 navtitle: What we do
