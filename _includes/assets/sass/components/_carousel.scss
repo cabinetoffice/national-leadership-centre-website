@@ -1,79 +1,52 @@
 // Slick carousel settings - https://kenwheeler.github.io/slick/
 .carousel-block {
-	margin-bottom: govuk-px-to-rem(-2px);
+  margin-bottom: govuk-px-to-rem(-2px);
 
-	.slick-dotted.slick-slider {
-		margin-bottom: 0;
-	}
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
 
-	.slick-slide {
-		margin-bottom: govuk-px-to-rem(-1px);
-	}
+  .slick-slide {
+    margin-bottom: govuk-px-to-rem(-1px);
+  }
 
-	.slick-dots {
-		bottom: govuk-px-to-rem(1px);
-	}
+  .slick-dots {
+    bottom: govuk-px-to-rem(1px);
+  }
 
-	.slick-dots li button:before {
-		color: $grey-support;
-		font-size: govuk-px-to-rem(8px);
-		opacity: 1;
-	}
+  .slick-dots li button:before {
+    color: $grey-support;
+    font-size: govuk-px-to-rem(8px);
+    opacity: 1;
+  }
 
-	.slick-dots li.slick-active button:before {
-		color: $orange;
-	}
+  .slick-dots li.slick-active button:before {
+    color: $orange;
+  }
 
-	.slick-prev {
-		left: 20px;
-		z-index: 1;
-	}
+  .slick-prev {
+    left: 20px;
+    z-index: 1;
+  }
 
-	.slick-next {
-		right: 20px;
-		z-index: 1;
-	}
+  .slick-next {
+    right: 20px;
+    z-index: 1;
+  }
 }
 
 // For accessibility, if there is no js, hide all carousel images apart from the first one.
 .carousel-block {
-	.carousel-block__home__img:nth-of-type(n+2) {
-		display:none;
-	}
-
-	@media only screen and (min-width : $carousel-desktop) {
-		.carousel-block__home__img {
-			height: govuk-px-to-rem(400px);
-			overflow: hidden;
-
-			img {
-				margin-top: govuk-px-to-rem(-50px);
-			}
-		}
-	}
+  .carousel-block__home__img:nth-of-type(n + 2) {
+    display: none;
+  }
 }
 
 // If there is js, show all images so they can be included in carousel.
 .js {
-	.carousel-block {
-		.carousel-block__home__img:nth-of-type(n+2) {
-			display: unset;
-		}
-
-		@media only screen and (min-width : $carousel-desktop) {
-			.slick-track {
-				height: govuk-px-to-rem(400px);
-				overflow: hidden;
-			}
-
-			.carousel-block__home__img {
-				height: unset;
-				margin-top: govuk-px-to-rem(-50px);
-
-				img {
-					margin-top: unset;
-				}
-			}
-		}
-	}
+  .carousel-block {
+    .carousel-block__home__img:nth-of-type(n + 2) {
+      display: unset;
+    }
+  }
 }

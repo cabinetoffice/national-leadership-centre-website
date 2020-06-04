@@ -28,7 +28,7 @@ The National Leadership Centre was launched by the Chancellor in 2018 as a three
 <div class="pdf-left-block">
 	<div class="pdf-left-block__pdf">
 		<a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/799567/6.4846_CO_CPSL-Report_A4-P_WEB_NoLogo__002.pdf">
-		<img src="../../static/img/taskforce-report-pdf.png" alt="Image of taskforce report"/>
+		<img src="/static/img/ui/taskforce-report-pdf.png" alt="Image of taskforce report"/>
 		<span>October 2018: Better Public Services Report by the Public Services Leadership Taskforce</span>
 		<span class="no-underline">PDF, 1010KB, 52 pages</span>
 		</a>

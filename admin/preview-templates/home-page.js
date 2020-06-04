@@ -103,7 +103,10 @@ const Home = createClass({
         <div class="image-l-text-r-block">
           <div class="container container--flex container--wide">
             <div class="image-l-text-r-block__image">
-              <img src="/static/img/cropped-coil-min.png" alt="" />
+              <img
+                src="/static/img/ui/coil/cropped-coil-min_rzkocc_c_scale,w_564.png"
+                alt=""
+              />
             </div>
             <div class="image-l-text-r-block__text">
               <h3>${entry.getIn(['data', 'heading_one'], null)}</h3>

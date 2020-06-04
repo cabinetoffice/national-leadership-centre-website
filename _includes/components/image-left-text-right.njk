@@ -1,7 +1,16 @@
 <div class="image-l-text-r-block">
 	<div class="container container--flex container--wide">
 		<div class="image-l-text-r-block__image">
-			<img src="/static/img/cropped-coil-min.png" alt="">
+			<img
+			sizes="(max-width: 768px) 100vw, (min-width: 769px) 55vw, 564px"
+			srcset="
+				/static/img/ui/coil/cropped-coil-min_rzkocc_c_scale,w_320.png 320w,
+				/static/img/ui/coil/cropped-coil-min_rzkocc_c_scale,w_453.png 453w,
+				/static/img/ui/coil/cropped-coil-min_rzkocc_c_scale,w_564.png 564w
+			"
+			src="/static/img/ui/coil/cropped-coil-min_rzkocc_c_scale,w_564.png"
+			alt=""
+			/>
 		</div>
 		<div class="image-l-text-r-block__text">
 			<h3>{{ heading_one }}</h3>
