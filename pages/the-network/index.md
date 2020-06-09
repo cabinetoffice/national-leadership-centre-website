@@ -10,10 +10,10 @@ permalink: /the-network/index.html
 tags: primary
 navtitle: The Network
 order: 1
-paragraph_one: 'The National Leadership Centre has created a network for the
+paragraph_one: "The National Leadership Centre has created a network for the
   most senior leaders in public service. Its purpose is to connect people from
   across every sector and region, in order to help improve public services. The
-  public service leaders in the network include:'
+  public service leaders in the network include:"
 list_one: >-
   * Chief Executive Officers (CEOs) in the National Health Service, including
   NHS Trusts, Ambulance Trusts, and Clinical Commissioning Groups.
@@ -41,15 +41,7 @@ paragraph_two: >-
 
 
   Research shows that the higher ranking a leader becomes, the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response
-paragraph_three: "## Connect
-
-  As members of the network, public service leaders automatically gain access
-  to Connect, the senior leaders’ library and directory for the public service.
-  Here leaders can connect with each other and find exclusive information.\r
-
-  \r
-
-  [Access Connect](https://connect.nationalleadership.gov.uk/)"
+paragraph_three: ""
 paragraph_four: "## Events across the country\r
 
   \r
@@ -62,19 +54,19 @@ nlf_heading: National Leadership Forum 2020
 nlf_text_one: The National Leadership Forum 2020 brought together around 400
   Chief Executive-level leaders from across the public sector for the first time
   ever.
-nlf_text_two: 'Attendees heard from high-profile expert speakers on leadership
-  and systems thinking, including:'
+nlf_text_two: "Attendees heard from high-profile expert speakers on leadership
+  and systems thinking, including:"
 nlf_list: |-
   * Cabinet Secretary Sir Mark Sedwill
   * Head of Amazon in the UK Doug Gurr
   * Mayor of Tulsa G.T. Bynum
   * England Men’s Football Manager Gareth Southgate
 nlf_video_url: https://player.vimeo.com/video/389775874?byline=0&portrait=0
-nlf_video_text: 'Hear some of the experiences of NLF from delegates. Featuring:
+nlf_video_text: "Hear some of the experiences of NLF from delegates. Featuring:
   Bill Skelly, Chief Constable of Lincolnshire Police; Katharine Braddick,
   Director General of Financial Services, HM Treasury; David Parr, Chief
   Executive of Halton Borough Council; and Jane Harrington, Vice-Chancellor of
-  University of Greenwich.'
+  University of Greenwich."
 paragraph_five: "## International peers\r
 
   \r
