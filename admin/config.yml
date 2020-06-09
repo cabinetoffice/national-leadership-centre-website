@@ -223,16 +223,19 @@ collections:
               label: 'Paragraph two',
               name: 'paragraph_two',
               widget: 'markdown',
+              required: false,
             }
           - {
               label: 'Paragraph three',
               name: 'paragraph_three',
               widget: 'markdown',
+              required: false,
             }
           - {
               label: 'Paragraph four',
               name: 'paragraph_four',
               widget: 'markdown',
+              required: false,
             }
           - { label: 'NLF heading', name: 'nlf_heading', widget: 'string' }
           - { label: 'NLF text one', name: 'nlf_text_one', widget: 'string' }
