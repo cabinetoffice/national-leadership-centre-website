@@ -2,4 +2,4 @@
 name: Kirith Ahluwalia
 order: 14
 ---
-Kirith is our Communications and Engagement manager on our **Insight team**. She is responsible for the NLC's communications strategy, social media, website and the voice of the NLC
+Kirith sits in our **Insights and Engagement team**. She is responsible for the NLC's communications strategy and ensuring we are getting our leaders the information they need
