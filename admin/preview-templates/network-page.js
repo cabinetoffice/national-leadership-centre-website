@@ -36,11 +36,7 @@ const Network = createClass({
           </div>
 
           ${this.props.widgetFor('paragraph_two')}
-
-          <div class="vertical-padding">
-            ${this.props.widgetFor('paragraph_three')}
-          </div>
-
+          ${this.props.widgetFor('paragraph_three')}
           ${this.props.widgetFor('paragraph_four')}
         </div>
 
