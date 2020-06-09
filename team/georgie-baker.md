@@ -2,5 +2,4 @@
 name: Georgie Baker
 order: 17
 ---
-
-Georgie **project manages the Programme team** in order to successfully deliver three learning and development modules for the public service leaders.
+Georgie project manages both the **Programme team and Network and Communities team**. She is responsible for the successful delivery of Programme modules and Network events.
