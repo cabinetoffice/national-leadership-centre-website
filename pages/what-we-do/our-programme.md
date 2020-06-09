@@ -10,7 +10,7 @@ permalink: /our-programme/index.html
 tags: primary
 navtitle: Our Programme
 order: 2
-paragraph_one: Every year The National Leadership Centre invites a selection of
+paragraph_one: Every year the National Leadership Centre invites a selection of
   the UK's most senior leaders from across the spectrum of public services to
   come together for a challenging, supportive and stretching twelve month
   development programme.
