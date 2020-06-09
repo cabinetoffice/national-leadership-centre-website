@@ -15,7 +15,7 @@ tags:
 ## The National Leadership Centre’s unique purpose is to support cross sector leadership, facilitating and supporting people to work together on the toughest challenges we face as a country.
 
 1. Deliver a [flagship Leadership Programme](/our-programme/) for around 100 senior public service leaders each year
-2. Deliver a national and regional programme of events, and create a digital platform, to enable [a thriving network](/the-network/) of over 1,500 public sector leaders
+2. Enable a community of the most senior public service leaders from all places to connect, collaborate and share insights.
 3. Lead [high quality research](/research/) to develop a better understanding of the relationships between public service leadership, and productivity
   </div>
 </div>
