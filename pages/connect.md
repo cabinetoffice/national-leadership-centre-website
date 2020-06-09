@@ -1,8 +1,8 @@
 ---
 title: Connect
-metadesc: A description of the NLC Connect service
+metadesc: The Connect service is now closed
 permalink: /connect/index.html
 navtitle: Connect
 layout: layouts/page.njk
 ---
-This is a placeholder page for Connect.
+The Connect service is now closed. More information to follow.
