@@ -14,7 +14,7 @@ const Page = createClass({
             <h1>${entry.getIn(['data', 'title'], null)}</h1>
           </div>
         </div>
-        <div class="container vertical-padding">
+        <div class="container container--xs vertical-padding">
           ${this.props.widgetFor('body')}
         </div>
       </main>
