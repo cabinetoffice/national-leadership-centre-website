@@ -7,7 +7,8 @@ permalink: /
 tags: nav
 navtitle: Home
 order: 1
-paragraph_one: The National Leadership Centre is a three year pilot with three strategic aims.
+paragraph_one: "The National Leadership Centre is a three year pilot with three
+  strategic aims:"
 carousel_images:
   image_one: /static/img/home-1-desktop.jpg
   image_two: /static/img/home-2-desktop.jpg
@@ -20,9 +21,8 @@ tiles:
     link_url: /our-programme
   tile_two:
     title: The Network of Peers
-    description: Through national and local events and a new digital service, we are
-      connecting the country's leaders across every sector and region,
-      nationally and internationally.
+    description: We are enabling leaders across every sector and region, to
+      collaborate nationally and internationally
     link_text: Read more about the Network
     link_url: /the-network/
   tile_three:
