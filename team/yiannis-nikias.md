@@ -1,6 +1,5 @@
 ---
-name: Yiannis Nikias
+name: Kirith Ahluwalia
 order: 14
 ---
-
-Yiannis **heads up our Programme delivery**. He’s responsible for the delivery of the NLC's Leadership Programme module design. He brings his entrepreneurial spirit to this first-of-its-kind programme.
+Kirith sits in our **Insights and Engagement team**. She is responsible for the NLC's Communications strategy, our website and social media, and ensuring we have a cohesive voice.
