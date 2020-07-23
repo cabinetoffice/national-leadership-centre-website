@@ -1,21 +1,19 @@
 ---
 layout: layouts/base.njk
-title: Sponsor the National Leadership Forum 2021
-permalink: /the-network/sponsorship/index.html
-navtitle: Sponsorship
+title: Partner with the National Leadership Centre
+permalink: /the-network/partnerships/index.html
+navtitle: Partnerships
 breadcrumbs_parent: The Network
 breadcrumbs_parent_url: /the-network/
 ---
 
 <div class="header-block highlight">
 	<div class="container container--sm">
-		<h2 class="no-margin">Holding text about sponsoring NLF2021</h2>
+		<h2 class="no-margin">The National Leadership Centre regularly works in partnership with a variety of public, private and third sector organisations.</h2>
 	</div>
 </div>
 
 <div class="container container--sm vertical-padding">
-
-The National Leadership Centre regularly works in partnership with a variety of public, private and third sector organisations.  
 
 We deliver a range of activities and events for [the most senior leaders of public services](https://www.nationalleadership.gov.uk/the-network/) - including the civil service, police, fire services, and local government. Our events bring together a wide range of delegates, high-level decision makers, and high-profile speakers with the aim of supporting collaboration, building networks, and sharing insights and learning. 
 
@@ -25,7 +23,6 @@ We deliver a range of activities and events for [the most senior leaders of publ
 	<li>Recognising and celebrating the continued efforts and leadership of public service leaders and key workers</li>
 	<li>Building brand awareness with senior public service leaders</li>
 	<li>Contributing to the continued learning and quality of senior public service leaders</li>
-	<li>Contributing to the national effort to rebuild Britain</li>
 </ul>
 
 ## What are our upcoming partnership opportunities?
