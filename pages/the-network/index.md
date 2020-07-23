@@ -41,7 +41,10 @@ paragraph_two: >-
 
 
   Research shows that the higher ranking a leader becomes, the more potential there is for that person to become exposed and isolated in their role. Supporting leaders to build cross-sector connections gives them the opportunity to share ideas, ask for help from their peer group, and work together to tackle strategic problems that need a multi-agency response
-paragraph_three: ""
+paragraph_three: "## Partner with the NLC"
+
+The National Leadership Centre regularly works in partnership with a variety of public, private, and third sector organisations. [Find out more about how you can partner on different work in this page](https://www.nationalleadership.gov.uk/the-network/partnerships).
+
 paragraph_four: "## Events across the country\r
 
   \r
