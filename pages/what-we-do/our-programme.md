@@ -31,8 +31,8 @@ paragraph_two: >-
 
 
   To help people make the best of a move into these roles, the National Leadership Centre is delivering a flagship leadership programme, the first of its kind in bringing together top leaders from across the country.
-image_three: /static/img/presenting.png
-image_three_alt: Image of woman presenting to group.
+image_three: /static/img/NLF_hall.jpg
+image_three_alt: A conference, with a banner reading National Leadership Centre in the foreground.
 quote:
   quote_text: We support leaders to become more adaptive, connected, open,
     informed, focused and ethical. In doing so, we are empowering the next
