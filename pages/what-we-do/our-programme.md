@@ -38,8 +38,6 @@ quote:
     informed, focused and ethical. In doing so, we are empowering the next
     generation of leaders to make an even bigger difference to the lives of
     citizens across the country.
-  quote_name: Kristina Murrin, CBE
-  quote_title: CEO, National Leadership Centre
 paragraph_three: >-
   The programme will seek to transform the leadership of public services by:
 
