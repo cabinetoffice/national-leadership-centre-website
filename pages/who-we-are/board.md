@@ -53,29 +53,23 @@ teamMembers:
       },
     member8:
       {
-        name: 'Sir Jon Thompson',
-        image: ../../static/img/meet-the-board/jon-thompson.png,
-        description: 'Chief Executive Officer, Financial Reporting Council',
-      },
-    member9:
-      {
         name: 'Sir Kenneth Olisa',
         image: ../../static/img/meet-the-board/kenneth-olisa.png,
         description: 'Lord-Lieutenant of Greater London',
       },
-    member10:
+    member9:
       {
         name: 'Melanie Richards',
         image: ../../static/img/meet-the-board/melanie-richards.png,
         description: 'Deputy Chair and board member, KPMG UK',
       },
-    member11:
+    member10:
       {
         name: 'Peter Wanless',
         image: ../../static/img/meet-the-board/peter-wanless.png,
         description: 'Chief Executive Officer, National Society for the Prevention of Cruelty to Children',
       },
-    member12:
+    member11:
       {
         name: 'Paul Martin',
         image: ../../static/img/meet-the-board/paul-martin.png,
