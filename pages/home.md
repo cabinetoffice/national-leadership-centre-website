@@ -7,8 +7,8 @@ permalink: /
 tags: nav
 navtitle: Home
 order: 1
-paragraph_one: "The National Leadership Centre is a three year pilot with three
-  strategic aims:"
+paragraph_one: "The National Leadership Centre helps the country’s most senior public service leaders develop the
+skills, knowledge and networks required to address society’s most complex strategic challenges."
 carousel_images:
   image_one: /static/img/home-1-desktop.jpg
   image_two: /static/img/home-2-desktop.jpg
@@ -21,13 +21,13 @@ tiles:
     link_url: /our-programme
   tile_two:
     title: The Network of Peers
-    description: We are enabling leaders across every sector and region, to
-      collaborate nationally and internationally
+    description: We bring together leaders across every sector and region to
+      collaborate and improve public services.
     link_text: Read more about the Network
     link_url: /the-network/
   tile_three:
     title: Research and Evaluation
-    description: The National Leadership Centre is becoming a global hub of
+    description: The NLC is becoming a global hub of
       leadership data, high quality research and lessons learned.
     link_text: Read more about NLC Research
     link_url: /research/
