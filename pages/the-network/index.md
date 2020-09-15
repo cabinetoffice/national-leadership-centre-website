@@ -46,7 +46,7 @@ paragraph_four: "## Events across the country\r
 
   \r
 
-  The National Leadership Centre brings leaders together through national,
+  The NLC brings leaders together through national,
   regional and small group events. This allows peers to make time, outside
   formal governance or partnership structures, to work together to address the
   most complex and pressing problems that they face."
@@ -67,25 +67,7 @@ nlf_video_text: "Hear some of the experiences of NLF from delegates. Featuring:
   Director General of Financial Services, HM Treasury; David Parr, Chief
   Executive of Halton Borough Council; and Jane Harrington, Vice-Chancellor of
   University of Greenwich."
-paragraph_five: "## International peers\r
 
-  \r
-
-  The public service challenges we face are mirrored in countries throughout
-  the world. Some of our priorities may have already been addressed successfully
-  abroad, and our leaders will have valuable experience to share with
-  international colleagues.\r
-
-  \r
-
-  This is why the National Leadership Centre, in partnership with the [British
-  Council,](https://www.britishcouncil.org/) will host an international summit
-  for some of the world’s most senior public service leaders in 2021.\r
-
-  \r
-
-  This prestigious event will bring together people from around 50 countries
-  to discuss approaches to common challenges and share best practice."
 layout: layouts/primary.njk
 primary: true
 ---
