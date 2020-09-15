@@ -1,6 +1,6 @@
 ---
 name: Stephen Crookbain
-order: 2
+order: 1
 ---
 
-Stephen **leads our Network**, community and international work. He leads much of our externally-focused work, connecting top-level public leaders through our digital service and with our events.
+Stephen is **the Director of the NLC**. He sets our vision and strategy, making sure we're set up to make a real impact on the whole public sector.
