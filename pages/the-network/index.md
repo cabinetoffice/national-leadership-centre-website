@@ -68,6 +68,7 @@ nlf_video_text: "Hear some of the experiences of NLF from delegates. Featuring:
   Executive of Halton Borough Council; and Jane Harrington, Vice-Chancellor of
   University of Greenwich."
 
+layout: layouts/primary.njk
 primary: true
 ---
 
