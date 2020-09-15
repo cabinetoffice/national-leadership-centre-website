@@ -1,6 +1,6 @@
 ---
 name: Lola Gillies-Creasey
-order: 9
+order: 18
 ---
 
-As part of our **Strategy Team**, Lola's responsibilities include developing new policy ideas, undertaking research, supporting our governance boards and ministerial briefing.
+Lola creates **great content across NLC**. Through supporting other NLC teams to make the most of their material and developing bespoke work, our content work is important to the NLC's purpose.
