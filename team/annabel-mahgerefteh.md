@@ -3,4 +3,4 @@ name: Annabel Mahgerefteh
 order: 8
 ---
 
-Annabel supports the NLC to **achieve our strategic objectives**, and she is also part of our team who **deliver international events**.
+Annabel supports the NLC to **achieve our strategic objectives**, leading new strategic thinking and ensuring we have effective governance and business processes.
