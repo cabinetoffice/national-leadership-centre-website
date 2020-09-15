@@ -39,7 +39,7 @@ quote:
     generation of leaders to make an even bigger difference to the lives of
     citizens across the country.
 paragraph_three: >-
-  The programme will seek to transform the leadership of public services by:
+  After a successful first year, we have recently launched the second year of the NLC programme. The programme will seek to transform the leadership of public services by:
 
 
   * providing leaders with insights and experience from some of the world’s foremost academics, practitioners and leaders
@@ -51,41 +51,6 @@ paragraph_three: >-
   * building a strong network of leaders who have a wide understanding of the work and challenges of their public sector peers
 
 
-  ### **Would you like to take part in the flagship NLC Programme?**
-
-
-  We welcome applications from outstanding Chief Executives (and equivalent) of publicly funded organisations delivering public services.
-
-
-  Given the seniority and capability of our cohort, we will take around 100 delegates each year who we expect to be recognised as some of the best leaders in their field or sector. This includes, but is not exclusive to:
-
-
-  * Chief Executives of County Councils, London Boroughs and Unitary Authorities
-
-  * NHS Chief Executives and Regional Directors
-
-  * University Vice Chancellors
-
-  * CEOs of large academy chains and Principals of major Further Education colleges
-
-  * Civil Service Director Generals
-
-  * Chief Constables
-
-  * Chief Fire Officers
-
-  * CEOs of major housing providers
-
-  * Senior 2 *and 3* military officers
-
-
-  This programme is aimed at people who are less than 2 years into their first CEO role.
-
-
-  If you are at a different point in your career, but nevertheless feel that you would benefit from this programme and provide an outstanding return on our investment, we would like to hear from you.
-
-
-  Download the [Programme Brochure PDF, 2.9MB, 12 pages.](/static/nlc-programme-brochure.pdf)
 layout: layouts/primary.njk
 primary: true
 heading_two: "Key information:"
